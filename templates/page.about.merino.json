@@ -1,0 +1,327 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true,
+        "bg_image": "shopify:\/\/shop_images\/Untitled_design_2.jpg"
+      }
+    },
+    "3eac8f2d-79f7-46ff-a9d3-2b05a4324c55": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-500",
+        "heading": "Our Story",
+        "text": "",
+        "video": "",
+        "button_text": "",
+        "overlay_opacity": 20,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "44591651-9ded-46de-9d9e-d5b49f3d07a3": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 10,
+        "spacer_desktop": 35,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "a58d48c8-89cd-4ef3-97bb-8c92444701f9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16769565098281__a58d48c8-89cd-4ef3-97bb-8c92444701f9-16684111441d496680-1": {
+          "type": "heading",
+          "settings": {
+            "text": "About Us",
+            "size": "h3"
+          }
+        },
+        "template--16769565098281__a58d48c8-89cd-4ef3-97bb-8c92444701f9-16684111441d496680-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Cardsync, we are passionate about harnessing the power of NFC technology to transform the way you interact with the world around you. Our mission is to bring the convenience and endless possibilities of NFC into your everyday life.<\/p><p>Why choose Cardsync? We pride ourselves on delivering high-quality, reliable, and innovative NFC products that are designed to meet your specific needs. Whether you're an individual looking to simplify your daily routines or a business seeking to enhance customer experiences, we have the perfect NFC solution for you.<\/p><p>What sets us apart is our commitment to exceptional customer service. Our knowledgeable and friendly team is dedicated to helping you understand and leverage the full potential of NFC technology. We are here to guide you through the selection process, answer your questions, and provide ongoing support to ensure your NFC experience is seamless and enjoyable.<\/p><p>As a forward-thinking company, we constantly strive to stay ahead of the curve when it comes to NFC technology. We keep a close eye on industry trends and collaborate with leading manufacturers to bring you the latest advancements in the NFC ecosystem. This way, we can continue to provide you with innovative products that push the boundaries of what NFC can do.<\/p><p>Cardsync believes in the transformative power of NFC, and we are excited to embark on this journey with you. <\/p><p>Join us today and discover a world of endless possibilities with NFC.<\/p><p>Tap, connect, and synchronise your life with Cardsync!<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--16769565098281__a58d48c8-89cd-4ef3-97bb-8c92444701f9-16684111441d496680-1",
+        "template--16769565098281__a58d48c8-89cd-4ef3-97bb-8c92444701f9-16684111441d496680-2"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "2de833b4-ad01-4886-9e52-c1c0482d15e0": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 25,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "63f19bba-db6e-43b4-94f0-7b38720780ea": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 15,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "555640e1-8e4c-4ff4-a811-f482d0407661": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--19287195844908__555640e1-8e4c-4ff4-a811-f482d0407661-16864950669550a575-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-touch-96.png",
+            "heading": "CONVENIENCE",
+            "text": "<p>Simplify your interactions with a single tap. NFC Cards eliminate the need for physical contact or complex procedures.<\/p>"
+          }
+        },
+        "template--19287195844908__555640e1-8e4c-4ff4-a811-f482d0407661-16864950669550a575-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-sustainable-60.png",
+            "heading": "SUSTAINABLE",
+            "text": "<p>Embrace a more environmentally conscious lifestyle with the use of NFC Cards as a substitute for traditional cards. This greener solution offers a sustainable way to expand your business while effectively eliminating the problem of wasted and outdated cards.<\/p>"
+          }
+        },
+        "template--19287195844908__555640e1-8e4c-4ff4-a811-f482d0407661-16864950669550a575-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-sync-96.png",
+            "heading": "SEAMLESS INTERGRATION",
+            "text": "<p>Enjoy the power of seamless integration across devices. NFC Cards effortlessly connect with compatible smartphones, tablets, and other NFC enabled devices.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19287195844908__555640e1-8e4c-4ff4-a811-f482d0407661-16864950669550a575-0",
+        "template--19287195844908__555640e1-8e4c-4ff4-a811-f482d0407661-16864950669550a575-1",
+        "template--19287195844908__555640e1-8e4c-4ff4-a811-f482d0407661-16864950669550a575-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "medium",
+        "heading_size": "large",
+        "mobile_swipe": true,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "aed933e6-6757-46b3-afd2-6ca697bd5a46": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "full_width": true,
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "59a74dc4-f32b-4764-a3cf-d777f9b06e50": {
+      "type": "countdown-banner",
+      "disabled": true,
+      "settings": {
+        "section_layout": "horizontal",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-auto",
+        "full_width": true,
+        "subheading": "",
+        "heading": "Christmas Sale",
+        "heading_size": "h3",
+        "content": "",
+        "content_size": "medium",
+        "button_text": "Shop Now",
+        "button_link": "",
+        "timer_year": 2023,
+        "timer_month": "01",
+        "timer_day": "01",
+        "timer_hour": "00",
+        "timer_minute": "00",
+        "color_bg": "#c24141",
+        "color_text": "#ffffff",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "66a1dc97-2a0f-416f-809b-51b538b714ad": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 10,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "96f66718-f3d0-49c6-bfe5-485c3d3fe032": {
+      "type": "gallery",
+      "disabled": true,
+      "blocks": {
+        "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-1": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-2": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-0",
+        "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-1",
+        "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-2"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "columns_desktop": 3,
+        "full_width": true,
+        "mobile_swipe": true,
+        "image_ratio": "adapt",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "large",
+        "heading_size": "h4",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "754561b6-611b-479e-89a0-1f5f62d06a62": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 60,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "0453c800-d82a-4464-bf8d-f6dcace1e225": {
+      "type": "scrolling-text",
+      "disabled": true,
+      "blocks": {
+        "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-0": {
+          "type": "text",
+          "settings": {
+            "text": "A QUEENLY RUG JUST FOR YOU",
+            "link": ""
+          }
+        },
+        "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-1": {
+          "type": "text",
+          "settings": {
+            "text": "LET OUR RUGS TELL YOUR STORY",
+            "link": ""
+          }
+        },
+        "b9a37a4c-e0fa-4074-8f07-2101f17c9232": {
+          "type": "text",
+          "settings": {
+            "text": "THE BEST RUG IN TOWN",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-0",
+        "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-1",
+        "b9a37a4c-e0fa-4074-8f07-2101f17c9232"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "direction": "left",
+        "speed": "50s",
+        "text_size": 46,
+        "outline_text": false,
+        "image_size": "large",
+        "color_bg": "#ede8e6",
+        "color_text": "#8c695d",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "8da9adc5-bc9d-4ac9-922a-2d2399026926": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "3eac8f2d-79f7-46ff-a9d3-2b05a4324c55",
+    "44591651-9ded-46de-9d9e-d5b49f3d07a3",
+    "a58d48c8-89cd-4ef3-97bb-8c92444701f9",
+    "2de833b4-ad01-4886-9e52-c1c0482d15e0",
+    "63f19bba-db6e-43b4-94f0-7b38720780ea",
+    "555640e1-8e4c-4ff4-a811-f482d0407661",
+    "aed933e6-6757-46b3-afd2-6ca697bd5a46",
+    "59a74dc4-f32b-4764-a3cf-d777f9b06e50",
+    "66a1dc97-2a0f-416f-809b-51b538b714ad",
+    "96f66718-f3d0-49c6-bfe5-485c3d3fe032",
+    "754561b6-611b-479e-89a0-1f5f62d06a62",
+    "0453c800-d82a-4464-bf8d-f6dcace1e225",
+    "8da9adc5-bc9d-4ac9-922a-2d2399026926"
+  ]
+}

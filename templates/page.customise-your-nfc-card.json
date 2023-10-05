@@ -1,0 +1,455 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1 {font-size: 60px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true,
+        "bg_image": "shopify:\/\/shop_images\/Untitled_design_2.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "3eac8f2d-79f7-46ff-a9d3-2b05a4324c55": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-500",
+        "heading": "Custom NFC Cards",
+        "text": "Welcome to Cardsync, your one-stop destination for custom NFC cards in Australia. We specialise in providing high-quality, personalised NFC cards that can revolutionise the way you interact. Explore our range of custom NFC cards and discover the endless possibilities they offer.",
+        "video": "",
+        "button_text": "",
+        "overlay_opacity": 20,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "2de833b4-ad01-4886-9e52-c1c0482d15e0": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 25,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "c51ad7af-1d2c-4d24-9c18-303506cc3efb": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "Shop by Category",
+        "description": "<p>Add a short description for your collections<\/p>",
+        "collection_list": [
+          "pre-made-nfc-card-designs",
+          "custom-nfc-cards",
+          "metal-business-cards-australia"
+        ],
+        "image_ratio": "square",
+        "layout": "grid",
+        "style": "style2",
+        "content_alignment": "text-left",
+        "columns_desktop": 3,
+        "collection_description": false,
+        "overlay_opacity": 30,
+        "carousel_dots": true,
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "749ae5e0-7595-4ae8-8c96-85cf9c15579d": {
+      "type": "featured-collection",
+      "blocks": {
+        "template--19290719977772__749ae5e0-7595-4ae8-8c96-85cf9c15579d-16865602720e780f55-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "custom-nfc-cards",
+            "display_type": "grid",
+            "product_limit": 4,
+            "columns_desktop": 3,
+            "show_view_all": true,
+            "button_outline": false,
+            "mobile_swipe": true
+          }
+        }
+      },
+      "block_order": [
+        "template--19290719977772__749ae5e0-7595-4ae8-8c96-85cf9c15579d-16865602720e780f55-0"
+      ],
+      "settings": {
+        "heading": "Design Your Own",
+        "description": "<p>First select a card type to enter our customisation page <\/p>",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "4c86723f-be84-46a7-a3ae-2bc0a6ca5b28": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19290719977772__4c86723f-be84-46a7-a3ae-2bc0a6ca5b28-1686655759ba1e98d4-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Please note that not all designs work well with engraving. If your design does not work we will you will have the option to send a new design or be issued with a refund.<\/strong><\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--19290719977772__4c86723f-be84-46a7-a3ae-2bc0a6ca5b28-1686655759ba1e98d4-2"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "a4ef1ed5-443f-403e-8388-3acac7575183": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--20294492717356__a4ef1ed5-443f-403e-8388-3acac7575183-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-select.gif",
+            "heading": "Choose a Design",
+            "text": "<p>Start by selecting the color for your NFC business cards. Pick a color that aligns with your brand or personal preference. You can choose from the available card colors we offer.<\/p>"
+          }
+        },
+        "template--20294492717356__a4ef1ed5-443f-403e-8388-3acac7575183-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-create-50.png",
+            "heading": "Customise",
+            "text": "<p>To personalise your NFC cards, upload the graphics you want to include on the cards. <\/p>"
+          }
+        },
+        "template--20294492717356__a4ef1ed5-443f-403e-8388-3acac7575183-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-add-shopping-cart-50.png",
+            "heading": "Add To Cart",
+            "text": "<p>Once you have created your card, click on the \"Add to Cart\" button. After checkout, you will be sent an email with details on how to create your landing page!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20294492717356__a4ef1ed5-443f-403e-8388-3acac7575183-icon-1",
+        "template--20294492717356__a4ef1ed5-443f-403e-8388-3acac7575183-icon-2",
+        "template--20294492717356__a4ef1ed5-443f-403e-8388-3acac7575183-icon-3"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "large",
+        "heading_size": "large",
+        "mobile_swipe": true,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "d706ab2f-d85b-4b83-b828-a661353117f5": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19290719977772__d706ab2f-d85b-4b83-b828-a661353117f5-16853224406e9a1780-0": {
+          "type": "column",
+          "settings": {
+            "title": "Choose a Design",
+            "heading_size": "h4",
+            "text": "<p>Start by selecting the color for your NFC business cards. Pick a color that aligns with your brand or personal preference. You can choose from the available card colors we offer.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19290719977772__d706ab2f-d85b-4b83-b828-a661353117f5-16853224406e9a1780-2": {
+          "type": "column",
+          "settings": {
+            "title": "Customise",
+            "heading_size": "h4",
+            "text": "<p>To personalise your NFC cards, upload the graphics you want to include on the cards. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19290719977772__d706ab2f-d85b-4b83-b828-a661353117f5-16853224406e9a1780-1": {
+          "type": "column",
+          "settings": {
+            "title": "Add to Cart",
+            "heading_size": "h4",
+            "text": "<p>Once you have created your card, click on the \"Add to Cart\" button. After checkout, you will be sent an email with details on how to create your landing page!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19290719977772__d706ab2f-d85b-4b83-b828-a661353117f5-16853224406e9a1780-0",
+        "template--19290719977772__d706ab2f-d85b-4b83-b828-a661353117f5-16853224406e9a1780-2",
+        "template--19290719977772__d706ab2f-d85b-4b83-b828-a661353117f5-16853224406e9a1780-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "How to Create",
+        "description": "<p>Follow our Step-by-Step Guide<\/p>",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "mobile_swipe": false,
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "a343851f-b667-4cc7-9b06-689fa8e0cb54": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--20073777627436__a343851f-b667-4cc7-9b06-689fa8e0cb54-1689751420672e55f2-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-select-50.png",
+            "heading": "Choose a Design",
+            "text": "<p>Start by selecting the color for your NFC business cards. Pick a color that aligns with your brand or personal preference. You can choose from the available card colors we offer.<\/p>"
+          }
+        },
+        "template--20073777627436__a343851f-b667-4cc7-9b06-689fa8e0cb54-1689751420672e55f2-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-create-50.png",
+            "heading": "Customise",
+            "text": "<p>To personalise your NFC cards, upload the graphics you want to include on the cards. <\/p>"
+          }
+        },
+        "template--20073777627436__a343851f-b667-4cc7-9b06-689fa8e0cb54-1689751420672e55f2-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-add-shopping-cart-50.png",
+            "heading": "Add to Cart",
+            "text": "<p>Once you have created your card, click on the \"Add to Cart\" button. After checkout, you will be sent an email with details on how to create your landing page!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20073777627436__a343851f-b667-4cc7-9b06-689fa8e0cb54-1689751420672e55f2-0",
+        "template--20073777627436__a343851f-b667-4cc7-9b06-689fa8e0cb54-1689751420672e55f2-1",
+        "template--20073777627436__a343851f-b667-4cc7-9b06-689fa8e0cb54-1689751420672e55f2-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "large",
+        "heading_size": "large",
+        "mobile_swipe": true,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "8da9adc5-bc9d-4ac9-922a-2d2399026926": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "28af50f7-f20b-44a4-8066-949c4b88e4f4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19290719977772__28af50f7-f20b-44a4-8066-949c4b88e4f4-16872494896a91a1b0-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading for this section"
+          }
+        },
+        "template--19290719977772__28af50f7-f20b-44a4-8066-949c4b88e4f4-16872494896a91a1b0-1": {
+          "type": "heading",
+          "settings": {
+            "text": "NFC Cards",
+            "size": "h3"
+          }
+        },
+        "template--19290719977772__28af50f7-f20b-44a4-8066-949c4b88e4f4-16872494896a91a1b0-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p>At Cardsync, we understand that every business is unique. That's why we offer a wide range of customisation options for our NFC cards. From choosing the card design, color, and material to incorporating your brand logo, graphics and relevant information, we ensure that your custom NFC cards align perfectly with your brand identity. We provide engraving services, allowing you to add a personal touch and create a lasting impression on your customers.<\/p><p>By investing in custom NFC cards, you are investing in the future of your business. Our cards are not only a powerful marketing tool but also a versatile asset that can streamline your operations. Use them for access control, time tracking, event ticketing, inventory management, and much more. The possibilities are endless, and the benefits are undeniable.<\/p><p>With Cardsync as your trusted partner, you can expect top-notch quality, reliable performance, and exceptional customer service. We strive to deliver a seamless experience from start to finish, ensuring that you get the most out of your custom NFC cards.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--19290719977772__28af50f7-f20b-44a4-8066-949c4b88e4f4-16872494896a91a1b0-3": {
+          "type": "button",
+          "settings": {
+            "link_label": "HOW NFC Cards work",
+            "link": "shopify:\/\/pages\/how-nfc-cards-work",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19290719977772__28af50f7-f20b-44a4-8066-949c4b88e4f4-16872494896a91a1b0-0",
+        "template--19290719977772__28af50f7-f20b-44a4-8066-949c4b88e4f4-16872494896a91a1b0-1",
+        "template--19290719977772__28af50f7-f20b-44a4-8066-949c4b88e4f4-16872494896a91a1b0-2",
+        "template--19290719977772__28af50f7-f20b-44a4-8066-949c4b88e4f4-16872494896a91a1b0-3"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".button {background-color: #ff4515;}"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "e199fb67-f255-402b-9092-896c6051627a": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--20073777627436__e199fb67-f255-402b-9092-896c6051627a-1689731481b23da608-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "template--20073777627436__e199fb67-f255-402b-9092-896c6051627a-1689731481b23da608-1": {
+          "type": "heading",
+          "settings": {
+            "text": "NFC Cards",
+            "heading_size": "h3"
+          }
+        },
+        "template--20073777627436__e199fb67-f255-402b-9092-896c6051627a-1689731481b23da608-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With our custom NFC cards, you can unlock a world of convenience and innovation. Whether you're a retail store, a restaurant, or a service provider, our NFC cards can help you connect with your customers in ways you've never imagined. These cards come embedded with near field communication (NFC) technology, allowing for seamless wireless communication between the card and NFC-enabled devices such as smartphones and tablets.<\/p><p>Our custom NFC cards are the perfect solution for businesses looking to enhance their customer experience. By simply tapping or scanning the NFC card with their devices, customers can instantly access product information, exclusive offers, loyalty programs, and much more. This seamless interaction not only saves time but also creates a memorable and personalised experience, fostering stronger customer relationships.<\/p>"
+          }
+        },
+        "0eb02114-ceb2-48bb-844b-c04e25f33f25": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop NFC Cards",
+            "button_link": "shopify:\/\/products\/custom-engraved-card"
+          }
+        }
+      },
+      "block_order": [
+        "template--20073777627436__e199fb67-f255-402b-9092-896c6051627a-1689731481b23da608-0",
+        "template--20073777627436__e199fb67-f255-402b-9092-896c6051627a-1689731481b23da608-1",
+        "template--20073777627436__e199fb67-f255-402b-9092-896c6051627a-1689731481b23da608-2",
+        "0eb02114-ceb2-48bb-844b-c04e25f33f25"
+      ],
+      "custom_css": [
+        ".button {background-color: #ff4515;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Your_Graphics.jpg",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "image_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "178bc88c-08ec-43e7-b0b8-ecd0d12f882b": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--20073777627436__178bc88c-08ec-43e7-b0b8-ecd0d12f882b-1689731481b23da608-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "template--20073777627436__178bc88c-08ec-43e7-b0b8-ecd0d12f882b-1689731481b23da608-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text",
+            "heading_size": "h3"
+          }
+        },
+        "template--20073777627436__178bc88c-08ec-43e7-b0b8-ecd0d12f882b-1689731481b23da608-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p>At Cardsync, we understand that every business is unique. That's why we offer a wide range of customisation options for our NFC cards. From choosing the card design, color, and material to incorporating your brand logo, graphics and relevant information, we ensure that your custom NFC cards align perfectly with your brand identity. We provide engraving services, allowing you to add a personal touch and create a lasting impression on your customers.<\/p><p>By investing in custom NFC cards, you are investing in the future of your business. Our cards are not only a powerful marketing tool but also a versatile asset that can streamline your operations. Use them for access control, time tracking, event ticketing, inventory management, and much more. The possibilities are endless, and the benefits are undeniable.<\/p><p><\/p>"
+          }
+        },
+        "c41e5bf4-ad49-47b8-8147-d6478270db55": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop QR Cards",
+            "button_link": "shopify:\/\/products\/custom-engraved-type-qr"
+          }
+        }
+      },
+      "block_order": [
+        "template--20073777627436__178bc88c-08ec-43e7-b0b8-ecd0d12f882b-1689731481b23da608-0",
+        "template--20073777627436__178bc88c-08ec-43e7-b0b8-ecd0d12f882b-1689731481b23da608-1",
+        "template--20073777627436__178bc88c-08ec-43e7-b0b8-ecd0d12f882b-1689731481b23da608-2",
+        "c41e5bf4-ad49-47b8-8147-d6478270db55"
+      ],
+      "custom_css": [
+        ".button {background-color: #ff4515;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Your_Graphics_11.jpg",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "text_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "3eac8f2d-79f7-46ff-a9d3-2b05a4324c55",
+    "2de833b4-ad01-4886-9e52-c1c0482d15e0",
+    "c51ad7af-1d2c-4d24-9c18-303506cc3efb",
+    "749ae5e0-7595-4ae8-8c96-85cf9c15579d",
+    "4c86723f-be84-46a7-a3ae-2bc0a6ca5b28",
+    "a4ef1ed5-443f-403e-8388-3acac7575183",
+    "d706ab2f-d85b-4b83-b828-a661353117f5",
+    "a343851f-b667-4cc7-9b06-689fa8e0cb54",
+    "8da9adc5-bc9d-4ac9-922a-2d2399026926",
+    "28af50f7-f20b-44a4-8066-949c4b88e4f4",
+    "e199fb67-f255-402b-9092-896c6051627a",
+    "178bc88c-08ec-43e7-b0b8-ecd0d12f882b"
+  ]
+}

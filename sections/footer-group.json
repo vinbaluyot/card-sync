@@ -1,0 +1,78 @@
+{
+  "type": "header",
+  "name": "Footer group",
+  "sections": {
+    "footer-top-bar": {
+      "type": "footer-top-bar",
+      "disabled": true,
+      "settings": {
+        "footer_top_bar": true,
+        "text": "UNLOCK THE POTENTIAL OF PERSONALISED NETWORKING",
+        "button_text": "Shop Now",
+        "button_link": "shopify:\/\/collections\/nfc-cards"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "eea808aa-f273-4675-847d-92a90eb3942d": {
+          "type": "menu",
+          "settings": {
+            "column_size": "small",
+            "title": "MENU",
+            "menu": "main-menu"
+          }
+        },
+        "dafec852-9bbd-4328-9a16-d9f337ab914d": {
+          "type": "menu",
+          "settings": {
+            "column_size": "small",
+            "title": "POLICIES",
+            "menu": "footer"
+          }
+        },
+        "b4a487aa-4195-4ed2-88bc-723db31735ae": {
+          "type": "social",
+          "settings": {
+            "column_size": "small",
+            "title": "SOCIAL"
+          }
+        },
+        "4ebe239f-8d44-401d-ab33-d568afd2b33e": {
+          "type": "menu",
+          "settings": {
+            "column_size": "small",
+            "title": "INFO",
+            "menu": "about-us"
+          }
+        },
+        "d0ae22e0-140c-4576-b3f9-ad82e5e6f83f": {
+          "type": "signup",
+          "settings": {
+            "column_size": "medium",
+            "title": "JOIN OUR MAILING LIST",
+            "text": "<p>Subscribe to be the first to hear about our exclusive offers and latest drops.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "eea808aa-f273-4675-847d-92a90eb3942d",
+        "dafec852-9bbd-4328-9a16-d9f337ab914d",
+        "b4a487aa-4195-4ed2-88bc-723db31735ae",
+        "4ebe239f-8d44-401d-ab33-d568afd2b33e",
+        "d0ae22e0-140c-4576-b3f9-ad82e5e6f83f"
+      ],
+      "settings": {
+        "copyright_text": "All rights reserved.",
+        "show_language_switcher": true,
+        "show_currency_switcher": true,
+        "show_payment_icons": true,
+        "enable_follow_on_shop": true
+      }
+    }
+  },
+  "order": [
+    "footer-top-bar",
+    "footer"
+  ]
+}

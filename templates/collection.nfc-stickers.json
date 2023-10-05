@@ -1,0 +1,273 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+      }
+    },
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1 {font-size: 60px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 100,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 12,
+        "columns_desktop": 4,
+        "pagination_type": "paginated",
+        "full_width": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": true,
+        "filter_color_swatches": true
+      }
+    },
+    "b04302c2-df15-4d73-9748-2d62ebe84660": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--20294491930924__b04302c2-df15-4d73-9748-2d62ebe84660-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Why Choose NFC Stickers?",
+            "heading_size": "h3"
+          }
+        },
+        "template--20294491930924__b04302c2-df15-4d73-9748-2d62ebe84660-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We pride ourselves on offering the best NFC stickers in Australia. Our stickers are designed to be versatile, catering to various business requirements.<\/p><p>Our collection includes the latest NFC stickers that are compatible with both iPhone and Android devices. With the increasing popularity of NFC technology, it's important to ensure that your stickers are compatible with the majority of smartphones in the market. At Cardsync, we prioritise compatibility to ensure a seamless experience for our customers.<\/p><p><\/p>"
+          }
+        },
+        "c663cbe8-7c4d-4e42-8672-f4e288282487": {
+          "type": "button",
+          "settings": {
+            "button_text": "SHOP NFC STICKERS",
+            "button_link": "shopify:\/\/collections\/custom-nfc-cards"
+          }
+        }
+      },
+      "block_order": [
+        "template--20294491930924__b04302c2-df15-4d73-9748-2d62ebe84660-heading-1",
+        "template--20294491930924__b04302c2-df15-4d73-9748-2d62ebe84660-text-1",
+        "c663cbe8-7c4d-4e42-8672-f4e288282487"
+      ],
+      "custom_css": [
+        ".button {background-color: #ff4515;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Your_Graphics_2.jpg",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "image_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "57ab852d-d711-4f5f-b37e-32f058afe291": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "0f771437-7c21-4a92-b8db-0e932bb47dfa": {
+          "type": "heading",
+          "settings": {
+            "text": "NFC Stickers Australia",
+            "heading_size": "h3"
+          }
+        },
+        "template--20294491930924__57ab852d-d711-4f5f-b37e-32f058afe291-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As a leading provider of NFC stickers in Australia, Cardsync is dedicated to delivering exceptional quality and service. We understand the unique needs of businesses and customers, and we strive to exceed expectations with every order. Our NFC stickers are trusted by businesses across various industries, and our satisfied customers vouch for our reliability and performance.<\/p><p>Ready to experience the power of NFC stickers? Explore our collection, buy NFC stickers, and elevate your business or personal life with this cutting-edge technology. For any inquiries or assistance, our friendly customer support team is always here to help. Choose Cardsync for the best NFC stickers in Australia.<\/p>"
+          }
+        },
+        "09a7b042-a09b-4c5e-add2-39fd8f72c91f": {
+          "type": "button",
+          "settings": {
+            "button_text": "HOW IT WORKS",
+            "button_link": "shopify:\/\/pages\/how-nfc-cards-work"
+          }
+        }
+      },
+      "block_order": [
+        "0f771437-7c21-4a92-b8db-0e932bb47dfa",
+        "template--20294491930924__57ab852d-d711-4f5f-b37e-32f058afe291-text-1",
+        "09a7b042-a09b-4c5e-add2-39fd8f72c91f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/YourGraphics_c9c4a1ea-bedd-4c58-a921-dff88cec7214.jpg",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "text_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "d745840c-7721-4bc8-8188-4afb646746ba": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20823290609964__d745840c-7721-4bc8-8188-4afb646746ba-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "What Are NFC Stickers?",
+            "size": "h3"
+          }
+        },
+        "template--20823290609964__d745840c-7721-4bc8-8188-4afb646746ba-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>NFC stickers are small, adhesive tags equipped with NFC chips that can communicate with compatible devices like smartphones and tablets. They are a versatile solution that can be used for various purposes, both in the business world and for personal use.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--20823290609964__d745840c-7721-4bc8-8188-4afb646746ba-button-1": {
+          "type": "button",
+          "settings": {
+            "link_label": "HOW NFC WORKS",
+            "link": "shopify:\/\/pages\/how-nfc-cards-work",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20823290609964__d745840c-7721-4bc8-8188-4afb646746ba-heading-1",
+        "template--20823290609964__d745840c-7721-4bc8-8188-4afb646746ba-text-1",
+        "template--20823290609964__d745840c-7721-4bc8-8188-4afb646746ba-button-1"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "63bcc97b-abbd-45a2-8ccc-a61050d37398": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-nfc-64.png",
+            "heading": "Conveience & Versatality",
+            "text": "<p>Experience the convenience and versatility of NFC technology with Cardsync's NFC stickers. Whether you're a business looking to streamline your operations or a customer seeking enhanced connectivity, our NFC stickers are the ideal solution.<\/p>"
+          }
+        },
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-speaker-phone-50.png",
+            "heading": "Compatibility",
+            "text": "<p>Whether you own an iPhone or an Android device, our NFC stickers are compatible with both platforms. Our stickers are designed to work seamlessly with the NFC capabilities of your smartphone, allowing you to perform a variety of tasks effortlessly.<\/p>"
+          }
+        },
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-link-50.png",
+            "heading": "Unlock the Potential",
+            "text": "<p>Unlock the full potential of your devices. Buy NFC stickers from Cardsync today and join the growing community of satisfied customers who have experienced the benefits of NFC technology. Explore the possibilities and embrace the future with Cardsync's NFC stickers.<\/p>"
+          }
+        },
+        "1cff5345-d33c-4910-9542-6ccd53e74b4e": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-iphone-50.png",
+            "heading": "Revolutionising The Way You Interact",
+            "text": "<p>NFC stickers are revolutionising the way businesses and customers interact. These small, adhesive tags are equipped with near field communication technology, allowing seamless communication between devices.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-1",
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-2",
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-3",
+        "1cff5345-d33c-4910-9542-6ccd53e74b4e"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "large",
+        "heading_size": "large",
+        "mobile_swipe": true,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "657f9f9f-c455-4cb9-b659-774910827124": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20823290609964__657f9f9f-c455-4cb9-b659-774910827124-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Experience the Future with NFC Stickers",
+            "size": "h3"
+          }
+        },
+        "template--20823290609964__657f9f9f-c455-4cb9-b659-774910827124-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unlock new possibilities with NFC technology and Cardsync's premium NFC stickers. Whether you're a business looking to streamline processes or a customer seeking convenience, our NFC stickers are the perfect solution. Ready to explore the world of NFC?  Browse our collection of NFC stickers now and discover the future of connectivity.<\/p><p>Join the NFC revolution with Cardsync, your trusted partner for all things NFC in Australia.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--20823290609964__657f9f9f-c455-4cb9-b659-774910827124-button-1": {
+          "type": "button",
+          "settings": {
+            "link_label": "SHOP NOW",
+            "link": "shopify:\/\/products\/nfc-sticker",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20823290609964__657f9f9f-c455-4cb9-b659-774910827124-heading-1",
+        "template--20823290609964__657f9f9f-c455-4cb9-b659-774910827124-text-1",
+        "template--20823290609964__657f9f9f-c455-4cb9-b659-774910827124-button-1"
+      ],
+      "custom_css": [
+        ".button {background-color: #ff4515;}"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "template-header",
+    "product-grid",
+    "b04302c2-df15-4d73-9748-2d62ebe84660",
+    "57ab852d-d711-4f5f-b37e-32f058afe291",
+    "d745840c-7721-4bc8-8188-4afb646746ba",
+    "63bcc97b-abbd-45a2-8ccc-a61050d37398",
+    "657f9f9f-c455-4cb9-b659-774910827124"
+  ]
+}

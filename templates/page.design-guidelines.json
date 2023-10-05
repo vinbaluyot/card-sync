@@ -1,0 +1,133 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1 {font-size: 60px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "fedec245-2e2a-49dc-87d3-68bf5e6bd631": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19343371469100__fedec245-2e2a-49dc-87d3-68bf5e6bd631-1685569197d5e13267-1": {
+          "type": "heading",
+          "settings": {
+            "text": "NFC Card Design Guidelines",
+            "size": "h3"
+          }
+        },
+        "template--19343371469100__fedec245-2e2a-49dc-87d3-68bf5e6bd631-1685569197d5e13267-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We have a dedicated in-house design team that can assist you with making your custom nfc card. Simply send us your logo or design, and we will take care of the rest!<\/p><p>For more complex designs they will be sent for approval prior to production.<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--19343371469100__fedec245-2e2a-49dc-87d3-68bf5e6bd631-1685569197d5e13267-1",
+        "template--19343371469100__fedec245-2e2a-49dc-87d3-68bf5e6bd631-1685569197d5e13267-2"
+      ],
+      "custom_css": [
+        "h2 {font-size: 40px;}"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "8d6b6cf9-1fe7-412c-8b0b-499e219ce393": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--19343371469100__8d6b6cf9-1fe7-412c-8b0b-499e219ce393-1685582257bb30fef3-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "heading": "Dimensions",
+            "text": "<p>Our cards can be printed with a full to 2mm bleed design and have dimensions of 54mm x 86mm<\/p>"
+          }
+        },
+        "template--19343371469100__8d6b6cf9-1fe7-412c-8b0b-499e219ce393-1685582257bb30fef3-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "box",
+            "image": "shopify:\/\/shop_images\/icons8-file-format-32.png",
+            "heading": "File Format",
+            "text": "<p>We accept PNG, JPEG, SVG & PDF. Vector Images work best with engraving<\/p>"
+          }
+        },
+        "aab11232-1a6f-434b-8d6d-dc5f1ac7d5dc": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-transparent-96.png",
+            "heading": "Image",
+            "text": "<p>We recommend uploading images with transparent or black\/white backgrounds for best results. Uploads up to 10mb if exceeds you can send directly to our email<\/p>"
+          }
+        },
+        "template--19343371469100__8d6b6cf9-1fe7-412c-8b0b-499e219ce393-1685582257bb30fef3-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "lightning_bolt",
+            "image": "shopify:\/\/shop_images\/icons8-resolution-32.png",
+            "heading": "Resolution",
+            "text": "<p>Provide files with a high resolution to ensure clarity and sharpness. Avoid low-resolution or pixelated images<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19343371469100__8d6b6cf9-1fe7-412c-8b0b-499e219ce393-1685582257bb30fef3-1",
+        "template--19343371469100__8d6b6cf9-1fe7-412c-8b0b-499e219ce393-1685582257bb30fef3-0",
+        "aab11232-1a6f-434b-8d6d-dc5f1ac7d5dc",
+        "template--19343371469100__8d6b6cf9-1fe7-412c-8b0b-499e219ce393-1685582257bb30fef3-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "small",
+        "heading_size": "small",
+        "mobile_swipe": true,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "adc40ff6-1ab2-4d1c-9365-8db785b6ff40": {
+      "type": "contact-form",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "Need help with a design?",
+        "description": "<p>Get in touch<\/p>",
+        "show_phone_number": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "fedec245-2e2a-49dc-87d3-68bf5e6bd631",
+    "8d6b6cf9-1fe7-412c-8b0b-499e219ce393",
+    "main",
+    "adc40ff6-1ab2-4d1c-9365-8db785b6ff40"
+  ]
+}

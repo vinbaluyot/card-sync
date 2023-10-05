@@ -1,0 +1,225 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1 {font-size: 60px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "f44ebfa0-e4ed-4abc-a656-3d5cae41a7d1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What is a NFC Card?",
+            "open": false,
+            "content": "<p>NFC stands for Near Field Communication, a wireless communication technology that enables the exchange of data between devices over short distances. An NFC card, also known as a contactless smart card, is a small, portable device embedded with an NFC chip that allows it to interact with other NFC-enabled devices.<\/p>",
+            "page": ""
+          }
+        },
+        "4cea8298-e960-4e28-adda-e03f6aaf96fe": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do NFC Cards Work?",
+            "open": false,
+            "content": "<p>NFC cards work by utilising radio frequency technology to establish a wireless connection between two devices in close proximity, typically within a few centimeters. <\/p>",
+            "page": ""
+          }
+        },
+        "a4c01667-5e06-4411-8efb-930eb72575cf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to Use NFC Cards?",
+            "open": false,
+            "content": "<p>Ensure that your device (e.g., smartphone) has NFC functionality and that it is enabled in the settings. Hold or tap the NFC card against the NFC-enabled device, making sure they are in close proximity (within a few centimeters).<\/p><p>The NFC-enabled device should recognize the card and establish a connection.<\/p>",
+            "page": ""
+          }
+        },
+        "19eb759d-361e-4b76-90c1-17cc5a08ed75": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Landing page or direct link?",
+            "open": false,
+            "content": "<p>Once you've chosen your card, you'll be given the choice to connect it to a landing page that you can update whenever you want or use a direct link. Please remember that if you go with a direct link, you can only have one.<\/p>",
+            "page": ""
+          }
+        },
+        "cae734d0-3c57-41e3-a919-0a5df5482f47": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to NFC Review Products Work?",
+            "open": false,
+            "content": "<p>Simply provide your review link and we will set up your NFC review cards or table talkers. Customers can effortlessly leave reviews by tapping their phone on the card or talker.<\/p>",
+            "page": ""
+          }
+        },
+        "a82c71ab-5eef-4ac6-8278-42c4bf4565d6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I order custom engraved NFC cards?",
+            "open": false,
+            "content": "<p>To order custom engraved NFC cards, simply visit our website and navigate to the NFC cards section. Choose the desired card type and material, and select the option for custom engraving. You can then upload your design or specify the text you want engraved on the card. Once you've provided all the necessary details, proceed to checkout to complete your order.<\/p>",
+            "page": ""
+          }
+        },
+        "aa70895f-8889-4293-8c7d-ff7bc2b81c57": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What customisation options are available for NFC cards?",
+            "open": false,
+            "content": "<p>We offer various customisation options for NFC cards. First you pick your card colour as well as your preference and requirements. Additionally, you can customise the design and engrave your logo, artwork, or text on the card. Our team will work closely with you to ensure your custom NFC cards meet your specifications.<br\/><br\/>We understand that personalisation comes in many forms. That's why we also offer a stunning collection of pre-made NFC card designs that combine elegance, functionality, and convenience. Explore our exquisite range of designs and find the perfect NFC card to suit your style and needs.<\/p>",
+            "page": ""
+          }
+        },
+        "72f09ca5-4337-4a0b-bcd2-0a7af9183034": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I use my own design or artwork for custom engraving?",
+            "open": false,
+            "content": "<p>Absolutely! We encourage you to use your own design or artwork for custom engraving on NFC cards. When placing your order, please submit designs that include graphics or text as <strong>vector-based PDF files.<\/strong> <\/p><p>In the following formats PNG, JPEG, SVG & PDF.<\/p><p><\/p><p>If you need any assistance with file requirements or design specifications, our customer support team will be happy to help.<\/p>",
+            "page": ""
+          }
+        },
+        "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What are the benefits of using custom engraved NFC cards?",
+            "open": false,
+            "content": "<p>Custom engraved NFC cards offer several benefits. Firstly, they provide a professional and personalised touch to your business or organisation. You can showcase your brand logo or message on the card, making it easily recognisable and memorable for recipients. Secondly, NFC technology allows for convenient interactions with compatible devices, enabling tasks like making payments, accessing information, or initiating actions. <\/p>",
+            "page": ""
+          }
+        },
+        "5f34dba8-15e0-4aac-91f7-5a103657361d": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Are there any minimum order requirements for custom engraved NFC cards?",
+            "open": false,
+            "content": "<p>No, we do not have any minimum order requirements. <\/p>",
+            "page": ""
+          }
+        },
+        "fa2985e2-4983-462b-80c8-596d4ae47540": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do we offer discounts for Bulk Orders?",
+            "open": false,
+            "content": "<p>If you are looking to do a bulk order we can offer special pricing according to your order requirements. Please send our team an email and we will get back to you right away!<\/p>",
+            "page": ""
+          }
+        },
+        "32afa3ac-b9f9-40b1-ab1c-ee1730a78d4a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do We offer returns for custom designs?",
+            "open": false,
+            "content": "<p>Unfortunately, we do not offer returns for custom designs. Since these cards are specifically tailored to individual customer requirements, we are unable to accept returns unless there is a manufacturing defect or an error on our part.<\/p>",
+            "page": ""
+          }
+        },
+        "8c8d0a4b-d2ef-4187-90ac-f03fdcf0480a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do We Offer Returns for Non- Custom Products?",
+            "open": false,
+            "content": "<p>Our return policy applies to all of our non-custom products. <\/p><p>Returns can be made within 14 days of receiving your item. This means you have a 14 day window to request a return.<\/p>",
+            "page": ""
+          }
+        },
+        "a0537ef3-1dbf-4b66-bc54-9ef18bddf3d8": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long does shipping take for custom made designs?",
+            "open": false,
+            "content": "<p>The shipping time for custom-made designs of our metal NFC cards depends on various factors, including the complexity of the design, the quantity ordered, and the shipping destination. Typically, it takes approximately 3-5 business days for the production and processing of the custom cards. Shipping can take anywhere from 3-6 business days.<\/p>",
+            "page": ""
+          }
+        },
+        "0efea28b-08e1-464a-8be2-b2ae225a8863": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long does shipping take?",
+            "open": false,
+            "content": "<p>The estimated delivery time for pre-made NFC card designs usually varies between 3 and 5 business days. This timeframe begins once your order is confirmed, and payment has been successfully received.<\/p>",
+            "page": ""
+          }
+        },
+        "95554c92-3955-4a67-b29f-00409c51637e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "WHAT FORMAT IS NEEDED FOR CUSTOM DESIGNS?",
+            "open": false,
+            "content": "<p>Make sure the graphics are in the appropriate format (such as JPEG, PNG & Vector files) high resolution is required for engraving.<br\/><br\/>Please upload images with white\/black or transparent backgrounds.<\/p><p>View the branding guidelines tab for more information!<\/p>",
+            "page": ""
+          }
+        },
+        "af84e6eb-1469-4324-a6d2-94df9ea46cec": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I update the information on my NFC card?",
+            "open": false,
+            "content": "<p>Yes, you can update the information on your NFC card. Updating the information on your NFC card is a simple and convenient process. If you need help please send us an email using our contact us form.<\/p><p>Please go to our \"Updating My NFC Card\" page for more details.<\/p>",
+            "page": ""
+          }
+        },
+        "86a8bc10-9278-4056-a2a2-93728a18872a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I get my google review link?",
+            "open": false,
+            "content": "<p>1. Log into your Google Business Profile. <br\/>2. Select \"Get more reviews\" button<br\/>3. Copy your review link<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "f44ebfa0-e4ed-4abc-a656-3d5cae41a7d1",
+        "4cea8298-e960-4e28-adda-e03f6aaf96fe",
+        "a4c01667-5e06-4411-8efb-930eb72575cf",
+        "19eb759d-361e-4b76-90c1-17cc5a08ed75",
+        "cae734d0-3c57-41e3-a919-0a5df5482f47",
+        "a82c71ab-5eef-4ac6-8278-42c4bf4565d6",
+        "aa70895f-8889-4293-8c7d-ff7bc2b81c57",
+        "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
+        "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f",
+        "5f34dba8-15e0-4aac-91f7-5a103657361d",
+        "fa2985e2-4983-462b-80c8-596d4ae47540",
+        "32afa3ac-b9f9-40b1-ab1c-ee1730a78d4a",
+        "8c8d0a4b-d2ef-4187-90ac-f03fdcf0480a",
+        "a0537ef3-1dbf-4b66-bc54-9ef18bddf3d8",
+        "0efea28b-08e1-464a-8be2-b2ae225a8863",
+        "95554c92-3955-4a67-b29f-00409c51637e",
+        "af84e6eb-1469-4324-a6d2-94df9ea46cec",
+        "86a8bc10-9278-4056-a2a2-93728a18872a"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "a1b356aa-6049-44a8-ba6b-1bd6b1959ca7": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Have a Question?",
+        "description": "<p>Please fill out our contact form and our team will get in touch<\/p>",
+        "show_phone_number": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "faq",
+    "a1b356aa-6049-44a8-ba6b-1bd6b1959ca7"
+  ]
+}

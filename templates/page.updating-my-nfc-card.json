@@ -1,0 +1,216 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1 {font-size: 60px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "aa4e2261-7e9b-42eb-9732-b1f0503cf5d6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19386117488940__aa4e2261-7e9b-42eb-9732-b1f0503cf5d6-168584657916056c23-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Follow our Step-By-Step guide on how to update your NFC Card",
+            "size": "h4"
+          }
+        },
+        "template--19386117488940__aa4e2261-7e9b-42eb-9732-b1f0503cf5d6-168584657916056c23-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Follow our Step-By-Step guide on how to update your NFC Card. <\/p>",
+            "size": "text-size-small"
+          }
+        }
+      },
+      "block_order": [
+        "template--19386117488940__aa4e2261-7e9b-42eb-9732-b1f0503cf5d6-168584657916056c23-1",
+        "template--19386117488940__aa4e2261-7e9b-42eb-9732-b1f0503cf5d6-168584657916056c23-2"
+      ],
+      "custom_css": [
+        "h2 {font-size: 40px;}"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "c1786fda-bb23-4a5b-9e7d-1b9dab261312": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19445463843116__c1786fda-bb23-4a5b-9e7d-1b9dab261312-1686180335d6d93038-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Your_Graphics_1.jpg",
+            "title": "",
+            "heading_size": "h4",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19445463843116__c1786fda-bb23-4a5b-9e7d-1b9dab261312-1686180335d6d93038-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "heading_size": "h4",
+            "text": "<ol><li>Go to the website Pageme.io.<\/li><li>Enter your username and password, which will be sent to you via email. If you did not receive please contact support.  <\/li><li>Click on \"Page Design\" in the menu.<\/li><li>Make the desired edits to your landing page.<\/li><li>Click \"Save\" to save the changes.<\/li><\/ol><p>Remember to follow these steps to successfully update your NFC card anytime, anywhere!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19445463843116__c1786fda-bb23-4a5b-9e7d-1b9dab261312-1686180335d6d93038-2",
+        "template--19445463843116__c1786fda-bb23-4a5b-9e7d-1b9dab261312-1686180335d6d93038-0"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "mobile_swipe": false,
+        "text_alignment": "left",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "9293e653-938e-4c01-b53b-eb0e64a95fbb": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Need help Accessing Your Online Profile?",
+        "description": "<p>Get in touch<\/p>",
+        "show_phone_number": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "16532961902797512f": {
+      "type": "scrolling-text",
+      "blocks": {
+        "1653296190947eca92-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "UNLOCK LIMITLESS POSSIBILITIES",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653296190947eca92-2"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "direction": "left",
+        "speed": "50s",
+        "text_size": 140,
+        "outline_text": true,
+        "image_size": "large",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#e51d1d",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1653296460edc9a9c4": {
+      "type": "gallery",
+      "disabled": true,
+      "blocks": {
+        "16532964607ed8a330-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "16532964607ed8a330-1": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16532964607ed8a330-0",
+        "16532964607ed8a330-1"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "columns_desktop": 2,
+        "full_width": true,
+        "mobile_swipe": false,
+        "image_ratio": "landscape",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h4",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "165329287612856480": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "BROWSE OUR COLLECTIONS",
+        "description": "<p>Add a short description for your brand news<\/p>",
+        "collection_list": [
+          "pre-made-nfc-card-designs",
+          "custom-nfc-cards",
+          "metal-business-cards-australia"
+        ],
+        "image_ratio": "portrait",
+        "layout": "grid",
+        "style": "style2",
+        "content_alignment": "text-center",
+        "columns_desktop": 3,
+        "collection_description": false,
+        "overlay_opacity": 30,
+        "carousel_dots": false,
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "aa4e2261-7e9b-42eb-9732-b1f0503cf5d6",
+    "c1786fda-bb23-4a5b-9e7d-1b9dab261312",
+    "9293e653-938e-4c01-b53b-eb0e64a95fbb",
+    "16532961902797512f",
+    "1653296460edc9a9c4",
+    "165329287612856480"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1 {font-size: 60px;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "1652081672ff9b3c2c": {
+      "type": "map",
+      "disabled": true,
+      "blocks": {
+        "16520816724be18f71-0": {
+          "type": "pin",
+          "settings": {
+            "pin_retina": true,
+            "pin_lat": "33.9787261",
+            "pin_long": "-118.4197832",
+            "pin_title": "",
+            "pin_desc": ""
+          }
+        }
+      },
+      "block_order": [
+        "16520816724be18f71-0"
+      ],
+      "settings": {
+        "googlemaps_api_key": "",
+        "desktop_height": "desktop-height-550",
+        "mobile_height": "mobile-height-400",
+        "map_type": "roadmap",
+        "map_style_select": "default",
+        "map_zoom": 11,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "5906c0b9-29be-47d1-a443-9e1aac6b554e": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Information",
+        "description": "<p>Stay informed with our latest updates and posts.<\/p>",
+        "blog": "news",
+        "post_limit": 4,
+        "columns_desktop": 4,
+        "mobile_swipe": true,
+        "image_ratio": "square",
+        "show_image": true,
+        "use_shapes": false,
+        "show_date": true,
+        "show_excerpt": true,
+        "show_view_all": true,
+        "button_outline": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "1652081672ff9b3c2c",
+    "main",
+    "5906c0b9-29be-47d1-a443-9e1aac6b554e"
+  ]
+}

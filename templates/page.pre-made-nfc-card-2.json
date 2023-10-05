@@ -1,0 +1,121 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1 {font-size: 60px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true,
+        "bg_image": "shopify:\/\/shop_images\/Untitled_design_2.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "3eac8f2d-79f7-46ff-a9d3-2b05a4324c55": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-500",
+        "heading": "Pre-made NFC Card Designs",
+        "text": "We understand that personalisation comes in many forms. That's why we offer a stunning collection of pre-made NFC card designs that combine elegance, functionality, and convenience. Explore our range of designs and find the perfect NFC card to suit your style and needs.",
+        "video": "",
+        "button_text": "",
+        "overlay_opacity": 20,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "62fef0b3-b206-4bd8-840a-b8bb7af60ba8": {
+      "type": "featured-collection",
+      "blocks": {
+        "template--19290745995564__62fef0b3-b206-4bd8-840a-b8bb7af60ba8-1686560467677a4dee-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "pre-made-nfc-cards",
+            "display_type": "grid",
+            "product_limit": 4,
+            "columns_desktop": 3,
+            "show_view_all": true,
+            "button_outline": false,
+            "mobile_swipe": true
+          }
+        }
+      },
+      "block_order": [
+        "template--19290745995564__62fef0b3-b206-4bd8-840a-b8bb7af60ba8-1686560467677a4dee-0"
+      ],
+      "settings": {
+        "heading": "Pre-Made Collection",
+        "description": "<p>Discover our range. We Have more Pre-made Designs Coming Soon!<\/p>",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "f2156ee1-d256-4b17-aa17-48a47080ecc1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20073778250028__f2156ee1-d256-4b17-aa17-48a47080ecc1-16897616387945744e-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading for this section"
+          }
+        },
+        "template--20073778250028__f2156ee1-d256-4b17-aa17-48a47080ecc1-16897616387945744e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "We Have More Pre-Made Designs Coming Soon!",
+            "size": "h4"
+          }
+        },
+        "template--20073778250028__f2156ee1-d256-4b17-aa17-48a47080ecc1-16897616387945744e-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--20073778250028__f2156ee1-d256-4b17-aa17-48a47080ecc1-16897616387945744e-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_label": "Learn More",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20073778250028__f2156ee1-d256-4b17-aa17-48a47080ecc1-16897616387945744e-0",
+        "template--20073778250028__f2156ee1-d256-4b17-aa17-48a47080ecc1-16897616387945744e-1",
+        "template--20073778250028__f2156ee1-d256-4b17-aa17-48a47080ecc1-16897616387945744e-2",
+        "template--20073778250028__f2156ee1-d256-4b17-aa17-48a47080ecc1-16897616387945744e-3"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "3eac8f2d-79f7-46ff-a9d3-2b05a4324c55",
+    "62fef0b3-b206-4bd8-840a-b8bb7af60ba8",
+    "f2156ee1-d256-4b17-aa17-48a47080ecc1"
+  ]
+}

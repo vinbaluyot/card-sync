@@ -1,0 +1,242 @@
+{
+  "sections": {
+    "1652081672ff9b3c2c": {
+      "type": "map",
+      "disabled": true,
+      "blocks": {
+        "16520816724be18f71-0": {
+          "type": "pin",
+          "settings": {
+            "pin_retina": true,
+            "pin_lat": "33.9787261",
+            "pin_long": "-118.4197832",
+            "pin_title": "",
+            "pin_desc": ""
+          }
+        }
+      },
+      "block_order": [
+        "16520816724be18f71-0"
+      ],
+      "settings": {
+        "googlemaps_api_key": "",
+        "desktop_height": "desktop-height-550",
+        "mobile_height": "mobile-height-400",
+        "map_type": "roadmap",
+        "map_style_select": "default",
+        "map_zoom": 11,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "fedec245-2e2a-49dc-87d3-68bf5e6bd631": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19343371469100__fedec245-2e2a-49dc-87d3-68bf5e6bd631-1685569197d5e13267-0": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--19343371469100__fedec245-2e2a-49dc-87d3-68bf5e6bd631-1685569197d5e13267-1": {
+          "type": "heading",
+          "settings": {
+            "text": "NFC Card Types",
+            "size": "h3"
+          }
+        },
+        "template--19343371469100__fedec245-2e2a-49dc-87d3-68bf5e6bd631-1685569197d5e13267-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our collection<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--19343371469100__fedec245-2e2a-49dc-87d3-68bf5e6bd631-1685569197d5e13267-0",
+        "template--19343371469100__fedec245-2e2a-49dc-87d3-68bf5e6bd631-1685569197d5e13267-1",
+        "template--19343371469100__fedec245-2e2a-49dc-87d3-68bf5e6bd631-1685569197d5e13267-2"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "647af0bf-25f3-4152-b73c-424e4d380eca": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19584116556076__647af0bf-25f3-4152-b73c-424e4d380eca-1686993899c06cdfaf-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "template--19584116556076__647af0bf-25f3-4152-b73c-424e4d380eca-1686993899c06cdfaf-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Card Type: 1",
+            "heading_size": "h3"
+          }
+        },
+        "template--19584116556076__647af0bf-25f3-4152-b73c-424e4d380eca-1686993899c06cdfaf-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "3e061905-a8a5-40d0-800f-7c8d9b1cb5ff": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop Now",
+            "button_link": "shopify:\/\/pages\/products"
+          }
+        }
+      },
+      "block_order": [
+        "template--19584116556076__647af0bf-25f3-4152-b73c-424e4d380eca-1686993899c06cdfaf-0",
+        "template--19584116556076__647af0bf-25f3-4152-b73c-424e4d380eca-1686993899c06cdfaf-1",
+        "template--19584116556076__647af0bf-25f3-4152-b73c-424e4d380eca-1686993899c06cdfaf-2",
+        "3e061905-a8a5-40d0-800f-7c8d9b1cb5ff"
+      ],
+      "settings": {
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "7df7a173-3264-4a43-b281-5d5967c37d1b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19584116556076__7df7a173-3264-4a43-b281-5d5967c37d1b-1686993899c06cdfaf-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "template--19584116556076__7df7a173-3264-4a43-b281-5d5967c37d1b-1686993899c06cdfaf-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Card Type: 2",
+            "heading_size": "h3"
+          }
+        },
+        "template--19584116556076__7df7a173-3264-4a43-b281-5d5967c37d1b-1686993899c06cdfaf-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "57062d37-2cd7-4179-aca3-78dab9682c76": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop Now",
+            "button_link": "shopify:\/\/pages\/products"
+          }
+        }
+      },
+      "block_order": [
+        "template--19584116556076__7df7a173-3264-4a43-b281-5d5967c37d1b-1686993899c06cdfaf-0",
+        "template--19584116556076__7df7a173-3264-4a43-b281-5d5967c37d1b-1686993899c06cdfaf-1",
+        "template--19584116556076__7df7a173-3264-4a43-b281-5d5967c37d1b-1686993899c06cdfaf-2",
+        "57062d37-2cd7-4179-aca3-78dab9682c76"
+      ],
+      "settings": {
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "4065945b-f09f-4f75-96f4-43d7bd359eba": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19584116556076__4065945b-f09f-4f75-96f4-43d7bd359eba-1686993899c06cdfaf-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "template--19584116556076__4065945b-f09f-4f75-96f4-43d7bd359eba-1686993899c06cdfaf-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Card Type: QR",
+            "heading_size": "h3"
+          }
+        },
+        "template--19584116556076__4065945b-f09f-4f75-96f4-43d7bd359eba-1686993899c06cdfaf-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "fa9a09e1-bef7-4d2b-b103-4aeeec5e49e0": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop Now",
+            "button_link": "shopify:\/\/pages\/products"
+          }
+        }
+      },
+      "block_order": [
+        "template--19584116556076__4065945b-f09f-4f75-96f4-43d7bd359eba-1686993899c06cdfaf-0",
+        "template--19584116556076__4065945b-f09f-4f75-96f4-43d7bd359eba-1686993899c06cdfaf-1",
+        "template--19584116556076__4065945b-f09f-4f75-96f4-43d7bd359eba-1686993899c06cdfaf-2",
+        "fa9a09e1-bef7-4d2b-b103-4aeeec5e49e0"
+      ],
+      "settings": {
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "template-header": {
+      "type": "template-header",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "1652081672ff9b3c2c",
+    "main",
+    "fedec245-2e2a-49dc-87d3-68bf5e6bd631",
+    "647af0bf-25f3-4152-b73c-424e4d380eca",
+    "7df7a173-3264-4a43-b281-5d5967c37d1b",
+    "4065945b-f09f-4f75-96f4-43d7bd359eba"
+  ]
+}

@@ -1,0 +1,569 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+      }
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "e431a79e-9c7b-4a53-a79a-0cb918617ecf": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "style_vendor"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_products_rating": false
+          }
+        },
+        "0b3e272b-c86a-4dba-946c-c6912251371c": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "variant_is_disabled": true
+          }
+        },
+        "db448b3f-9f45-4ed7-afa0-299571754ea6": {
+          "type": "shopify:\/\/apps\/live-product-options\/blocks\/app-block\/88bfdf40-5e27-4962-a966-70c8d1e87757",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "55da0587-5936-4a13-a042-eb96ec75df15": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
+          }
+        },
+        "01d647a2-3859-485c-b22d-62c1e9ca54c4": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
+          }
+        },
+        "bf5d90f9-3dff-4a80-a3c5-8459ac5900ec": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
+          }
+        },
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
+          "type": "share",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "e431a79e-9c7b-4a53-a79a-0cb918617ecf",
+        "title",
+        "0b3e272b-c86a-4dba-946c-c6912251371c",
+        "variant_picker",
+        "db448b3f-9f45-4ed7-afa0-299571754ea6",
+        "buy_buttons",
+        "55da0587-5936-4a13-a042-eb96ec75df15",
+        "01d647a2-3859-485c-b22d-62c1e9ca54c4",
+        "bf5d90f9-3dff-4a80-a3c5-8459ac5900ec",
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_taxes_included": true,
+        "thumbnail_position": "left",
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false
+      }
+    },
+    "4a404fc1-876e-49eb-b0a7-2071baa576df": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20911728263468__4a404fc1-876e-49eb-b0a7-2071baa576df-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Step-by-step guide on how to order NFC custom business cards",
+            "size": "h5"
+          }
+        }
+      },
+      "block_order": [
+        "template--20911728263468__4a404fc1-876e-49eb-b0a7-2071baa576df-heading-1"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "edbf3e76-d9bc-4789-9123-629b2973ae7f": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--20911728263468__edbf3e76-d9bc-4789-9123-629b2973ae7f-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-colour-60.png",
+            "heading": "1: Choose Your Card Colour",
+            "text": "<p>Choose Your Metal Card Colour: Begin by selecting the colour of your metal card from the available options.<\/p>"
+          }
+        },
+        "template--20911728263468__edbf3e76-d9bc-4789-9123-629b2973ae7f-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-upload-50.png",
+            "heading": "2: Name & Logo\/Graphics",
+            "text": "<p>In this section, include your name along with your chosen design. For Logo & Graphics upload the file containing your logo or custom design. It's essential to review our <a href=\"\/pages\/design-guidelines\" title=\"Design Guidelines\">design guidelines<\/a> before uploading your file.<\/p>"
+          }
+        },
+        "template--20911728263468__edbf3e76-d9bc-4789-9123-629b2973ae7f-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-select.gif",
+            "heading": "3: Select Logo Colour",
+            "text": "<p>If your original logo is in colour, please note that we can only engrave it using a maximum of two colours. Choose the colours you'd like for your logo.<br\/><br\/>You have the choice to pick between either a gold or silver logo colour<\/p>"
+          }
+        },
+        "97eb3781-0c82-4f6d-8a57-d63206b1a06c": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-link-50.png",
+            "heading": "4: Connection Options",
+            "text": "<ol><li>Landing Page: We will provide you with a link to a landing page where you can enter your details after placing your order. <\/li><li>Direct Link: If you prefer to direct people straight to your website or other social media profiles without an intermediate landing page, choose this option.<\/li><\/ol>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20911728263468__edbf3e76-d9bc-4789-9123-629b2973ae7f-icon-1",
+        "template--20911728263468__edbf3e76-d9bc-4789-9123-629b2973ae7f-icon-2",
+        "template--20911728263468__edbf3e76-d9bc-4789-9123-629b2973ae7f-icon-3",
+        "97eb3781-0c82-4f6d-8a57-d63206b1a06c"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "medium",
+        "heading_size": "large",
+        "mobile_swipe": false,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "84c9c014-3bee-4db2-8e8a-eed05796c59f": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--20911728263468__84c9c014-3bee-4db2-8e8a-eed05796c59f-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-create-50.png",
+            "heading": "Make your own card",
+            "text": "<p>Use our online customisation tool you will have the ability to add your name logo or graphics.<\/p>"
+          }
+        },
+        "template--20911728263468__84c9c014-3bee-4db2-8e8a-eed05796c59f-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-link-50.png",
+            "heading": "Landing Page or Direct Link",
+            "text": "<p>You have the option for the card to be set up to link to your own personalised landing page or directly to a link of your choice e.g. Website, booking platform, social accounts and more<\/p>"
+          }
+        },
+        "86f24ae3-a045-47e4-965c-f2d16aa4ff11": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-speaker-phone-50.png",
+            "heading": "Tap to Connect",
+            "text": "<p>Once you have received the card simply tap the back of the card on either the front or the back of any smartphone device to seamlessly share your information!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20911728263468__84c9c014-3bee-4db2-8e8a-eed05796c59f-icon-1",
+        "template--20911728263468__84c9c014-3bee-4db2-8e8a-eed05796c59f-icon-2",
+        "86f24ae3-a045-47e4-965c-f2d16aa4ff11"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "large",
+        "heading_size": "small",
+        "mobile_swipe": true,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "d7359aec-4b9d-4c60-b4bd-90fd158609b7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20911728263468__d7359aec-4b9d-4c60-b4bd-90fd158609b7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Design Guidelines",
+            "size": "h3"
+          }
+        },
+        "template--20911728263468__d7359aec-4b9d-4c60-b4bd-90fd158609b7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "size": "text-size-regular"
+          }
+        },
+        "template--20911728263468__d7359aec-4b9d-4c60-b4bd-90fd158609b7-button-1": {
+          "type": "button",
+          "settings": {
+            "link_label": "FULL DESIGN GUIDELINES",
+            "link": "shopify:\/\/pages\/design-guidelines",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20911728263468__d7359aec-4b9d-4c60-b4bd-90fd158609b7-heading-1",
+        "template--20911728263468__d7359aec-4b9d-4c60-b4bd-90fd158609b7-text-1",
+        "template--20911728263468__d7359aec-4b9d-4c60-b4bd-90fd158609b7-button-1"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "aa571a86-746e-4b78-8461-2bc599f367dc": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--20911728263468__aa571a86-746e-4b78-8461-2bc599f367dc-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "heading": "Dimensions",
+            "text": "<p>Our cards can be printed with a full to 2mm bleed design and have dimensions of 54mm x 86mm<\/p>"
+          }
+        },
+        "template--20911728263468__aa571a86-746e-4b78-8461-2bc599f367dc-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-file-format-32.png",
+            "heading": "File Format",
+            "text": "<p>We accept PNG, JPEG, SVG & PDF. Vector Images work best with engraving<\/p>"
+          }
+        },
+        "template--20911728263468__aa571a86-746e-4b78-8461-2bc599f367dc-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-transparent-96.png",
+            "heading": "Image",
+            "text": "<p>We recommend uploading images with transparent or black\/white backgrounds for best results. Uploads up to 10mb if exceeds you can send directly to our email.<\/p>"
+          }
+        },
+        "05200b8c-dce1-4009-bd2a-83cb704170ca": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-resolution-32.png",
+            "heading": "Resolution",
+            "text": "<p>Provide files with a high resolution to ensure clarity and sharpness. Avoid low-resolution or pixelated images<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20911728263468__aa571a86-746e-4b78-8461-2bc599f367dc-icon-1",
+        "template--20911728263468__aa571a86-746e-4b78-8461-2bc599f367dc-icon-2",
+        "template--20911728263468__aa571a86-746e-4b78-8461-2bc599f367dc-icon-3",
+        "05200b8c-dce1-4009-bd2a-83cb704170ca"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "small",
+        "heading_size": "small",
+        "mobile_swipe": false,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "e794cb43-0d1f-43c2-8ff3-ea17927a26a1": {
+      "type": "gallery",
+      "blocks": {
+        "template--20911728263468__e794cb43-0d1f-43c2-8ff3-ea17927a26a1-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "template--20911728263468__e794cb43-0d1f-43c2-8ff3-ea17927a26a1-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_908344d9-ce1e-4915-9e44-27d63d2657d9.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "template--20911728263468__e794cb43-0d1f-43c2-8ff3-ea17927a26a1-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/YourGraphics_8_889d6c01-8157-4b22-97fe-97affd0c2165.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "8e7ad73d-59d3-4729-a1e2-09219d2facb9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/YourGraphics_10.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20911728263468__e794cb43-0d1f-43c2-8ff3-ea17927a26a1-image-1",
+        "template--20911728263468__e794cb43-0d1f-43c2-8ff3-ea17927a26a1-image-2",
+        "template--20911728263468__e794cb43-0d1f-43c2-8ff3-ea17927a26a1-image-3",
+        "8e7ad73d-59d3-4729-a1e2-09219d2facb9"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "columns_desktop": 4,
+        "full_width": false,
+        "mobile_swipe": false,
+        "image_ratio": "adapt",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h4",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "16902564686915415a": {
+      "type": "apps",
+      "settings": {
+      }
+    },
+    "1652093734c99de6a0": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1652093734b8475903-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-touch-96.png",
+            "heading": "CONVENIENCE",
+            "text": "<p>Simplify your interactions with a single tap. NFC Cards eliminate the need for physical contact or complex procedures.<\/p>"
+          }
+        },
+        "1652093734b8475903-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-sustainable-60.png",
+            "heading": "SUSTAINABLE",
+            "text": "<p>More environmentally conscious lifestyle with the use of NFC Cards as a substitute for traditional cards. This greener solution offers a sustainable way to expand your business while effectively eliminating the problem of wasted and outdated cards.<\/p>"
+          }
+        },
+        "1652093734b8475903-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-sync-96.png",
+            "heading": "SEAMLESS INTERGRATION",
+            "text": "<p>Enjoy the power of seamless integration across devices. NFC Cards effortlessly connect with compatible smartphones, tablets, and other NFC-enabled devices.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1652093734b8475903-0",
+        "1652093734b8475903-1",
+        "1652093734b8475903-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "medium",
+        "heading_size": "small",
+        "mobile_swipe": false,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1652098314f8bd5477": {
+      "type": "testimonials",
+      "blocks": {
+        "1652098314927615b9-0": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "Quality. Friendly service and excellent quality! I ordered custom cards and the process was easy.",
+            "author": "Lester",
+            "retina": true
+          }
+        },
+        "1652098314927615b9-1": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "Great product and premium quality. Amazing how accurate the design came out that I provided. Makes networking a whole lot easier and more memorable for the receiving person rather than a business card.",
+            "author": "Angelo",
+            "retina": true
+          }
+        },
+        "1652098314927615b9-2": {
+          "type": "quote",
+          "settings": {
+            "stars": "",
+            "text": "Ordered a custom NFC business card. Online customisation tool was easy to use. Great experience would recommend!",
+            "author": "Joe",
+            "retina": true
+          }
+        }
+      },
+      "block_order": [
+        "1652098314927615b9-0",
+        "1652098314927615b9-1",
+        "1652098314927615b9-2"
+      ],
+      "settings": {
+        "heading": "Testimonials",
+        "description": "",
+        "size": "small",
+        "autoplay": true,
+        "autoplay_length": 5,
+        "color_bg": "#ffffff",
+        "color_text": "#000000",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "e38e2d53-1189-4962-abb9-feb6433010b7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20911728263468__e38e2d53-1189-4962-abb9-feb6433010b7-button-1": {
+          "type": "button",
+          "settings": {
+            "link_label": "Trustpilot Reviews",
+            "link": "https:\/\/www.trustpilot.com\/review\/cardsync.com.au?utm_medium=trustbox&utm_source=MicroReviewCount",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20911728263468__e38e2d53-1189-4962-abb9-feb6433010b7-button-1"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "6f633314-4b2f-4894-acf6-ba2879671007": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "4a404fc1-876e-49eb-b0a7-2071baa576df",
+    "edbf3e76-d9bc-4789-9123-629b2973ae7f",
+    "84c9c014-3bee-4db2-8e8a-eed05796c59f",
+    "d7359aec-4b9d-4c60-b4bd-90fd158609b7",
+    "aa571a86-746e-4b78-8461-2bc599f367dc",
+    "e794cb43-0d1f-43c2-8ff3-ea17927a26a1",
+    "16902564686915415a",
+    "1652093734c99de6a0",
+    "1652098314f8bd5477",
+    "e38e2d53-1189-4962-abb9-feb6433010b7",
+    "product-recommendations",
+    "6f633314-4b2f-4894-acf6-ba2879671007"
+  ]
+}

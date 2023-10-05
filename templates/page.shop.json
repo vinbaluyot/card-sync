@@ -1,0 +1,64 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true,
+        "bg_image": "shopify:\/\/shop_images\/Untitled_design_2.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "2d4a3d1d-aa33-42c4-8234-42e3ddc551f7": {
+      "type": "collection-list",
+      "settings": {
+        "heading": "Shop by Category",
+        "description": "",
+        "collection_list": [
+          "custom-nfc-cards",
+          "nfc-business-cards",
+          "nfc-qr-code-cards",
+          "pre-made-nfc-cards",
+          "table-talkers",
+          "review-cards",
+          "nfc-phone-cases",
+          "nfc-sticker",
+          "nfc-tap"
+        ],
+        "image_ratio": "square",
+        "layout": "grid",
+        "style": "style1",
+        "content_alignment": "text-center",
+        "columns_desktop": 3,
+        "collection_description": false,
+        "overlay_opacity": 0,
+        "carousel_dots": true,
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "8da9adc5-bc9d-4ac9-922a-2d2399026926": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "2d4a3d1d-aa33-42c4-8234-42e3ddc551f7",
+    "8da9adc5-bc9d-4ac9-922a-2d2399026926"
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "3eac8f2d-79f7-46ff-a9d3-2b05a4324c55": {
+      "type": "background-video",
+      "settings": {
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-500",
+        "heading": "NFC Rings",
+        "text": "Enhance your business and personal interactions with NFC Rings. Discover the power of this cutting-edge technology, available exclusively at Cardsync. Whether you're a business owner or a customer, our NFC Rings offer seamless connectivity and convenience like never before.",
+        "video": "",
+        "button_text": "",
+        "overlay_opacity": 20,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "9ceab8f1-4cae-4220-9f06-89579287af82": {
+      "type": "featured-collection",
+      "blocks": {
+        "template--19290746028332__9ceab8f1-4cae-4220-9f06-89579287af82-1686560467677a4dee-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "nfc-business-cards",
+            "display_type": "grid",
+            "product_limit": 4,
+            "columns_desktop": 3,
+            "show_view_all": true,
+            "button_outline": false,
+            "mobile_swipe": true
+          }
+        }
+      },
+      "block_order": [
+        "template--19290746028332__9ceab8f1-4cae-4220-9f06-89579287af82-1686560467677a4dee-0"
+      ],
+      "settings": {
+        "heading": "NFC Rings Collection",
+        "description": "<p>Discover our range<\/p>",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "d3ec07c3-360f-4389-ae64-721a28b8e59d": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-0": {
+          "type": "column",
+          "settings": {
+            "title": "Choose a Card",
+            "heading_size": "h4",
+            "text": "<p>Start by selecting the style and colour for your business cards. We offer three options: black, gold, and silver. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-2": {
+          "type": "column",
+          "settings": {
+            "title": "Customise",
+            "heading_size": "h4",
+            "text": "<p>To personalise your NFC business cards, upload your logo design or any other text you want to include on the cards. Select the integrations you would like and provide details and we will configure and create your landing page.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-1": {
+          "type": "column",
+          "settings": {
+            "title": "Add to Cart",
+            "heading_size": "h4",
+            "text": "<p>Once you have created your card and provided integration information, click on the \"Add to Cart\" button.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-0",
+        "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-2",
+        "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-1"
+      ],
+      "settings": {
+        "heading": "How to Create",
+        "description": "<p>Follow our Step-by-Step guide<\/p>",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "mobile_swipe": false,
+        "text_alignment": "left",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "44591651-9ded-46de-9d9e-d5b49f3d07a3": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 10,
+        "spacer_desktop": 35,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "34f385cb-43e5-44a8-928b-e47dc2394523": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "template--19290746028332__34f385cb-43e5-44a8-928b-e47dc2394523-1685268566b4e5a086-0": {
+          "type": "title",
+          "settings": {
+            "show_products_rating": true
+          }
+        },
+        "template--19290746028332__34f385cb-43e5-44a8-928b-e47dc2394523-1685268566b4e5a086-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "variant_is_disabled": true
+          }
+        },
+        "template--19290746028332__34f385cb-43e5-44a8-928b-e47dc2394523-1685268566b4e5a086-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "template--19290746028332__34f385cb-43e5-44a8-928b-e47dc2394523-1685268566b4e5a086-0",
+        "template--19290746028332__34f385cb-43e5-44a8-928b-e47dc2394523-1685268566b4e5a086-1",
+        "template--19290746028332__34f385cb-43e5-44a8-928b-e47dc2394523-1685268566b4e5a086-2"
+      ],
+      "settings": {
+        "heading": "Featured product",
+        "description": "<p>Add a short description for this featured product<\/p>",
+        "product": "custom-metal-business-cards",
+        "show_taxes_included": true,
+        "lightbox": true,
+        "enable_video_looping": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "2de833b4-ad01-4886-9e52-c1c0482d15e0": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 25,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "63f19bba-db6e-43b4-94f0-7b38720780ea": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 15,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "aed933e6-6757-46b3-afd2-6ca697bd5a46": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "full_width": true,
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "59a74dc4-f32b-4764-a3cf-d777f9b06e50": {
+      "type": "countdown-banner",
+      "disabled": true,
+      "settings": {
+        "section_layout": "horizontal",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-auto",
+        "full_width": true,
+        "subheading": "",
+        "heading": "Christmas Sale",
+        "heading_size": "h3",
+        "content": "",
+        "content_size": "medium",
+        "button_text": "Shop Now",
+        "button_link": "",
+        "timer_year": 2023,
+        "timer_month": "01",
+        "timer_day": "01",
+        "timer_hour": "00",
+        "timer_minute": "00",
+        "color_bg": "#c24141",
+        "color_text": "#ffffff",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "66a1dc97-2a0f-416f-809b-51b538b714ad": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 10,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "96f66718-f3d0-49c6-bfe5-485c3d3fe032": {
+      "type": "gallery",
+      "disabled": true,
+      "blocks": {
+        "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-1": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-2": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-0",
+        "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-1",
+        "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-2"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "columns_desktop": 3,
+        "full_width": true,
+        "mobile_swipe": true,
+        "image_ratio": "adapt",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "large",
+        "heading_size": "h4",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "754561b6-611b-479e-89a0-1f5f62d06a62": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 60,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "6051b459-ad7e-40e0-bdb3-c20f012c653a": {
+      "type": "logo-list",
+      "disabled": true,
+      "blocks": {
+        "template--16769565098281__6051b459-ad7e-40e0-bdb3-c20f012c653a-1668425503d8e61334-0": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16769565098281__6051b459-ad7e-40e0-bdb3-c20f012c653a-1668425503d8e61334-1": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16769565098281__6051b459-ad7e-40e0-bdb3-c20f012c653a-1668425503d8e61334-2": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16769565098281__6051b459-ad7e-40e0-bdb3-c20f012c653a-1668425503d8e61334-3": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "26e1dab5-6c0d-4040-b2dd-9050ff04feaf": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16769565098281__6051b459-ad7e-40e0-bdb3-c20f012c653a-1668425503d8e61334-0",
+        "template--16769565098281__6051b459-ad7e-40e0-bdb3-c20f012c653a-1668425503d8e61334-1",
+        "template--16769565098281__6051b459-ad7e-40e0-bdb3-c20f012c653a-1668425503d8e61334-2",
+        "template--16769565098281__6051b459-ad7e-40e0-bdb3-c20f012c653a-1668425503d8e61334-3",
+        "26e1dab5-6c0d-4040-b2dd-9050ff04feaf"
+      ],
+      "settings": {
+        "heading": "As Featured In",
+        "description": "",
+        "columns": 5,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "b0cae15a-22fc-4004-a272-be3d6b92594e": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 20,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "0453c800-d82a-4464-bf8d-f6dcace1e225": {
+      "type": "scrolling-text",
+      "disabled": true,
+      "blocks": {
+        "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-0": {
+          "type": "text",
+          "settings": {
+            "text": "A QUEENLY RUG JUST FOR YOU",
+            "link": ""
+          }
+        },
+        "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-1": {
+          "type": "text",
+          "settings": {
+            "text": "LET OUR RUGS TELL YOUR STORY",
+            "link": ""
+          }
+        },
+        "b9a37a4c-e0fa-4074-8f07-2101f17c9232": {
+          "type": "text",
+          "settings": {
+            "text": "THE BEST RUG IN TOWN",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-0",
+        "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-1",
+        "b9a37a4c-e0fa-4074-8f07-2101f17c9232"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "direction": "left",
+        "speed": "50s",
+        "text_size": 46,
+        "outline_text": false,
+        "image_size": "large",
+        "color_bg": "#ede8e6",
+        "color_text": "#8c695d",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "8da9adc5-bc9d-4ac9-922a-2d2399026926": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "2d4a3d1d-aa33-42c4-8234-42e3ddc551f7": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "Shop by Category",
+        "description": "<p>Add a short description for your collections<\/p>",
+        "collection_list": [
+          "pre-made-nfc-card-designs",
+          "custom-nfc-cards",
+          "metal-business-cards-australia"
+        ],
+        "image_ratio": "square",
+        "layout": "grid",
+        "style": "style2",
+        "content_alignment": "text-left",
+        "columns_desktop": 3,
+        "collection_description": false,
+        "overlay_opacity": 30,
+        "carousel_dots": true,
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "03cab046-98c4-4c1c-a4b3-a917b4f56175": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19623218217260__03cab046-98c4-4c1c-a4b3-a917b4f56175-16872494896a91a1b0-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading for this section"
+          }
+        },
+        "template--19623218217260__03cab046-98c4-4c1c-a4b3-a917b4f56175-16872494896a91a1b0-1": {
+          "type": "heading",
+          "settings": {
+            "text": "NFC Rings",
+            "size": "h3"
+          }
+        },
+        "template--19623218217260__03cab046-98c4-4c1c-a4b3-a917b4f56175-16872494896a91a1b0-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>NFC Rings are revolutionisng the way we interact with technology. These sleek and stylish rings are embedded with near field communication (NFC) technology, enabling you to transfer data, make payments, and access information with a simple tap. With an NFC Ring from Cardsync, you'll experience the future at your fingertips.<\/p><p>For businesses, NFC Rings open up a world of possibilities. Imagine enabling contactless payments for your customers, making transactions quick and hassle-free. Increase customer engagement and loyalty by offering personalized experiences through NFC technology. Our NFC Rings can also be used for access control, allowing you to enhance security measures and streamline operations.<\/p><p>Customers can also benefit greatly from NFC Rings. Say goodbye to carrying multiple cards and devices – with an NFC Ring, you have all your essential information in one place. Make payments on the go, access digital content, and unlock smart devices effortlessly. Experience the convenience of a truly connected lifestyle.<\/p><p>At Cardsync, we take pride in offering high-quality NFC Rings to customers in Australia. Our rings are designed with both style and functionality in mind, ensuring a seamless integration into your everyday life. Whether you're a business professional, a tech enthusiast, or a fashion-conscious individual, our NFC Rings cater to all tastes and preferences.<\/p><p>Take a step into the future with NFC Rings from Cardsync. Our Australian-based company is dedicated to providing top-notch products and exceptional customer service. Explore our collection of NFC Rings and discover the endless possibilities that await you.<\/p><p>To learn more about NFC Rings and their capabilities, visit our NFC Rings page at cardsync.com.au\/collections\/nfc-rings\/. Experience the power of NFC technology with Cardsync – your gateway to a smarter, more connected world.<\/p><p>Remember, the future is here, and it's in the palm of your hand with NFC Rings from Cardsync.<\/p><p>[Internal Link: Learn more about our NFC-enabled products.]<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--19623218217260__03cab046-98c4-4c1c-a4b3-a917b4f56175-16872494896a91a1b0-3": {
+          "type": "button",
+          "settings": {
+            "link_label": "Learn More",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19623218217260__03cab046-98c4-4c1c-a4b3-a917b4f56175-16872494896a91a1b0-0",
+        "template--19623218217260__03cab046-98c4-4c1c-a4b3-a917b4f56175-16872494896a91a1b0-1",
+        "template--19623218217260__03cab046-98c4-4c1c-a4b3-a917b4f56175-16872494896a91a1b0-2",
+        "template--19623218217260__03cab046-98c4-4c1c-a4b3-a917b4f56175-16872494896a91a1b0-3"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "3eac8f2d-79f7-46ff-a9d3-2b05a4324c55",
+    "9ceab8f1-4cae-4220-9f06-89579287af82",
+    "d3ec07c3-360f-4389-ae64-721a28b8e59d",
+    "44591651-9ded-46de-9d9e-d5b49f3d07a3",
+    "34f385cb-43e5-44a8-928b-e47dc2394523",
+    "2de833b4-ad01-4886-9e52-c1c0482d15e0",
+    "63f19bba-db6e-43b4-94f0-7b38720780ea",
+    "aed933e6-6757-46b3-afd2-6ca697bd5a46",
+    "59a74dc4-f32b-4764-a3cf-d777f9b06e50",
+    "66a1dc97-2a0f-416f-809b-51b538b714ad",
+    "96f66718-f3d0-49c6-bfe5-485c3d3fe032",
+    "754561b6-611b-479e-89a0-1f5f62d06a62",
+    "6051b459-ad7e-40e0-bdb3-c20f012c653a",
+    "b0cae15a-22fc-4004-a272-be3d6b92594e",
+    "0453c800-d82a-4464-bf8d-f6dcace1e225",
+    "8da9adc5-bc9d-4ac9-922a-2d2399026926",
+    "2d4a3d1d-aa33-42c4-8234-42e3ddc551f7",
+    "03cab046-98c4-4c1c-a4b3-a917b4f56175"
+  ]
+}

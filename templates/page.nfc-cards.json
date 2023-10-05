@@ -1,0 +1,420 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1 {font-size: 60px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true,
+        "bg_image": "shopify:\/\/shop_images\/Untitled_design_2.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "3eac8f2d-79f7-46ff-a9d3-2b05a4324c55": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-500",
+        "heading": "NFC Cards",
+        "text": "Welcome to Cardsync, your ultimate destination for NFC cards that allow you to effortlessly share personal information. With our cutting-edge technology, you can connect with others in a simple tap. Explore our wide range of NFC cards and embrace the future of sharing information securely and conveniently.",
+        "video": "",
+        "button_text": "",
+        "overlay_opacity": 20,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "9ceab8f1-4cae-4220-9f06-89579287af82": {
+      "type": "featured-collection",
+      "blocks": {
+        "template--19290746028332__9ceab8f1-4cae-4220-9f06-89579287af82-1686560467677a4dee-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "nfc-cards",
+            "display_type": "grid",
+            "product_limit": 7,
+            "columns_desktop": 4,
+            "show_view_all": true,
+            "button_outline": false,
+            "mobile_swipe": true
+          }
+        }
+      },
+      "block_order": [
+        "template--19290746028332__9ceab8f1-4cae-4220-9f06-89579287af82-1686560467677a4dee-0"
+      ],
+      "settings": {
+        "heading": "NFC Card Collection",
+        "description": "<p>Discover our range<\/p>",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "e35bcb87-dd22-4259-9525-529e05542515": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--20294493176108__e35bcb87-dd22-4259-9525-529e05542515-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-select.gif",
+            "heading": "Choose a Card",
+            "text": "<p>Start by selecting the style and colour for your business cards. We offer three options: black, gold, and silver. <\/p>"
+          }
+        },
+        "template--20294493176108__e35bcb87-dd22-4259-9525-529e05542515-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-create-50.png",
+            "heading": "Customise",
+            "text": "<p>To personalise your NFC business cards, upload your logo design or any other text you want to include on the cards.<\/p>"
+          }
+        },
+        "template--20294493176108__e35bcb87-dd22-4259-9525-529e05542515-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-add-shopping-cart-50.png",
+            "heading": "Add to Cart",
+            "text": "<p>Once you have created your card, click on the \"Add to Cart\" button. After checkout, you will be sent an email with details on how to create your landing page!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20294493176108__e35bcb87-dd22-4259-9525-529e05542515-icon-1",
+        "template--20294493176108__e35bcb87-dd22-4259-9525-529e05542515-icon-2",
+        "template--20294493176108__e35bcb87-dd22-4259-9525-529e05542515-icon-3"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "large",
+        "heading_size": "large",
+        "mobile_swipe": true,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "02bdf68e-609e-4661-8e9c-7371d0df9039": {
+      "type": "image-with-text-slideshow",
+      "disabled": true,
+      "blocks": {
+        "template--19623236075820__02bdf68e-609e-4661-8e9c-7371d0df9039-1687337935de11790b-0": {
+          "type": "slide",
+          "settings": {
+            "heading": "REVOLUTIONISE THE WAY YOU INTERACT",
+            "content": "NFC cards are revolutionising the way businesses and customers interact. With a simple tap, these cards enable seamless communication and transactions, making them ideal for various applications. At Cardsync, we offer a wide range of NFC cards to cater to your specific needs.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "template--19623236075820__02bdf68e-609e-4661-8e9c-7371d0df9039-1687337935de11790b-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "CUSTOMISE",
+            "content": "At Cardsync, we understand the importance of customisation. That's why we provide options to personalise your NFC cards with your logo, branding, or any other design elements. Stand out from the crowd and leave a lasting impression with our NFC cards.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "478ca024-3bb4-4dde-9b48-9c8332946502": {
+          "type": "slide",
+          "settings": {
+            "heading": "CONVIENECE",
+            "content": "NFC cards offer unparalleled convenience. With just a tap, you can share your landing page , share contact information by interacting with smart devices. Our NFC cards make your life easier and more connected. Experience the power of contactless technology in the palm of your hand.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "template--19623236075820__02bdf68e-609e-4661-8e9c-7371d0df9039-1687337935de11790b-2": {
+          "type": "slide",
+          "settings": {
+            "heading": "SIMPLIFY INTERACTIONS",
+            "content": "Don't miss out on the countless benefits of NFC technology. Whether you're a business or a customer, our NFC cards will enhance your experience and simplify your interactions. Unlock the power of contactless communication.",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19623236075820__02bdf68e-609e-4661-8e9c-7371d0df9039-1687337935de11790b-0",
+        "template--19623236075820__02bdf68e-609e-4661-8e9c-7371d0df9039-1687337935de11790b-1",
+        "478ca024-3bb4-4dde-9b48-9c8332946502",
+        "template--19623236075820__02bdf68e-609e-4661-8e9c-7371d0df9039-1687337935de11790b-2"
+      ],
+      "settings": {
+        "mobile_height": "mobile-height-350",
+        "desktop_height": "desktop-height-650",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "full_width": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "d3ec07c3-360f-4389-ae64-721a28b8e59d": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-0": {
+          "type": "column",
+          "settings": {
+            "title": "Choose a Card",
+            "heading_size": "h4",
+            "text": "<p>Start by selecting the style and colour for your business cards. We offer three options: black, gold, and silver. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-2": {
+          "type": "column",
+          "settings": {
+            "title": "Customise",
+            "heading_size": "h4",
+            "text": "<p>To personalise your NFC business cards, upload your logo design or any other text you want to include on the cards.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-1": {
+          "type": "column",
+          "settings": {
+            "title": "Add to Cart",
+            "heading_size": "h4",
+            "text": "<p>Once you have created your card, click on the \"Add to Cart\" button. After checkout, you will be sent an email with details on how to create your landing page!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-0",
+        "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-2",
+        "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-1"
+      ],
+      "settings": {
+        "heading": "How to Create",
+        "description": "<p>Follow our Step-by-Step guide<\/p>",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "mobile_swipe": false,
+        "text_alignment": "left",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "77d6ff44-304d-460e-ad3d-0131ada53f95": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--20073778053420__77d6ff44-304d-460e-ad3d-0131ada53f95-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "template--20073778053420__77d6ff44-304d-460e-ad3d-0131ada53f95-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Why choose NFC cards?",
+            "heading_size": "h3"
+          }
+        },
+        "template--20073778053420__77d6ff44-304d-460e-ad3d-0131ada53f95-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our products are designed with both functionality and style in mind. We offer a diverse collection of NFC cards, catering to various preferences and requirements. Whether you prefer sleek and minimalistic designs or vibrant and eye-catching options, we have the perfect NFC card to suit your taste.<\/p><p>To make your experience even better, our NFC cards are crafted using high-quality materials, ensuring durability and longevity. You can rely on Cardsync to provide reliable and long-lasting products that meet your expectations.<\/p><p>With just a few clicks, you can choose the NFC cards that align with your needs and have them delivered to your doorstep.<\/p>"
+          }
+        },
+        "1950670e-c47c-42ea-a45e-856b270c48b9": {
+          "type": "button",
+          "settings": {
+            "button_text": "Customise Your NFC",
+            "button_link": "shopify:\/\/pages\/custom-nfc-cards"
+          }
+        }
+      },
+      "block_order": [
+        "template--20073778053420__77d6ff44-304d-460e-ad3d-0131ada53f95-subheading-1",
+        "template--20073778053420__77d6ff44-304d-460e-ad3d-0131ada53f95-heading-1",
+        "template--20073778053420__77d6ff44-304d-460e-ad3d-0131ada53f95-text-1",
+        "1950670e-c47c-42ea-a45e-856b270c48b9"
+      ],
+      "custom_css": [
+        ".button {background-color: #ff4515;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Your_Graphics.jpg",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "image_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "c1a24b6e-8a57-4485-a281-4fa7925db414": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--20073778053420__c1a24b6e-8a57-4485-a281-4fa7925db414-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "template--20073778053420__c1a24b6e-8a57-4485-a281-4fa7925db414-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text",
+            "heading_size": "h3"
+          }
+        },
+        "template--20073778053420__c1a24b6e-8a57-4485-a281-4fa7925db414-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Cardsync, we prioritise customer satisfaction above all else. We aim to provide an exceptional shopping experience, and our dedicated customer support team is always ready to assist you with any queries or concerns you may have. We are committed to ensuring that you are delighted with your NFC cards and the service you receive.<\/p><p>Experience the power of NFC technology with Cardsync. Join the growing community of individuals who are embracing the convenience and efficiency of NFC cards. Buy NFC cards from Cardsync today and simplify the way you share personal information.<\/p>"
+          }
+        },
+        "26255320-c622-45d8-b5e6-84b591b4a5c9": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop NFC CARDS",
+            "button_link": "shopify:\/\/collections\/cardsync-original-cards"
+          }
+        }
+      },
+      "block_order": [
+        "template--20073778053420__c1a24b6e-8a57-4485-a281-4fa7925db414-subheading-1",
+        "template--20073778053420__c1a24b6e-8a57-4485-a281-4fa7925db414-heading-1",
+        "template--20073778053420__c1a24b6e-8a57-4485-a281-4fa7925db414-text-1",
+        "26255320-c622-45d8-b5e6-84b591b4a5c9"
+      ],
+      "custom_css": [
+        ".button {background-color: #ff4515;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/32.jpg",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "text_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "5b8ab3ab-7bc9-4f08-bdc7-6db9a9cc1be2": {
+      "type": "background-video",
+      "settings": {
+        "desktop_height": "desktop-height-550",
+        "mobile_height": "mobile-height-500",
+        "heading": "",
+        "text": "",
+        "video": "https:\/\/youtu.be\/gVVtts0VQFw",
+        "button_text": "",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1fa7cdc6-1bff-40cc-bd3b-3850bc8ff0cb": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--19712154272044__1fa7cdc6-1bff-40cc-bd3b-3850bc8ff0cb-168956363152d51db4-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-nfc-64.png",
+            "heading": "Revolutionise The Way You Interact",
+            "text": "<p>NFC cards are revolutionising the way businesses and customers interact. With a simple tap, these cards enable seamless communication and transactions, making them ideal for various applications. At Cardsync, we offer a wide range of NFC cards to cater to your specific needs.<\/p>"
+          }
+        },
+        "template--19712154272044__1fa7cdc6-1bff-40cc-bd3b-3850bc8ff0cb-168956363152d51db4-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-create-50.png",
+            "heading": "Customise",
+            "text": "<p>At Cardsync, we understand the importance of customisation. That's why we provide options to personalise your NFC cards with your logo, branding, or any other design elements. Stand out from the crowd and leave a lasting impression with our NFC cards.<\/p>"
+          }
+        },
+        "template--19712154272044__1fa7cdc6-1bff-40cc-bd3b-3850bc8ff0cb-168956363152d51db4-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-nfc-tag-50.png",
+            "heading": "Conveience",
+            "text": "<p>NFC cards offer unparalleled convenience. With just a tap, you can share your landing page , share contact information by interacting with smart devices. Our NFC cards make your life easier and more connected. Experience the power of contactless technology in the palm of your hand.<\/p>"
+          }
+        },
+        "ee217d0d-e88d-4b53-871d-3ea6db07a370": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-iphone-50.png",
+            "heading": "Simplify Interactions",
+            "text": "<p>Don't miss out on the countless benefits of NFC technology. Whether you're a business or a customer, our NFC cards will enhance your experience and simplify your interactions. Unlock the power of contactless communication.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19712154272044__1fa7cdc6-1bff-40cc-bd3b-3850bc8ff0cb-168956363152d51db4-0",
+        "template--19712154272044__1fa7cdc6-1bff-40cc-bd3b-3850bc8ff0cb-168956363152d51db4-1",
+        "template--19712154272044__1fa7cdc6-1bff-40cc-bd3b-3850bc8ff0cb-168956363152d51db4-2",
+        "ee217d0d-e88d-4b53-871d-3ea6db07a370"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "large",
+        "heading_size": "large",
+        "mobile_swipe": true,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "3eac8f2d-79f7-46ff-a9d3-2b05a4324c55",
+    "9ceab8f1-4cae-4220-9f06-89579287af82",
+    "e35bcb87-dd22-4259-9525-529e05542515",
+    "02bdf68e-609e-4661-8e9c-7371d0df9039",
+    "d3ec07c3-360f-4389-ae64-721a28b8e59d",
+    "77d6ff44-304d-460e-ad3d-0131ada53f95",
+    "c1a24b6e-8a57-4485-a281-4fa7925db414",
+    "5b8ab3ab-7bc9-4f08-bdc7-6db9a9cc1be2",
+    "1fa7cdc6-1bff-40cc-bd3b-3850bc8ff0cb"
+  ]
+}

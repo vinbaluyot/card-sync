@@ -1,0 +1,360 @@
+{
+  "sections": {
+    "1653292655c3cb5507": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "desktop_height": "desktop-height-550",
+        "mobile_height": "mobile-height-500",
+        "heading": "How our NFC Cards Work",
+        "text": "Our Process",
+        "video": "",
+        "button_text": "",
+        "overlay_opacity": 25,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1 {font-size: 60px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "6ea1d8c9-5bdc-4783-ab3d-e4b53b0e3f98": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19290426474796__6ea1d8c9-5bdc-4783-ab3d-e4b53b0e3f98-168526573210a23e5e-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>NFC cards offer a powerful tool for businesses to enhance their networking capabilities and streamline information sharing. By selecting the perfect NFC card, configuring it to meet your requirements, and leveraging the widespread adoption of NFC technology, you can tap into the potential of seamless and efficient communication. Don't miss out on the opportunity to captivate your audience and make lasting connections with the help of NFC cards.<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--19290426474796__6ea1d8c9-5bdc-4783-ab3d-e4b53b0e3f98-168526573210a23e5e-2"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "b5cde2dc-7de9-42a0-90a9-0090202ddbb6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19290426474796__b5cde2dc-7de9-42a0-90a9-0090202ddbb6-168619840354a76ab9-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Our Process",
+            "size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "template--19290426474796__b5cde2dc-7de9-42a0-90a9-0090202ddbb6-168619840354a76ab9-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1653295611c34af3b7": {
+      "type": "image-with-text",
+      "blocks": {
+        "16532956111fd7ca35-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Selecting the Perfect NFC Card",
+            "heading_size": "h3"
+          }
+        },
+        "16532956111fd7ca35-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To incorporate NFC technology into your business, the initial step is to choose an NFC card that matches your requirements. Our selection features custom designs, allowing you to upload your preferred graphics. Additionally, we offer business cards that enable you to upload your own graphics or choose from our Cardsync original or pre-made collection. We provide a variety of colours and card types, ensuring that your NFC card not only stands out but also reflects your unique ideas and vision.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16532956111fd7ca35-1",
+        "16532956111fd7ca35-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cardsync_9.jpg",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "d6c55c8d-6b9a-4e86-b680-f31a3fe57d84": {
+      "type": "image-with-text",
+      "blocks": {
+        "75dc7d71-7c57-4264-9743-3d0c7ce63b64": {
+          "type": "heading",
+          "settings": {
+            "text": "Custom Landing Page",
+            "heading_size": "h3"
+          }
+        },
+        "a83b7f27-6dc4-41a1-b40f-087176a4a702": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Create your own unique landing page Powered by PageMe.io, tailored to your personal or business needs. Showcase your portfolio, promote your brand, or even share your contact details with a single tap. The possibilities are endless, and the power to impress is in your hands.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "75dc7d71-7c57-4264-9743-3d0c7ce63b64",
+        "a83b7f27-6dc4-41a1-b40f-087176a4a702"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Your_Graphics_1.jpg",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "9463004b-2fb6-4a23-8c71-2140998f5b77": {
+      "type": "image-with-text",
+      "blocks": {
+        "44010918-234a-422e-bd00-e74c29e98721": {
+          "type": "heading",
+          "settings": {
+            "text": "Connect Across Social Platforms",
+            "heading_size": "h3"
+          }
+        },
+        "58c51ffe-3ae6-4f5a-bb93-9654dcf367ae": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wish to expand your online presence beyond a landing page? We've got you covered! Our NFC Cards offer the flexibility to connect to any social media platform you desire. Whether you're an Instagram influencer, a LinkedIn professional, or a TikTok sensation, our cards can seamlessly link your audience to your online profiles. Maximise your reach and engagement effortlessly, as you tap and connect across multiple platforms.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "44010918-234a-422e-bd00-e74c29e98721",
+        "58c51ffe-3ae6-4f5a-bb93-9654dcf367ae"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design.jpg",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "e41d3eda-d99c-4e9c-acdc-6aeda8941460": {
+      "type": "image-with-text",
+      "blocks": {
+        "7a1eff88-ab43-4c09-ac83-b87456f8baa1": {
+          "type": "heading",
+          "settings": {
+            "text": "Tap and Share",
+            "heading_size": "h3"
+          }
+        },
+        "0a9c7788-8716-4fd5-80c8-51785b4c260d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Finally, it's time to tap your NFC card and share information effortlessly. By bringing your smartphone close to the NFC card, you initiate the data transfer. Whether it's exchanging your custom landing page, contact details, sharing your business website, or connecting people with your social media accounts, NFC technology simplifies the process. With just a simple tap, you can transmit information swiftly and securely, eliminating the need for manual input.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "7a1eff88-ab43-4c09-ac83-b87456f8baa1",
+        "0a9c7788-8716-4fd5-80c8-51785b4c260d"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cardsync_20.jpg",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "16532961902797512f": {
+      "type": "scrolling-text",
+      "blocks": {
+        "1653296190947eca92-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "UNLOCK LIMITLESS POSSIBILITIES",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653296190947eca92-2"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "direction": "left",
+        "speed": "50s",
+        "text_size": 140,
+        "outline_text": true,
+        "image_size": "large",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#e51d1d",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "165329287612856480": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "BROWSE OUR COLLECTIONS",
+        "description": "<p>Add a short description for your brand news<\/p>",
+        "collection_list": [
+          "pre-made-nfc-card-designs",
+          "custom-nfc-cards",
+          "metal-business-cards-australia"
+        ],
+        "image_ratio": "portrait",
+        "layout": "grid",
+        "style": "style2",
+        "content_alignment": "text-center",
+        "columns_desktop": 3,
+        "collection_description": false,
+        "overlay_opacity": 30,
+        "carousel_dots": false,
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1653296460edc9a9c4": {
+      "type": "gallery",
+      "blocks": {
+        "16532964607ed8a330-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_edd6c270-b8e5-4db7-8b1b-bc65b222903c.jpg",
+            "title": "1. Tap the card ",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "16532964607ed8a330-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_9665a46c-e57c-4766-827c-079163a13080.jpg",
+            "title": "2. Notification",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "a772332e-9a68-4b05-8ae2-4846c70d8fa0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cardsync_22.jpg",
+            "title": "3. Landing Page",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16532964607ed8a330-0",
+        "16532964607ed8a330-1",
+        "a772332e-9a68-4b05-8ae2-4846c70d8fa0"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "columns_desktop": 3,
+        "full_width": true,
+        "mobile_swipe": false,
+        "image_ratio": "square",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h4",
+        "overlay_opacity": 80,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    }
+  },
+  "order": [
+    "1653292655c3cb5507",
+    "main",
+    "template-header",
+    "6ea1d8c9-5bdc-4783-ab3d-e4b53b0e3f98",
+    "b5cde2dc-7de9-42a0-90a9-0090202ddbb6",
+    "1653295611c34af3b7",
+    "d6c55c8d-6b9a-4e86-b680-f31a3fe57d84",
+    "9463004b-2fb6-4a23-8c71-2140998f5b77",
+    "e41d3eda-d99c-4e9c-acdc-6aeda8941460",
+    "16532961902797512f",
+    "165329287612856480",
+    "1653296460edc9a9c4"
+  ]
+}

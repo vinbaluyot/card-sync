@@ -1,0 +1,331 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "3eac8f2d-79f7-46ff-a9d3-2b05a4324c55": {
+      "type": "background-video",
+      "settings": {
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-500",
+        "heading": "Featured product",
+        "text": "",
+        "video": "",
+        "button_text": "",
+        "overlay_opacity": 20,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "44591651-9ded-46de-9d9e-d5b49f3d07a3": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 10,
+        "spacer_desktop": 35,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "2de833b4-ad01-4886-9e52-c1c0482d15e0": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 25,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "5b8cf167-61fa-4e4a-af72-2ab40c5b8dda": {
+      "type": "featured-product",
+      "blocks": {
+        "template--19435039850796__5b8cf167-61fa-4e4a-af72-2ab40c5b8dda-1686196361aae9c084-0": {
+          "type": "title",
+          "settings": {
+            "show_products_rating": true
+          }
+        },
+        "template--19435039850796__5b8cf167-61fa-4e4a-af72-2ab40c5b8dda-1686196361aae9c084-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "variant_is_disabled": true
+          }
+        },
+        "template--19435039850796__5b8cf167-61fa-4e4a-af72-2ab40c5b8dda-1686196361aae9c084-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "template--19435039850796__5b8cf167-61fa-4e4a-af72-2ab40c5b8dda-1686196361aae9c084-0",
+        "template--19435039850796__5b8cf167-61fa-4e4a-af72-2ab40c5b8dda-1686196361aae9c084-1",
+        "template--19435039850796__5b8cf167-61fa-4e4a-af72-2ab40c5b8dda-1686196361aae9c084-2"
+      ],
+      "settings": {
+        "heading": "Featured product",
+        "description": "<p>Add a short description for this featured product<\/p>",
+        "product": "medusa",
+        "show_taxes_included": true,
+        "lightbox": true,
+        "enable_video_looping": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "63f19bba-db6e-43b4-94f0-7b38720780ea": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 15,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "aed933e6-6757-46b3-afd2-6ca697bd5a46": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "full_width": true,
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "59a74dc4-f32b-4764-a3cf-d777f9b06e50": {
+      "type": "countdown-banner",
+      "disabled": true,
+      "settings": {
+        "section_layout": "horizontal",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-auto",
+        "full_width": true,
+        "subheading": "",
+        "heading": "Christmas Sale",
+        "heading_size": "h3",
+        "content": "",
+        "content_size": "medium",
+        "button_text": "Shop Now",
+        "button_link": "",
+        "timer_year": 2023,
+        "timer_month": "01",
+        "timer_day": "01",
+        "timer_hour": "00",
+        "timer_minute": "00",
+        "color_bg": "#c24141",
+        "color_text": "#ffffff",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "66a1dc97-2a0f-416f-809b-51b538b714ad": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 10,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "96f66718-f3d0-49c6-bfe5-485c3d3fe032": {
+      "type": "gallery",
+      "disabled": true,
+      "blocks": {
+        "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-1": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-2": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-0",
+        "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-1",
+        "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-2"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "columns_desktop": 3,
+        "full_width": true,
+        "mobile_swipe": true,
+        "image_ratio": "adapt",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "large",
+        "heading_size": "h4",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "754561b6-611b-479e-89a0-1f5f62d06a62": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 60,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "6051b459-ad7e-40e0-bdb3-c20f012c653a": {
+      "type": "logo-list",
+      "disabled": true,
+      "blocks": {
+        "template--16769565098281__6051b459-ad7e-40e0-bdb3-c20f012c653a-1668425503d8e61334-0": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16769565098281__6051b459-ad7e-40e0-bdb3-c20f012c653a-1668425503d8e61334-1": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16769565098281__6051b459-ad7e-40e0-bdb3-c20f012c653a-1668425503d8e61334-2": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16769565098281__6051b459-ad7e-40e0-bdb3-c20f012c653a-1668425503d8e61334-3": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "26e1dab5-6c0d-4040-b2dd-9050ff04feaf": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16769565098281__6051b459-ad7e-40e0-bdb3-c20f012c653a-1668425503d8e61334-0",
+        "template--16769565098281__6051b459-ad7e-40e0-bdb3-c20f012c653a-1668425503d8e61334-1",
+        "template--16769565098281__6051b459-ad7e-40e0-bdb3-c20f012c653a-1668425503d8e61334-2",
+        "template--16769565098281__6051b459-ad7e-40e0-bdb3-c20f012c653a-1668425503d8e61334-3",
+        "26e1dab5-6c0d-4040-b2dd-9050ff04feaf"
+      ],
+      "settings": {
+        "heading": "As Featured In",
+        "description": "",
+        "columns": 5,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "b0cae15a-22fc-4004-a272-be3d6b92594e": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 20,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "8da9adc5-bc9d-4ac9-922a-2d2399026926": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "2d4a3d1d-aa33-42c4-8234-42e3ddc551f7": {
+      "type": "collection-list",
+      "settings": {
+        "heading": "Shop by Category",
+        "description": "<p>Add a short description for your collections<\/p>",
+        "collection_list": [
+          "pre-made-nfc-card-designs",
+          "custom-nfc-cards",
+          "metal-business-cards-australia"
+        ],
+        "image_ratio": "square",
+        "layout": "grid",
+        "style": "style2",
+        "content_alignment": "text-left",
+        "columns_desktop": 3,
+        "collection_description": false,
+        "overlay_opacity": 30,
+        "carousel_dots": true,
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "3eac8f2d-79f7-46ff-a9d3-2b05a4324c55",
+    "44591651-9ded-46de-9d9e-d5b49f3d07a3",
+    "2de833b4-ad01-4886-9e52-c1c0482d15e0",
+    "5b8cf167-61fa-4e4a-af72-2ab40c5b8dda",
+    "63f19bba-db6e-43b4-94f0-7b38720780ea",
+    "aed933e6-6757-46b3-afd2-6ca697bd5a46",
+    "59a74dc4-f32b-4764-a3cf-d777f9b06e50",
+    "66a1dc97-2a0f-416f-809b-51b538b714ad",
+    "96f66718-f3d0-49c6-bfe5-485c3d3fe032",
+    "754561b6-611b-479e-89a0-1f5f62d06a62",
+    "6051b459-ad7e-40e0-bdb3-c20f012c653a",
+    "b0cae15a-22fc-4004-a272-be3d6b92594e",
+    "8da9adc5-bc9d-4ac9-922a-2d2399026926",
+    "2d4a3d1d-aa33-42c4-8234-42e3ddc551f7"
+  ]
+}

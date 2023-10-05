@@ -1,0 +1,538 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1 {font-size: 60px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "aa4e2261-7e9b-42eb-9732-b1f0503cf5d6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19386117488940__aa4e2261-7e9b-42eb-9732-b1f0503cf5d6-168584657916056c23-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Our NFC Landing Page Integration Options",
+            "size": "h3"
+          }
+        },
+        "template--19386117488940__aa4e2261-7e9b-42eb-9732-b1f0503cf5d6-168584657916056c23-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Connect to our Landing page or via direct link <\/p>",
+            "size": "text-size-small"
+          }
+        }
+      },
+      "block_order": [
+        "template--19386117488940__aa4e2261-7e9b-42eb-9732-b1f0503cf5d6-168584657916056c23-1",
+        "template--19386117488940__aa4e2261-7e9b-42eb-9732-b1f0503cf5d6-168584657916056c23-2"
+      ],
+      "custom_css": [
+        "h2 {font-size: 40px;}"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "91c5670f-0e8a-41fb-94de-ae667fae876b": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--19386117488940__91c5670f-0e8a-41fb-94de-ae667fae876b-1685861989e9282d24-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-phone-32.png",
+            "heading": "Phone",
+            "text": ""
+          }
+        },
+        "template--19386117488940__91c5670f-0e8a-41fb-94de-ae667fae876b-1685861989e9282d24-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-email-32.png",
+            "heading": "Email",
+            "text": ""
+          }
+        },
+        "template--19386117488940__91c5670f-0e8a-41fb-94de-ae667fae876b-1685861989e9282d24-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "map_pin",
+            "heading": "Address",
+            "text": ""
+          }
+        },
+        "4db1b3de-dcb9-44f8-a38f-634dd25e917a": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-website-32.png",
+            "heading": "Website",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19386117488940__91c5670f-0e8a-41fb-94de-ae667fae876b-1685861989e9282d24-0",
+        "template--19386117488940__91c5670f-0e8a-41fb-94de-ae667fae876b-1685861989e9282d24-1",
+        "template--19386117488940__91c5670f-0e8a-41fb-94de-ae667fae876b-1685861989e9282d24-2",
+        "4db1b3de-dcb9-44f8-a38f-634dd25e917a"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "small",
+        "heading_size": "small",
+        "mobile_swipe": false,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "b561f849-a4d1-4af3-a3ca-cfeb0687a868": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--19386117488940__b561f849-a4d1-4af3-a3ca-cfeb0687a868-1685861989e9282d24-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-pdf-32.png",
+            "heading": "PDF",
+            "text": ""
+          }
+        },
+        "template--19386117488940__b561f849-a4d1-4af3-a3ca-cfeb0687a868-1685861989e9282d24-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-link-32.png",
+            "heading": "Link",
+            "text": ""
+          }
+        },
+        "template--19386117488940__b561f849-a4d1-4af3-a3ca-cfeb0687a868-1685861989e9282d24-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-twitter-32.png",
+            "heading": "Twitter",
+            "text": ""
+          }
+        },
+        "c9ec4bb2-1445-4109-ab1a-067e274a17ea": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-instagram-32.png",
+            "heading": "Instagram",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19386117488940__b561f849-a4d1-4af3-a3ca-cfeb0687a868-1685861989e9282d24-1",
+        "template--19386117488940__b561f849-a4d1-4af3-a3ca-cfeb0687a868-1685861989e9282d24-0",
+        "template--19386117488940__b561f849-a4d1-4af3-a3ca-cfeb0687a868-1685861989e9282d24-2",
+        "c9ec4bb2-1445-4109-ab1a-067e274a17ea"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "small",
+        "heading_size": "small",
+        "mobile_swipe": false,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "f207b854-1a91-4919-9c50-2f3c06beadb8": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--19386117488940__f207b854-1a91-4919-9c50-2f3c06beadb8-1685861989e9282d24-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-linkedin-32.png",
+            "heading": "LinkedIn",
+            "text": ""
+          }
+        },
+        "template--19386117488940__f207b854-1a91-4919-9c50-2f3c06beadb8-1685861989e9282d24-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-facebook-32.png",
+            "heading": "Facebook",
+            "text": ""
+          }
+        },
+        "template--19386117488940__f207b854-1a91-4919-9c50-2f3c06beadb8-1685861989e9282d24-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-youtube-32.png",
+            "heading": "YouTube",
+            "text": ""
+          }
+        },
+        "b3031aef-e342-459e-acde-d7921282f7bf": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-whatsapp-32.png",
+            "heading": "WhatsApp",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19386117488940__f207b854-1a91-4919-9c50-2f3c06beadb8-1685861989e9282d24-0",
+        "template--19386117488940__f207b854-1a91-4919-9c50-2f3c06beadb8-1685861989e9282d24-1",
+        "template--19386117488940__f207b854-1a91-4919-9c50-2f3c06beadb8-1685861989e9282d24-2",
+        "b3031aef-e342-459e-acde-d7921282f7bf"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "small",
+        "heading_size": "small",
+        "mobile_swipe": false,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "e329e9e5-9660-44b8-b1b8-d822f1560519": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--19386117488940__e329e9e5-9660-44b8-b1b8-d822f1560519-1685861989e9282d24-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-snapchat-32.png",
+            "heading": "Snapchat",
+            "text": ""
+          }
+        },
+        "template--19386117488940__e329e9e5-9660-44b8-b1b8-d822f1560519-1685861989e9282d24-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-tiktok-32.png",
+            "heading": "TikTok",
+            "text": ""
+          }
+        },
+        "template--19386117488940__e329e9e5-9660-44b8-b1b8-d822f1560519-1685861989e9282d24-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-reddit-32.png",
+            "heading": "Reddit",
+            "text": ""
+          }
+        },
+        "7ec4fa60-3e79-428a-9fee-d774f47c77be": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-pinterest-32.png",
+            "heading": "Pinterest",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19386117488940__e329e9e5-9660-44b8-b1b8-d822f1560519-1685861989e9282d24-0",
+        "template--19386117488940__e329e9e5-9660-44b8-b1b8-d822f1560519-1685861989e9282d24-1",
+        "template--19386117488940__e329e9e5-9660-44b8-b1b8-d822f1560519-1685861989e9282d24-2",
+        "7ec4fa60-3e79-428a-9fee-d774f47c77be"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "small",
+        "heading_size": "small",
+        "mobile_swipe": false,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "4e3b7437-9c9f-429c-a037-efe7fe0edad2": {
+      "type": "text-with-icons",
+      "disabled": true,
+      "blocks": {
+        "template--19386117488940__4e3b7437-9c9f-429c-a037-efe7fe0edad2-1685861989e9282d24-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-calender-32.png",
+            "heading": "Calendly",
+            "text": ""
+          }
+        },
+        "template--19386117488940__4e3b7437-9c9f-429c-a037-efe7fe0edad2-1685861989e9282d24-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-discord-32.png",
+            "heading": "Discord",
+            "text": ""
+          }
+        },
+        "template--19386117488940__4e3b7437-9c9f-429c-a037-efe7fe0edad2-1685861989e9282d24-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-twitch-32.png",
+            "heading": "Twitch",
+            "text": ""
+          }
+        },
+        "5fa47d0a-ad8f-484b-8376-a5fd0f758afd": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-skype-32.png",
+            "heading": "Skype",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19386117488940__4e3b7437-9c9f-429c-a037-efe7fe0edad2-1685861989e9282d24-0",
+        "template--19386117488940__4e3b7437-9c9f-429c-a037-efe7fe0edad2-1685861989e9282d24-1",
+        "template--19386117488940__4e3b7437-9c9f-429c-a037-efe7fe0edad2-1685861989e9282d24-2",
+        "5fa47d0a-ad8f-484b-8376-a5fd0f758afd"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "small",
+        "heading_size": "small",
+        "mobile_swipe": false,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "03a6f84e-c11d-46f5-9a5d-e3f98e3c869d": {
+      "type": "text-with-icons",
+      "disabled": true,
+      "blocks": {
+        "template--19386117488940__03a6f84e-c11d-46f5-9a5d-e3f98e3c869d-1685861989e9282d24-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-soundcloud-32.png",
+            "heading": "SoundCloud",
+            "text": ""
+          }
+        },
+        "template--19386117488940__03a6f84e-c11d-46f5-9a5d-e3f98e3c869d-1685861989e9282d24-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-spotify-32.png",
+            "heading": "Spotify",
+            "text": ""
+          }
+        },
+        "template--19386117488940__03a6f84e-c11d-46f5-9a5d-e3f98e3c869d-1685861989e9282d24-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-discord-32.png",
+            "heading": "Xbox Live",
+            "text": ""
+          }
+        },
+        "2cdce788-cb06-4242-a268-f3d2ba7f8f0b": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-playstation-32.png",
+            "heading": "PSN",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19386117488940__03a6f84e-c11d-46f5-9a5d-e3f98e3c869d-1685861989e9282d24-0",
+        "template--19386117488940__03a6f84e-c11d-46f5-9a5d-e3f98e3c869d-1685861989e9282d24-1",
+        "template--19386117488940__03a6f84e-c11d-46f5-9a5d-e3f98e3c869d-1685861989e9282d24-2",
+        "2cdce788-cb06-4242-a268-f3d2ba7f8f0b"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "small",
+        "heading_size": "small",
+        "mobile_swipe": false,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1653295635b5a25e81": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 25,
+        "spacer_desktop": 25,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "16532961902797512f": {
+      "type": "scrolling-text",
+      "blocks": {
+        "1653296190947eca92-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "UNLOCK LIMITLESS POSSIBILITIES",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653296190947eca92-2"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "direction": "left",
+        "speed": "50s",
+        "text_size": 140,
+        "outline_text": true,
+        "image_size": "large",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#e51d1d",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1653296460edc9a9c4": {
+      "type": "gallery",
+      "disabled": true,
+      "blocks": {
+        "16532964607ed8a330-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "16532964607ed8a330-1": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16532964607ed8a330-0",
+        "16532964607ed8a330-1"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "columns_desktop": 2,
+        "full_width": true,
+        "mobile_swipe": false,
+        "image_ratio": "landscape",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h4",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "165329287612856480": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "BROWSE OUR COLLECTIONS",
+        "description": "<p>Add a short description for your brand news<\/p>",
+        "collection_list": [
+          "pre-made-nfc-card-designs",
+          "custom-nfc-cards",
+          "metal-business-cards-australia"
+        ],
+        "image_ratio": "portrait",
+        "layout": "grid",
+        "style": "style2",
+        "content_alignment": "text-center",
+        "columns_desktop": 3,
+        "collection_description": false,
+        "overlay_opacity": 30,
+        "carousel_dots": false,
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "aa4e2261-7e9b-42eb-9732-b1f0503cf5d6",
+    "91c5670f-0e8a-41fb-94de-ae667fae876b",
+    "b561f849-a4d1-4af3-a3ca-cfeb0687a868",
+    "f207b854-1a91-4919-9c50-2f3c06beadb8",
+    "e329e9e5-9660-44b8-b1b8-d822f1560519",
+    "4e3b7437-9c9f-429c-a037-efe7fe0edad2",
+    "03a6f84e-c11d-46f5-9a5d-e3f98e3c869d",
+    "1653295635b5a25e81",
+    "16532961902797512f",
+    "1653296460edc9a9c4",
+    "165329287612856480"
+  ]
+}

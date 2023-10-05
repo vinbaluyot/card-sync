@@ -1,0 +1,482 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+      }
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "e431a79e-9c7b-4a53-a79a-0cb918617ecf": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "style_vendor"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_products_rating": true
+          }
+        },
+        "0b3e272b-c86a-4dba-946c-c6912251371c": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "variant_is_disabled": true
+          }
+        },
+        "db448b3f-9f45-4ed7-afa0-299571754ea6": {
+          "type": "shopify:\/\/apps\/live-product-options\/blocks\/app-block\/88bfdf40-5e27-4962-a966-70c8d1e87757",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "55da0587-5936-4a13-a042-eb96ec75df15": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
+          }
+        },
+        "01d647a2-3859-485c-b22d-62c1e9ca54c4": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
+          }
+        },
+        "bf5d90f9-3dff-4a80-a3c5-8459ac5900ec": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
+          }
+        },
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
+          "type": "share",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "e431a79e-9c7b-4a53-a79a-0cb918617ecf",
+        "title",
+        "0b3e272b-c86a-4dba-946c-c6912251371c",
+        "variant_picker",
+        "db448b3f-9f45-4ed7-afa0-299571754ea6",
+        "buy_buttons",
+        "55da0587-5936-4a13-a042-eb96ec75df15",
+        "01d647a2-3859-485c-b22d-62c1e9ca54c4",
+        "bf5d90f9-3dff-4a80-a3c5-8459ac5900ec",
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_taxes_included": true,
+        "thumbnail_position": "left",
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false
+      }
+    },
+    "484862cf-eb72-453f-b644-e53f640087bb": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--20943325954348__484862cf-eb72-453f-b644-e53f640087bb-collapsible_tab-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "HOW DO I GET GOOGLE REVIEW LINK?",
+            "open": false,
+            "content": "<p>1. Log into your Google Business Profile.<br\/>2. Select \"Get more reviews\" button<br\/>3. Copy your review link<\/p>",
+            "page": ""
+          }
+        },
+        "template--20943325954348__484862cf-eb72-453f-b644-e53f640087bb-collapsible_tab-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "WHAT PHONES ARE COMPATIBLE?",
+            "open": false,
+            "content": "<p><strong>Tap<\/strong> function is compatible with <strong>NFC<\/strong> enabled Smartphones. iPhones made in 2018 and newer and most androids.<\/p>",
+            "page": ""
+          }
+        },
+        "template--20943325954348__484862cf-eb72-453f-b644-e53f640087bb-collapsible_tab-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "DO I NEED TO SET UP MY TABLE TALKER?",
+            "open": false,
+            "content": "<p>No, Just provide your review link at checkout and we will set it up for you! <\/p>",
+            "page": ""
+          }
+        },
+        "2e7e1c95-8691-4f35-b758-388720584303": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How Long is shipping?",
+            "open": false,
+            "content": "<p>We offer free Australia Wide Standard Shipping! Estimated delivery within 3-5 business days.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20943325954348__484862cf-eb72-453f-b644-e53f640087bb-collapsible_tab-3",
+        "template--20943325954348__484862cf-eb72-453f-b644-e53f640087bb-collapsible_tab-1",
+        "template--20943325954348__484862cf-eb72-453f-b644-e53f640087bb-collapsible_tab-2",
+        "2e7e1c95-8691-4f35-b758-388720584303"
+      ],
+      "settings": {
+        "heading": "FAQ",
+        "description": "",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "165218968641d20354": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "16521896868136c131-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "16521896868136c131-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_size": "h3"
+          }
+        },
+        "16521896868136c131-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16521896868136c131-0",
+        "16521896868136c131-1",
+        "16521896868136c131-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "full_width": true,
+        "overlay_opacity": 5,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "16902564686915415a": {
+      "type": "apps",
+      "settings": {
+      }
+    },
+    "165209250514355456": {
+      "type": "image-with-text",
+      "blocks": {
+        "1652092505c811a8a5-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_size": "h3"
+          }
+        },
+        "1652092505c811a8a5-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1652092505c811a8a5-1",
+        "1652092505c811a8a5-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1652093734c99de6a0": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1652093734b8475903-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-touch-96.png",
+            "heading": "CONVENIENCE",
+            "text": "<p>Simplify your interactions with a single tap. NFC Cards eliminate the need for physical contact or complex procedures.<\/p>"
+          }
+        },
+        "1652093734b8475903-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-sustainable-60.png",
+            "heading": "SUSTAINABLE",
+            "text": "<p>Embrace a more environmentally conscious lifestyle with the use of NFC Cards as a substitute for traditional cards. This greener solution offers a sustainable way to expand your business while effectively eliminating the problem of wasted and outdated cards.<\/p>"
+          }
+        },
+        "1652093734b8475903-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-sync-96.png",
+            "heading": "SEAMLESS INTERGRATION",
+            "text": "<p>Enjoy the power of seamless integration across devices. NFC Cards effortlessly connect with compatible smartphones, tablets, and other NFC-enabled devices.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1652093734b8475903-0",
+        "1652093734b8475903-1",
+        "1652093734b8475903-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "medium",
+        "heading_size": "small",
+        "mobile_swipe": false,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "165209458556c14fef": {
+      "type": "image-with-text",
+      "blocks": {
+        "16520945859a854de3-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_size": "h3"
+          }
+        },
+        "16520945859a854de3-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "f40c2294-9583-4f3d-bebd-cf9356f8b7c3": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16520945859a854de3-1",
+        "16520945859a854de3-2",
+        "f40c2294-9583-4f3d-bebd-cf9356f8b7c3"
+      ],
+      "disabled": true,
+      "settings": {
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1652098298c16da7fd": {
+      "type": "image-with-text",
+      "blocks": {
+        "1652098298e06058be-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_size": "h3"
+          }
+        },
+        "1652098298e06058be-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "86242cd5-c86c-467a-820e-6ad4eed2109f": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652098298e06058be-1",
+        "1652098298e06058be-2",
+        "86242cd5-c86c-467a-820e-6ad4eed2109f"
+      ],
+      "disabled": true,
+      "settings": {
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "5fc7a9ac-2679-4b07-8f8a-b0dd4445646e": {
+      "type": "testimonials",
+      "blocks": {
+        "template--20943325954348__5fc7a9ac-2679-4b07-8f8a-b0dd4445646e-quote-1": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "These cards increased our Google Reviews exponentially! Within a month our customer reviews have tripled, such a great idea to spread positivity and highlight the power of word of mouth for any business",
+            "author": "Mary Kabboura",
+            "retina": true
+          }
+        },
+        "template--20943325954348__5fc7a9ac-2679-4b07-8f8a-b0dd4445646e-quote-2": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "Great Product! I ordered some table talkers and review cards for my business. It made the process of collecting reviews so easy.",
+            "author": "Nadine",
+            "retina": true
+          }
+        },
+        "template--20943325954348__5fc7a9ac-2679-4b07-8f8a-b0dd4445646e-quote-3": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "Streamline your Google reviews with one tap. Cardsync streamlined our ability at Snap Fitness Yagoona and The Wash Hub Wentworthville Laundromat to receive customer Google reviews with just one tap! Saving my customers time consuming google searches and clicking to get to the review section.",
+            "author": "Nate",
+            "retina": true
+          }
+        },
+        "32397252-088c-4300-a315-2b2cd16bfad0": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "e were struggling to get reviews before, but now, thanks to these amazing devices, our customers can easily leave feedback with just a tap of their phone. Our review count has skyrocketed, and our online reputation has never been better.",
+            "author": "John D., Restaurant Owner",
+            "retina": true
+          }
+        },
+        "67a4e5db-94ba-410c-be9c-b17636fcebe6": {
+          "type": "quote",
+          "settings": {
+            "stars": "",
+            "text": "Our online presence has improved dramatically, and we've seen a significant increase in foot traffic and sales. These Table Talkers are a must-have for any business looking to boost their online reputation.",
+            "author": "Sarah H., Boutique Owner",
+            "retina": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20943325954348__5fc7a9ac-2679-4b07-8f8a-b0dd4445646e-quote-1",
+        "template--20943325954348__5fc7a9ac-2679-4b07-8f8a-b0dd4445646e-quote-2",
+        "template--20943325954348__5fc7a9ac-2679-4b07-8f8a-b0dd4445646e-quote-3",
+        "32397252-088c-4300-a315-2b2cd16bfad0",
+        "67a4e5db-94ba-410c-be9c-b17636fcebe6"
+      ],
+      "settings": {
+        "heading": "Testimonials",
+        "description": "",
+        "size": "small",
+        "autoplay": true,
+        "autoplay_length": 5,
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "6f633314-4b2f-4894-acf6-ba2879671007": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "484862cf-eb72-453f-b644-e53f640087bb",
+    "165218968641d20354",
+    "16902564686915415a",
+    "165209250514355456",
+    "1652093734c99de6a0",
+    "165209458556c14fef",
+    "1652098298c16da7fd",
+    "product-recommendations",
+    "5fc7a9ac-2679-4b07-8f8a-b0dd4445646e",
+    "6f633314-4b2f-4894-acf6-ba2879671007"
+  ]
+}

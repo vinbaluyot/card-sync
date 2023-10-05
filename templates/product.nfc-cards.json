@@ -1,0 +1,467 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+      }
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "e431a79e-9c7b-4a53-a79a-0cb918617ecf": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "style_vendor"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_products_rating": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "variant_is_disabled": true
+          }
+        },
+        "0b3e272b-c86a-4dba-946c-c6912251371c": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "db448b3f-9f45-4ed7-afa0-299571754ea6": {
+          "type": "shopify:\/\/apps\/live-product-options\/blocks\/app-block\/88bfdf40-5e27-4962-a966-70c8d1e87757",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "55da0587-5936-4a13-a042-eb96ec75df15": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
+          }
+        },
+        "01d647a2-3859-485c-b22d-62c1e9ca54c4": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
+          }
+        },
+        "bf5d90f9-3dff-4a80-a3c5-8459ac5900ec": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "open": false,
+            "content": "",
+            "page": ""
+          }
+        },
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
+          "type": "share",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "e431a79e-9c7b-4a53-a79a-0cb918617ecf",
+        "title",
+        "variant_picker",
+        "0b3e272b-c86a-4dba-946c-c6912251371c",
+        "db448b3f-9f45-4ed7-afa0-299571754ea6",
+        "buy_buttons",
+        "55da0587-5936-4a13-a042-eb96ec75df15",
+        "01d647a2-3859-485c-b22d-62c1e9ca54c4",
+        "bf5d90f9-3dff-4a80-a3c5-8459ac5900ec",
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_taxes_included": true,
+        "thumbnail_position": "left",
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false
+      }
+    },
+    "165218968641d20354": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "16521896868136c131-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "16521896868136c131-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_size": "h3"
+          }
+        },
+        "16521896868136c131-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16521896868136c131-0",
+        "16521896868136c131-1",
+        "16521896868136c131-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "full_width": true,
+        "overlay_opacity": 5,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "16902564686915415a": {
+      "type": "apps",
+      "settings": {
+      }
+    },
+    "165209250514355456": {
+      "type": "image-with-text",
+      "blocks": {
+        "1652092505c811a8a5-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_size": "h3"
+          }
+        },
+        "1652092505c811a8a5-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1652092505c811a8a5-1",
+        "1652092505c811a8a5-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1652093734c99de6a0": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1652093734b8475903-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-touch-96.png",
+            "heading": "CONVENIENCE",
+            "text": "<p>Simplify your interactions with a single tap. NFC Cards eliminate the need for physical contact or complex procedures.<\/p>"
+          }
+        },
+        "1652093734b8475903-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-sustainable-60.png",
+            "heading": "SUSTAINABLE",
+            "text": "<p>Embrace a more environmentally conscious lifestyle with the use of NFC Cards as a substitute for traditional cards. This greener solution offers a sustainable way to expand your business.<\/p>"
+          }
+        },
+        "1652093734b8475903-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-sync-96.png",
+            "heading": "SEAMLESS INTERGRATION",
+            "text": "<p>Enjoy the power of seamless integration across devices. NFC Cards effortlessly connect with compatible smartphones, tablets, and other NFC-enabled devices.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1652093734b8475903-0",
+        "1652093734b8475903-1",
+        "1652093734b8475903-2"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "medium",
+        "heading_size": "small",
+        "mobile_swipe": false,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "165209458556c14fef": {
+      "type": "image-with-text",
+      "blocks": {
+        "16520945859a854de3-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_size": "h3"
+          }
+        },
+        "16520945859a854de3-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "f40c2294-9583-4f3d-bebd-cf9356f8b7c3": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16520945859a854de3-1",
+        "16520945859a854de3-2",
+        "f40c2294-9583-4f3d-bebd-cf9356f8b7c3"
+      ],
+      "disabled": true,
+      "settings": {
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "808add50-a6a2-4f76-9451-64dbe8cc910d": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--20741810061612__808add50-a6a2-4f76-9451-64dbe8cc910d-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "template--20741810061612__808add50-a6a2-4f76-9451-64dbe8cc910d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Your Own Landing Page!",
+            "heading_size": "h3"
+          }
+        },
+        "template--20741810061612__808add50-a6a2-4f76-9451-64dbe8cc910d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With every card purchase you will have the choice to have your own dedicated landing page or connect your clients via direct link. Connect within a few seconds all you need is a tap! <br\/><br\/>- Connect Directly to our landing page<br\/>- Connect Directly to your booking platform <br\/>- Connect Directly to your website or social media platforms! <\/p>"
+          }
+        },
+        "34d3d44d-56d9-405e-84a5-85a577755851": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop NFC Cards",
+            "button_link": "shopify:\/\/collections\/nfc-cards"
+          }
+        }
+      },
+      "block_order": [
+        "template--20741810061612__808add50-a6a2-4f76-9451-64dbe8cc910d-subheading-1",
+        "template--20741810061612__808add50-a6a2-4f76-9451-64dbe8cc910d-heading-1",
+        "template--20741810061612__808add50-a6a2-4f76-9451-64dbe8cc910d-text-1",
+        "34d3d44d-56d9-405e-84a5-85a577755851"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Your_Graphics_16.jpg",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "image_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "03eddb51-2927-4880-bd0e-9c6e81f05377": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--20741810061612__03eddb51-2927-4880-bd0e-9c6e81f05377-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "template--20741810061612__03eddb51-2927-4880-bd0e-9c6e81f05377-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "How NFC Cards Work",
+            "heading_size": "h3"
+          }
+        },
+        "template--20741810061612__03eddb51-2927-4880-bd0e-9c6e81f05377-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When an NFC-enabled device, like a smartphone, comes into close proximity to an NFC card, a connection is established. The card's chip generates a small electromagnetic field, which in turn induces a current in the antenna of the device. This current powers the NFC chip in the card, allowing it to exchange information with the device.<\/p>"
+          }
+        },
+        "2c717756-f0d8-44ce-980e-0bc0b1ab5f55": {
+          "type": "button",
+          "settings": {
+            "button_text": "How NFC Cards Work",
+            "button_link": "shopify:\/\/pages\/how-nfc-cards-work"
+          }
+        }
+      },
+      "block_order": [
+        "template--20741810061612__03eddb51-2927-4880-bd0e-9c6e81f05377-subheading-1",
+        "template--20741810061612__03eddb51-2927-4880-bd0e-9c6e81f05377-heading-1",
+        "template--20741810061612__03eddb51-2927-4880-bd0e-9c6e81f05377-text-1",
+        "2c717756-f0d8-44ce-980e-0bc0b1ab5f55"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Your_Graphics_8.jpg",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "text_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1652098314f8bd5477": {
+      "type": "testimonials",
+      "blocks": {
+        "1652098314927615b9-0": {
+          "type": "quote",
+          "settings": {
+            "stars": "",
+            "text": "Add your customer or client quote here to showcase them.",
+            "author": "Testimonial author",
+            "retina": true
+          }
+        },
+        "1652098314927615b9-1": {
+          "type": "quote",
+          "settings": {
+            "stars": "",
+            "text": "Add your customer or client quote here to showcase them.",
+            "author": "Testimonial author",
+            "retina": true
+          }
+        },
+        "1652098314927615b9-2": {
+          "type": "quote",
+          "settings": {
+            "stars": "",
+            "text": "Add your customer or client quote here to showcase them.",
+            "author": "Testimonial author",
+            "retina": true
+          }
+        }
+      },
+      "block_order": [
+        "1652098314927615b9-0",
+        "1652098314927615b9-1",
+        "1652098314927615b9-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Testimonials",
+        "description": "<p>Add a short description for this section<\/p>",
+        "size": "medium",
+        "autoplay": true,
+        "autoplay_length": 5,
+        "color_bg": "#103a3a",
+        "color_text": "#f6f6f0",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "6f633314-4b2f-4894-acf6-ba2879671007": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "165218968641d20354",
+    "16902564686915415a",
+    "165209250514355456",
+    "1652093734c99de6a0",
+    "165209458556c14fef",
+    "808add50-a6a2-4f76-9451-64dbe8cc910d",
+    "03eddb51-2927-4880-bd0e-9c6e81f05377",
+    "1652098314f8bd5477",
+    "product-recommendations",
+    "6f633314-4b2f-4894-acf6-ba2879671007"
+  ]
+}

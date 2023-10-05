@@ -1,0 +1,136 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "settings": {
+        "full_width": false,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "a82c71ab-5eef-4ac6-8278-42c4bf4565d6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I order custom engraved NFC cards?",
+            "open": false,
+            "content": "<p>To order custom engraved NFC cards, simply visit our website and navigate to the NFC cards section. Choose the desired card type and material, and select the option for custom engraving. You can then upload your design or specify the text you want engraved on the card. Once you've provided all the necessary details, proceed to checkout to complete your order.<\/p>",
+            "page": ""
+          }
+        },
+        "aa70895f-8889-4293-8c7d-ff7bc2b81c57": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What customization options are available for NFC cards?",
+            "open": false,
+            "content": "<p>We offer various customization options for NFC cards. First you pick your card colour as well as your preference and requirements. Additionally, you can customize the design and engrave your logo, artwork, or text on the card. Our team will work closely with you to ensure your custom NFC cards meet your specifications.<br\/><br\/>We understand that personalization comes in many forms. That's why we also offer a stunning collection of pre-made NFC card designs that combine elegance, functionality, and convenience. Explore our exquisite range of designs and find the perfect NFC card to suit your style and needs.<\/p>",
+            "page": ""
+          }
+        },
+        "72f09ca5-4337-4a0b-bcd2-0a7af9183034": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I use my own design or artwork for custom engraving?",
+            "open": false,
+            "content": "<p>Absolutely! We encourage you to use your own design or artwork for custom engraving on NFC cards. When placing your order, you can upload your design file in a supported format, such as JPEG, PNG, or SVG. If you need any assistance with file requirements or design specifications, our customer support team will be happy to help.<\/p>",
+            "page": ""
+          }
+        },
+        "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What are the benefits of using custom engraved NFC cards?",
+            "open": false,
+            "content": "<p>Custom engraved NFC cards offer several benefits. Firstly, they provide a professional and personalized touch to your business or organization. You can showcase your brand logo or message on the card, making it easily recognizable and memorable for recipients. Secondly, NFC technology allows for convenient interactions with compatible devices, enabling tasks like making payments, accessing information, or initiating actions. Lastly, custom engraved NFC cards can be used as promotional items, giveaways, or even as access cards for events.<\/p>",
+            "page": ""
+          }
+        },
+        "5f34dba8-15e0-4aac-91f7-5a103657361d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Are there any minimum order requirements for custom engraved NFC cards?",
+            "open": false,
+            "content": "<p>No, we do not have any minimum order requirements. <\/p>",
+            "page": ""
+          }
+        },
+        "fa2985e2-4983-462b-80c8-596d4ae47540": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do we offer discounts for Bulk Orders?",
+            "open": false,
+            "content": "<p>If you are looking to do a bulk order we can offer special pricing according to your order requirements. Please send our team an email and we will get back to you right away!<\/p>",
+            "page": ""
+          }
+        },
+        "32afa3ac-b9f9-40b1-ab1c-ee1730a78d4a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do We offer returns for custom designs?",
+            "open": false,
+            "content": "<p>Unfortunately, we do not offer returns for custom designs. Since these cards are specifically tailored to individual customer requirements, we are unable to accept returns unless there is a manufacturing defect or an error on our part.<\/p>",
+            "page": ""
+          }
+        },
+        "8c8d0a4b-d2ef-4187-90ac-f03fdcf0480a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do We Offer Returns for Pre-Made Designs",
+            "open": false,
+            "content": "<p>Our return policy applies exclusively to pre-made designs and allows for returns within 14 days of receiving your item. This means you have a 14-day window to request a return for pre-made designs.<\/p>",
+            "page": ""
+          }
+        },
+        "a0537ef3-1dbf-4b66-bc54-9ef18bddf3d8": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long does shipping take for custom made designs?",
+            "open": false,
+            "content": "<p>The shipping time for custom-made designs of our metal NFC cards depends on various factors, including the complexity of the design, the quantity ordered, and the shipping destination. Typically, it takes approximately 7-10 business days for the production and processing of the custom cards. Shipping can take anywhere from 2-5 business days.<\/p>",
+            "page": ""
+          }
+        },
+        "95554c92-3955-4a67-b29f-00409c51637e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "WHAT FORMAT IS NEEDED FOR CUSTOM DESIGNS?",
+            "open": false,
+            "content": "<p>Make sure the graphics are in the appropriate format (such as JPEG, PNG & Vector files) High resolution is required for engraving.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "a82c71ab-5eef-4ac6-8278-42c4bf4565d6",
+        "aa70895f-8889-4293-8c7d-ff7bc2b81c57",
+        "72f09ca5-4337-4a0b-bcd2-0a7af9183034",
+        "d8b3ed5d-d5cf-4b20-9bed-893f2be8497f",
+        "5f34dba8-15e0-4aac-91f7-5a103657361d",
+        "fa2985e2-4983-462b-80c8-596d4ae47540",
+        "32afa3ac-b9f9-40b1-ab1c-ee1730a78d4a",
+        "8c8d0a4b-d2ef-4187-90ac-f03fdcf0480a",
+        "a0537ef3-1dbf-4b66-bc54-9ef18bddf3d8",
+        "95554c92-3955-4a67-b29f-00409c51637e"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "faq"
+  ]
+}

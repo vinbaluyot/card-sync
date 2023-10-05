@@ -1,0 +1,82 @@
+{
+  "sections": {
+    "ac2782f5-6ef8-47b8-8f9e-95aa753b5cd8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19358384521516__ac2782f5-6ef8-47b8-8f9e-95aa753b5cd8-1685655796d36fc105-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Shipping & Returns",
+            "size": "h3"
+          }
+        },
+        "template--19358384521516__ac2782f5-6ef8-47b8-8f9e-95aa753b5cd8-1685655796d36fc105-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your satisfaction is our top priority. We are dedicated to providing you with high-quality products and exceptional customer service. If you happen to receive a faulty item, a replacement will be dispatched to you at no extra cost.<br\/><br\/>If you encounter any problems or have any concerns regarding your order, please don't hesitate to reach out to us by sending an email through the Contact form provided below.<\/p><p><\/p><p><strong>Shipping Custom Designs:<\/strong><br\/>The shipping time for custom-made designs of our metal NFC cards depends on various factors, including the complexity of the design, the quantity ordered, and the shipping destination. Typically, it takes approximately 7-10 business days for the production and processing of the custom cards. Shipping can take anywhere from 3-6 business days.<br\/><\/p><p><strong>Shipping Pre-Made Designs:<\/strong> <br\/>Shipping time for pre-made NFC card designs typically ranges from 3 to 6 business days. This duration is calculated from the moment your order is confirmed and payment is received. It's important to note that the shipping time refers to business days, excluding weekends and public holidays.<\/p><p>Returns Pre-made Designs:<br\/>Our return policy applies exclusively to pre-made designs and allows for returns within 14 days of receiving your item. This means you have a 14-day window to request a return for pre-made designs.<\/p><p> If you wish to return a pre-made design, please follow these steps:<\/p><ul><li>Contact our customer service team: To initiate the return process, please contact our customer service team within the 14-day return window. You can reach us by phone, email, or through our website's contact form. <\/li><li>Provide your order details and the reason for the return.<\/li><li>Return shipping: You are responsible for the cost of return shipping. We recommend using a trackable shipping service to ensure the safe delivery of the item. Please include the return authorization number on the package to facilitate the return process.<\/li><li>Inspection and refund: Upon receiving the returned item, our team will inspect it to ensure it meets the return criteria. If the item is in its original condition, we will issue a refund to your original payment method within a reasonable timeframe.<\/li><\/ul><p>Custom Designs Returns:<br\/>Please note that we do not offer returns for custom designs. Customized products are specifically tailored to individual customer requirements, making them unique and personalized. We are unable to accept returns unless there is a manufacturing defect or an error on our part.<\/p><ul><li>Manufacturing defects or errors: In the rare event that a manufacturing defect or an error occurs on our part with a custom design, please contact our customer service team immediately. We will work with you to resolve the issue promptly. Provide relevant details and supporting documentation to help us assess the situation and provide appropriate assistance.<\/li><li>Exceptions and Special Circumstances:<br\/>In certain exceptional cases, such as damaged items during shipping, incorrect items received, or other specific circumstances, we will handle returns on a case-by-case basis. Please contact our customer service team as soon as possible if you encounter such situations, and we will do our best to assist you.<\/li><\/ul><p><\/p><p><\/p><p><\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--19358384521516__ac2782f5-6ef8-47b8-8f9e-95aa753b5cd8-1685655796d36fc105-1",
+        "template--19358384521516__ac2782f5-6ef8-47b8-8f9e-95aa753b5cd8-1685655796d36fc105-2"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "left",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1652268757b7c53383": {
+      "type": "contact-form",
+      "blocks": {
+        "165226875777ee1cd4-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "Heading",
+            "text": "<p>Add your store address or<br\/>your store hours<\/p>"
+          }
+        },
+        "165226875777ee1cd4-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "Heading",
+            "text": "<p>Add your store address or<br\/>your store hours<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165226875777ee1cd4-0",
+        "165226875777ee1cd4-1"
+      ],
+      "settings": {
+        "heading": "Contact form",
+        "description": "<p>Have a question or need help with a custom design? Get in touch with our team today! <\/p>",
+        "show_phone_number": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "template-header": {
+      "type": "template-header",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "ac2782f5-6ef8-47b8-8f9e-95aa753b5cd8",
+    "main",
+    "1652268757b7c53383"
+  ]
+}

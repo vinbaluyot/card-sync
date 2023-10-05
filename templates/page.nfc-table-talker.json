@@ -1,0 +1,287 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1 {font-size: 60px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true,
+        "bg_image": "shopify:\/\/shop_images\/Untitled_design_2.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "3eac8f2d-79f7-46ff-a9d3-2b05a4324c55": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-500",
+        "heading": "Table Talkers",
+        "text": "Are you a business owner looking to boost your online reputation and engage your customers in a unique way? Look no further than Cardsync's NFC-enabled Table Talkers.",
+        "video": "",
+        "button_text": "",
+        "overlay_opacity": 20,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "d3167f4f-c28e-4819-9236-56057868e6c5": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--19757621707052__d3167f4f-c28e-4819-9236-56057868e6c5-1688007674bdc50c51-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "GET MORE REVIEWS!"
+          }
+        },
+        "template--19757621707052__d3167f4f-c28e-4819-9236-56057868e6c5-1688007674bdc50c51-1": {
+          "type": "heading",
+          "settings": {
+            "text": "NFC Table Talkers",
+            "heading_size": "h3"
+          }
+        },
+        "template--19757621707052__d3167f4f-c28e-4819-9236-56057868e6c5-1688007674bdc50c51-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p> Our innovative solution combines cutting-edge technology with stylish design to revolutionise the way businesses gather reviews and interact with their customers. With our NFC-enabled Table Talkers, you can effortlessly encourage customer feedback, enhance your online presence, and create a memorable dining experience.<\/p><p>Our Table Talkers are equipped with NFC technology, allowing customers to share their experiences with just a tap of their smartphones. By simply placing their device near the Table Talker, customers can easily access a review platform, where they can leave their feedback and ratings.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19757621707052__d3167f4f-c28e-4819-9236-56057868e6c5-1688007674bdc50c51-0",
+        "template--19757621707052__d3167f4f-c28e-4819-9236-56057868e6c5-1688007674bdc50c51-1",
+        "template--19757621707052__d3167f4f-c28e-4819-9236-56057868e6c5-1688007674bdc50c51-2"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/YourGraphics_1eedde02-89f7-4e50-a406-fd4b7d39dc5a.jpg",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "text_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "dca45c86-5289-4422-ac50-fc3638077b2c": {
+      "type": "featured-product",
+      "blocks": {
+        "template--19434968416556__dca45c86-5289-4422-ac50-fc3638077b2c-168741048266d8118e-0": {
+          "type": "title",
+          "settings": {
+            "show_products_rating": true
+          }
+        },
+        "template--19434968416556__dca45c86-5289-4422-ac50-fc3638077b2c-168741048266d8118e-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "variant_is_disabled": true
+          }
+        },
+        "template--19434968416556__dca45c86-5289-4422-ac50-fc3638077b2c-168741048266d8118e-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "template--19434968416556__dca45c86-5289-4422-ac50-fc3638077b2c-168741048266d8118e-0",
+        "template--19434968416556__dca45c86-5289-4422-ac50-fc3638077b2c-168741048266d8118e-1",
+        "template--19434968416556__dca45c86-5289-4422-ac50-fc3638077b2c-168741048266d8118e-2"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "product": "table-talkers",
+        "show_taxes_included": true,
+        "lightbox": true,
+        "enable_video_looping": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "df856f7f-cf37-498b-91fd-6d38a73197db": {
+      "type": "layered-images-with-text",
+      "disabled": true,
+      "blocks": {
+        "template--19757621707052__df856f7f-cf37-498b-91fd-6d38a73197db-1688020070cbe76524-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "GET MORE REVIEWS!"
+          }
+        },
+        "template--19757621707052__df856f7f-cf37-498b-91fd-6d38a73197db-1688020070cbe76524-1": {
+          "type": "heading",
+          "settings": {
+            "text": "NFC Enabled Stands",
+            "heading_size": "h3"
+          }
+        },
+        "template--19757621707052__df856f7f-cf37-498b-91fd-6d38a73197db-1688020070cbe76524-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Table Talkers are equipped with NFC technology, allowing customers to share their experiences with just a tap of their smartphones. By simply placing their device near the Table Talker, customers can easily access a review platform, where they can leave their feedback and ratings.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19757621707052__df856f7f-cf37-498b-91fd-6d38a73197db-1688020070cbe76524-0",
+        "template--19757621707052__df856f7f-cf37-498b-91fd-6d38a73197db-1688020070cbe76524-1",
+        "template--19757621707052__df856f7f-cf37-498b-91fd-6d38a73197db-1688020070cbe76524-2"
+      ],
+      "settings": {
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "text_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "8fb0c969-0305-4da6-914f-f6cb0389d9c2": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "template--19757621707052__8fb0c969-0305-4da6-914f-f6cb0389d9c2-16892284202ee80d16-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "GET MORE REVIEWS!"
+          }
+        },
+        "template--19757621707052__8fb0c969-0305-4da6-914f-f6cb0389d9c2-16892284202ee80d16-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Table Talkers",
+            "heading_size": "h3"
+          }
+        },
+        "template--19757621707052__8fb0c969-0305-4da6-914f-f6cb0389d9c2-16892284202ee80d16-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p> Our innovative solution combines cutting-edge technology with stylish design to revolutionise the way businesses gather reviews and interact with their customers. With our NFC-enabled Table Talkers, you can effortlessly encourage customer feedback, enhance your online presence, and create a memorable dining experience.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19757621707052__8fb0c969-0305-4da6-914f-f6cb0389d9c2-16892284202ee80d16-0",
+        "template--19757621707052__8fb0c969-0305-4da6-914f-f6cb0389d9c2-16892284202ee80d16-1",
+        "template--19757621707052__8fb0c969-0305-4da6-914f-f6cb0389d9c2-16892284202ee80d16-2"
+      ],
+      "settings": {
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "color_bg": "#ffffff",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "8a97bb97-bb64-42b5-b9d5-4986592b29fa": {
+      "type": "tabbed-content",
+      "blocks": {
+        "template--20230823379244__8a97bb97-bb64-42b5-b9d5-4986592b29fa-tab-1": {
+          "type": "tab",
+          "settings": {
+            "tab_label": "Why Choose Our Table Talkers?",
+            "icon": "none",
+            "text": "<p>Our NFC table talkers are a game-changer, enabling businesses to interact with their customers in a whole new way. By incorporating Near Field Communication (NFC) technology, these table talkers allow customers to leave reviews with a simple tap of their NFC-enabled devices.<\/p>",
+            "text_columns": "1",
+            "page": ""
+          }
+        },
+        "template--20230823379244__8a97bb97-bb64-42b5-b9d5-4986592b29fa-tab-2": {
+          "type": "tab",
+          "settings": {
+            "tab_label": "Unleashing the Power of NFC Technology",
+            "icon": "none",
+            "text": "<p>Our NFC table talkers utilise Near NFC technology, enabling seamless communication between the physical world and the digital realm. Businesses can create captivating and personalised experiences, leaving a lasting impression on customers.<\/p>",
+            "text_columns": "1",
+            "page": ""
+          }
+        },
+        "template--20230823379244__8a97bb97-bb64-42b5-b9d5-4986592b29fa-tab-3": {
+          "type": "tab",
+          "settings": {
+            "tab_label": "Elevate Your Business with Cardsync",
+            "icon": "none",
+            "text": "<p>At Cardsync, we take pride in offering the finest NFC table talkers on the market. Whether you run a restaurant, cafe, bar, or retail store, our NFC solutions will revolutionize the way you engage with customers.<\/p><p>Discover the future of customer interaction today! Explore our NFC <a href=\"\/products\/table-talkers\" title=\"NFC Table Talkers\">table talkers<\/a> and unleash the full potential of your business.<\/p>",
+            "text_columns": "1",
+            "page": ""
+          }
+        },
+        "424c3282-7997-4778-a3cc-f8793f25cebf": {
+          "type": "tab",
+          "settings": {
+            "tab_label": "Unlock New Marketing Possibilities",
+            "icon": "none",
+            "text": "<p>By integrating NFC technology into your table talkers, you open up a world of marketing opportunities. Drive traffic to your website and gather valuable customer data all from a single, user-friendly platform.<\/p>",
+            "text_columns": "1",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20230823379244__8a97bb97-bb64-42b5-b9d5-4986592b29fa-tab-1",
+        "template--20230823379244__8a97bb97-bb64-42b5-b9d5-4986592b29fa-tab-2",
+        "template--20230823379244__8a97bb97-bb64-42b5-b9d5-4986592b29fa-tab-3",
+        "424c3282-7997-4778-a3cc-f8793f25cebf"
+      ],
+      "custom_css": [
+        "h2 {font-size: 40px;}"
+      ],
+      "settings": {
+        "heading": "Enhance Customer Engagement with NFC Table Talkers",
+        "description": "",
+        "text_width": "medium",
+        "tab_alignment": "left",
+        "text_alignment": "left",
+        "color_bg": "#ffffff",
+        "color_tabs": "#151515",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "3eac8f2d-79f7-46ff-a9d3-2b05a4324c55",
+    "d3167f4f-c28e-4819-9236-56057868e6c5",
+    "dca45c86-5289-4422-ac50-fc3638077b2c",
+    "df856f7f-cf37-498b-91fd-6d38a73197db",
+    "8fb0c969-0305-4da6-914f-f6cb0389d9c2",
+    "8a97bb97-bb64-42b5-b9d5-4986592b29fa"
+  ]
+}

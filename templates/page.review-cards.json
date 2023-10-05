@@ -1,0 +1,256 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1 {font-size: 60px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true,
+        "bg_image": "shopify:\/\/shop_images\/Untitled_design_2.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "3eac8f2d-79f7-46ff-a9d3-2b05a4324c55": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-500",
+        "heading": "Review Cards",
+        "text": "Are you a business owner looking to boost your online reputation and engage your customers in a unique way?",
+        "video": "",
+        "button_text": "",
+        "overlay_opacity": 20,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "6f1a4552-1108-45ba-bc52-a0dcd23a2ae2": {
+      "type": "featured-collection",
+      "blocks": {
+        "template--19818793992492__6f1a4552-1108-45ba-bc52-a0dcd23a2ae2-1689226903fb6d0798-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "review-cards",
+            "display_type": "grid",
+            "product_limit": 4,
+            "columns_desktop": 3,
+            "show_view_all": true,
+            "button_outline": false,
+            "mobile_swipe": true
+          }
+        }
+      },
+      "block_order": [
+        "template--19818793992492__6f1a4552-1108-45ba-bc52-a0dcd23a2ae2-1689226903fb6d0798-0"
+      ],
+      "settings": {
+        "heading": "Review Cards",
+        "description": "<p>Google - Trustpilot - Tripadvisor<\/p>",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "4e94feac-dc78-47df-8978-f8d1fb41481e": {
+      "type": "rich-text",
+      "blocks": {
+        "a9430240-0ea9-4e33-9ced-3f3b0215cd77": {
+          "type": "heading",
+          "settings": {
+            "text": "NFC Review Cards",
+            "size": "h3"
+          }
+        },
+        "template--19818793992492__4e94feac-dc78-47df-8978-f8d1fb41481e-1688988623f161c968-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you a business owner looking to boost your online reputation and engage your customers in a unique way?  Do you want to enhance your online reputation as a business owner and effectively engage your customers?<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "a9430240-0ea9-4e33-9ced-3f3b0215cd77",
+        "template--19818793992492__4e94feac-dc78-47df-8978-f8d1fb41481e-1688988623f161c968-2"
+      ],
+      "custom_css": [
+        "h2 {font-size: 40px;}"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "952f18ca-e43c-4391-9108-4181af569371": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "template--19818793992492__952f18ca-e43c-4391-9108-4181af569371-16892260837f0c0556-0": {
+          "type": "title",
+          "settings": {
+            "show_products_rating": true
+          }
+        },
+        "template--19818793992492__952f18ca-e43c-4391-9108-4181af569371-16892260837f0c0556-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "variant_is_disabled": true
+          }
+        },
+        "template--19818793992492__952f18ca-e43c-4391-9108-4181af569371-16892260837f0c0556-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "template--19818793992492__952f18ca-e43c-4391-9108-4181af569371-16892260837f0c0556-0",
+        "template--19818793992492__952f18ca-e43c-4391-9108-4181af569371-16892260837f0c0556-1",
+        "template--19818793992492__952f18ca-e43c-4391-9108-4181af569371-16892260837f0c0556-2"
+      ],
+      "settings": {
+        "heading": "Review Cards",
+        "description": "<p>Google - Trustpilot - Tripadvisor<\/p>",
+        "product": "review-cards",
+        "show_taxes_included": true,
+        "lightbox": true,
+        "enable_video_looping": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "0241fe29-471c-4626-95e6-4e2fa9421331": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--20073778315564__0241fe29-471c-4626-95e6-4e2fa9421331-16897375041625cca7-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Get more reviews for your business!"
+          }
+        },
+        "template--20073778315564__0241fe29-471c-4626-95e6-4e2fa9421331-16897375041625cca7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "NFC Review Cards",
+            "heading_size": "h3"
+          }
+        },
+        "template--20073778315564__0241fe29-471c-4626-95e6-4e2fa9421331-16897375041625cca7-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>NFC-enabled Review Cards, revolutionising the way customers leave their feedback effortlessly! Designed for Google Reviews, Trustpilot Reviews, and Tripadvisor, these innovative cards provide a seamless and user-friendly approach to collecting reviews.<\/p><p>Available Options:<\/p><ul><li>Google Review Cards<\/li><li>Trustpilot Review Cards<\/li><li>Tripadvisor Review Cards<br\/><br\/>Material: PVC Plastic <\/li><\/ul>"
+          }
+        },
+        "4d48a9fd-9632-498b-9a34-3f390f4d7c0f": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop Review Cards",
+            "button_link": "shopify:\/\/collections\/review-cards"
+          }
+        }
+      },
+      "block_order": [
+        "template--20073778315564__0241fe29-471c-4626-95e6-4e2fa9421331-16897375041625cca7-0",
+        "template--20073778315564__0241fe29-471c-4626-95e6-4e2fa9421331-16897375041625cca7-1",
+        "template--20073778315564__0241fe29-471c-4626-95e6-4e2fa9421331-16897375041625cca7-2",
+        "4d48a9fd-9632-498b-9a34-3f390f4d7c0f"
+      ],
+      "custom_css": [
+        ".button {background-color: #ff4515;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Your_Graphics_12.jpg",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "image_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "9639a82b-040d-4649-b7bb-e03ff7c3366d": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--20073778315564__9639a82b-040d-4649-b7bb-e03ff7c3366d-1689731481b23da608-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Create Custom Review Cards"
+          }
+        },
+        "template--20073778315564__9639a82b-040d-4649-b7bb-e03ff7c3366d-1689731481b23da608-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Create Your Own",
+            "heading_size": "h3"
+          }
+        },
+        "template--20073778315564__9639a82b-040d-4649-b7bb-e03ff7c3366d-1689731481b23da608-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Create your own metal review card using our online customiser. <br\/><\/p><p>Explore our online customiser tool and design your own metal review card to match your unique style and preferences.<\/p><p>1. Add Your Logo<br\/>2. Add Your Graphics <br\/>3. Add Your Name <\/p><p><\/p><p><\/p><p>Material: Metal Hybrid <\/p>"
+          }
+        },
+        "c291e892-f9b4-4fb3-8e0d-d86c917232e9": {
+          "type": "button",
+          "settings": {
+            "button_text": "Create your own",
+            "button_link": "shopify:\/\/products\/custom-metal-review-cards"
+          }
+        }
+      },
+      "block_order": [
+        "template--20073778315564__9639a82b-040d-4649-b7bb-e03ff7c3366d-1689731481b23da608-0",
+        "template--20073778315564__9639a82b-040d-4649-b7bb-e03ff7c3366d-1689731481b23da608-1",
+        "template--20073778315564__9639a82b-040d-4649-b7bb-e03ff7c3366d-1689731481b23da608-2",
+        "c291e892-f9b4-4fb3-8e0d-d86c917232e9"
+      ],
+      "custom_css": [
+        ".button {background-color: #ff4515;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Your_Graphics_3.jpg",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "text_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "3eac8f2d-79f7-46ff-a9d3-2b05a4324c55",
+    "6f1a4552-1108-45ba-bc52-a0dcd23a2ae2",
+    "4e94feac-dc78-47df-8978-f8d1fb41481e",
+    "952f18ca-e43c-4391-9108-4181af569371",
+    "0241fe29-471c-4626-95e6-4e2fa9421331",
+    "9639a82b-040d-4649-b7bb-e03ff7c3366d"
+  ]
+}

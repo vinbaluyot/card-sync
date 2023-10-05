@@ -1,0 +1,438 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1 {font-size: 60px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": true,
+        "bg_image": "shopify:\/\/shop_images\/Untitled_design_2.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "3eac8f2d-79f7-46ff-a9d3-2b05a4324c55": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-500",
+        "heading": "NFC Phone Cases",
+        "text": "Are you looking for a convenient and innovative way to stay connected? Look no further than Cardsync's NFC phone cases. With our cutting-edge technology, you can tap into a world of possibilities, right at your fingertips. Say goodbye to tangled wires and complicated setups – our NFC phone cases offer seamless connectivity and effortless communication.",
+        "video": "",
+        "button_text": "",
+        "overlay_opacity": 20,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "0774de27-3392-45ef-aa0f-1bda73f255cc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20073778217260__0774de27-3392-45ef-aa0f-1bda73f255cc-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading for this section"
+          }
+        },
+        "template--20073778217260__0774de27-3392-45ef-aa0f-1bda73f255cc-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "size": "h3"
+          }
+        },
+        "template--20073778217260__0774de27-3392-45ef-aa0f-1bda73f255cc-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>More NFC Phone Cases Coming Soon!<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--20073778217260__0774de27-3392-45ef-aa0f-1bda73f255cc-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_label": "Learn More",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20073778217260__0774de27-3392-45ef-aa0f-1bda73f255cc-subheading-1",
+        "template--20073778217260__0774de27-3392-45ef-aa0f-1bda73f255cc-heading-1",
+        "template--20073778217260__0774de27-3392-45ef-aa0f-1bda73f255cc-text-1",
+        "template--20073778217260__0774de27-3392-45ef-aa0f-1bda73f255cc-button-1"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "61877242-ed54-4f25-a449-624ca0062808": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--19712154370348__61877242-ed54-4f25-a449-624ca0062808-1688988623f161c968-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading for this section"
+          }
+        },
+        "template--19712154370348__61877242-ed54-4f25-a449-624ca0062808-1688988623f161c968-1": {
+          "type": "heading",
+          "settings": {
+            "text": "NFC Phone Cases",
+            "size": "h3"
+          }
+        },
+        "template--19712154370348__61877242-ed54-4f25-a449-624ca0062808-1688988623f161c968-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you looking for a convenient and innovative way to stay connected? Look no further than Cardsync's NFC phone cases. With our cutting-edge technology, you can tap into a world of possibilities, right at your fingertips. Say goodbye to tangled wires and complicated setups – our NFC phone cases offer seamless connectivity and effortless communication.<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--19712154370348__61877242-ed54-4f25-a449-624ca0062808-1688988623f161c968-0",
+        "template--19712154370348__61877242-ed54-4f25-a449-624ca0062808-1688988623f161c968-1",
+        "template--19712154370348__61877242-ed54-4f25-a449-624ca0062808-1688988623f161c968-2"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "9ceab8f1-4cae-4220-9f06-89579287af82": {
+      "type": "featured-collection",
+      "blocks": {
+        "template--19290746028332__9ceab8f1-4cae-4220-9f06-89579287af82-1686560467677a4dee-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "nfc-phone-cases",
+            "display_type": "grid",
+            "product_limit": 4,
+            "columns_desktop": 3,
+            "show_view_all": true,
+            "button_outline": false,
+            "mobile_swipe": true
+          }
+        }
+      },
+      "block_order": [
+        "template--19290746028332__9ceab8f1-4cae-4220-9f06-89579287af82-1686560467677a4dee-0"
+      ],
+      "settings": {
+        "heading": "NFC Phone Case Collection",
+        "description": "<p>Discover our range<\/p>",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "d3ec07c3-360f-4389-ae64-721a28b8e59d": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-0": {
+          "type": "column",
+          "settings": {
+            "title": "Choose a Card",
+            "heading_size": "h4",
+            "text": "<p>Start by selecting the style and colour for your business cards. We offer three options: black, gold, and silver. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-1": {
+          "type": "column",
+          "settings": {
+            "title": "Add to Cart",
+            "heading_size": "h4",
+            "text": "<p>Once you have created your card and provided integration information, click on the \"Add to Cart\" button.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-2": {
+          "type": "column",
+          "settings": {
+            "title": "Create Landing Page",
+            "heading_size": "h4",
+            "text": "<p>After checkout, you will be sent an email with details on how to create your landing page!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-0",
+        "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-1",
+        "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-2"
+      ],
+      "settings": {
+        "heading": "How to Create",
+        "description": "<p>Follow our Step-by-Step guide<\/p>",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "mobile_swipe": false,
+        "text_alignment": "left",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "458be112-af2c-48b9-b22b-410c9ef36a21": {
+      "type": "image-with-text-slideshow",
+      "disabled": true,
+      "blocks": {
+        "template--19623218217260__458be112-af2c-48b9-b22b-410c9ef36a21-1687337935de11790b-0": {
+          "type": "slide",
+          "settings": {
+            "heading": "UNLEASH THE POTENTIAL",
+            "content": "Our NFC phone cases offer a world of possibilities. By simply attaching our case to your smartphone, you can explore a range of features and applications.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "template--19623218217260__458be112-af2c-48b9-b22b-410c9ef36a21-1687337935de11790b-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "SEAMLESS INTERGRATION",
+            "content": "One of the key advantages of our NFC phone cases is their seamless integration with your smartphone. Our cases are designed to work harmoniously with your device, ensuring that NFC communication is smooth and uninterrupted. Say goodbye to clunky attachments or additional gadgets - our phone cases keep things sleek and simple.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "template--19623218217260__458be112-af2c-48b9-b22b-410c9ef36a21-1687337935de11790b-2": {
+          "type": "slide",
+          "settings": {
+            "heading": "BUSINESS SOLUTIONS",
+            "content": "For businesses, NFC phone cases open up exciting opportunities for customer engagement. Our Phone cases can link directly to your website, social media profiles, or directly with any link of your choice. Imagine the convenience of customers being able to access your information with just a tap of their phone. It's a powerful marketing tool that enhances customer experiences and drives brand loyalty.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "5f72b829-493e-468e-98d9-cb9e1a6054be": {
+          "type": "slide",
+          "settings": {
+            "heading": "CONVENIENCE",
+            "content": "As a customer, our NFC phone cases make your life easier. From transferring files and sharing contacts to accessing exclusive content, NFC simplifies everyday tasks. No more fumbling around for business cards or struggling to transfer data. With our NFC phone cases, it's all at your fingertips.",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19623218217260__458be112-af2c-48b9-b22b-410c9ef36a21-1687337935de11790b-0",
+        "template--19623218217260__458be112-af2c-48b9-b22b-410c9ef36a21-1687337935de11790b-1",
+        "template--19623218217260__458be112-af2c-48b9-b22b-410c9ef36a21-1687337935de11790b-2",
+        "5f72b829-493e-468e-98d9-cb9e1a6054be"
+      ],
+      "settings": {
+        "mobile_height": "mobile-height-350",
+        "desktop_height": "desktop-height-650",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "03cab046-98c4-4c1c-a4b3-a917b4f56175": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--19623218217260__03cab046-98c4-4c1c-a4b3-a917b4f56175-16872494896a91a1b0-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading for this section"
+          }
+        },
+        "template--19623218217260__03cab046-98c4-4c1c-a4b3-a917b4f56175-16872494896a91a1b0-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Why Choose Cardsync?",
+            "size": "h3"
+          }
+        },
+        "template--19623218217260__03cab046-98c4-4c1c-a4b3-a917b4f56175-16872494896a91a1b0-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Cardsync, we understand the importance of staying connected in today's fast-paced world. That's why we've designed our NFC phone cases to provide a hassle-free experience. Simply tap the back of your phone on any smart device and seamlessly share your information. Our cases are compatible with a wide range of NFC-enabled devices, ensuring compatibility and versatility.<\/p><p>With our NFC phone cases, you can unlock a range of exciting features and capabilities. Whether it, sharing contacts, or accessing digital content, our cases make it effortless. Just tap your phone case to another NFC-enabled device, and watch the magic happen. The possibilities are endless, and the convenience is unparalleled.<\/p><p><\/p><p>When it comes to convenience and versatility, Cardsync's NFC phone cases are the perfect choice. Say goodbye to traditional connectivity methods. Embrace the future of communication with our state-of-the-art phone cases.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--19623218217260__03cab046-98c4-4c1c-a4b3-a917b4f56175-16872494896a91a1b0-3": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_label": "Learn More",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19623218217260__03cab046-98c4-4c1c-a4b3-a917b4f56175-16872494896a91a1b0-0",
+        "template--19623218217260__03cab046-98c4-4c1c-a4b3-a917b4f56175-16872494896a91a1b0-1",
+        "template--19623218217260__03cab046-98c4-4c1c-a4b3-a917b4f56175-16872494896a91a1b0-2",
+        "template--19623218217260__03cab046-98c4-4c1c-a4b3-a917b4f56175-16872494896a91a1b0-3"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "6271bc15-5733-4984-a701-66e76d7ec8d1": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--20073778217260__6271bc15-5733-4984-a701-66e76d7ec8d1-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "template--20073778217260__6271bc15-5733-4984-a701-66e76d7ec8d1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Why Choose Cardsync NFC Cases?",
+            "heading_size": "h3"
+          }
+        },
+        "template--20073778217260__6271bc15-5733-4984-a701-66e76d7ec8d1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Cardsync, we understand the importance of staying connected in today's fast-paced world. That's why we've designed our NFC phone cases to provide a hassle-free experience. Simply tap the back of your phone on any smart device and seamlessly share your information. Our cases are compatible with a wide range of NFC-enabled devices, ensuring compatibility and versatility.<\/p><p>With our NFC phone cases, you can unlock a range of exciting features and capabilities. Whether it, sharing contacts, or accessing digital content, our cases make it effortless. Just tap your phone case to another NFC-enabled device, and watch the magic happen. The possibilities are endless, and the convenience is unparalleled.<\/p><p><\/p><p>When it comes to convenience and versatility, Cardsync's NFC phone cases are the perfect choice. Say goodbye to traditional connectivity methods. Embrace the future of communication with our state-of-the-art phone cases.<\/p>"
+          }
+        },
+        "773cb583-7df2-41b2-9488-692d98d09220": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop NFC Phone Cases",
+            "button_link": "shopify:\/\/collections\/nfc-phone-cases"
+          }
+        }
+      },
+      "block_order": [
+        "template--20073778217260__6271bc15-5733-4984-a701-66e76d7ec8d1-subheading-1",
+        "template--20073778217260__6271bc15-5733-4984-a701-66e76d7ec8d1-heading-1",
+        "template--20073778217260__6271bc15-5733-4984-a701-66e76d7ec8d1-text-1",
+        "773cb583-7df2-41b2-9488-692d98d09220"
+      ],
+      "custom_css": [
+        ".button {background-color: #ff4515;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Your_Graphics_15.jpg",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "image_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "84dfba8e-0b98-426f-965f-35635d4991a9": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--19712154370348__84dfba8e-0b98-426f-965f-35635d4991a9-168956363152d51db4-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-phone-case-50.png",
+            "heading": "Unleash The Potential",
+            "text": "<p>Our NFC phone cases offer a world of possibilities. By simply attaching our case to your smartphone, you can explore a range of features and applications.<\/p>"
+          }
+        },
+        "template--19712154370348__84dfba8e-0b98-426f-965f-35635d4991a9-168956363152d51db4-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-business-man-64.png",
+            "heading": "Business Solutions",
+            "text": "<p>NFC phone cases open up exciting opportunities for customer engagement. Our Phone cases can link directly to your website, social media profiles, or directly with any link of your choice. It's a powerful marketing tool that enhances customer experiences and drives brand loyalty.<\/p>"
+          }
+        },
+        "a24b408f-88f3-4589-88f3-5cfa2a4821ec": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-nfc-tag-50.png",
+            "heading": "Convenience",
+            "text": "<p>As a customer, our NFC phone cases make your life easier. From transferring files and sharing contacts to accessing exclusive content, NFC simplifies everyday tasks. No more fumbling around for business cards or struggling to transfer data. With our NFC phone cases, it's all at your fingertips.<\/p>"
+          }
+        },
+        "template--19712154370348__84dfba8e-0b98-426f-965f-35635d4991a9-168956363152d51db4-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-integration-50.png",
+            "heading": "Seamless Intergration",
+            "text": "<p>Our cases are designed to work harmoniously with your device, ensuring that NFC communication is smooth and uninterrupted. Say goodbye to clunky attachments or additional gadgets - our phone cases keep things sleek and simple.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19712154370348__84dfba8e-0b98-426f-965f-35635d4991a9-168956363152d51db4-0",
+        "template--19712154370348__84dfba8e-0b98-426f-965f-35635d4991a9-168956363152d51db4-2",
+        "a24b408f-88f3-4589-88f3-5cfa2a4821ec",
+        "template--19712154370348__84dfba8e-0b98-426f-965f-35635d4991a9-168956363152d51db4-1"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "large",
+        "heading_size": "large",
+        "mobile_swipe": true,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "main",
+    "3eac8f2d-79f7-46ff-a9d3-2b05a4324c55",
+    "0774de27-3392-45ef-aa0f-1bda73f255cc",
+    "61877242-ed54-4f25-a449-624ca0062808",
+    "9ceab8f1-4cae-4220-9f06-89579287af82",
+    "d3ec07c3-360f-4389-ae64-721a28b8e59d",
+    "458be112-af2c-48b9-b22b-410c9ef36a21",
+    "03cab046-98c4-4c1c-a4b3-a917b4f56175",
+    "6271bc15-5733-4984-a701-66e76d7ec8d1",
+    "84dfba8e-0b98-426f-965f-35635d4991a9"
+  ]
+}

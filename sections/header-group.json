@@ -1,0 +1,38 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "disabled": true,
+      "settings": {
+        "announcement_bar": true,
+        "announcement_bar_homepage_only": false,
+        "announcement_bar_text": "FREE AUS SHIPPING - 20% OFF USE CODE: 20OFF",
+        "announcement_bar_link": "",
+        "show_language_switcher": false,
+        "show_currency_switcher": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/cardsync_4fec3500-859c-4a17-9f8e-7129094999ce.png",
+        "logo_height_range": 30,
+        "logo_height_range_mobile": 30,
+        "style": "style1",
+        "header_shadow": "header--shadow-none",
+        "menu": "main-menu",
+        "mobile_secondary_menu": "",
+        "show_language_switcher": true,
+        "show_currency_switcher": true,
+        "predictive_search_enabled": true,
+        "search_menu": ""
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

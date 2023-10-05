@@ -1,0 +1,414 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+      }
+    },
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1 {font-size: 60px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 100,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 12,
+        "columns_desktop": 4,
+        "pagination_type": "paginated",
+        "full_width": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": true,
+        "filter_color_swatches": true
+      }
+    },
+    "c6673816-f06c-4c39-9afc-25b44bca9690": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--20823290642732__c6673816-f06c-4c39-9afc-25b44bca9690-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "template--20823290642732__c6673816-f06c-4c39-9afc-25b44bca9690-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "What is an NFC Tag?",
+            "heading_size": "h3"
+          }
+        },
+        "template--20823290642732__c6673816-f06c-4c39-9afc-25b44bca9690-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For those new to NFC technology, an NFC tag is a small device that utilizes Near Field Communication to facilitate communication between compatible devices. These tags can store and transfer data, making them invaluable for businesses seeking efficient data management solutions.<\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20823290642732__c6673816-f06c-4c39-9afc-25b44bca9690-subheading-1",
+        "template--20823290642732__c6673816-f06c-4c39-9afc-25b44bca9690-heading-1",
+        "template--20823290642732__c6673816-f06c-4c39-9afc-25b44bca9690-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cardsync_23.jpg",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "text_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "00129280-ccf7-424f-94b7-5f9031df4f3b": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--20823290642732__00129280-ccf7-424f-94b7-5f9031df4f3b-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-quality-assurance-68.png",
+            "heading": "Quality Assurance",
+            "text": "<p>Our NFC tags are built to last, ensuring reliable performance with every tap.<\/p>"
+          }
+        },
+        "template--20823290642732__00129280-ccf7-424f-94b7-5f9031df4f3b-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-integration-50.png",
+            "heading": "Easy Integration",
+            "text": "<p> Incorporating our NFC tags into your systems is a breeze, thanks to their compatibility with a wide range of devices.<\/p>"
+          }
+        },
+        "template--20823290642732__00129280-ccf7-424f-94b7-5f9031df4f3b-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-email-96.png",
+            "heading": "Email Support",
+            "text": "<p>Have questions or need assistance? Our dedicated support team is here to help you make the most of your NFC tags.<\/p>"
+          }
+        },
+        "7f6ac16e-6bf8-460d-8ea1-8b4b12c9c6f1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-secure-50.png",
+            "heading": "Secure Shopping",
+            "text": "<p>Shop with confidence on our secure platform, and enjoy swift delivery across Australia.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20823290642732__00129280-ccf7-424f-94b7-5f9031df4f3b-icon-1",
+        "template--20823290642732__00129280-ccf7-424f-94b7-5f9031df4f3b-icon-2",
+        "template--20823290642732__00129280-ccf7-424f-94b7-5f9031df4f3b-icon-3",
+        "7f6ac16e-6bf8-460d-8ea1-8b4b12c9c6f1"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "small",
+        "heading_size": "large",
+        "mobile_swipe": false,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "a5c0af07-0830-4829-ba9c-76eae0022047": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--20823290642732__a5c0af07-0830-4829-ba9c-76eae0022047-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "NFC Tags Australia",
+            "heading_size": "h3"
+          }
+        },
+        "template--20823290642732__a5c0af07-0830-4829-ba9c-76eae0022047-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looking for top-notch NFC tags to enhance your business operations or personal use? Look no further! CardSync offers a wide range of NFC tags that cater to both businesses and customers across Australia. Our collection of NFC tags is designed to streamline processes, increase efficiency, and provide seamless interactions, all with a simple tap.<\/p><p><\/p><p>NFC (Near Field Communication) technology is at the forefront of modern connectivity, enabling devices to communicate by simply tapping or bringing them close together. Our NFC tags are the perfect tools to bring this technology into your world. Whether you're a business looking to optimize your operations or an individual seeking to simplify daily tasks, our NFC tags offer the solution.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20823290642732__a5c0af07-0830-4829-ba9c-76eae0022047-heading-1",
+        "template--20823290642732__a5c0af07-0830-4829-ba9c-76eae0022047-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/YourGraphics_3.jpg",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "image_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "05c2641b-8bc6-4c60-bf08-c18224680f1f": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--20823290642732__05c2641b-8bc6-4c60-bf08-c18224680f1f-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text",
+            "heading_size": "h3"
+          }
+        },
+        "fac1a3c1-73b4-4618-ba3e-f4acec586db2": {
+          "type": "heading",
+          "settings": {
+            "text": "Buy NFC Tags Today",
+            "heading_size": "h3"
+          }
+        },
+        "template--20823290642732__05c2641b-8bc6-4c60-bf08-c18224680f1f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ready to experience the power of NFC technology? CardSync offers the finest NFC tags in Australia, bringing efficiency, convenience, and innovation to your fingertips. Browse our collection now and revolutionize the way you interact with the world.<\/p><p>Explore our range of <a href=\"\/products\/nfc-tap-tags\" title=\"NFC Tap\">NFC Tags Australia<\/a> and discover the future of connectivity. Don't miss the opportunity to <a href=\"\/products\/nfc-tap-tags\" title=\"NFC Tap\">buy NFC tags<\/a> that fit your needs perfectly. Upgrade your interactions with CardSync today!<\/p><p>Whether you're a business looking to optimize processes or an individual seeking convenience, our NFC tags are the gateway to a smarter future. Experience the magic of NFC technology with CardSync.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20823290642732__05c2641b-8bc6-4c60-bf08-c18224680f1f-heading-1",
+        "fac1a3c1-73b4-4618-ba3e-f4acec586db2",
+        "template--20823290642732__05c2641b-8bc6-4c60-bf08-c18224680f1f-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cardsync_6_9404c8ac-83af-4378-9229-07b1c87ae408.jpg",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "text_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "33507d46-0556-4595-a457-1ce52b2d1746": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20333157908780__33507d46-0556-4595-a457-1ce52b2d1746-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading for this section"
+          }
+        },
+        "template--20333157908780__33507d46-0556-4595-a457-1ce52b2d1746-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Why Choose NFC Tap Tags?",
+            "size": "h3"
+          }
+        },
+        "template--20333157908780__33507d46-0556-4595-a457-1ce52b2d1746-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With a simple tap, recipients can instantly access your contact information, website, portfolio, and more. Embrace the dynamic possibilities of NFC tap tag technology.<\/p><p>Experience the convenience of a digital tap with our NFC-enabled business cards. Simply tap your card against compatible devices, and watch as your digital profile springs to life. Impress potential clients with interactive features, such as video introductions, product demos, or links to your social media profiles.<\/p><p>Stand out from the crowd with our innovative tap tag solution. Transform the way you share contact information with our tap tag NFC technology. Our NFC tap tags ensure instant access to your contact details, making it easier than ever for potential clients to reach out to you.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--20333157908780__33507d46-0556-4595-a457-1ce52b2d1746-button-1": {
+          "type": "button",
+          "settings": {
+            "link_label": "HOW NFC CARDS WORK",
+            "link": "shopify:\/\/pages\/how-nfc-cards-work",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20333157908780__33507d46-0556-4595-a457-1ce52b2d1746-subheading-1",
+        "template--20333157908780__33507d46-0556-4595-a457-1ce52b2d1746-heading-1",
+        "template--20333157908780__33507d46-0556-4595-a457-1ce52b2d1746-text-1",
+        "template--20333157908780__33507d46-0556-4595-a457-1ce52b2d1746-button-1"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "9fdc4fb5-117e-48cb-b9a3-0d2ee63bbc73": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20823290642732__9fdc4fb5-117e-48cb-b9a3-0d2ee63bbc73-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Business Solutions",
+            "heading_size": "h4",
+            "text": "<p>For businesses, our NFC tags open up a realm of possibilities. With NFC technology, you can streamline customer engagement, enhance inventory management, and even create interactive marketing campaigns. Imagine customers being able to tap their devices to instantly access product information or promotions!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20823290642732__9fdc4fb5-117e-48cb-b9a3-0d2ee63bbc73-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Personal Convenience",
+            "heading_size": "h4",
+            "text": "<p>NFC tags aren't just for businesses; they also bring convenience to your everyday life. With the ability to use NFC tags with Android and iPhone devices, you can set up custom automation tasks. From turning on Wi-Fi when you walk into your office to setting an alarm when you tap your bedside tag, the possibilities are endless.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20823290642732__9fdc4fb5-117e-48cb-b9a3-0d2ee63bbc73-column-1",
+        "template--20823290642732__9fdc4fb5-117e-48cb-b9a3-0d2ee63bbc73-column-2"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "mobile_swipe": false,
+        "text_alignment": "left",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "c5b12690-e3c6-47c1-9ebe-171faed346a3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20823290642732__c5b12690-e3c6-47c1-9ebe-171faed346a3-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading for this section"
+          }
+        },
+        "template--20823290642732__c5b12690-e3c6-47c1-9ebe-171faed346a3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Unlock the Potential of NFC with cardsync",
+            "size": "h4"
+          }
+        },
+        "template--20823290642732__c5b12690-e3c6-47c1-9ebe-171faed346a3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you're a business aiming to enhance efficiency or a customer intrigued by the possibilities of NFC, CardSync is your go-to destination for top-notch NFC tags in Australia. Explore our collection today and embrace the power of seamless connectivity! <\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--20823290642732__c5b12690-e3c6-47c1-9ebe-171faed346a3-button-1": {
+          "type": "button",
+          "settings": {
+            "link_label": "SHOP NOW",
+            "link": "shopify:\/\/products\/nfc-tap-tags",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20823290642732__c5b12690-e3c6-47c1-9ebe-171faed346a3-subheading-1",
+        "template--20823290642732__c5b12690-e3c6-47c1-9ebe-171faed346a3-heading-1",
+        "template--20823290642732__c5b12690-e3c6-47c1-9ebe-171faed346a3-text-1",
+        "template--20823290642732__c5b12690-e3c6-47c1-9ebe-171faed346a3-button-1"
+      ],
+      "custom_css": [
+        ".button {background-color: #ff4515;}"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "63bcc97b-abbd-45a2-8ccc-a61050d37398": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-connect-50.png",
+            "heading": "Connectivity",
+            "text": "<p>Our NFC Tap Tags bridge this gap by seamlessly merging physical and digital interactions. With a simple tap, these revolutionary tags enable businesses and customers to connect instantly.<\/p>"
+          }
+        },
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-star-50.png",
+            "heading": "Memorable",
+            "text": "<p>Our tap tags are designed to leave a lasting impression on recipients. By incorporating NFC technology, these cards allow individuals to access and store your information directly on their smartphones.<\/p>"
+          }
+        },
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-networking-50.png",
+            "heading": "Future of Networking",
+            "text": "<p>With our business card you can effortlessly save your contact information with a single tap. No more lost or forgotten cards—your details are conveniently stored on their smartphones for quick access.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-1",
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-2",
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-3"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "small",
+        "heading_size": "large",
+        "mobile_swipe": true,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "template-header",
+    "product-grid",
+    "c6673816-f06c-4c39-9afc-25b44bca9690",
+    "00129280-ccf7-424f-94b7-5f9031df4f3b",
+    "a5c0af07-0830-4829-ba9c-76eae0022047",
+    "05c2641b-8bc6-4c60-bf08-c18224680f1f",
+    "33507d46-0556-4595-a457-1ce52b2d1746",
+    "9fdc4fb5-117e-48cb-b9a3-0d2ee63bbc73",
+    "c5b12690-e3c6-47c1-9ebe-171faed346a3",
+    "63bcc97b-abbd-45a2-8ccc-a61050d37398"
+  ]
+}

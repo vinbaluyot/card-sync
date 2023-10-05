@@ -1,0 +1,214 @@
+{
+  "sections": {
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1 {font-size: 60px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 30,
+        "show_subcollections": true,
+        "display_description": false
+      }
+    },
+    "71a4dc6d-56e2-4c8d-9626-5c0345983a42": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19490150678828__71a4dc6d-56e2-4c8d-9626-5c0345983a42-1686447988a55c9230-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "heading_size": "h4",
+            "text": "<p>iPhones:<\/p><ul><li>iPhone SE<\/li><li>iPhone 7<\/li><li>iPhone 8<\/li><li>iPhone X<\/li><li>iPhone XR<\/li><li>iPhone XS<\/li><li>iPhone XS Max<\/li><li>iPhone 11<\/li><li>iPhone 11 Pro<\/li><li>iPhone 11 Pro Max<\/li><li>iPhone 12<\/li><li>iPhone 12 Pro<\/li><li>iPhone 12 Mini<\/li><li>iPhone 12 Pro Max<\/li><li>iPhone 13<\/li><li>iPhone 13 Pro<\/li><li>iPhone 13 Mini<\/li><li>iPhone 13 Pro Max<\/li><li>iPhone 14<\/li><li>iPhone 14 Pro<\/li><\/ul><p><em>Including all new models<\/em><\/p><p>Pixels:<\/p><ul><li>Pixel<\/li><li>Pixel XL<\/li><li>Pixel 2<\/li><li>Pixel 2 XL<\/li><li>Pixel 3<\/li><li>Pixel 3 XL<\/li><li>Pixel 3A<\/li><li>Pixel 3a XL<\/li><li>Pixel 4<\/li><\/ul><p><em>Including all new models<\/em><\/p><p>HTC:<\/p><ul><li>One M9<\/li><li>Desire 10 Pro<\/li><li>Exodus 1<\/li><li>U11\/Life\/+<\/li><li>Desire 12\/12+<\/li><li>U11 Eyes<\/li><li>U12 Life<\/li><li>U12+<\/li><li>U19e<\/li><li>19+<\/li><\/ul><p><em>Including all new models<\/em><\/p><p>LG:<\/p><ul><li>G3<\/li><li>Nexus 5X<\/li><li>V10<\/li><li>G4<\/li><li>K10<\/li><li>V20<\/li><li>G5<\/li><li>G6<\/li><li>V30<\/li><li>V35 ThinQ<\/li><li>Q Stylus<\/li><li>Q Stylo 4<\/li><li>Stylo 5<\/li><li>V40 ThinQ<\/li><li>V50 ThinQ 5G<\/li><li>Q8<\/li><li>Q7<\/li><li>G7 ThinQ<\/li><li>G8<\/li><li>G8s ThinQ<\/li><li>Q9<\/li><li>One<\/li><\/ul><p><em>Including all new models<\/em><\/p><p>Huawei:<\/p><ul><li>P10<\/li><li>P10 Plus<\/li><li>P10 Lite<\/li><li>P20<\/li><li>P20 Pro<\/li><li>P20 Lite<\/li><li>P30<\/li><li>P30 Pro<\/li><li>P30 Lite<\/li><li>P40<\/li><li>P50<\/li><\/ul><p><em>Including all new models<\/em><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19490150678828__71a4dc6d-56e2-4c8d-9626-5c0345983a42-1686447988a55c9230-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "heading_size": "h4",
+            "text": "<p>Samsung:<\/p><ul><li>Note 8<\/li><li>Note 9<\/li><li>Note 10<\/li><li>Note 10+<\/li><li>Note 20<\/li><li>Note 20 Ultra<\/li><li>Note 20 Ultra Plus<\/li><\/ul><p><em>Including all new models<\/em><\/p><p>Galaxy:<\/p><ul><li>SIII<\/li><li>S4<\/li><li>S5<\/li><li>S6<\/li><li>S6 Edge<\/li><li>S6 Edge+<\/li><li>S7<\/li><li>S7 Edge<\/li><li>S8<\/li><li>S8+<\/li><li>S9<\/li><li>S9+<\/li><li>S10<\/li><li>S10 5G<\/li><li>S10+<\/li><li>S20<\/li><li>S20+<\/li><li>A20<\/li><li>A20e<\/li><li>A30<\/li><li>A50<\/li><li>A51<\/li><li>Galaxy Fold<\/li><li>Galaxy Fold 2<\/li><li>Galaxy Fold 3<\/li><li>Galaxy Fold 4<\/li><\/ul><p><em>Including all new models<\/em><\/p><p>Xiaomi:<\/p><ul><li>Mi Mix<\/li><li>Mi Mix2<\/li><li>Mi Mix 2S<\/li><li>Mi Mix 3<\/li><li>Mi5<\/li><li>Mi5s<\/li><li>Mi5 Plus<\/li><li>Mi6\/X<\/li><li>Mi6<\/li><li>Mi8<\/li><li>Mi8 Lite<\/li><li>Mi8 Pro<\/li><li>Mi9<\/li><li>Mi9 SE<\/li><\/ul><p><em>Including all new models<\/em><\/p><p>Nokia:<\/p><ul><li>3<\/li><li>5<\/li><li>6<\/li><li>8<\/li><li>8.1<\/li><li>6.1<\/li><li>8 Sirocco<\/li><li>7 Plus<\/li><li>5.1<\/li><li>9 PureView<\/li><\/ul><p><em>Including all new models<\/em><\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19490150678828__71a4dc6d-56e2-4c8d-9626-5c0345983a42-1686447988a55c9230-1",
+        "template--19490150678828__71a4dc6d-56e2-4c8d-9626-5c0345983a42-1686447988a55c9230-2"
+      ],
+      "custom_css": [
+        "h2 {font-size: 40px;}"
+      ],
+      "settings": {
+        "heading": "Compatibility List",
+        "description": "<p>Compatible with all smartphones that have NFC function<\/p><p><\/p><p>Please note that some smartphones are compatible but may have this feature switched off. <\/p>",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "mobile_swipe": false,
+        "text_alignment": "left",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "aa4e2261-7e9b-42eb-9732-b1f0503cf5d6": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--19386117488940__aa4e2261-7e9b-42eb-9732-b1f0503cf5d6-168584657916056c23-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Compatibility List",
+            "size": "h3"
+          }
+        },
+        "template--19386117488940__aa4e2261-7e9b-42eb-9732-b1f0503cf5d6-168584657916056c23-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>iPhones:<\/p><ul><li>iPhone SE <\/li><li>iPhone 7<\/li><li>iPhone 8 <\/li><li>iPhone X <\/li><li>iPhone XR<\/li><li>iPhone XS<\/li><li>iPhone XS Max<\/li><li>iPhone 11<\/li><li>iPhone 11 Pro<\/li><li>iPhone 11 Pro Max<\/li><li>iPhone 12<\/li><li>iPhone 12 Pro<\/li><li>iPhone 12 Mini<\/li><li>iPhone 12 Pro Max<\/li><li>iPhone 13<\/li><li>iPhone 13 Pro<\/li><li>iPhone 13 Mini<\/li><li>iPhone 13 Pro Max<\/li><li>iPhone 14<\/li><li>iPhone 14 Pro<\/li><\/ul><p>Pixels:<\/p><ul><li>Pixel<\/li><li>Pixel XL<\/li><li>Pixel 2<\/li><li>Pixel 2 XL<\/li><li>Pixel 3<\/li><li>Pixel 3 XL<\/li><li>Pixel 3A<\/li><li>Pixel 3a XL<\/li><li>Pixel 4<\/li><\/ul><p>Galaxy:<\/p><ul><li>SIII<\/li><li>S4<\/li><li>S5<\/li><li>S6<\/li><li>S6 Edge<\/li><li>S6 Edge+<\/li><li>S7<\/li><li>S7 Edge<\/li><li>S8<\/li><li>S8+<\/li><li>S9<\/li><li>S9+<\/li><li>S10<\/li><li>S10 5G<\/li><li>S10+<\/li><li>S20<\/li><li>S20+<\/li><li>S21<\/li><li>S22<\/li><li>S22+<\/li><li>S23<\/li><li>S23+<\/li><li>A20<\/li><li>A20e<\/li><li>A30<\/li><li>A50<\/li><li>A51<\/li><li>Galaxy Fold<\/li><li>Galaxy Fold 2<\/li><li>Galaxy Fold 3<\/li><li>Galaxy Fold 4<\/li><\/ul><p>Samsung:<\/p><ul><li>Note 8<\/li><li>Note 9<\/li><li>Note 10<\/li><li>Note 10+<\/li><li>Note 20<\/li><li>Note 20 Ultra<\/li><li>Note 20 Ultra Plus<\/li><\/ul><p>HTC:<\/p><ul><li>One M9<\/li><li>Desire 10 Pro<\/li><li>Exodus 1<\/li><li>U11\/Life\/+<\/li><li>Desire 12\/12+<\/li><li>U11 Eyes<\/li><li>U12 Life<\/li><li>U12+<\/li><li>U19e<\/li><li>19+<br\/><\/li><\/ul><p>Huawei:<\/p><ul><li>P10<\/li><li>P10 Plus<\/li><li>P10 Lite<\/li><li>P20<\/li><li>P20 Pro<\/li><li>P20 Lite<\/li><li>P30<\/li><li>P30 Pro<\/li><li>P30 Lite<\/li><\/ul><p>LG:<\/p><ul><li>G3<\/li><li>Nexus 5X<\/li><li>V10<\/li><li>G4<\/li><li>K10<\/li><li>V20<\/li><li>G5<\/li><li>G6<\/li><li>V30<\/li><li>V35 ThinQ<\/li><li>Q Stylus<\/li><li>Q Stylo 4<\/li><li>Stylo 5<\/li><li>V40 ThinQ<\/li><li>V50 ThinQ 5G<\/li><li>Q8<\/li><li>Q7<\/li><li>G7 ThinQ<\/li><li>G8<\/li><li>G8s ThinQ<\/li><li>Q9<\/li><li>One<\/li><\/ul><p>Xiaomi:<\/p><ul><li>Mi Mix<\/li><li>Mi Mix2<\/li><li>Mi Mix 2S<\/li><li>Mi Mix 3<\/li><li>Mi5<\/li><li>Mi5s<\/li><li>Mi5 Plus<\/li><li>Mi6\/X<\/li><li>Mi6<\/li><li>Mi8<\/li><li>Mi8 Lite<\/li><li>Mi8 Pro<\/li><li>Mi9<\/li><li>Mi9 SE<\/li><\/ul><p>Nokia:<\/p><ul><li>3<\/li><li>5<\/li><li>6<\/li><li>8<\/li><li>8.1<\/li><li>6.1<\/li><li>8 Sirocco<\/li><li>7 Plus<\/li><li>5.1<\/li><li>9 PureView<\/li><\/ul><p><\/p>",
+            "size": "text-size-small"
+          }
+        }
+      },
+      "block_order": [
+        "template--19386117488940__aa4e2261-7e9b-42eb-9732-b1f0503cf5d6-168584657916056c23-1",
+        "template--19386117488940__aa4e2261-7e9b-42eb-9732-b1f0503cf5d6-168584657916056c23-2"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "left",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "9293e653-938e-4c01-b53b-eb0e64a95fbb": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Can't See Your Phone Listed?",
+        "description": "<p>Get in touch and we will let you know if your phone meets compatibility requirements<\/p>",
+        "show_phone_number": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "16532961902797512f": {
+      "type": "scrolling-text",
+      "blocks": {
+        "1653296190947eca92-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "UNLOCK LIMITLESS POSSIBILITIES",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653296190947eca92-2"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "direction": "left",
+        "speed": "50s",
+        "text_size": 140,
+        "outline_text": true,
+        "image_size": "large",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#e51d1d",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1653296460edc9a9c4": {
+      "type": "gallery",
+      "disabled": true,
+      "blocks": {
+        "16532964607ed8a330-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "16532964607ed8a330-1": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16532964607ed8a330-0",
+        "16532964607ed8a330-1"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "columns_desktop": 2,
+        "full_width": true,
+        "mobile_swipe": false,
+        "image_ratio": "landscape",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h4",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "165329287612856480": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "BROWSE OUR COLLECTIONS",
+        "description": "<p>Add a short description for your brand news<\/p>",
+        "collection_list": [
+          "pre-made-nfc-card-designs",
+          "custom-nfc-cards",
+          "metal-business-cards-australia"
+        ],
+        "image_ratio": "portrait",
+        "layout": "grid",
+        "style": "style2",
+        "content_alignment": "text-center",
+        "columns_desktop": 3,
+        "collection_description": false,
+        "overlay_opacity": 30,
+        "carousel_dots": false,
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "template-header",
+    "71a4dc6d-56e2-4c8d-9626-5c0345983a42",
+    "main",
+    "aa4e2261-7e9b-42eb-9732-b1f0503cf5d6",
+    "9293e653-938e-4c01-b53b-eb0e64a95fbb",
+    "16532961902797512f",
+    "1653296460edc9a9c4",
+    "165329287612856480"
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+      }
+    },
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1 {font-size: 60px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 100,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 12,
+        "columns_desktop": 4,
+        "pagination_type": "paginated",
+        "full_width": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": true,
+        "filter_color_swatches": true
+      }
+    },
+    "74dfed46-89d0-495d-acae-bf724cc3a899": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--20333549486380__74dfed46-89d0-495d-acae-bf724cc3a899-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "template--20333549486380__74dfed46-89d0-495d-acae-bf724cc3a899-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "NFC QR Code Business Card",
+            "heading_size": "h3"
+          }
+        },
+        "template--20333549486380__74dfed46-89d0-495d-acae-bf724cc3a899-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our NFC QR code business cards allow you to incorporate a QR code on the front of the card, opening up a world of possibilities. With a simple scan, recipients can access your contact information, website, portfolio, or any other digital content you want to share.<\/p><p>This seamless integration of technology not only saves time but also adds a touch of modernity and sophistication to your brand.<\/p>"
+          }
+        },
+        "85a79e04-12c1-4dab-be2d-00571c07d6c2": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop qr cards",
+            "button_link": "shopify:\/\/products\/custom-engraved-type-qr"
+          }
+        }
+      },
+      "block_order": [
+        "template--20333549486380__74dfed46-89d0-495d-acae-bf724cc3a899-subheading-1",
+        "template--20333549486380__74dfed46-89d0-495d-acae-bf724cc3a899-heading-1",
+        "template--20333549486380__74dfed46-89d0-495d-acae-bf724cc3a899-text-1",
+        "85a79e04-12c1-4dab-be2d-00571c07d6c2"
+      ],
+      "custom_css": [
+        ".button {background-color: #ff4515;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cardsync_9.jpg",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "image_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "63bcc97b-abbd-45a2-8ccc-a61050d37398": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-select.gif",
+            "heading": "Choose a Card",
+            "text": "<p>Start by selecting the style and colour for your business cards. We offer three options: black, gold, and silver.<\/p>"
+          }
+        },
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-create-50.png",
+            "heading": "Customise",
+            "text": "<p>To personalise your NFC business cards, upload your logo design or any other text you want to include on the cards.<\/p>"
+          }
+        },
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-add-shopping-cart-50.png",
+            "heading": "Add To Cart",
+            "text": "<p>Once you have created your card, click on the \"Add to Cart\" button. After checkout, you will be sent an email with details on how to create your landing page!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-1",
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-2",
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-3"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "large",
+        "heading_size": "large",
+        "mobile_swipe": true,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "17390a8a-2a06-47b9-a501-ca238f60daa2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20333461176620__17390a8a-2a06-47b9-a501-ca238f60daa2-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading for this section"
+          }
+        },
+        "template--20333461176620__17390a8a-2a06-47b9-a501-ca238f60daa2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Why Choose Our QR Code Cards?",
+            "size": "h3"
+          }
+        },
+        "template--20333461176620__17390a8a-2a06-47b9-a501-ca238f60daa2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Firstly, they provide a convenient solution for sharing information. Traditional business cards can easily get misplaced or forgotten, but with our NFC QR code cards, your contact details and other important information are always just a scan away. This means no more lost opportunities or missed connections.<\/p><p>Furthermore, our NFC QR code cards offer a level of interactivity that traditional cards simply cannot match. By linking the QR code to a landing page or specific content, you can engage your audience in a more meaningful way. Whether it's a promotional video, a product demonstration, or a special offer, you have the power to create a personalized and captivating experience for your potential clients.Firstly, they provide a convenient solution for sharing information. Traditional business cards can easily get misplaced or forgotten, but with our NFC QR code cards, your contact details and other important information are always just a scan away. This means no more lost opportunities or missed connections.<\/p><p>Furthermore, our NFC QR code cards offer a level of interactivity that traditional cards simply cannot match. By linking the QR code to a landing page or specific content, you can engage your audience in a more meaningful way. Whether it's a promotional video, a product demonstration, or a special offer, you have the power to create a personalized and captivating experience for your potential clients.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--20333461176620__17390a8a-2a06-47b9-a501-ca238f60daa2-button-1": {
+          "type": "button",
+          "settings": {
+            "link_label": "HOW NFC CARDS WORK",
+            "link": "shopify:\/\/pages\/how-nfc-cards-work",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20333461176620__17390a8a-2a06-47b9-a501-ca238f60daa2-subheading-1",
+        "template--20333461176620__17390a8a-2a06-47b9-a501-ca238f60daa2-heading-1",
+        "template--20333461176620__17390a8a-2a06-47b9-a501-ca238f60daa2-text-1",
+        "template--20333461176620__17390a8a-2a06-47b9-a501-ca238f60daa2-button-1"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "f7b50761-fb68-4478-997f-50230999fde3": {
+      "type": "background-video",
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "heading": "",
+        "text": "",
+        "video": "https:\/\/youtu.be\/gVVtts0VQFw",
+        "button_text": "",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "template-header",
+    "product-grid",
+    "74dfed46-89d0-495d-acae-bf724cc3a899",
+    "63bcc97b-abbd-45a2-8ccc-a61050d37398",
+    "17390a8a-2a06-47b9-a501-ca238f60daa2",
+    "f7b50761-fb68-4478-997f-50230999fde3"
+  ]
+}

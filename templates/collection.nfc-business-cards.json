@@ -1,0 +1,394 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+      }
+    },
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1 {font-size: 60px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 100,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "c2546aec-4fee-4a94-8d4a-2a881f724bd9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20823290478892__c2546aec-4fee-4a94-8d4a-2a881f724bd9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Step 1: Choose Business Card Type",
+            "size": "h4"
+          }
+        },
+        "template--20823290478892__c2546aec-4fee-4a94-8d4a-2a881f724bd9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Select from our range of NFC business cards to access the customisations page. If you prefer a plain card without any engraving, choose from our non-custom options.<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--20823290478892__c2546aec-4fee-4a94-8d4a-2a881f724bd9-heading-1",
+        "template--20823290478892__c2546aec-4fee-4a94-8d4a-2a881f724bd9-text-1"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 12,
+        "columns_desktop": 4,
+        "pagination_type": "paginated",
+        "full_width": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": true,
+        "filter_color_swatches": true
+      }
+    },
+    "a8052c75-b6b7-416b-9a4a-9429cc92b96e": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--20333461176620__a8052c75-b6b7-416b-9a4a-9429cc92b96e-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "NEXT GENERATION NETWORKING"
+          }
+        },
+        "template--20333461176620__a8052c75-b6b7-416b-9a4a-9429cc92b96e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "NFC Business Card",
+            "heading_size": "h3"
+          }
+        },
+        "template--20333461176620__a8052c75-b6b7-416b-9a4a-9429cc92b96e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These premium business cards allow you to share your contact information, website links, and social media profiles effortlessly. With a simple tap of an NFC-enabled device, potential clients and customers can access your digital presence instantly.<\/p><ul><li><strong>Unlock the Power of NFC Business Cards<\/strong><br\/>Join countless businesses across Australia who have already embraced NFC business cards to elevate their networking experiences. Cardsync is your gateway to the future of seamless interactions.<\/li><\/ul><p><\/p><ul><li><strong>Seamless and Efficient Networking<\/strong><br\/>With NFC business cards, gone are the days of manually inputting contact details. Simplify your networking efforts, impress your prospects, and stand out from the crowd with this cutting-edge technology. The process is quick, convenient, and guarantees you never miss a potential lead.<br\/><\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20333461176620__a8052c75-b6b7-416b-9a4a-9429cc92b96e-subheading-1",
+        "template--20333461176620__a8052c75-b6b7-416b-9a4a-9429cc92b96e-heading-1",
+        "template--20333461176620__a8052c75-b6b7-416b-9a4a-9429cc92b96e-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/54.jpg",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "image_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "63bcc97b-abbd-45a2-8ccc-a61050d37398": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-select.gif",
+            "heading": "Choose a Card",
+            "text": "<p>Start by selecting the style and colour for your business cards. We offer three options: black, gold, and silver.<\/p>"
+          }
+        },
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-create-50.png",
+            "heading": "Customise",
+            "text": "<p>To personalise your NFC business cards, upload your logo design or any other text you want to include on the cards.<\/p>"
+          }
+        },
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-add-shopping-cart-50.png",
+            "heading": "Add To Cart",
+            "text": "<p>Once you have created your card, click on the \"Add to Cart\" button. After checkout, you will be sent an email with details on how to create your landing page!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-1",
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-2",
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-3"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "large",
+        "heading_size": "large",
+        "mobile_swipe": false,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "d439429f-1d4e-4435-a749-f862f75bef17": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--20823290478892__d439429f-1d4e-4435-a749-f862f75bef17-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "THE FUTURE OF NETWORKING"
+          }
+        },
+        "template--20823290478892__d439429f-1d4e-4435-a749-f862f75bef17-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Why Choose NFC Business Cards?",
+            "heading_size": "h3"
+          }
+        },
+        "template--20823290478892__d439429f-1d4e-4435-a749-f862f75bef17-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>NFC business cards are the latest trend in the business world, offering a modern and interactive way to exchange contact information. With a simple tap, these innovative cards allow you to transfer your contact details, social media profiles, website links, and more directly to a recipient's smartphone. Say goodbye to outdated paper business cards and embrace the convenience and versatility of NFC technology.<\/p><p>Experience the Power of NFC Business Cards Today. Unlock the potential of hassle-free networking with our NFC business cards. Simplify your professional interactions and leave a lasting impression on potential clients and partners. Explore our range of NFC business cards and order yours today.<\/p><p>Remember, success lies in staying ahead of the curve. Embrace the power of NFC technology and take your networking efforts to new heights with Cardsync.<\/p>"
+          }
+        },
+        "b1da7efb-8a51-4ca8-8a88-e392c82b44e6": {
+          "type": "button",
+          "settings": {
+            "button_text": "HOW NFC BUSINESS CARDS WORK",
+            "button_link": "shopify:\/\/pages\/how-nfc-cards-work"
+          }
+        }
+      },
+      "block_order": [
+        "template--20823290478892__d439429f-1d4e-4435-a749-f862f75bef17-subheading-1",
+        "template--20823290478892__d439429f-1d4e-4435-a749-f862f75bef17-heading-1",
+        "template--20823290478892__d439429f-1d4e-4435-a749-f862f75bef17-text-1",
+        "b1da7efb-8a51-4ca8-8a88-e392c82b44e6"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cardsync_9.jpg",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "image_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "ee897ede-eeb1-4232-8615-cffb396f87c0": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--20332930302252__ee897ede-eeb1-4232-8615-cffb396f87c0-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-create-50.png",
+            "heading": "Customisable",
+            "text": "<p>At Cardsync, we understand the importance of representing your brand in a unique and stylish manner. That's why our NFC business cards come in a wide range of designs, allowing you to showcase your individuality and professionalism. <\/p>"
+          }
+        },
+        "template--20332930302252__ee897ede-eeb1-4232-8615-cffb396f87c0-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-crowd-50.png",
+            "heading": "Stand Out",
+            "text": "<p>NFC business cards are an excellent way to stand out from the crowd. By incorporating NFC technology into your networking arsenal, you demonstrate your commitment to innovation and modernity. <\/p>"
+          }
+        },
+        "322fa7db-76f4-415a-aeed-abdd5b66ba30": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-networking-50.png",
+            "heading": "Seamless Networking",
+            "text": "<p>Our NFC business cards simplify the networking process, making it effortless and efficient. When you hand over your NFC business card, the recipient can instantly access all your information with a single tap, saving time and ensuring accuracy.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20332930302252__ee897ede-eeb1-4232-8615-cffb396f87c0-icon-2",
+        "template--20332930302252__ee897ede-eeb1-4232-8615-cffb396f87c0-icon-3",
+        "322fa7db-76f4-415a-aeed-abdd5b66ba30"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "large",
+        "heading_size": "large",
+        "mobile_swipe": false,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "f7b50761-fb68-4478-997f-50230999fde3": {
+      "type": "background-video",
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "heading": "",
+        "text": "",
+        "video": "https:\/\/youtu.be\/gVVtts0VQFw",
+        "button_text": "",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "54e78c08-fd3e-4df1-8c3d-055c55e36268": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--20333461176620__54e78c08-fd3e-4df1-8c3d-055c55e36268-collapsible_tab-5": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I use my NFC Business card?",
+            "open": false,
+            "content": "<p>Just tap your business card on any smartphone to seamlessly share your information.  <br\/><br\/>Please note: That some android devices might have this feature switched off <\/p>",
+            "page": ""
+          }
+        },
+        "template--20333461176620__54e78c08-fd3e-4df1-8c3d-055c55e36268-collapsible_tab-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "WHAT PHONES ARE COMPATIBLE?",
+            "open": false,
+            "content": "<p>Tap function is compatible with NFC enabled Smartphones. iPhones made in 2018 and newer and most androids<\/p><p>For all other phones, please have your client scan the QR code on the front of your card which is available in our QR card range<\/p>",
+            "page": ""
+          }
+        },
+        "template--20333461176620__54e78c08-fd3e-4df1-8c3d-055c55e36268-collapsible_tab-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "DO I NEED TO SET UP MY CARD?",
+            "open": false,
+            "content": "<p>No, just select landing page or direct link set up and we will send you the details to your email.<\/p>",
+            "page": ""
+          }
+        },
+        "template--20333461176620__54e78c08-fd3e-4df1-8c3d-055c55e36268-collapsible_tab-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "WHAT MATERIAL ARE THE CARDS?",
+            "open": false,
+            "content": "<p>Our cards are crafted from durable stainless steel, providing exceptional sturdiness and a premium feel that sets them apart from the majority of cards available in the market today.<\/p>",
+            "page": ""
+          }
+        },
+        "template--20333461176620__54e78c08-fd3e-4df1-8c3d-055c55e36268-collapsible_tab-4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "CAN I UPDATE THE INFORMATION ON MY NFC Business CARD?",
+            "open": false,
+            "content": "<p>It is possible to update the information on your NFC business card. The process is simple and convenient. If you need assistance, please contact us via email using our contact form. Landing page details will be sent after checkout.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20333461176620__54e78c08-fd3e-4df1-8c3d-055c55e36268-collapsible_tab-5",
+        "template--20333461176620__54e78c08-fd3e-4df1-8c3d-055c55e36268-collapsible_tab-1",
+        "template--20333461176620__54e78c08-fd3e-4df1-8c3d-055c55e36268-collapsible_tab-2",
+        "template--20333461176620__54e78c08-fd3e-4df1-8c3d-055c55e36268-collapsible_tab-3",
+        "template--20333461176620__54e78c08-fd3e-4df1-8c3d-055c55e36268-collapsible_tab-4"
+      ],
+      "settings": {
+        "heading": "FAQs",
+        "description": "",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "6608627c-cbcb-4804-b543-c07665807360": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20823290478892__6608627c-cbcb-4804-b543-c07665807360-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading for this section"
+          }
+        },
+        "template--20823290478892__6608627c-cbcb-4804-b543-c07665807360-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Ready to Elevate Your Networking Game?",
+            "size": "h3"
+          }
+        },
+        "template--20823290478892__6608627c-cbcb-4804-b543-c07665807360-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Upgrade to NFC business cards today and transform the way you connect with others. Start making meaningful connections that leave a lasting impact. Experience the simplicity and effectiveness of our premium business cards. Get yourself a <a href=\"\/collections\/nfc-business-cards\" title=\"NFC Business Cards\">NFC business card<\/a> and take networking to a whole new level!<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--20823290478892__6608627c-cbcb-4804-b543-c07665807360-button-1": {
+          "type": "button",
+          "settings": {
+            "link_label": "SHOP NOW",
+            "link": "shopify:\/\/products\/custom-engraved-type-qr",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20823290478892__6608627c-cbcb-4804-b543-c07665807360-subheading-1",
+        "template--20823290478892__6608627c-cbcb-4804-b543-c07665807360-heading-1",
+        "template--20823290478892__6608627c-cbcb-4804-b543-c07665807360-text-1",
+        "template--20823290478892__6608627c-cbcb-4804-b543-c07665807360-button-1"
+      ],
+      "custom_css": [
+        ".button {background-color: #ff4515;}"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "template-header",
+    "c2546aec-4fee-4a94-8d4a-2a881f724bd9",
+    "product-grid",
+    "a8052c75-b6b7-416b-9a4a-9429cc92b96e",
+    "63bcc97b-abbd-45a2-8ccc-a61050d37398",
+    "d439429f-1d4e-4435-a749-f862f75bef17",
+    "ee897ede-eeb1-4232-8615-cffb396f87c0",
+    "f7b50761-fb68-4478-997f-50230999fde3",
+    "54e78c08-fd3e-4df1-8c3d-055c55e36268",
+    "6608627c-cbcb-4804-b543-c07665807360"
+  ]
+}

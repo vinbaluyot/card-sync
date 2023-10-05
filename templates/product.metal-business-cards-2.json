@@ -1,0 +1,408 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+      }
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "e431a79e-9c7b-4a53-a79a-0cb918617ecf": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "style_vendor"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_products_rating": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "variant_is_disabled": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "0b3e272b-c86a-4dba-946c-c6912251371c": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "55da0587-5936-4a13-a042-eb96ec75df15": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "MATERIALS",
+            "open": false,
+            "content": "<p>Stainless Steel<\/p>",
+            "page": ""
+          }
+        },
+        "01d647a2-3859-485c-b22d-62c1e9ca54c4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "SHIPPING & RETURNS",
+            "open": false,
+            "content": "<p>Unfortunately, we do not offer returns for custom designs. Since these cards are specifically tailored to individual customer requirements, we are unable to accept returns unless there is a manufacturing defect or an error on our part.<\/p>",
+            "page": ""
+          }
+        },
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
+          "type": "share",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "e431a79e-9c7b-4a53-a79a-0cb918617ecf",
+        "title",
+        "variant_picker",
+        "buy_buttons",
+        "0b3e272b-c86a-4dba-946c-c6912251371c",
+        "55da0587-5936-4a13-a042-eb96ec75df15",
+        "01d647a2-3859-485c-b22d-62c1e9ca54c4",
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_taxes_included": true,
+        "thumbnail_position": "left",
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false
+      }
+    },
+    "165244975926451db4": {
+      "type": "background-video",
+      "settings": {
+        "desktop_height": "desktop-height-550",
+        "mobile_height": "mobile-height-500",
+        "heading": "UNLOCK LIMITLESS POSSIBILITIES",
+        "text": "",
+        "video": "",
+        "button_text": "WATCH THE VIDEO",
+        "overlay_opacity": 25,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "165245196754f5c235": {
+      "type": "rich-text",
+      "blocks": {
+        "1652451967dd37db35-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Make a lasting impression while embracing     the power of NFC technology.",
+            "size": "h3"
+          }
+        },
+        "1652451967dd37db35-2": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "1652451967dd37db35-1",
+        "1652451967dd37db35-2"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "16524478238f6de7c7": {
+      "type": "gallery",
+      "blocks": {
+        "1652447823b433c464-1": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "8c01912c-7e70-451f-b97e-e61f65681bc7": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652447823b433c464-1",
+        "8c01912c-7e70-451f-b97e-e61f65681bc7"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "columns_desktop": 2,
+        "full_width": true,
+        "mobile_swipe": false,
+        "image_ratio": "adapt",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "medium",
+        "heading_size": "h4",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "16524533326e934140": {
+      "type": "multicolumn",
+      "blocks": {
+        "165245333214ba42e6-0": {
+          "type": "column",
+          "settings": {
+            "title": "Convenience",
+            "heading_size": "h4",
+            "text": "<p> Instead of manually exchanging contact information or typing in URLs, a simple tap on the NFC-enabled device is all it takes to establish a connection. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "165245333214ba42e6-1": {
+          "type": "column",
+          "settings": {
+            "title": "Instant Access to Information",
+            "heading_size": "h4",
+            "text": "<p>Whether it's directing them to a website, a social media profile, or providing contact details, a single tap on the metal NFC design quickly connects to the desired information or online presence.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "165245333214ba42e6-2": {
+          "type": "column",
+          "settings": {
+            "title": "Seamlessness",
+            "heading_size": "h4",
+            "text": "<p>The effortless nature of the one-tap connection simplifies interactions and fosters smoother communication.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "86d044ea-759e-44d6-a5f7-73a4dfe4db64": {
+          "type": "column",
+          "settings": {
+            "title": "Professional Impression",
+            "heading_size": "h4",
+            "text": "<p>It leaves a lasting impact on clients, customers, or potential business partners.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165245333214ba42e6-0",
+        "165245333214ba42e6-1",
+        "165245333214ba42e6-2",
+        "86d044ea-759e-44d6-a5f7-73a4dfe4db64"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "mobile_swipe": false,
+        "text_alignment": "left",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1652454308ccca72c3": {
+      "type": "scrolling-text",
+      "blocks": {
+        "16524543088214d127-0": {
+          "type": "text",
+          "settings": {
+            "text": "START CONNECTING LIKE NEVER BEFORE",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16524543088214d127-0"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "direction": "left",
+        "speed": "30s",
+        "text_size": 58,
+        "outline_text": false,
+        "image_size": "large",
+        "color_bg": "#1a1a1a",
+        "color_text": "#ffffff",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1652454339b6c673f3": {
+      "type": "collapsible-content",
+      "disabled": true,
+      "blocks": {
+        "1652454339ded25d7d-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "HOW DO I ORDER CUSTOM ENGRAVED NFC CARDS?",
+            "open": false,
+            "content": "<p>To order custom engraved NFC cards, simply visit our website and navigate to the NFC cards section. Choose the desired card type and material, and select the option for custom engraving. You can then upload your design or specify the text you want engraved on the card. Once you've provided all the necessary details, proceed to checkout to complete your order.<\/p>",
+            "page": ""
+          }
+        },
+        "1652454339ded25d7d-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "WHAT CUSTOMIZATION OPTIONS ARE AVAILABLE FOR NFC CARDS?",
+            "open": false,
+            "content": "<p>We offer various customization options for NFC cards. First you pick your card colour as well as your preference and requirements. Additionally, you can customize the design and engrave your logo, artwork, or text on the card. Our team will work closely with you to ensure your custom NFC cards meet your specifications.<br\/><br\/><br\/>We understand that personalization comes in many forms. That's why we also offer a stunning collection of pre-made NFC card designs that combine elegance, functionality, and convenience. Explore our exquisite range of designs and find the perfect NFC card to suit your style and needs.<\/p><p> <\/p>",
+            "page": ""
+          }
+        },
+        "1652454339ded25d7d-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "CAN I USE MY OWN DESIGN OR ARTWORK FOR CUSTOM ENGRAVING?",
+            "open": false,
+            "content": "<p>Absolutely! We encourage you to use your own design or artwork for custom engraving on NFC cards. When placing your order, you can upload your design file in a supported format, such as JPEG, PNG, or SVG. If you need any assistance with file requirements or design specifications, our customer support team will be happy to help.<\/p>",
+            "page": ""
+          }
+        },
+        "1652454339ded25d7d-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "WHAT ARE THE BENEFITS OF USING CUSTOM ENGRAVED NFC CARDS?",
+            "open": false,
+            "content": "<p>Custom engraved NFC cards offer several benefits. Firstly, they provide a professional and personalized touch to your business or organization. You can showcase your brand logo or message on the card, making it easily recognizable and memorable for recipients. Secondly, NFC technology allows for convenient interactions with compatible devices, enabling tasks like making payments, accessing information, or initiating actions. Lastly, custom engraved NFC cards can be used as promotional items, giveaways, or even as access cards for events.<\/p>",
+            "page": ""
+          }
+        },
+        "1652454339ded25d7d-4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "ARE THERE ANY MINIMUM ORDER REQUIREMENTS FOR CUSTOM ENGRAVED NFC CARDS?",
+            "open": false,
+            "content": "<p>No, we do not have any minimum order requirements.<\/p>",
+            "page": ""
+          }
+        },
+        "b14afa34-c196-430d-b09e-643c97d126e9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "DO WE OFFER DISCOUNTS FOR BULK ORDERS?",
+            "open": false,
+            "content": "<p>If you are looking to do a bulk order we can offer special pricing according to your order requirements. Please send our team an email and we will get back to you right away!<\/p>",
+            "page": ""
+          }
+        },
+        "dfdf24c2-09b2-4188-b0de-bb9e75e59a37": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "DO WE OFFER RETURNS FOR CUSTOM DESIGNS?",
+            "open": false,
+            "content": "<p>Unfortunately, we do not offer returns for custom designs. Since these cards are specifically tailored to individual customer requirements, we are unable to accept returns unless there is a manufacturing defect or an error on our part.<\/p>",
+            "page": ""
+          }
+        },
+        "25e6e3df-4cd2-42b5-9809-1b71c7d87a9e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do We Offer Returns for Pre-made Designs",
+            "open": false,
+            "content": "<p>Our return policy applies exclusively to pre-made designs and allows for returns within 14 days of receiving your item. This means you have a 14-day window to request a return for pre-made designs.<\/p>",
+            "page": ""
+          }
+        },
+        "30a1eba5-af00-4d90-96b9-84b1f0fc78b4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "HOW LONG DOES SHIPPING TAKE FOR CUSTOM MADE DESIGNS?",
+            "open": false,
+            "content": "<p>The shipping time for custom-made designs of our metal NFC cards depends on various factors, including the complexity of the design, the quantity ordered, and the shipping destination. Typically, it takes approximately 7-10 business days for the production and processing of the custom cards. Shipping can take anywhere from 2-5 business days.<\/p>",
+            "page": ""
+          }
+        },
+        "be47465d-7cde-4902-8a33-4cff2cfdaba1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What format is needed for custom designs?",
+            "open": false,
+            "content": "<p>Make sure the graphics are in the appropriate format (such as JPEG, PNG & Vector files) High resolution is required for engraving.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652454339ded25d7d-0",
+        "1652454339ded25d7d-1",
+        "1652454339ded25d7d-2",
+        "1652454339ded25d7d-3",
+        "1652454339ded25d7d-4",
+        "b14afa34-c196-430d-b09e-643c97d126e9",
+        "dfdf24c2-09b2-4188-b0de-bb9e75e59a37",
+        "25e6e3df-4cd2-42b5-9809-1b71c7d87a9e",
+        "30a1eba5-af00-4d90-96b9-84b1f0fc78b4",
+        "be47465d-7cde-4902-8a33-4cff2cfdaba1"
+      ],
+      "settings": {
+        "heading": "FREQUENTLY ASKED QUESTIONS",
+        "description": "<p>Find answers to some of the most common questions.<\/p>",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1647163011d29de758": {
+      "type": "apps",
+      "settings": {
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "YOU MAY ALSO LIKE",
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "165244975926451db4",
+    "165245196754f5c235",
+    "16524478238f6de7c7",
+    "16524533326e934140",
+    "1652454308ccca72c3",
+    "1652454339b6c673f3",
+    "1647163011d29de758",
+    "product-recommendations"
+  ]
+}

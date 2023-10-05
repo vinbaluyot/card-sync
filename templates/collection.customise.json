@@ -1,0 +1,196 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+      }
+    },
+    "template-header": {
+      "type": "template-header",
+      "custom_css": [
+        "h1 {font-size: 60px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "overlay_opacity": 100,
+        "show_subcollections": true,
+        "display_description": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 12,
+        "columns_desktop": 4,
+        "pagination_type": "paginated",
+        "full_width": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": true,
+        "filter_color_swatches": true
+      }
+    },
+    "e698a20f-580c-4b50-b973-41280bf732ec": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20294491930924__e698a20f-580c-4b50-b973-41280bf732ec-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Please note that not all designs work well with engraving. If your design does not work we will you will have the option to send a new design or be issued with a refund.<\/strong><\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--20294491930924__e698a20f-580c-4b50-b973-41280bf732ec-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "63bcc97b-abbd-45a2-8ccc-a61050d37398": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-select.gif",
+            "heading": "Choose a Design",
+            "text": "<p>Start by selecting the color for your NFC business cards. Pick a color that aligns with your brand or personal preference. You can choose from the available card colors we offer.<\/p>"
+          }
+        },
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-create-50.png",
+            "heading": "Customise",
+            "text": "<p>To personalise your NFC cards, upload the graphics you want to include on the cards.<\/p>"
+          }
+        },
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-add-shopping-cart-50.png",
+            "heading": "Add To Cart",
+            "text": "<p>Once you have created your card, click on the \"Add to Cart\" button. After checkout, you will be sent an email with details on how to create your landing page!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-1",
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-2",
+        "template--20294491930924__63bcc97b-abbd-45a2-8ccc-a61050d37398-icon-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "large",
+        "heading_size": "large",
+        "mobile_swipe": true,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "b04302c2-df15-4d73-9748-2d62ebe84660": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--20294491930924__b04302c2-df15-4d73-9748-2d62ebe84660-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "NFC Cards",
+            "heading_size": "h3"
+          }
+        },
+        "template--20294491930924__b04302c2-df15-4d73-9748-2d62ebe84660-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With our custom NFC cards, you can unlock a world of convenience and innovation. Whether you're a retail store, a restaurant, or a service provider, our NFC cards can help you connect with your customers in ways you've never imagined. These cards come embedded with near field communication (NFC) technology, allowing for seamless wireless communication between the card and NFC-enabled devices such as smartphones and tablets.<\/p><p>Our custom NFC cards are the perfect solution for businesses looking to enhance their customer experience. By simply tapping or scanning the NFC card with their devices, customers can instantly access product information, exclusive offers, loyalty programs, and much more. This seamless interaction not only saves time but also creates a memorable and personalised experience, fostering stronger customer relationships.<\/p>"
+          }
+        },
+        "c663cbe8-7c4d-4e42-8672-f4e288282487": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop NFC Cards",
+            "button_link": "shopify:\/\/products\/custom-engraved-card"
+          }
+        }
+      },
+      "block_order": [
+        "template--20294491930924__b04302c2-df15-4d73-9748-2d62ebe84660-heading-1",
+        "template--20294491930924__b04302c2-df15-4d73-9748-2d62ebe84660-text-1",
+        "c663cbe8-7c4d-4e42-8672-f4e288282487"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Your_Graphics.jpg",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "image_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "57ab852d-d711-4f5f-b37e-32f058afe291": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--20294491930924__57ab852d-d711-4f5f-b37e-32f058afe291-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Cardsync, we understand that every business is unique. That's why we offer a wide range of customisation options for our NFC cards. From choosing the card design, color, and material to incorporating your brand logo, graphics and relevant information, we ensure that your custom NFC cards align perfectly with your brand identity. We provide engraving services, allowing you to add a personal touch and create a lasting impression on your customers.<\/p><p>By investing in custom NFC cards, you are investing in the future of your business. Our cards are not only a powerful marketing tool but also a versatile asset that can streamline your operations. Use them for access control, time tracking, event ticketing, inventory management, and much more. The possibilities are endless, and the benefits are undeniable.<\/p>"
+          }
+        },
+        "09a7b042-a09b-4c5e-add2-39fd8f72c91f": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop QR Code Cards",
+            "button_link": "shopify:\/\/products\/custom-engraved-type-qr"
+          }
+        }
+      },
+      "block_order": [
+        "template--20294491930924__57ab852d-d711-4f5f-b37e-32f058afe291-text-1",
+        "09a7b042-a09b-4c5e-add2-39fd8f72c91f"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Your_Graphics_11.jpg",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "text_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "template-header",
+    "product-grid",
+    "e698a20f-580c-4b50-b973-41280bf732ec",
+    "63bcc97b-abbd-45a2-8ccc-a61050d37398",
+    "b04302c2-df15-4d73-9748-2d62ebe84660",
+    "57ab852d-d711-4f5f-b37e-32f058afe291"
+  ]
+}
