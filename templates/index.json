@@ -255,7 +255,7 @@
         "layout": "carousel",
         "style": "style1",
         "content_alignment": "text-left",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "collection_description": true,
         "overlay_opacity": 30,
         "carousel_dots": false,
@@ -303,6 +303,7 @@
         "template--20294492258604__17d0026f-85f4-4fb2-a3a0-ce5686906246-column-1",
         "template--20294492258604__17d0026f-85f4-4fb2-a3a0-ce5686906246-column-3"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {color: #ff4515;}",
         " {background-color: #f7f5fd;}"
@@ -354,6 +355,7 @@
         "template--19712152699180__c602d207-c8e7-4f38-8f4e-e8154ac9663b-168799741433585466-2",
         "9512f911-8f57-41b5-8b9e-d782a4c98bb9"
       ],
+      "disabled": true,
       "custom_css": [
         ".button {background-color: #ff4515;}"
       ],
@@ -390,6 +392,7 @@
       "block_order": [
         "template--20294492258604__341aab12-1340-449a-9ef3-42d772add092-collection-1"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Pre-made Designs",
         "description": "<p>Select one of our Best Sellers or create your own!<br\/>You have the option to link direct to our landing page or via direct link!<\/p>",
@@ -962,112 +965,6 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
-    },
-    "0512431d-4aca-435d-a681-d678e35f2450": {
-      "type": "rich-text",
-      "blocks": {
-        "template--20823291068716__0512431d-4aca-435d-a681-d678e35f2450-button-1": {
-          "type": "button",
-          "settings": {
-            "link_label": "TRUSTPILOT REVIEWS",
-            "link": "https:\/\/www.trustpilot.com\/review\/cardsync.com.au?utm_medium=trustbox&utm_source=MicroReviewCount",
-            "button_outline": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20823291068716__0512431d-4aca-435d-a681-d678e35f2450-button-1"
-      ],
-      "settings": {
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
-      }
-    },
-    "c9d320b2-bee5-46d0-938e-56c34fb95ca7": {
-      "type": "text-with-icons",
-      "blocks": {
-        "template--19287195549996__c9d320b2-bee5-46d0-938e-56c34fb95ca7-16855376097a8cf95e-0": {
-          "type": "icon",
-          "settings": {
-            "icon": "truck",
-            "heading": "WORLDWIDE SHIPPING",
-            "text": "<p>Free shipping on all orders Australia wide<\/p>"
-          }
-        },
-        "template--19287195549996__c9d320b2-bee5-46d0-938e-56c34fb95ca7-16855376097a8cf95e-1": {
-          "type": "icon",
-          "settings": {
-            "icon": "star",
-            "heading": "Email Support",
-            "text": "<p>Email us anytime<\/p>"
-          }
-        },
-        "template--19287195549996__c9d320b2-bee5-46d0-938e-56c34fb95ca7-16855376097a8cf95e-2": {
-          "type": "icon",
-          "settings": {
-            "icon": "lock",
-            "heading": "SECURE PAYMENT",
-            "text": "<p>Your information is safe with us<\/p>"
-          }
-        },
-        "cef767e0-7c81-47da-a1a9-145f8be8bf3b": {
-          "type": "icon",
-          "settings": {
-            "icon": "chat_bubble",
-            "heading": "CONTACT US",
-            "text": "<p>support@cardsync.com.au<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--19287195549996__c9d320b2-bee5-46d0-938e-56c34fb95ca7-16855376097a8cf95e-0",
-        "template--19287195549996__c9d320b2-bee5-46d0-938e-56c34fb95ca7-16855376097a8cf95e-1",
-        "template--19287195549996__c9d320b2-bee5-46d0-938e-56c34fb95ca7-16855376097a8cf95e-2",
-        "cef767e0-7c81-47da-a1a9-145f8be8bf3b"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "icon_position": "top",
-        "icon_size": "small",
-        "heading_size": "small",
-        "mobile_swipe": false,
-        "color_bg": "#ffffff",
-        "color_heading": "#103a3a",
-        "color_text": "#103a3a",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "6295831f-3a9a-4e1e-b789-7cf8e800be7d": {
-      "type": "countdown-banner",
-      "disabled": true,
-      "settings": {
-        "section_layout": "horizontal",
-        "desktop_height": "desktop-height-auto",
-        "mobile_height": "mobile-height-auto",
-        "full_width": true,
-        "subheading": "FREE SHIPPING AUSTRALIA WIDE",
-        "heading": "20% OFF STORE WIDE",
-        "heading_size": "h3",
-        "content": "USE CODE 20OFF",
-        "content_size": "medium",
-        "button_text": "Shop Now",
-        "button_link": "",
-        "timer_year": 2023,
-        "timer_month": "09",
-        "timer_day": "06",
-        "timer_hour": "00",
-        "timer_minute": "05",
-        "color_bg": "#ffffff",
-        "color_text": "#151515",
-        "overlay_color": "#000000",
-        "overlay_opacity": 10,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
     }
   },
   "order": [
@@ -1092,9 +989,6 @@
     "1648039210ca70a145",
     "16864503224779423e",
     "b5b96e07-fe81-46c3-b133-76161f3a6d13",
-    "dcaaa33f-4c45-4be6-9140-23b281b93297",
-    "0512431d-4aca-435d-a681-d678e35f2450",
-    "c9d320b2-bee5-46d0-938e-56c34fb95ca7",
-    "6295831f-3a9a-4e1e-b789-7cf8e800be7d"
+    "dcaaa33f-4c45-4be6-9140-23b281b93297"
   ]
 }
