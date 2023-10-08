@@ -305,6 +305,96 @@
         "custom_liquid": "Custom > For Personal section will be here\n\nEngraving video\nWeb copy mentioning instagram, facebook, tiktok\n“Why have a digital card”\nCTA – Design yours\nCTA – Shop Pre-made designs"
       }
     },
+    "2a5abf78-eb47-422a-beef-8fa4ba31c35a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "Custom > For Business section\nImage to be NFC Card, Review Cards and Table Talkers\nFeature Review Cards more (subtly)\n“Why have a digital card”\nCTA – Design your business card\nCTA – Shop Business Solutions"
+      }
+    },
+    "3df5f630-cc44-4013-8e5c-79e179670dc0": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "How CardSync works\nMention and link to Landing Page builder\nCTA - How NFCs work\nCTA - FAQs"
+      }
+    },
+    "dcaaa33f-4c45-4be6-9140-23b281b93297": {
+      "type": "testimonials",
+      "blocks": {
+        "a6290574-20fe-497f-a578-3e20f9b7ae31": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "Great product and premium quality. Amazing how accurate the design came out that I provided. Makes networking a whole lot easier and more memorable for the receiving person rather than a business card.",
+            "author": "Angelo",
+            "retina": true
+          }
+        },
+        "template--20294492258604__dcaaa33f-4c45-4be6-9140-23b281b93297-quote-1": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "Ordered a custom metal NFC card, really happy with how it turned out. The quality is great and works really well",
+            "author": "Jayden",
+            "retina": true
+          }
+        },
+        "template--20294492258604__dcaaa33f-4c45-4be6-9140-23b281b93297-quote-2": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "These cards increased our Google reviews exponentially! Within a month our customer reviews had tripled, such a great idea to spread positivity and highlights the power of word of mouth for any business.",
+            "author": "Mary Kabboura",
+            "retina": true
+          }
+        },
+        "template--20294492258604__dcaaa33f-4c45-4be6-9140-23b281b93297-quote-3": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "Cardsync streamlined our ability at Snap Fitness Yagoona and The Wash Hub Wentworthville Laundromat to receive customer Google reviews with just one tap!",
+            "author": "Nate",
+            "retina": true
+          }
+        },
+        "87acb6b2-c1d4-4ce1-8e5d-38b66e620b93": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "Great product! I ordered some table talkers and review cards for my business. It made the process of collecting reviews so easy.",
+            "author": "Nadine",
+            "retina": true
+          }
+        },
+        "e68d1984-d467-4fed-a38b-d6b4334bd023": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "Friendly service and excellent quality! I ordered custom cards and the process was easy.",
+            "author": "Lester",
+            "retina": true
+          }
+        }
+      },
+      "block_order": [
+        "a6290574-20fe-497f-a578-3e20f9b7ae31",
+        "template--20294492258604__dcaaa33f-4c45-4be6-9140-23b281b93297-quote-1",
+        "template--20294492258604__dcaaa33f-4c45-4be6-9140-23b281b93297-quote-2",
+        "template--20294492258604__dcaaa33f-4c45-4be6-9140-23b281b93297-quote-3",
+        "87acb6b2-c1d4-4ce1-8e5d-38b66e620b93",
+        "e68d1984-d467-4fed-a38b-d6b4334bd023"
+      ],
+      "settings": {
+        "heading": "Testimonials",
+        "description": "",
+        "size": "small",
+        "autoplay": true,
+        "autoplay_length": 5,
+        "color_bg": "#ffffff",
+        "color_text": "#1a1a1a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "16864503224779423e": {
       "type": "apps",
       "blocks": {
@@ -417,84 +507,6 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
       }
-    },
-    "dcaaa33f-4c45-4be6-9140-23b281b93297": {
-      "type": "testimonials",
-      "blocks": {
-        "a6290574-20fe-497f-a578-3e20f9b7ae31": {
-          "type": "quote",
-          "settings": {
-            "stars": "5",
-            "text": "Great product and premium quality. Amazing how accurate the design came out that I provided. Makes networking a whole lot easier and more memorable for the receiving person rather than a business card.",
-            "author": "Angelo",
-            "retina": true
-          }
-        },
-        "template--20294492258604__dcaaa33f-4c45-4be6-9140-23b281b93297-quote-1": {
-          "type": "quote",
-          "settings": {
-            "stars": "5",
-            "text": "Ordered a custom metal NFC card, really happy with how it turned out. The quality is great and works really well",
-            "author": "Jayden",
-            "retina": true
-          }
-        },
-        "template--20294492258604__dcaaa33f-4c45-4be6-9140-23b281b93297-quote-2": {
-          "type": "quote",
-          "settings": {
-            "stars": "5",
-            "text": "These cards increased our Google reviews exponentially! Within a month our customer reviews had tripled, such a great idea to spread positivity and highlights the power of word of mouth for any business.",
-            "author": "Mary Kabboura",
-            "retina": true
-          }
-        },
-        "template--20294492258604__dcaaa33f-4c45-4be6-9140-23b281b93297-quote-3": {
-          "type": "quote",
-          "settings": {
-            "stars": "5",
-            "text": "Cardsync streamlined our ability at Snap Fitness Yagoona and The Wash Hub Wentworthville Laundromat to receive customer Google reviews with just one tap!",
-            "author": "Nate",
-            "retina": true
-          }
-        },
-        "87acb6b2-c1d4-4ce1-8e5d-38b66e620b93": {
-          "type": "quote",
-          "settings": {
-            "stars": "5",
-            "text": "Great product! I ordered some table talkers and review cards for my business. It made the process of collecting reviews so easy.",
-            "author": "Nadine",
-            "retina": true
-          }
-        },
-        "e68d1984-d467-4fed-a38b-d6b4334bd023": {
-          "type": "quote",
-          "settings": {
-            "stars": "5",
-            "text": "Friendly service and excellent quality! I ordered custom cards and the process was easy.",
-            "author": "Lester",
-            "retina": true
-          }
-        }
-      },
-      "block_order": [
-        "a6290574-20fe-497f-a578-3e20f9b7ae31",
-        "template--20294492258604__dcaaa33f-4c45-4be6-9140-23b281b93297-quote-1",
-        "template--20294492258604__dcaaa33f-4c45-4be6-9140-23b281b93297-quote-2",
-        "template--20294492258604__dcaaa33f-4c45-4be6-9140-23b281b93297-quote-3",
-        "87acb6b2-c1d4-4ce1-8e5d-38b66e620b93",
-        "e68d1984-d467-4fed-a38b-d6b4334bd023"
-      ],
-      "settings": {
-        "heading": "Testimonials",
-        "description": "",
-        "size": "small",
-        "autoplay": true,
-        "autoplay_length": 5,
-        "color_bg": "#ffffff",
-        "color_text": "#1a1a1a",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
     }
   },
   "order": [
@@ -507,8 +519,10 @@
     "ab46f37e-860d-41d7-9beb-0a3912364188",
     "f397d676-202a-4947-9ea7-aac7403821be",
     "9d3aff1f-f629-49bc-8be3-a9174be76103",
+    "2a5abf78-eb47-422a-beef-8fa4ba31c35a",
+    "3df5f630-cc44-4013-8e5c-79e179670dc0",
+    "dcaaa33f-4c45-4be6-9140-23b281b93297",
     "16864503224779423e",
-    "b5b96e07-fe81-46c3-b133-76161f3a6d13",
-    "dcaaa33f-4c45-4be6-9140-23b281b93297"
+    "b5b96e07-fe81-46c3-b133-76161f3a6d13"
   ]
 }
