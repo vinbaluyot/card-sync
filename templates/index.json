@@ -239,6 +239,65 @@
         "disable_bottom_spacing": true
       }
     },
+    "1a00f4be-93ca-4f77-9781-83a07807aa82": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--19712152699180__1a00f4be-93ca-4f77-9781-83a07807aa82-168956363152d51db4-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-nfc-tag-50.png",
+            "heading": "Convenience",
+            "text": "<p>Simplify your interactions with a single tap. NFC Cards eliminate the need for physical contact or complex procedures.<\/p>"
+          }
+        },
+        "template--19712152699180__1a00f4be-93ca-4f77-9781-83a07807aa82-168956363152d51db4-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-networking-50.png",
+            "heading": "Networking",
+            "text": "<p>Expand Your Connections Effortlessly. Exchange Contact Information Instantly, Share Social Profiles, and Simplify Networking Events. <\/p>"
+          }
+        },
+        "b1b55c5e-40e9-4931-a234-78f536251e32": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-integration-50.png",
+            "heading": "Seamless Intergrations",
+            "text": "<p>NFC products are designed to work harmoniously with your device, ensuring that NFC communication is smooth and uninterrupted. <\/p>"
+          }
+        },
+        "template--19712152699180__1a00f4be-93ca-4f77-9781-83a07807aa82-168956363152d51db4-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-sustainable-60_b0ad96e6-a3cc-4e1a-bf38-c093228e90a2.png",
+            "heading": "Sustainable",
+            "text": "<p>Embrace a more environmentally conscious lifestyle with the use of NFC Cards as a substitute for traditional cards. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19712152699180__1a00f4be-93ca-4f77-9781-83a07807aa82-168956363152d51db4-0",
+        "template--19712152699180__1a00f4be-93ca-4f77-9781-83a07807aa82-168956363152d51db4-2",
+        "b1b55c5e-40e9-4931-a234-78f536251e32",
+        "template--19712152699180__1a00f4be-93ca-4f77-9781-83a07807aa82-168956363152d51db4-1"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "medium",
+        "heading_size": "large",
+        "mobile_swipe": false,
+        "color_bg": "#ffffff",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "cc9b18d8-1d19-450e-8ffc-132d2d2b1061": {
       "type": "collection-list",
       "settings": {
@@ -262,6 +321,67 @@
         "mobile_swipe": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
+      }
+    },
+    "ab46f37e-860d-41d7-9beb-0a3912364188": {
+      "type": "rich-text",
+      "blocks": {
+        "e5b67f89-0cb2-45f6-b81a-a8b66b411a5a": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading for this section"
+          }
+        },
+        "2c29d928-ec28-47bf-8b23-1aa56928b5e0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Talk about your brand",
+            "size": "h3"
+          }
+        },
+        "5d3c46dd-9905-4338-9cec-cb4b2b755d3e": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "59dce862-b250-460d-a1d4-b6acb5a80ce7": {
+          "type": "button",
+          "settings": {
+            "link_label": "See All Products",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "e5b67f89-0cb2-45f6-b81a-a8b66b411a5a",
+        "2c29d928-ec28-47bf-8b23-1aa56928b5e0",
+        "5d3c46dd-9905-4338-9cec-cb4b2b755d3e",
+        "59dce862-b250-460d-a1d4-b6acb5a80ce7"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "f397d676-202a-4947-9ea7-aac7403821be": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "Custom > Side by side Personal and Business area will be here"
+      }
+    },
+    "9d3aff1f-f629-49bc-8be3-a9174be76103": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "Custom > For Personal section will be here\n\nEngraving video\nWeb copy mentioning instagram, facebook, tiktok\n“Why have a digital card”\nCTA – Design yours\nCTA – Shop Pre-made designs"
       }
     },
     "17d0026f-85f4-4fb2-a3a0-ce5686906246": {
@@ -438,15 +558,15 @@
         "template--19712152699180__75ca110a-bbc2-47dc-8e3c-f8cdb8e6becd-16879961929d3245fd-2",
         "6881238a-becb-4818-98e6-b84494517dca"
       ],
+      "disabled": true,
       "custom_css": [
         ".button {background-color: #ff4515;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Square_1_c37a7a6e-9b29-4bb4-888e-29166d1f622a.jpg",
+        "image": "shopify:\/\/shop_images\/1_908344d9-ce1e-4915-9e44-27d63d2657d9.jpg",
         "image_ratio": "square",
-        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
-        "image_ratio_2": "adapt",
-        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_2": "shopify:\/\/shop_images\/Your_Graphics_15.jpg",
+        "image_ratio_2": "square",
         "image_ratio_3": "adapt",
         "layout": "image_first",
         "content_alignment": "text-left",
@@ -506,13 +626,13 @@
         "template--19712152699180__ef7c8530-015d-48ff-baa3-bcceb0cf169f-16879961929d3245fd-2",
         "d8d6f7e2-cc12-4a38-bb0d-1f16d1310e7a"
       ],
+      "disabled": true,
       "custom_css": [
         ".button {background-color: #ff4515;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/54.jpg",
         "image_ratio": "square",
-        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
         "image_ratio_2": "adapt",
         "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
         "image_ratio_3": "adapt",
@@ -587,6 +707,7 @@
         "template--19712152699180__b5aed98a-209a-40f6-93df-7a6c63549511-168956363152d51db4-1",
         "template--19712152699180__b5aed98a-209a-40f6-93df-7a6c63549511-168956363152d51db4-2"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -639,6 +760,7 @@
         "template--19712152699180__1566dd13-d794-45e4-9ef0-576afad61b67-1689570370470f3945-2",
         "9efd4ba6-b1cf-4806-9988-dfcee070eeff"
       ],
+      "disabled": true,
       "custom_css": [
         ".button {background-color: #ff4515;}"
       ],
@@ -652,65 +774,6 @@
         "layout": "image_first",
         "content_alignment": "text-left",
         "content_position": "middle",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "1a00f4be-93ca-4f77-9781-83a07807aa82": {
-      "type": "text-with-icons",
-      "blocks": {
-        "template--19712152699180__1a00f4be-93ca-4f77-9781-83a07807aa82-168956363152d51db4-0": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/icons8-nfc-tag-50.png",
-            "heading": "Convenience",
-            "text": "<p>Simplify your interactions with a single tap. NFC Cards eliminate the need for physical contact or complex procedures.<\/p>"
-          }
-        },
-        "template--19712152699180__1a00f4be-93ca-4f77-9781-83a07807aa82-168956363152d51db4-2": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/icons8-networking-50.png",
-            "heading": "Networking",
-            "text": "<p>Expand Your Connections Effortlessly. Exchange Contact Information Instantly, Share Social Profiles, and Simplify Networking Events. <\/p>"
-          }
-        },
-        "b1b55c5e-40e9-4931-a234-78f536251e32": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/icons8-integration-50.png",
-            "heading": "Seamless Intergrations",
-            "text": "<p>NFC products are designed to work harmoniously with your device, ensuring that NFC communication is smooth and uninterrupted. <\/p>"
-          }
-        },
-        "template--19712152699180__1a00f4be-93ca-4f77-9781-83a07807aa82-168956363152d51db4-1": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/icons8-sustainable-60_b0ad96e6-a3cc-4e1a-bf38-c093228e90a2.png",
-            "heading": "Sustainable",
-            "text": "<p>Embrace a more environmentally conscious lifestyle with the use of NFC Cards as a substitute for traditional cards. <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--19712152699180__1a00f4be-93ca-4f77-9781-83a07807aa82-168956363152d51db4-0",
-        "template--19712152699180__1a00f4be-93ca-4f77-9781-83a07807aa82-168956363152d51db4-2",
-        "b1b55c5e-40e9-4931-a234-78f536251e32",
-        "template--19712152699180__1a00f4be-93ca-4f77-9781-83a07807aa82-168956363152d51db4-1"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "icon_position": "top",
-        "icon_size": "medium",
-        "heading_size": "large",
-        "mobile_swipe": false,
-        "color_bg": "#ffffff",
-        "color_heading": "#103a3a",
-        "color_text": "#103a3a",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
@@ -743,6 +806,7 @@
         "template--19287195549996__4ee98c5c-f65e-4cb6-84f2-ff3a240875e3-168556536887e98c8e-0",
         "template--19287195549996__4ee98c5c-f65e-4cb6-84f2-ff3a240875e3-168556536887e98c8e-1"
       ],
+      "disabled": true,
       "custom_css": [
         "{background-color: #f7f5fd;}"
       ],
@@ -974,7 +1038,11 @@
     "16518490956001c5fb",
     "1481ac0c-338e-4c93-afef-1a1a45fba5e1",
     "8d19adfe-6abf-48f1-90ff-070a382fe916",
+    "1a00f4be-93ca-4f77-9781-83a07807aa82",
     "cc9b18d8-1d19-450e-8ffc-132d2d2b1061",
+    "ab46f37e-860d-41d7-9beb-0a3912364188",
+    "f397d676-202a-4947-9ea7-aac7403821be",
+    "9d3aff1f-f629-49bc-8be3-a9174be76103",
     "17d0026f-85f4-4fb2-a3a0-ce5686906246",
     "c602d207-c8e7-4f38-8f4e-e8154ac9663b",
     "341aab12-1340-449a-9ef3-42d772add092",
@@ -984,7 +1052,6 @@
     "a2ca86f1-d800-4dc0-a8bd-52b01cbbad2f",
     "b5aed98a-209a-40f6-93df-7a6c63549511",
     "1566dd13-d794-45e4-9ef0-576afad61b67",
-    "1a00f4be-93ca-4f77-9781-83a07807aa82",
     "4ee98c5c-f65e-4cb6-84f2-ff3a240875e3",
     "1648039210ca70a145",
     "16864503224779423e",
