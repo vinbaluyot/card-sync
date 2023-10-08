@@ -142,31 +142,6 @@
         "carousel_dots": false,
         "mobile_swipe": true,
         "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
-    "cc9b18d8-1d19-450e-8ffc-132d2d2b1061": {
-      "type": "collection-list",
-      "settings": {
-        "heading": "Other NFC Products",
-        "description": "<p>From Table Talkers to NFC Stickers, we have it all.<\/p>",
-        "collection_list": [
-          "nfc-phone-cases",
-          "nfc-sticker",
-          "nfc-tap",
-          "table-talkers",
-          "nfc-qr-code-cards"
-        ],
-        "image_ratio": "square",
-        "layout": "carousel",
-        "style": "style1",
-        "content_alignment": "text-left",
-        "columns_desktop": 3,
-        "collection_description": true,
-        "overlay_opacity": 30,
-        "carousel_dots": false,
-        "mobile_swipe": true,
-        "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
     },
@@ -204,6 +179,31 @@
         "color_text": "#ffffff",
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
+      }
+    },
+    "cc9b18d8-1d19-450e-8ffc-132d2d2b1061": {
+      "type": "collection-list",
+      "settings": {
+        "heading": "Other NFC Products",
+        "description": "<p>From Table Talkers to NFC Stickers, we have it all.<\/p>",
+        "collection_list": [
+          "nfc-phone-cases",
+          "nfc-sticker",
+          "nfc-tap",
+          "table-talkers",
+          "nfc-qr-code-cards"
+        ],
+        "image_ratio": "square",
+        "layout": "carousel",
+        "style": "style1",
+        "content_alignment": "text-left",
+        "columns_desktop": 3,
+        "collection_description": true,
+        "overlay_opacity": 30,
+        "carousel_dots": false,
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "17d0026f-85f4-4fb2-a3a0-ce5686906246": {
@@ -1016,8 +1016,8 @@
     "4bc57c14-97b8-4da4-aef5-5a882dd1f1a4",
     "1648022924b3ee204e",
     "16518490956001c5fb",
-    "cc9b18d8-1d19-450e-8ffc-132d2d2b1061",
     "8d19adfe-6abf-48f1-90ff-070a382fe916",
+    "cc9b18d8-1d19-450e-8ffc-132d2d2b1061",
     "17d0026f-85f4-4fb2-a3a0-ce5686906246",
     "c602d207-c8e7-4f38-8f4e-e8154ac9663b",
     "341aab12-1340-449a-9ef3-42d772add092",
