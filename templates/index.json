@@ -138,13 +138,13 @@
           "nfc-sticker"
         ],
         "image_ratio": "square",
-        "layout": "carousel",
+        "layout": "grid",
         "style": "style1",
         "content_alignment": "text-center",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "collection_description": false,
         "overlay_opacity": 0,
-        "carousel_dots": true,
+        "carousel_dots": false,
         "mobile_swipe": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
@@ -989,6 +989,27 @@
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
+    },
+    "cc9b18d8-1d19-450e-8ffc-132d2d2b1061": {
+      "type": "collection-list",
+      "settings": {
+        "heading": "Shop by Category",
+        "description": "<p>Add a short description for your collections<\/p>",
+        "collection_list": [
+
+        ],
+        "image_ratio": "portrait",
+        "layout": "grid",
+        "style": "style1",
+        "content_alignment": "text-left",
+        "columns_desktop": 3,
+        "collection_description": true,
+        "overlay_opacity": 30,
+        "carousel_dots": true,
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -1014,6 +1035,7 @@
     "dcaaa33f-4c45-4be6-9140-23b281b93297",
     "0512431d-4aca-435d-a681-d678e35f2450",
     "c9d320b2-bee5-46d0-938e-56c34fb95ca7",
-    "6295831f-3a9a-4e1e-b789-7cf8e800be7d"
+    "6295831f-3a9a-4e1e-b789-7cf8e800be7d",
+    "cc9b18d8-1d19-450e-8ffc-132d2d2b1061"
   ]
 }
