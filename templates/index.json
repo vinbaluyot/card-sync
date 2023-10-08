@@ -145,59 +145,26 @@
         "disable_bottom_spacing": true
       }
     },
-    "858ca8f9-886a-4ddd-9fa0-479c8a4aa57e": {
-      "type": "collection-tabs",
-      "blocks": {
-        "template--21409606336812__858ca8f9-886a-4ddd-9fa0-479c8a4aa57e-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "nfc-phone-cases"
-          }
-        },
-        "template--21409606336812__858ca8f9-886a-4ddd-9fa0-479c8a4aa57e-collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "nfc-sticker"
-          }
-        },
-        "template--21409606336812__858ca8f9-886a-4ddd-9fa0-479c8a4aa57e-collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "table-talkers"
-          }
-        }
-      },
-      "block_order": [
-        "template--21409606336812__858ca8f9-886a-4ddd-9fa0-479c8a4aa57e-collection-1",
-        "template--21409606336812__858ca8f9-886a-4ddd-9fa0-479c8a4aa57e-collection-2",
-        "template--21409606336812__858ca8f9-886a-4ddd-9fa0-479c8a4aa57e-collection-3"
-      ],
-      "settings": {
-        "heading": "Collection Tabs",
-        "description": "<p>Add a short description for your collections<\/p>",
-        "full_width": false,
-        "product_limit": 6,
-        "columns_desktop": 4,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
     "cc9b18d8-1d19-450e-8ffc-132d2d2b1061": {
       "type": "collection-list",
       "settings": {
-        "heading": "Shop by Category",
-        "description": "<p>Add a short description for your collections<\/p>",
+        "heading": "Other NFC Products",
+        "description": "<p>From Table Talkers to NFC Stickers, we have it all.<\/p>",
         "collection_list": [
-
+          "nfc-phone-cases",
+          "nfc-sticker",
+          "nfc-tap",
+          "table-talkers",
+          "nfc-qr-code-cards"
         ],
-        "image_ratio": "portrait",
-        "layout": "grid",
+        "image_ratio": "square",
+        "layout": "carousel",
         "style": "style1",
         "content_alignment": "text-left",
         "columns_desktop": 3,
         "collection_description": true,
         "overlay_opacity": 30,
-        "carousel_dots": true,
+        "carousel_dots": false,
         "mobile_swipe": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
@@ -1049,7 +1016,6 @@
     "4bc57c14-97b8-4da4-aef5-5a882dd1f1a4",
     "1648022924b3ee204e",
     "16518490956001c5fb",
-    "858ca8f9-886a-4ddd-9fa0-479c8a4aa57e",
     "cc9b18d8-1d19-450e-8ffc-132d2d2b1061",
     "8d19adfe-6abf-48f1-90ff-070a382fe916",
     "17d0026f-85f4-4fb2-a3a0-ce5686906246",
