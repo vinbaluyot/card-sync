@@ -10,18 +10,18 @@
             "image": "shopify:\/\/shop_images\/Add_a_heading.jpg",
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7ddecc05594844f68c539a51e6e74bf5.mp4",
             "mobile_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8db2c3930d294553ba820717cdb464ee.mp4",
-            "subheading": "IMAGINE - DESIGN - CREATE",
+            "subheading": "Digital Business Card",
             "heading": "Next Generation Networking",
-            "content": "Contactless Digital Business Cards",
+            "content": "Made for smartphones. No apps needed",
             "slide_link": "",
-            "button_text": "CUSTOMISE YOUR NFC",
+            "button_text": "Customise Your NFC",
             "button_link": "shopify:\/\/products\/custom-engraved-card",
             "button_color": "accent2",
             "button_outline": false,
-            "button_text_2": "",
+            "button_text_2": "How It Works",
             "button_link_2": "",
             "button_color_2": "white",
-            "button_outline_2": false
+            "button_outline_2": true
           }
         }
       },
@@ -142,6 +142,64 @@
         "carousel_dots": false,
         "mobile_swipe": true,
         "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1481ac0c-338e-4c93-afef-1a1a45fba5e1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21409606336812__1481ac0c-338e-4c93-afef-1a1a45fba5e1-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading for this section"
+          }
+        },
+        "template--21409606336812__1481ac0c-338e-4c93-afef-1a1a45fba5e1-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Talk about your brand",
+            "size": "h3"
+          }
+        },
+        "template--21409606336812__1481ac0c-338e-4c93-afef-1a1a45fba5e1-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--21409606336812__1481ac0c-338e-4c93-afef-1a1a45fba5e1-button-1": {
+          "type": "button",
+          "settings": {
+            "link_label": "Customise Your Own",
+            "link": "",
+            "button_outline": false
+          }
+        },
+        "e8d7ecd6-c674-4188-9847-92a352635dd9": {
+          "type": "button",
+          "settings": {
+            "link_label": "Other NFC Products",
+            "link": "",
+            "button_outline": true
+          }
+        }
+      },
+      "block_order": [
+        "template--21409606336812__1481ac0c-338e-4c93-afef-1a1a45fba5e1-subheading-1",
+        "template--21409606336812__1481ac0c-338e-4c93-afef-1a1a45fba5e1-heading-1",
+        "template--21409606336812__1481ac0c-338e-4c93-afef-1a1a45fba5e1-text-1",
+        "template--21409606336812__1481ac0c-338e-4c93-afef-1a1a45fba5e1-button-1",
+        "e8d7ecd6-c674-4188-9847-92a352635dd9"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
         "disable_bottom_spacing": false
       }
     },
@@ -481,6 +539,7 @@
       "block_order": [
         "template--20294492258604__a2ca86f1-d800-4dc0-a8bd-52b01cbbad2f-collection-1"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Business Solutions",
         "description": "<p>Some of our best selling NFC products for business<\/p>",
@@ -1016,6 +1075,7 @@
     "4bc57c14-97b8-4da4-aef5-5a882dd1f1a4",
     "1648022924b3ee204e",
     "16518490956001c5fb",
+    "1481ac0c-338e-4c93-afef-1a1a45fba5e1",
     "8d19adfe-6abf-48f1-90ff-070a382fe916",
     "cc9b18d8-1d19-450e-8ffc-132d2d2b1061",
     "17d0026f-85f4-4fb2-a3a0-ce5686906246",
