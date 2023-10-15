@@ -109,14 +109,14 @@
         "mobile_swipe": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
-        "button_text": "Shop Now",
-        "button_link": "",
+        "button_text": "See All Products",
+        "button_link": "shopify:\/\/collections",
         "button_color": "accent2",
         "button_outline": false,
-        "button_text_2": "Shop Now",
+        "button_text_2": "",
         "button_link_2": "",
         "button_color_2": "accent",
-        "button_outline_2": true
+        "button_outline_2": false
       }
     },
     "1a00f4be-93ca-4f77-9781-83a07807aa82": {
