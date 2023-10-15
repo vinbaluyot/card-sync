@@ -222,7 +222,7 @@
         "heading": "",
         "description": "",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": false
       }
     },
     "5225a7d0-79e6-4da9-aa07-4e4e9c348337": {
@@ -279,8 +279,8 @@
         "full_width": false,
         "color_bg": "rgba(0,0,0,0)",
         "color_text": "#103a3a",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
       }
     },
     "82bb91b2-3dfe-4409-a016-879718cc3a19": {
