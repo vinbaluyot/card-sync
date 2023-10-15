@@ -65,12 +65,12 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
         "button_text": "Start Designing Yours",
-        "button_link": "",
+        "button_link": "shopify:\/\/collections",
         "button_color": "accent2",
         "button_outline": false,
-        "button_text_2": "See Our Other Products",
-        "button_link_2": "",
-        "button_color_2": "black",
+        "button_text_2": "See Other Products",
+        "button_link_2": "#other-products",
+        "button_color_2": "accent",
         "button_outline_2": true
       }
     },
@@ -107,13 +107,13 @@
         "mobile_swipe": true,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
-        "button_text": "Shop All Products",
-        "button_link": "shopify:\/\/collections",
+        "button_text": "Shop Now",
+        "button_link": "",
         "button_color": "accent2",
         "button_outline": false,
-        "button_text_2": "",
+        "button_text_2": "Shop Now",
         "button_link_2": "",
-        "button_color_2": "white",
+        "button_color_2": "accent",
         "button_outline_2": true
       }
     },
@@ -245,7 +245,7 @@
             "button_text": "Our Business Solutions",
             "button_link": "",
             "button_color": "accent2",
-            "button_outline": true
+            "button_outline": false
           }
         },
         "4de6e16c-8fa7-433c-8212-63f339dcc15b": {
@@ -302,7 +302,7 @@
             "button_text": "See Pre-made Designs",
             "button_link": "",
             "button_color": "accent2",
-            "button_outline": true
+            "button_outline": false
           }
         },
         "328d1e2e-9567-435b-a872-a106b67e6785": {
@@ -565,8 +565,7 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
         "review_text": "More CardSync reviews on",
-        "review_logo": "shopify:\/\/shop_images\/trust-pilot-logo.svg",
-        "review_link": "https:\/\/au.trustpilot.com\/review\/cardsync.com.au"
+        "review_link": ""
       }
     },
     "16864503224779423e": {
