@@ -1,0 +1,28 @@
+.kb-image-banner .row{
+  justify-content: center;
+  max-width: 1300px;
+}
+.kb-image-banner__link{
+  opacity: 1;
+  transition: opacity 250ms ease-in-out;
+}
+.kb-image-banner__link:hover{
+  opacity: 0.8;
+}
+.kb-image-banner__banner{
+  width: 100%;
+  object-fit: contain;
+}
+@media screen and (max-width: 767px){
+  .kb-image-banner__banner.is-mobile{
+    max-width: 640px;
+  }
+  .kb-image-banner__banner.is-mobile + .kb-image-banner__banner{
+    display: none;
+  }
+}
+@media screen and (min-width: 768px){
+  .kb-image-banner__banner.is-mobile{
+    display: none;
+  }
+}
