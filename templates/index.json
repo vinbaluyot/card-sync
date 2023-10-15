@@ -46,6 +46,7 @@
     "16518490956001c5fb": {
       "type": "collection-list",
       "settings": {
+        "custom_id": "",
         "heading": "Our NFC Cards",
         "description": "",
         "collection_list": [
@@ -87,6 +88,7 @@
     "cc9b18d8-1d19-450e-8ffc-132d2d2b1061": {
       "type": "collection-list",
       "settings": {
+        "custom_id": "other-products",
         "heading": "Other NFC Products",
         "description": "<p>From Table Talkers to NFC Stickers, we have it all.<\/p>",
         "collection_list": [
@@ -265,6 +267,7 @@
         "4de6e16c-8fa7-433c-8212-63f339dcc15b"
       ],
       "settings": {
+        "custom_id": "",
         "image": "shopify:\/\/shop_images\/placeholder-for-business.png",
         "use_video": false,
         "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
@@ -325,6 +328,7 @@
         ".section-image-with-text {background-color: #f1f1f1;}"
       ],
       "settings": {
+        "custom_id": "",
         "use_video": true,
         "video": "",
         "video_hosted": "shopify:\/\/files\/videos\/instagram1 (1) (1).mp4",
@@ -468,6 +472,7 @@
         "d24aff3a-824e-4ff7-ab80-6782b81b9602"
       ],
       "settings": {
+        "custom_id": "",
         "richtext_heading": "How CardSync Works?",
         "richtext_paragraph": "<p>Explore our premium business cards and customise your own in our Engraved, NFC card range. Then, simply tap your NFC card to your smartphone to share your information.<\/p>",
         "richtext_image": "shopify:\/\/shop_images\/cardsync_20.jpg",
