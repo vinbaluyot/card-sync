@@ -25,7 +25,7 @@
     assign has_collapsibles = true
   endif
 -%}
-<div class="section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+<div id="{{ section.settings.custom_id }}" class="section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
   <div class="row">
     <div class="kb-rc">
       {% if has_richtext == true %}
@@ -125,6 +125,12 @@
   "class": "kb-richtext-collapsibles",
   "tag": "section",
   "settings": [
+    {
+      "type": "text",
+      "id": "custom_id",
+      "label": "Custom ID",
+      "info": "For anchor link"
+    },
     {
       "type": "header",
       "content": "Richtext"
