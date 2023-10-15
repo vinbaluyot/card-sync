@@ -19,7 +19,7 @@
             "button_color": "accent2",
             "button_outline": false,
             "button_text_2": "How It Works",
-            "button_link_2": "",
+            "button_link_2": "#how-it-works",
             "button_color_2": "white",
             "button_outline_2": true
           }
@@ -188,7 +188,7 @@
             "copy": "<p>Our NFC business cards are designed to stand out and leave a memorable impact on potential clients and partners. Simply tap your <a href=\"\/collections\/nfc-business-cards\" title=\"NFC Business Cards\">NFC business card<\/a> against a compatible device, and your your contact details, social media profiles, and even website links are transferred automatically.<\/p>",
             "background_image": "shopify:\/\/shop_images\/2_921a1833-f298-45f3-881f-40640c7ff24a.jpg",
             "button_text": "Learn More",
-            "button_link": "",
+            "button_link": "#for-business",
             "button_color": "white",
             "button_outline": false,
             "button_text_2": "Customise Now",
@@ -204,7 +204,7 @@
             "copy": "<p>NFC cards are revolutionising the way we interact. With just a tap, you seamlessly share your contact details our <a href=\"\/collections\/nfc-cards\" title=\"NFC Cards\">NFC cards<\/a> make your life easier and more connected. Experience the power of contactless technology in the palm of your hand.<\/p>",
             "background_image": "shopify:\/\/shop_images\/Square_1_c37a7a6e-9b29-4bb4-888e-29166d1f622a.jpg",
             "button_text": "Learn More",
-            "button_link": "",
+            "button_link": "#for-personal",
             "button_color": "white",
             "button_outline": false,
             "button_text_2": "Design Yours",
@@ -247,7 +247,7 @@
             "button_text": "Our Business Solutions",
             "button_link": "",
             "button_color": "accent2",
-            "button_outline": false
+            "button_outline": true
           }
         },
         "4de6e16c-8fa7-433c-8212-63f339dcc15b": {
@@ -267,7 +267,7 @@
         "4de6e16c-8fa7-433c-8212-63f339dcc15b"
       ],
       "settings": {
-        "custom_id": "",
+        "custom_id": "for-business",
         "image": "shopify:\/\/shop_images\/placeholder-for-business.png",
         "use_video": false,
         "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
@@ -305,7 +305,7 @@
             "button_text": "See Pre-made Designs",
             "button_link": "",
             "button_color": "accent2",
-            "button_outline": false
+            "button_outline": true
           }
         },
         "328d1e2e-9567-435b-a872-a106b67e6785": {
@@ -328,7 +328,7 @@
         ".section-image-with-text {background-color: #f1f1f1;}"
       ],
       "settings": {
-        "custom_id": "",
+        "custom_id": "for-personal",
         "use_video": true,
         "video": "",
         "video_hosted": "shopify:\/\/files\/videos\/instagram1 (1) (1).mp4",
@@ -472,7 +472,7 @@
         "d24aff3a-824e-4ff7-ab80-6782b81b9602"
       ],
       "settings": {
-        "custom_id": "",
+        "custom_id": "how-it-works",
         "richtext_heading": "How CardSync Works?",
         "richtext_paragraph": "<p>Explore our premium business cards and customise your own in our Engraved, NFC card range. Then, simply tap your NFC card to your smartphone to share your information.<\/p>",
         "richtext_image": "shopify:\/\/shop_images\/cardsync_20.jpg",
