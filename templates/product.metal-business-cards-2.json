@@ -266,7 +266,6 @@
     },
     "1652454339b6c673f3": {
       "type": "collapsible-content",
-      "disabled": true,
       "blocks": {
         "1652454339ded25d7d-0": {
           "type": "collapsible_tab",
@@ -371,6 +370,7 @@
         "30a1eba5-af00-4d90-96b9-84b1f0fc78b4",
         "be47465d-7cde-4902-8a33-4cff2cfdaba1"
       ],
+      "disabled": true,
       "settings": {
         "heading": "FREQUENTLY ASKED QUESTIONS",
         "description": "<p>Find answers to some of the most common questions.<\/p>",

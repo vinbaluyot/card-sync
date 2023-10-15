@@ -84,7 +84,6 @@
     },
     "61877242-ed54-4f25-a449-624ca0062808": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--19712154370348__61877242-ed54-4f25-a449-624ca0062808-1688988623f161c968-0": {
           "type": "subheading",
@@ -113,6 +112,7 @@
         "template--19712154370348__61877242-ed54-4f25-a449-624ca0062808-1688988623f161c968-1",
         "template--19712154370348__61877242-ed54-4f25-a449-624ca0062808-1688988623f161c968-2"
       ],
+      "disabled": true,
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -150,7 +150,6 @@
     },
     "d3ec07c3-360f-4389-ae64-721a28b8e59d": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-0": {
           "type": "column",
@@ -188,6 +187,7 @@
         "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-1",
         "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-2"
       ],
+      "disabled": true,
       "settings": {
         "heading": "How to Create",
         "description": "<p>Follow our Step-by-Step guide<\/p>",
@@ -201,7 +201,6 @@
     },
     "458be112-af2c-48b9-b22b-410c9ef36a21": {
       "type": "image-with-text-slideshow",
-      "disabled": true,
       "blocks": {
         "template--19623218217260__458be112-af2c-48b9-b22b-410c9ef36a21-1687337935de11790b-0": {
           "type": "slide",
@@ -246,6 +245,7 @@
         "template--19623218217260__458be112-af2c-48b9-b22b-410c9ef36a21-1687337935de11790b-2",
         "5f72b829-493e-468e-98d9-cb9e1a6054be"
       ],
+      "disabled": true,
       "settings": {
         "mobile_height": "mobile-height-350",
         "desktop_height": "desktop-height-650",
@@ -261,7 +261,6 @@
     },
     "03cab046-98c4-4c1c-a4b3-a917b4f56175": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--19623218217260__03cab046-98c4-4c1c-a4b3-a917b4f56175-16872494896a91a1b0-0": {
           "type": "subheading",
@@ -300,6 +299,7 @@
         "template--19623218217260__03cab046-98c4-4c1c-a4b3-a917b4f56175-16872494896a91a1b0-2",
         "template--19623218217260__03cab046-98c4-4c1c-a4b3-a917b4f56175-16872494896a91a1b0-3"
       ],
+      "disabled": true,
       "settings": {
         "text_width": "large",
         "text_position": "center",

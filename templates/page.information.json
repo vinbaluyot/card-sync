@@ -14,7 +14,6 @@
     },
     "1652081672ff9b3c2c": {
       "type": "map",
-      "disabled": true,
       "blocks": {
         "16520816724be18f71-0": {
           "type": "pin",
@@ -30,6 +29,7 @@
       "block_order": [
         "16520816724be18f71-0"
       ],
+      "disabled": true,
       "settings": {
         "googlemaps_api_key": "",
         "desktop_height": "desktop-height-550",

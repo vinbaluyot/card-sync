@@ -187,7 +187,6 @@
     },
     "96f66718-f3d0-49c6-bfe5-485c3d3fe032": {
       "type": "gallery",
-      "disabled": true,
       "blocks": {
         "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-0": {
           "type": "image",
@@ -228,6 +227,7 @@
         "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-1",
         "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-2"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "description": "",
@@ -255,7 +255,6 @@
     },
     "0453c800-d82a-4464-bf8d-f6dcace1e225": {
       "type": "scrolling-text",
-      "disabled": true,
       "blocks": {
         "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-0": {
           "type": "text",
@@ -284,6 +283,7 @@
         "template--16769565098281__0453c800-d82a-4464-bf8d-f6dcace1e225-166842623783cd46ef-1",
         "b9a37a4c-e0fa-4074-8f07-2101f17c9232"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "description": "",

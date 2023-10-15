@@ -1,0 +1,263 @@
+{%- liquid
+  # Default with theme
+  assign section_heading = section.settings.heading
+	assign section_description = section.settings.description
+  assign disable_top_spacing = section.settings.disable_top_spacing
+	assign disable_bottom_spacing = section.settings.disable_bottom_spacing
+-%}
+
+<div class="section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+  {% render 'section-header', section_heading: section_heading, section_description: section_description %}
+  <div class="row">
+    {% if section.blocks.size > 0 %}
+      <div class="kb-split-tiles__tiles">
+    {% endif %}
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'tile' -%}
+          <div class="kb-split-tiles__item">
+            <div class="kb-tile__content">
+              <h3 class="kb-tile__heading">{{ block.settings.heading }}</h3>
+              <div class="kb-tile__copy">
+              {{ block.settings.copy }}
+              </div>
+              <div class="kb-tile__button-container">
+								{% if block.settings.button_text != blank %}
+									<a class="button {{ block.settings.button_style | escape }} {{ block.settings.button_color | escape }}{% if block.settings.button_outline %} outline{%- endif %}" href="{{ block.settings.button_link }}" role="button" title="{{ block.settings.button_text | escape }}"><span>{{ block.settings.button_text }}</span></a>
+				        {% endif %}
+								{% if block.settings.button_text_2 != blank %}
+									<a class="button {{ block.settings.button_style_2 | escape }} {{ block.settings.button_color_2 | escape }}{% if block.settings.button_outline_2 %} outline{%- endif %}" href="{{ block.settings.button_link_2 }}" role="button" title="{{ block.settings.button_text_2 | escape }}"><span>{{ block.settings.button_text_2 }}</span></a>
+				        {% endif %}
+							</div>
+            </div>
+            {%- assign background_image = block.settings.background_image -%}
+            {% if background_image != blank %}
+              {{ background_image | image_url: width: background_image.width | image_tag: class: 'kb-tile__bg-img', loading: 'lazy' }}
+            {% else %}
+              {{ 'image' | placeholder_svg_tag: 'placeholder_svg_tag' }}
+            {% endif %}
+        </div>
+      {%- endcase -%}
+    {%- endfor -%}
+    {% if section.blocks.size > 0 %}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+  {
+  "name": "KB Split Tiles",
+  "class": "kb-split-tiles",
+  "max_blocks": 2,
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_top_spacing",
+      "default": false,
+      "label": "Remove top spacing"
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_bottom_spacing",
+      "default": false,
+      "label": "Remove bottom spacing"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Tile",
+      "type": "tile",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "copy",
+          "label": "Copy"
+        },
+        {
+          "type": "image_picker",
+          "id": "background_image",
+          "label": "Background image"
+        },
+        {
+          "type": "header",
+          "content": "Button 1"
+        },
+        {
+          "id": "button_text",
+          "type": "text",
+          "label": "Button label",
+          "default": "Shop Now",
+          "info": "Leave the label blank to hide the button."
+        },
+        {
+          "id": "button_link",
+          "type": "url",
+          "label": "Button link"
+        },
+        {
+           "type": "select",
+           "id": "button_color",
+           "label": "Button color",
+           "options": [
+            { "value": "accent2", "label": "Accent" },
+            { "value": "accent3", "label": "White" },
+            { "value": "accent", "label": "Black" }
+           ],
+           "default": "accent2"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_outline",
+          "label": "Use outline button style",
+          "default": false
+        },
+        {
+          "type": "header",
+          "content": "Button 2"
+        },
+        {
+          "id": "button_text_2",
+          "type": "text",
+          "label": "Button label",
+          "default": "Shop Now",
+          "info": "Leave the label blank to hide the button."
+        },
+        {
+          "id": "button_link_2",
+          "type": "url",
+          "label": "Button link"
+        },
+        {
+           "type": "select",
+           "id": "button_color_2",
+           "label": "Button color",
+           "options": [
+            { "value": "accent2", "label": "Accent" },
+            { "value": "accent3", "label": "White" },
+            { "value": "accent", "label": "Black" }
+           ],
+           "default": "accent"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_outline_2",
+          "label": "Use outline button style",
+          "default": true
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "KB Split Tiles"
+    }
+  ]
+}  
+{% endschema %}
+
+{% stylesheet %}
+.kb-split-tiles__tiles{
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 18px;
+  overflow: hidden;
+  display: grid;
+  gap: 3px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+}
+.kb-split-tiles__item{
+  position: relative;
+}
+.kb-tile__content{
+  background-color: rgba(0,0,0,0.5);
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+.kb-tile__heading,
+.kb-tile__copy{
+  max-width: 440px;
+}
+.kb-tile__heading{
+  color: inherit;
+}
+.kb-tile__copy p:last-child{
+  margin-bottom: unset;
+}
+.kb-tile__copy a{
+  color: inherit;
+  text-decoration: underline;
+  transition: color 250ms ease-in-out;
+}
+.kb-tile__copy a:hover{
+  color: var(--color-accent2);
+}
+.kb-tile__button-container{
+  margin-top: var(--button-container-margin-top);
+  display: flex;
+  gap: var(--button-container-gap);
+  flex-direction: var(--button-container-flex-direction);
+}
+.kb-tile__bg-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 640px){
+  .kb-tile__button-container{
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 850px){
+  .kb-split-tiles__tiles{
+    --button-container-margin-top: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    min-height: 500px;
+  }
+  .kb-tile__button-container{
+    gap: 1.5rem;
+  }
+}
+
+
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,399 @@
+{{ 'collapsible-content.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  # Default with theme
+  assign disable_top_spacing = section.settings.disable_top_spacing
+	assign disable_bottom_spacing = section.settings.disable_bottom_spacing
+  assign use_video = section.settings.use_video
+	assign video_hosted = section.settings.video_hosted
+	assign video_autoplay = section.settings.video_autoplay
+  if video_hosted != blank
+    assign video_hosted_enabled = true
+  endif
+
+  # Custom
+  assign richtext_heading = section.settings.richtext_heading
+  assign richtext_paragraph = section.settings.richtext_paragraph
+  assign richtext_image = section.settings.richtext_image
+  assign collapsible_heading = section.settings.collapsible_heading
+  assign collapsible_paragraph = section.settings.collapsible_paragraph
+
+  if richtext_heading != blank or richtext_paragraph != blank or richtext_image != blank
+    assign has_richtext = true
+  endif
+
+  if collapsible_heading != blank or collapsible_paragraph != blank
+    assign has_collapsibles = true
+  endif
+-%}
+<div class="section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+  <div class="row">
+    <div class="kb-rc">
+      {% if has_richtext == true %}
+        <div class="kb-rc__richtext">
+          {% if richtext_heading != blank %}
+            <h2 class="h3 kb-rc__richtext__heading">{{ richtext_heading }}</h2>
+          {% endif %}
+          {% if richtext_paragraph != blank %}
+            <div class="rte kb-rc__richtext__copy">{{ richtext_paragraph }}</div>
+          {% endif %}
+
+          <div class="kb-rc__richtext__media use-video--{{ use_video }} video-hosted--{{ video_hosted_enabled }}">
+            {%- if use_video -%}
+              {%- if video_hosted != blank -%}
+                {{ video_hosted | video_tag: autoplay: video_autoplay, loop: true, controls: true, muted: video_autoplay, image_size: '1200x' }}
+              {%- endif -%}
+            {%- elsif richtext_image != blank -%}
+              {{ richtext_image | image_url: width: richtext_image.width | image_tag: class: 'kb-rc__richtext__image', loading: 'lazy' }}
+            {%- else -%}
+              {{ 'image' | placeholder_svg_tag: 'placeholder_svg_tag' }}
+            {%- endif -%}
+          </div>
+          
+          <div class="kb-rc__richtext__items">
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when 'item' -%}
+                <div class="kb-rc__richtext__item">
+                {%- assign richtext_item_icon = block.settings.richtext_item_icon -%}
+                <div class="kb-rc__richtext__icon">
+                {% if richtext_item_icon != blank %}
+                  {{ richtext_item_icon | image_url: width: richtext_item_icon.width | image_tag: class: '', loading: 'lazy' }}
+                {% else %}
+                  {{ 'image' | placeholder_svg_tag: 'placeholder_svg_tag' }}
+                {% endif %}
+                </div>
+                {% if block.settings.richtext_item_title != blank %}
+                <h3>{{ block.settings.richtext_item_title }}</h3>
+                {% endif %}
+                {% if block.settings.richtext_item_paragraph != blank %}
+                <div>{{ block.settings.richtext_item_paragraph }}</div>
+                {% endif %}
+                </div>
+            {%- endcase -%}
+          {%- endfor -%}
+          </div>
+        </div>
+      {% endif %}
+      {% if has_collapsibles == true %}
+        <div class="kb-rc__collapsibles">
+          {% if collapsible_heading != blank %}
+            <h2 class="h3 kb-rc__collapsibles__heading">{{ collapsible_heading }}</h2>
+          {% endif %}
+          {% if collapsible_paragraph != blank %}
+            <div class="rte kb-rc__collapsibles__copy">{{ collapsible_paragraph }}</div>
+          {% endif %}
+
+          <div class="kb-rc__collapsibles__items">
+            {%- for block in section.blocks -%}
+              {%- case block.type -%}
+                {%- when 'collapsible' -%}
+                <collapsible-row class="accordion" {{ block.shopify_attributes }}>
+                  <details id="Details-{{ block.id }}-{{ section.id }}" {% if block.settings.open %}open{% endif %}>
+                    <summary>
+                      {{ block.settings.collapsible_item_title }}
+                      <span></span>
+                    </summary>
+                    {% if block.settings.collapsible_item_paragraph != blank %}
+                      <div class="accordion__content accordion__content rte collapsible__content" id="Accordion-{{ block.id }}-{{ section.id }}">  
+                        {{ block.settings.collapsible_item_paragraph }}
+                      </div>
+                    {% endif %}
+                  </details>
+                </collapsible-row>
+              {%- endcase -%}
+            {%- endfor -%}
+          </div>
+
+          <div class="kb-rc__collapsibles__button-container">
+            {% if section.settings.button_text != blank %}
+              <a class="button {{ section.settings.button_style | escape }} {{ section.settings.button_color | escape }}{% if section.settings.button_outline %} outline{%- endif %}" href="{{ section.settings.button_link }}" role="button" title="{{ section.settings.button_text | escape }}"><span>{{ section.settings.button_text }}</span></a>
+            {% endif %}
+            {% if section.settings.button_text_2 != blank %}
+              <a class="button {{ section.settings.button_style_2 | escape }} {{ section.settings.button_color_2 | escape }}{% if section.settings.button_outline_2 %} outline{%- endif %}" href="{{ section.settings.button_link_2 }}" role="button" title="{{ section.settings.button_text_2 | escape }}"><span>{{ section.settings.button_text_2 }}</span></a>
+            {% endif %}
+          </div>
+
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+  "name": "KB Richtext Collapsibles",
+  "class": "kb-richtext-collapsibles",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Richtext"
+    },
+    {
+      "type": "text",
+      "id": "richtext_heading",
+      "label": "Heading",
+      "default": "How CardSync Works?"
+    },
+    {
+      "type": "richtext",
+      "id": "richtext_paragraph",
+      "label": "Paragraph"
+    },
+    {
+      "type": "image_picker",
+      "id": "richtext_image",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Video"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_video",
+      "default": false,
+      "label": "Use video instead of image"
+    },
+    {
+      "type": "video",
+      "id": "video_hosted",
+      "label": "Shopify-hosted video"
+    },
+    {
+      "type": "checkbox",
+      "id": "video_autoplay",
+      "default": true,
+      "label": "Autoplay",
+      "info": "Video will be muted"
+    },
+    {
+      "type": "header",
+      "content": "Collapsibles"
+    },
+    {
+      "type": "text",
+      "id": "collapsible_heading",
+      "label": "Heading",
+      "default": "Frequently Asked Questions"
+    },
+    {
+      "type": "richtext",
+      "id": "collapsible_paragraph",
+      "label": "Paragraph"
+    },
+    {
+      "type": "header",
+      "content": "Button 1"
+    },
+    {
+      "id": "button_text",
+      "type": "text",
+      "label": "Button label",
+      "default": "Shop Now",
+      "info": "Leave the label blank to hide the button."
+    },
+    {
+      "id": "button_link",
+      "type": "url",
+      "label": "Button link"
+    },
+    {
+       "type": "select",
+       "id": "button_color",
+       "label": "Button color",
+       "options": [
+         { "value": "accent2", "label": "Accent" },
+         { "value": "accent3", "label": "White" },
+         { "value": "accent", "label": "Black" }
+       ],
+       "default": "accent2"
+    },
+    {
+      "type": "checkbox",
+      "id": "button_outline",
+      "label": "Use outline button style",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Button 2"
+    },
+    {
+      "id": "button_text_2",
+      "type": "text",
+      "label": "Button label",
+      "default": "Shop Now",
+      "info": "Leave the label blank to hide the button."
+    },
+    {
+      "id": "button_link_2",
+      "type": "url",
+      "label": "Button link"
+    },
+    {
+       "type": "select",
+       "id": "button_color_2",
+       "label": "Button color",
+       "options": [
+        { "value": "accent2", "label": "Accent" },
+        { "value": "accent3", "label": "White" },
+        { "value": "accent", "label": "Black" }
+       ],
+       "default": "accent"
+    },
+    {
+      "type": "checkbox",
+      "id": "button_outline_2",
+      "label": "Use outline button style",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_top_spacing",
+      "default": false,
+      "label": "Remove top spacing"
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_bottom_spacing",
+      "default": false,
+      "label": "Remove bottom spacing"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Item",
+      "type": "item",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "richtext_item_icon",
+          "label": "Icon"
+        },
+        {
+          "type": "text",
+          "id": "richtext_item_title",
+          "default": "Item title",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "label": "Paragraph",
+          "id": "richtext_item_paragraph"
+        }
+      ]
+    },
+    {
+      "name": "Collapsible",
+      "type": "collapsible",
+      "settings": [
+        {
+          "type": "text",
+          "id": "collapsible_item_title",
+          "default": "Collapsible row",
+          "label": "Heading",
+          "info": "Include a heading that explains the content."
+        },
+        {
+          "type": "richtext",
+          "id": "collapsible_item_paragraph",
+          "label": "Paragraph"
+        },
+        {
+          "type": "checkbox",
+          "id": "open",
+          "default": false,
+          "label": "Open by default"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Richtext And Collapsibles",
+      "blocks": [
+        {
+          "type": "item"
+        },
+        {
+          "type": "collapsible"
+        }
+      ]
+    }
+  ]
+}  
+{% endschema %}
+
+{% stylesheet %}
+.kb-rc{
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 60px 0;
+}
+.kb-rc__richtext__media{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.kb-rc__richtext__media.use-video--true{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.kb-rc__richtext__media.use-video--true video{
+  max-width: 100%;
+}
+.kb-rc__richtext__media img{
+  max-width: 400px;
+  width: 100%;
+}
+.kb-rc__richtext__item{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.kb-rc__richtext__icon{
+  width: 40px;
+  height: 40px;
+  display: flex;
+}
+.kb-rc__richtext__items{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+.kb-rc__richtext__item h3{
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  line-height: 1.3;
+  margin-bottom: unset;
+  margin-top: 5px;
+}
+.kb-rc__richtext__item p{
+  font-size: 0.825rem;
+  margin-bottom: unset;
+}
+@media screen and (min-width: 650px){
+  .kb-rc__richtext__items{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 960px){
+  .kb-rc{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 60px;
+  }
+}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

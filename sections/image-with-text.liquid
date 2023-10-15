@@ -72,9 +72,11 @@
 						{%- when 'text' -%}
 							<div class="rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
 						{%- when 'button' -%}
+							{% comment %} Custom: Begin replace `text-button` with 2 `button`s {% endcomment %}
 							{% if block.settings.button_text != blank %}
-								<a class="text-button" href="{{ block.settings.button_link }}" role="button" title="{{ block.settings.button_text | escape }}" {{ block.shopify_attributes }}>{{ block.settings.button_text }}</a>
+								<a class="button {{ block.settings.button_style | escape }} {{ block.settings.button_color | escape }}{% if block.settings.button_outline %} outline{%- endif %}" href="{{ block.settings.button_link }}" role="button" title="{{ block.settings.button_text | escape }}" {{ block.shopify_attributes }}>{{ block.settings.button_text }}</a>
 							{% endif %}
+							{% comment %} Custom: End replace `text-button` with 2 `button`s {% endcomment %}
 					{%- endcase -%}
 				{% endfor %}
 			</div>
@@ -314,6 +316,23 @@
 						"id": "button_link",
 						"type": "url",
 						"label": "Button link"
+					},
+					{
+						"type": "select",
+						"id": "button_color",
+						"label": "Button color",
+						"options": [
+							 { "value": "accent2", "label": "Accent" },
+							 { "value": "accent3", "label": "White" },
+							 { "value": "accent", "label": "Black" }
+						],
+						"default": "accent2"
+				 },
+				 {
+						"type": "checkbox",
+						"id": "button_outline",
+						"label": "Use outline button style",
+						"default": false
 					}
         ]
       }

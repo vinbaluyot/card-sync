@@ -1,0 +1,27 @@
+.section-slideshow{
+  .slideshow__slide-button-container{
+    display: flex;
+    flex-direction: var(--button-container-flex-direction);
+    gap: var(--button-container-gap);
+  }
+}
+
+@media screen and (min-width: 1640px){
+  .section-slideshow{
+    .slideshow__slide{
+      .slideshow__slide-inner{
+        align-items: center;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1900px){
+  .section-slideshow{
+    .slideshow__slide{
+      .slideshow__slide-inner{
+        left: 12.5%;
+      }
+    }
+  }
+}

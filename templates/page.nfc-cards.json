@@ -112,7 +112,6 @@
     },
     "02bdf68e-609e-4661-8e9c-7371d0df9039": {
       "type": "image-with-text-slideshow",
-      "disabled": true,
       "blocks": {
         "template--19623236075820__02bdf68e-609e-4661-8e9c-7371d0df9039-1687337935de11790b-0": {
           "type": "slide",
@@ -157,6 +156,7 @@
         "478ca024-3bb4-4dde-9b48-9c8332946502",
         "template--19623236075820__02bdf68e-609e-4661-8e9c-7371d0df9039-1687337935de11790b-2"
       ],
+      "disabled": true,
       "settings": {
         "mobile_height": "mobile-height-350",
         "desktop_height": "desktop-height-650",
@@ -172,7 +172,6 @@
     },
     "d3ec07c3-360f-4389-ae64-721a28b8e59d": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-0": {
           "type": "column",
@@ -210,6 +209,7 @@
         "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-2",
         "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-1"
       ],
+      "disabled": true,
       "settings": {
         "heading": "How to Create",
         "description": "<p>Follow our Step-by-Step guide<\/p>",

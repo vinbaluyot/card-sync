@@ -36,7 +36,6 @@
     },
     "628a2a81-37df-452e-8f93-2869c0d0029b": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--19712153846060__628a2a81-37df-452e-8f93-2869c0d0029b-1688988623f161c968-0": {
           "type": "subheading",
@@ -75,6 +74,7 @@
         "template--19712153846060__628a2a81-37df-452e-8f93-2869c0d0029b-1688988623f161c968-2",
         "template--19712153846060__628a2a81-37df-452e-8f93-2869c0d0029b-1688988623f161c968-3"
       ],
+      "disabled": true,
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -126,7 +126,6 @@
     },
     "36d2df5c-3c6a-4167-b943-89a58300dc9c": {
       "type": "image-with-text-slideshow",
-      "disabled": true,
       "blocks": {
         "template--19434968416556__36d2df5c-3c6a-4167-b943-89a58300dc9c-1687337935de11790b-0": {
           "type": "slide",
@@ -161,6 +160,7 @@
         "template--19434968416556__36d2df5c-3c6a-4167-b943-89a58300dc9c-1687337935de11790b-1",
         "template--19434968416556__36d2df5c-3c6a-4167-b943-89a58300dc9c-1687337935de11790b-2"
       ],
+      "disabled": true,
       "settings": {
         "mobile_height": "mobile-height-350",
         "desktop_height": "desktop-height-650",
@@ -335,7 +335,6 @@
     },
     "d3ec07c3-360f-4389-ae64-721a28b8e59d": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-0": {
           "type": "column",
@@ -373,6 +372,7 @@
         "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-2",
         "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-1"
       ],
+      "disabled": true,
       "settings": {
         "heading": "How to Create",
         "description": "<p>Follow our Step-by-Step guide<\/p>",

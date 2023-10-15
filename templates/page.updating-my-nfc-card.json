@@ -133,7 +133,6 @@
     },
     "1653296460edc9a9c4": {
       "type": "gallery",
-      "disabled": true,
       "blocks": {
         "16532964607ed8a330-0": {
           "type": "image",
@@ -162,6 +161,7 @@
         "16532964607ed8a330-0",
         "16532964607ed8a330-1"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "description": "",

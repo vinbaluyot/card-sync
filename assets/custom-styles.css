@@ -1,0 +1,124 @@
+.section-slideshow .slideshow__slide-button-container {
+  display: flex;
+  flex-direction: var(--button-container-flex-direction);
+  gap: var(--button-container-gap);
+}
+
+@media screen and (min-width: 1640px) {
+  .section-slideshow .slideshow__slide .slideshow__slide-inner {
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .section-slideshow .slideshow__slide .slideshow__slide-inner {
+    left: 12.5%;
+  }
+}
+.collection-grid__button-container {
+  margin-top: var(--button-container-margin-top);
+  display: flex;
+  gap: var(--button-container-gap);
+  flex-direction: var(--button-container-flex-direction);
+}
+
+@media screen and (min-width: 640px) {
+  .collection-grid__button-container {
+    justify-content: center;
+  }
+}
+.shopify-section .testimonials__review-info {
+  margin-top: calc(var(--button-container-margin-top) * 1.5);
+}
+.shopify-section .testimonials__review-info a {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out;
+}
+.shopify-section .testimonials__review-info a:hover {
+  opacity: 0.75;
+}
+
+@media screen and (min-width: 1366px) {
+  .shopify-section .testimonials__inner {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  .shopify-section .testimonials__inner::before, .shopify-section .testimonials__inner::after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 10%;
+    position: absolute;
+    top: 0;
+    background: rgb(241, 241, 241);
+    z-index: 1;
+  }
+  .shopify-section .testimonials__inner::before {
+    left: 0;
+    background: linear-gradient(90deg, rgb(241, 241, 241) 0%, rgba(241, 241, 241, 0) 100%);
+  }
+  .shopify-section .testimonials__inner::after {
+    right: 0;
+    background: linear-gradient(270deg, rgb(241, 241, 241) 0%, rgba(241, 241, 241, 0) 100%);
+  }
+}
+.section-image-with-text .button {
+  height: auto;
+  line-height: 1.4;
+  padding: 12px 20px;
+  margin-top: calc(var(--button-container-margin-top) * 0.5);
+}
+.section-image-with-text .button + .button {
+  margin-top: calc(var(--button-container-margin-top) * 0.75);
+}
+
+@media screen and (max-width: 639px) {
+  .section-image-with-text .button {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 767px) {
+  .section-image-with-text .button + .button {
+    margin-top: 0;
+    margin-left: var(--button-container-margin-top);
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-image-with-text .image-with-text {
+    justify-content: space-between;
+  }
+  .section-image-with-text .image-with-text__image {
+    flex: 0 1 auto;
+  }
+}
+@media screen and (min-width: 1336px) {
+  .section-image-with-text .button + .button {
+    margin-top: 0;
+    margin-left: calc(var(--button-container-margin-top) * 0.25);
+  }
+}
+:root {
+  --button-container-margin-top: 1.25rem;
+  --button-container-flex-direction: column;
+  --button-container-gap: 1rem 1rem;
+}
+
+@media screen and (min-width: 540px) {
+  :root {
+    --button-container-flex-direction: row;
+  }
+}
+@media screen and (min-width: 640px) {
+  :root {
+    --button-container-gap: 1.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  :root {
+    --button-container-margin-top: 45px;
+  }
+}
+.button > span {
+  line-height: 1.2;
+}

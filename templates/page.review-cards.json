@@ -96,7 +96,6 @@
     },
     "952f18ca-e43c-4391-9108-4181af569371": {
       "type": "featured-product",
-      "disabled": true,
       "blocks": {
         "template--19818793992492__952f18ca-e43c-4391-9108-4181af569371-16892260837f0c0556-0": {
           "type": "title",
@@ -125,6 +124,7 @@
         "template--19818793992492__952f18ca-e43c-4391-9108-4181af569371-16892260837f0c0556-1",
         "template--19818793992492__952f18ca-e43c-4391-9108-4181af569371-16892260837f0c0556-2"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Review Cards",
         "description": "<p>Google - Trustpilot - Tripadvisor<\/p>",

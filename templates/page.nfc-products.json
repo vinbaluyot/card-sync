@@ -32,7 +32,6 @@
     },
     "9ceab8f1-4cae-4220-9f06-89579287af82": {
       "type": "featured-collection",
-      "disabled": true,
       "blocks": {
         "template--19290746028332__9ceab8f1-4cae-4220-9f06-89579287af82-1686560467677a4dee-0": {
           "type": "collection",
@@ -50,6 +49,7 @@
       "block_order": [
         "template--19290746028332__9ceab8f1-4cae-4220-9f06-89579287af82-1686560467677a4dee-0"
       ],
+      "disabled": true,
       "settings": {
         "heading": "NFC Card Collection",
         "description": "<p>Discover our range<\/p>",
@@ -60,7 +60,6 @@
     },
     "02bdf68e-609e-4661-8e9c-7371d0df9039": {
       "type": "image-with-text-slideshow",
-      "disabled": true,
       "blocks": {
         "template--19623236075820__02bdf68e-609e-4661-8e9c-7371d0df9039-1687337935de11790b-0": {
           "type": "slide",
@@ -105,6 +104,7 @@
         "478ca024-3bb4-4dde-9b48-9c8332946502",
         "template--19623236075820__02bdf68e-609e-4661-8e9c-7371d0df9039-1687337935de11790b-2"
       ],
+      "disabled": true,
       "settings": {
         "mobile_height": "mobile-height-350",
         "desktop_height": "desktop-height-650",
@@ -120,7 +120,6 @@
     },
     "2fb709c2-04ca-47d7-b5ec-f1a3e6c3140c": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--19623236075820__2fb709c2-04ca-47d7-b5ec-f1a3e6c3140c-168724912340f2c6b7-0": {
           "type": "subheading",
@@ -158,6 +157,7 @@
         "template--19623236075820__2fb709c2-04ca-47d7-b5ec-f1a3e6c3140c-168724912340f2c6b7-2",
         "template--19623236075820__2fb709c2-04ca-47d7-b5ec-f1a3e6c3140c-168724912340f2c6b7-3"
       ],
+      "disabled": true,
       "settings": {
         "text_width": "large",
         "text_position": "center",
@@ -168,7 +168,6 @@
     },
     "d3ec07c3-360f-4389-ae64-721a28b8e59d": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-0": {
           "type": "column",
@@ -206,6 +205,7 @@
         "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-2",
         "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-1"
       ],
+      "disabled": true,
       "settings": {
         "heading": "How to Create",
         "description": "<p>Follow our Step-by-Step guide<\/p>",

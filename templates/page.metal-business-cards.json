@@ -36,7 +36,6 @@
     },
     "ceab1224-c99a-4490-a621-6b11491a6aeb": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--19712154206508__ceab1224-c99a-4490-a621-6b11491a6aeb-1688988623f161c968-0": {
           "type": "subheading",
@@ -65,6 +64,7 @@
         "template--19712154206508__ceab1224-c99a-4490-a621-6b11491a6aeb-1688988623f161c968-1",
         "template--19712154206508__ceab1224-c99a-4490-a621-6b11491a6aeb-1688988623f161c968-2"
       ],
+      "disabled": true,
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -154,7 +154,6 @@
     },
     "9503a5e9-292c-49e1-98c0-c6eb5efb1bde": {
       "type": "image-with-text-slideshow",
-      "disabled": true,
       "blocks": {
         "template--19290746028332__9503a5e9-292c-49e1-98c0-c6eb5efb1bde-1687337935de11790b-0": {
           "type": "slide",
@@ -200,6 +199,7 @@
         "4b5af1de-4fb3-4ac9-8d91-147130524235",
         "template--19290746028332__9503a5e9-292c-49e1-98c0-c6eb5efb1bde-1687337935de11790b-2"
       ],
+      "disabled": true,
       "settings": {
         "mobile_height": "mobile-height-350",
         "desktop_height": "desktop-height-650",
@@ -337,7 +337,6 @@
     },
     "d3ec07c3-360f-4389-ae64-721a28b8e59d": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-0": {
           "type": "column",
@@ -375,6 +374,7 @@
         "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-2",
         "template--19290746028332__d3ec07c3-360f-4389-ae64-721a28b8e59d-16853224406e9a1780-1"
       ],
+      "disabled": true,
       "settings": {
         "heading": "How to Create",
         "description": "<p>Follow our Step-by-Step guide<\/p>",
