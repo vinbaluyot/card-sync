@@ -140,14 +140,14 @@
         "settings": {
         }
       },
-      "4571859552318407796": {
-        "type": "shopify:\/\/apps\/glo-color-swatch-variant-image\/blocks\/app-embed-block\/4394f710-096c-4021-bbde-8ebb26057c11",
+      "15119538188275799212": {
+        "type": "shopify:\/\/apps\/fontify-google-custom-fonts\/blocks\/app-embed\/334490e2-2153-4a2e-a452-e90bdeffa3cc",
         "disabled": false,
         "settings": {
         }
       },
-      "15119538188275799212": {
-        "type": "shopify:\/\/apps\/fontify-google-custom-fonts\/blocks\/app-embed\/334490e2-2153-4a2e-a452-e90bdeffa3cc",
+      "4571859552318407796": {
+        "type": "shopify:\/\/apps\/globo-color-swatch\/blocks\/app-embed-block\/4394f710-096c-4021-bbde-8ebb26057c11",
         "disabled": false,
         "settings": {
         }

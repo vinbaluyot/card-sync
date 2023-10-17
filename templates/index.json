@@ -92,10 +92,10 @@
         "heading": "Other NFC Products",
         "description": "<p>From Table Talkers to NFC Stickers, we have it all.<\/p>",
         "collection_list": [
+          "table-talkers",
           "nfc-phone-cases",
           "nfc-sticker",
           "nfc-tap",
-          "table-talkers",
           "nfc-qr-code-cards"
         ],
         "image_ratio": "square",
@@ -185,7 +185,7 @@
           "type": "tile",
           "settings": {
             "heading": "Business",
-            "copy": "<p>Facilitate customer connections, foster relationships, generate leads, get more sales!<br\/><strong>Marketing: <\/strong>Direct your prospects to connect to you directly to you social media, review platform, landing page and more. <br\/><strong>Networking:<\/strong> NFC cards make networking more efficient. Simply tap your nfc card on a smartphone to share your contact information.<br\/><strong>Lead Generation: <\/strong>Link people directly to your calender, booking platform and more.<\/p>",
+            "copy": "<p>Facilitate customer connections, foster relationships, generate leads, get more sales!<br\/>Direct your prospects to connect directly to your social media, review platform, calendar booking page, landing page, and more. NFC cards make networking more efficient. Simply tap your nfc card on a smartphone to share your contact information.<br\/><\/p>",
             "background_image": "shopify:\/\/shop_images\/2_921a1833-f298-45f3-881f-40640c7ff24a.jpg",
             "button_text": "Learn More",
             "button_link": "#for-business",
@@ -329,7 +329,8 @@
       ],
       "settings": {
         "custom_id": "for-personal",
-        "use_video": true,
+        "image": "shopify:\/\/shop_images\/cardsync_1.png",
+        "use_video": false,
         "video": "",
         "video_hosted": "shopify:\/\/files\/videos\/instagram1 (1) (1).mp4",
         "video_autoplay": true,
@@ -483,11 +484,11 @@
       ],
       "settings": {
         "custom_id": "how-it-works",
-        "richtext_heading": "How cardsync Works?",
+        "richtext_heading": "How Cardsync Works?",
         "richtext_paragraph": "<p>Explore our premium business cards and customise your own in our Engraved, NFC card range. Then, simply tap your NFC card to your smartphone to share your information.<\/p>",
         "richtext_image": "shopify:\/\/shop_images\/cardsync_20.jpg",
-        "use_video": false,
-        "video_hosted": "shopify:\/\/files\/videos\/instagram1 (1) (1).mp4",
+        "use_video": true,
+        "video_hosted": "shopify:\/\/files\/videos\/4. D1 7sec resize middle whitw (1) (1) (1) (1) (1).mp4",
         "video_autoplay": true,
         "collapsible_heading": "Frequently Asked Questions",
         "collapsible_paragraph": "<p>Explore our premium business cards and customise your own in our Engraved, NFC card range. Then, simply tap your NFC card to your smartphone to share your information.<\/p>",
