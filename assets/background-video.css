@@ -107,6 +107,9 @@ Utilities
     .video-lightbox-modal__button svg {
       width: auto;
       margin-right: 20px; }
+      [dir="rtl"] .video-lightbox-modal__button svg {
+        margin-right: 0;
+        margin-left: 20px; }
     .video-lightbox-modal__button span {
       font-size: 0.8125rem;
       letter-spacing: 0.2em;

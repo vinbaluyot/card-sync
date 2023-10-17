@@ -30,7 +30,6 @@ Utilities
     width: 100%;
     list-style: none;
     position: relative;
-    padding-right: 40px;
     font-weight: 600;
     font-size: 0.75rem;
     text-transform: uppercase;
@@ -38,6 +37,8 @@ Utilities
     line-height: 1;
     padding: 18px 40px 18px 0;
     cursor: pointer; }
+    [dir="rtl"] .accordion summary {
+      padding: 18px 0px 18px 40px; }
     .accordion summary span {
       position: absolute;
       top: 0;
@@ -55,6 +56,9 @@ Utilities
         border-style: solid;
         border-width: 4px 3px 0 3px;
         border-color: var(--color-accent) transparent transparent transparent; }
+      [dir="rtl"] .accordion summary span {
+        right: auto;
+        left: 0; }
     .accordion summary::-webkit-details-marker {
       display: none; }
   .accordion .accordion__content {

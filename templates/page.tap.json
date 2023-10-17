@@ -111,7 +111,6 @@
     },
     "5876b886-f976-45ff-a15b-4e6163e1eba0": {
       "type": "image-with-text-slideshow",
-      "disabled": true,
       "blocks": {
         "template--19623217135916__5876b886-f976-45ff-a15b-4e6163e1eba0-1687337935de11790b-0": {
           "type": "slide",
@@ -146,6 +145,7 @@
         "template--19623217135916__5876b886-f976-45ff-a15b-4e6163e1eba0-1687337935de11790b-1",
         "template--19623217135916__5876b886-f976-45ff-a15b-4e6163e1eba0-1687337935de11790b-2"
       ],
+      "disabled": true,
       "settings": {
         "mobile_height": "mobile-height-350",
         "desktop_height": "desktop-height-650",
@@ -170,7 +170,6 @@
     },
     "34f385cb-43e5-44a8-928b-e47dc2394523": {
       "type": "featured-product",
-      "disabled": true,
       "blocks": {
         "template--19290746028332__34f385cb-43e5-44a8-928b-e47dc2394523-1685268566b4e5a086-0": {
           "type": "title",
@@ -199,6 +198,7 @@
         "template--19290746028332__34f385cb-43e5-44a8-928b-e47dc2394523-1685268566b4e5a086-1",
         "template--19290746028332__34f385cb-43e5-44a8-928b-e47dc2394523-1685268566b4e5a086-2"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Featured product",
         "description": "<p>Add a short description for this featured product<\/p>",
@@ -284,7 +284,6 @@
     },
     "96f66718-f3d0-49c6-bfe5-485c3d3fe032": {
       "type": "gallery",
-      "disabled": true,
       "blocks": {
         "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-0": {
           "type": "image",
@@ -325,6 +324,7 @@
         "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-1",
         "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-2"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "description": "",

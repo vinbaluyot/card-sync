@@ -145,6 +145,7 @@
         "unavailable": "Couldn't load pickup availability",
         "refresh": "Refresh"
       },
+      "view_product_details": "Ver detalles del producto",
       "product_drawer": {
         "select_options": "Seleccione opciones"
       },

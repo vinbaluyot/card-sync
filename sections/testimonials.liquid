@@ -40,6 +40,19 @@
 			{% endfor %}
 		</div>
 	</div>
+	{% comment %} Custom: Begin Review {% endcomment %}
+	{% if section.settings.review_logo != blank %}
+		{% assign review_logo = section.settings.review_logo %}
+		<div class="testimonials__review-info">
+			{% if section.settings.review_text != blank %}
+				<p>{{ section.settings.review_text }}</p>
+			{% endif %}
+			{% if section.settings.review_link != blank %}<a href="{{ section.settings.review_link }}">{% endif %}
+			{{ review_logo | image_url: width: review_logo.width | image_tag: class: 'testimonials__review-info__logo', loading: 'lazy' }}
+			{% if section.settings.review_link != blank %}</a>{% endif %}
+		</div>
+	{% endif %}
+	{% comment %} Custom: End Review {% endcomment %}
 </div>
 {% schema %}
   {
@@ -115,6 +128,26 @@
 				"id": "disable_bottom_spacing",
 				"default": false,
 				"label": "Remove bottom spacing"
+			},
+			{
+	      "type": "header",
+	      "content": "Review"
+	    },
+			{
+        "type": "text",
+        "id": "review_text",
+        "label": "Review text",
+        "default": "More CardSync reviews on"
+      },
+			{
+				"type": "image_picker",
+				"id": "review_logo",
+				"label": "Review logo"
+			},
+			{
+				"id": "review_link",
+				"type": "url",
+				"label": "Review link"
 			}
     ],
     "blocks": [

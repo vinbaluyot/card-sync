@@ -55,7 +55,9 @@ Utilities
   @media only screen and (min-width: 1068px) {
     .cart-collaterals {
       padding-left: 40px;
-      margin-top: 0; } }
+      margin-top: 0; }
+      [dir="rtl"] .cart-collaterals {
+        padding: 0 40px 0 0; } }
   .cart-collaterals-terms {
     margin-top: 10px;
     margin-bottom: 10px;

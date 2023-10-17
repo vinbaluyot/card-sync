@@ -1,6 +1,9 @@
+{%- liquid
+	assign handle = option.name | replace: ' ', '-' | downcase | escape
+-%}
 {%- case option_type -%}
 {%- when 'dropdown' -%}
-	<fieldset class="product-form__input product-form__input--dropdown">
+	<fieldset class="product-form__input product-form__input--dropdown" data-index="option{{ forloop.index }}" data-handle="{{ handle }}">
 		<legend class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
 		  {{ option.name }}
 		</legend>
@@ -19,7 +22,7 @@
 		</div>
 	</fieldset>
 {%- when 'button' -%}
-	<fieldset class="product-form__input product-form__input--block">
+	<fieldset class="product-form__input product-form__input--block" data-index="option{{ forloop.index }}" data-handle="{{ handle }}">
 		<legend class="form__label">{{ option.name }}: <span class="form__label__value">{{ option.selected_value }}</span></legend>
 		{%- for value in option.values -%}
 			<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
@@ -49,7 +52,7 @@
 	assign key_array = key_array | remove_first: ',' | strip_newlines | downcase | split: ','
 	assign val_array = val_array | remove_first: ',' | split: ','
 	-%}
-	<fieldset class="product-form__input product-form__input--color">
+	<fieldset class="product-form__input product-form__input--color" data-index="option{{ forloop.index }}" data-handle="{{ handle }}">
 		<legend class="form__label">{{ option.name }}: <span class="form__label__value">{{ option.selected_value }}</span></legend>
 		{%- for value in option.values -%}
 			<input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"

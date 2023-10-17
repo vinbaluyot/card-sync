@@ -145,7 +145,6 @@
     },
     "e066e72f-0980-4b95-ad13-8c800bd3a5ca": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--19712154534188__e066e72f-0980-4b95-ad13-8c800bd3a5ca-1688988623f161c968-0": {
           "type": "subheading",
@@ -174,6 +173,7 @@
         "template--19712154534188__e066e72f-0980-4b95-ad13-8c800bd3a5ca-1688988623f161c968-1",
         "template--19712154534188__e066e72f-0980-4b95-ad13-8c800bd3a5ca-1688988623f161c968-2"
       ],
+      "disabled": true,
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -184,7 +184,6 @@
     },
     "cfbf2b80-43ca-4b8b-b595-b9153bfac9f8": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--19712154534188__cfbf2b80-43ca-4b8b-b595-b9153bfac9f8-1688182250a62bc2cf-2": {
           "type": "text",
@@ -197,6 +196,7 @@
       "block_order": [
         "template--19712154534188__cfbf2b80-43ca-4b8b-b595-b9153bfac9f8-1688182250a62bc2cf-2"
       ],
+      "disabled": true,
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -234,7 +234,6 @@
     },
     "63df152f-fce7-4824-95e2-1396d72a83c6": {
       "type": "image-with-text-slideshow",
-      "disabled": true,
       "blocks": {
         "template--19623212548396__63df152f-fce7-4824-95e2-1396d72a83c6-1687337935de11790b-0": {
           "type": "slide",
@@ -279,6 +278,7 @@
         "template--19623212548396__63df152f-fce7-4824-95e2-1396d72a83c6-1687337935de11790b-2",
         "a4f698e4-a1dc-463b-8598-fa9d03e225e2"
       ],
+      "disabled": true,
       "settings": {
         "mobile_height": "mobile-height-350",
         "desktop_height": "desktop-height-650",
@@ -353,7 +353,6 @@
     },
     "e31dcf61-5b35-4c07-8ac8-2947f7a7df66": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--19623212548396__e31dcf61-5b35-4c07-8ac8-2947f7a7df66-16872494896a91a1b0-0": {
           "type": "subheading",
@@ -382,6 +381,7 @@
         "template--19623212548396__e31dcf61-5b35-4c07-8ac8-2947f7a7df66-16872494896a91a1b0-1",
         "template--19623212548396__e31dcf61-5b35-4c07-8ac8-2947f7a7df66-16872494896a91a1b0-2"
       ],
+      "disabled": true,
       "settings": {
         "text_width": "large",
         "text_position": "center",

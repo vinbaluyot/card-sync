@@ -145,7 +145,6 @@
     },
     "96f66718-f3d0-49c6-bfe5-485c3d3fe032": {
       "type": "gallery",
-      "disabled": true,
       "blocks": {
         "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-0": {
           "type": "image",
@@ -186,6 +185,7 @@
         "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-1",
         "template--16769565098281__96f66718-f3d0-49c6-bfe5-485c3d3fe032-1668411907d5a64454-2"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "description": "",
@@ -214,7 +214,6 @@
     },
     "6051b459-ad7e-40e0-bdb3-c20f012c653a": {
       "type": "logo-list",
-      "disabled": true,
       "blocks": {
         "template--16769565098281__6051b459-ad7e-40e0-bdb3-c20f012c653a-1668425503d8e61334-0": {
           "type": "logo",
@@ -254,6 +253,7 @@
         "template--16769565098281__6051b459-ad7e-40e0-bdb3-c20f012c653a-1668425503d8e61334-3",
         "26e1dab5-6c0d-4040-b2dd-9050ff04feaf"
       ],
+      "disabled": true,
       "settings": {
         "heading": "As Featured In",
         "description": "",

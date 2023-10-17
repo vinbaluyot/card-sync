@@ -9,20 +9,10 @@
 {%- endcapture -%}
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ dir }}">
 <head>
-	<!-- Added by AVADA SEO Suite -->
-	{% include 'avada-seo' %}
-	<!-- /Added by AVADA SEO Suite -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
 	<meta name="theme-color" content="{{ settings.color_body_bg }}">
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TQHB7WK6');</script>
-<!-- End Google Tag Manager -->
 	<link rel="canonical" href="{{ canonical_url }}">
 	<link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 	{% render 'head-preload' %}
@@ -51,6 +41,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	{{ 'app.css' | asset_url | stylesheet_tag }}
 
 	{% render 'head-variables' %}
+
+	{% render 'kb-customs' %}
 
 	<script>
 		window.theme = window.theme || {};
@@ -82,13 +74,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	{{ content_for_header }} <!-- Header hook for plugins -->
 
 	<script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
-{% include 'fontiobasic' %}</head>
+</head>
 <body class="animations-{{ settings.animations }} button-uppercase-{{ settings.button_uppercase }} navigation-uppercase-{{ settings.navigation_uppercase }} product-title-uppercase-{{ settings.product_title_uppercase }} {% if customer %} customer-logged-in{% endif %} template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} template-{{ template | replace: '.', '-' | handle }}">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQHB7WK6"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-  <a class="screen-reader-shortcut" href="#main-content">{{ 'accessibility.skip_to_text' | t }}</a>
+	<a class="screen-reader-shortcut" href="#main-content">{{ 'accessibility.skip_to_text' | t }}</a>
 	<div id="wrapper">
 		{% sections 'header-group' %}
 		<div role="main" id="main-content">
@@ -125,6 +113,5 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		{{ 'theme-editor.js' | asset_url | script_tag }}
 	{%- endif -%}
 	{% render 'back-to-top' %}
-
 </body>
 </html>

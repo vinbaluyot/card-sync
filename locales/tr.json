@@ -147,6 +147,7 @@
         "unavailable": "Teslim alım stok durumu yüklenemedi",
         "refresh": "Yenile"
       },
+      "view_product_details": "Ürün bilgilerini görüntüle",
       "product_drawer": {
         "select_options": "Seçenekler"
       },

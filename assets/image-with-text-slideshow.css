@@ -136,6 +136,8 @@ https://flickity.metafizzy.co
   display: flex;
   flex-wrap: wrap;
   overflow: hidden; }
+  [dir="rtl"] .image-with-text-slideshow {
+    flex-direction: row-reverse; }
   .image-with-text-slideshow.text_first {
     flex-direction: row-reverse; }
   .image-with-text-slideshow__content {

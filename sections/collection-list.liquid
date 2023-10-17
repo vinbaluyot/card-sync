@@ -19,7 +19,8 @@
 		assign carousel_class = 'carousel'
 	endif
 -%}
-<div class="list-collections section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}" style="--overlay-opacity: {{ overlay_opacity | divided_by: 100.0 }}">
+{% comment %} Custom: Added custom id for anchoring within the page {% endcomment %}
+<div id="{{ section.settings.custom_id }}" class="list-collections section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}" style="--overlay-opacity: {{ overlay_opacity | divided_by: 100.0 }}">
 	{% render 'section-header', section_heading: section_heading, section_description: section_description %}
 	<div class="row {{ content_alignment }}" style="--var-collection-list-columns:{{ columns_desktop }}">
 	  <div class="small-12 columns">
@@ -34,6 +35,16 @@
 					{% endfor %}
 				{% endif %}
 			</div>
+			{% comment %} Custom: Begin add buttons {% endcomment %}
+			<div class="collection-grid__button-container">
+				{% if section.settings.button_text != blank %}
+					<a class="button {{ section.settings.button_style | escape }} {{ section.settings.button_color | escape }}{% if section.settings.button_outline %} outline{%- endif %}" href="{{ section.settings.button_link }}" role="button" title="{{ section.settings.button_text | escape }}"><span>{{ section.settings.button_text }}</span></a>
+				{% endif %}
+				{% if section.settings.button_text_2 != blank %}
+					<a class="button {{ section.settings.button_style_2 | escape }} {{ section.settings.button_color_2 | escape }}{% if section.settings.button_outline_2 %} outline{%- endif %}" href="{{ section.settings.button_link_2 }}" role="button" title="{{ section.settings.button_text_2 | escape }}"><span>{{ section.settings.button_text_2 }}</span></a>
+				{% endif %}
+			</div>
+			{% comment %} Custom: Begin add buttons {% endcomment %}
 		</div>
 	</div>
 </div>
@@ -42,6 +53,12 @@
   {
     "name": "Collection list",
     "settings": [
+			{
+				"type": "text",
+				"id": "custom_id",
+				"label": "Custom ID",
+				"info": "For anchor link"
+			},
       {
         "type": "text",
         "id": "heading",
@@ -193,6 +210,72 @@
 				"id": "disable_bottom_spacing",
 				"default": false,
 				"label": "Remove bottom spacing"
+			},
+			{
+				"type": "header",
+				"content": "Button 1"
+			},
+			{
+				"id": "button_text",
+				"type": "text",
+				"label": "Button label",
+				"default": "Shop Now",
+				"info": "Leave the label blank to hide the button."
+			},
+			{
+				"id": "button_link",
+				"type": "url",
+				"label": "Button link"
+			},
+			{
+				 "type": "select",
+				 "id": "button_color",
+				 "label": "Button color",
+				 "options": [
+						{ "value": "accent2", "label": "Accent" },
+						{ "value": "accent3", "label": "White" },
+						{ "value": "accent", "label": "Black" }
+				 ],
+				 "default": "accent2"
+			},
+			{
+				"type": "checkbox",
+				"id": "button_outline",
+				"label": "Use outline button style",
+				"default": false
+			},
+			{
+				"type": "header",
+				"content": "Button 2"
+			},
+			{
+				"id": "button_text_2",
+				"type": "text",
+				"label": "Button label",
+				"default": "Shop Now",
+				"info": "Leave the label blank to hide the button."
+			},
+			{
+				"id": "button_link_2",
+				"type": "url",
+				"label": "Button link"
+			},
+			{
+				 "type": "select",
+				 "id": "button_color_2",
+				 "label": "Button color",
+				 "options": [
+						{ "value": "accent2", "label": "Accent" },
+						{ "value": "accent3", "label": "White" },
+						{ "value": "accent", "label": "Black" }
+				 ],
+				 "default": "accent"
+			},
+			{
+				"type": "checkbox",
+				"id": "button_outline_2",
+				"label": "Use outline button style",
+				"default": true
 			}
     ],
     "presets": [

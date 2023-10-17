@@ -1,0 +1,82 @@
+{%- liquid
+  # Default with theme
+  assign disable_top_spacing = section.settings.disable_top_spacing
+	assign disable_bottom_spacing = section.settings.disable_bottom_spacing
+
+  # Custom
+  assign banner = section.settings.banner
+  assign banner_mobile_version = section.settings.banner_mobile_version
+  assign banner_link = section.settings.banner_link
+-%}
+
+<div class="section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+  <div class="row">
+    {% if banner_link != blank %}
+      <a href="{{ banner_link }}" class="kb-image-banner__link">
+    {% endif %}
+    {% if banner_mobile_version != blank %}
+      {{ banner_mobile_version | image_url: width: banner_mobile_version.width | image_tag: class: 'kb-image-banner__banner is-mobile', loading: 'lazy' }}
+    {% endif %}
+    {% if banner != blank %}
+      {{ banner | image_url: width: banner.width | image_tag: class: 'kb-image-banner__banner', loading: 'lazy' }}
+    {% else %}
+      {{ 'image' | placeholder_svg_tag: 'placeholder_svg_tag' }}
+    {% endif %}
+    {% if banner_link != blank %}
+      </a>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+  {
+  "name": "KB Image Banner",
+  "class": "kb-image-banner",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image Banner"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner",
+      "label": "Banner",
+      "info": "Default banner to be used in both mobile and desktop."
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_mobile_version",
+      "label": "Mobile version",
+      "info": "Optional mobile version of the banner."
+    },
+    {
+      "type": "url",
+      "id": "banner_link",
+      "label": "Link",
+      "info": "Optional link"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_top_spacing",
+      "default": false,
+      "label": "Remove top spacing"
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_bottom_spacing",
+      "default": false,
+      "label": "Remove bottom spacing"
+    }
+  ],
+  "presets": [
+    {
+      "name": "KB Image Banner"
+    }
+  ]
+}  
+{% endschema %}

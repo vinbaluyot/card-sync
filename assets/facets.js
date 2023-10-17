@@ -192,9 +192,9 @@ class FacetFiltersForm extends HTMLElement {
 
   static getSections() {
     return [
-    {
-      section: document.getElementById('product-grid').dataset.id,
-    }];
+      {
+        section: document.getElementById('product-grid').dataset.id,
+      }];
   }
 
   onSubmitHandler(event) {
@@ -247,43 +247,43 @@ customElements.define('facet-remove', FacetRemove);
  *  @class
  *  @function PriceSlider
  */
-class PriceSlider {
+class PriceSlider extends HTMLElement {
 
   constructor() {
-    this.container = document.querySelectorAll('.price_slider_wrapper');
+    super();
+  }
+  connectedCallback() {
+    let slider = this.querySelector('.price_slider'),
+      amounts = this.querySelector('.price_slider_amount'),
+      args = {
+        start: [parseFloat(slider.dataset.minValue || 0), parseFloat(slider.dataset.maxValue || slider.dataset.max)],
+        connect: true,
+        step: 10,
+        direction: document.dir,
+        range: {
+          'min': 0,
+          'max': parseFloat(slider.dataset.max)
+        }
+      },
+      event = new CustomEvent('input'),
+      form = this.closest('facet-filters-form') || document.querySelector('facet-filters-form');
 
-    this.container.forEach((slider_container) => {
-      let slider = slider_container.querySelector('.price_slider'),
-        amounts = slider_container.querySelector('.price_slider_amount'),
-        args = {
-          start: [parseFloat(slider.dataset.minValue || 0), parseFloat(slider.dataset.maxValue || slider.dataset.max)],
-          connect: true,
-          step: 10,
-          range: {
-            'min': 0,
-            'max': parseFloat(slider.dataset.max)
-          }
-        },
-        event = new CustomEvent('input'),
-        form = slider_container.closest('facet-filters-form') || document.querySelector('facet-filters-form');
+    if (slider.classList.contains('noUi-target')) {
+      slider.noUiSlider.destroy();
+    }
+    noUiSlider.create(slider, args);
 
-      if (slider.classList.contains('noUi-target')) {
-        slider.noUiSlider.destroy();
-      }
-      noUiSlider.create(slider, args);
-
-      slider.noUiSlider.on('update', function(values) {
-        amounts.querySelector('.field__input_min').value = values[0];
-        amounts.querySelector('.field__input_max').value = values[1];
-      });
-      slider.noUiSlider.on('change', function(values) {
-        form.querySelector('form').dispatchEvent(event);
-      });
+    slider.noUiSlider.on('update', function (values) {
+      amounts.querySelector('.field__input_min').value = values[0];
+      amounts.querySelector('.field__input_max').value = values[1];
+    });
+    slider.noUiSlider.on('change', function (values) {
+      form.querySelector('form').dispatchEvent(event);
     });
   }
 }
+customElements.define('price-slider', PriceSlider);
 
 window.addEventListener('load', () => {
-  new PriceSlider();
   new FacetsToggle();
 });

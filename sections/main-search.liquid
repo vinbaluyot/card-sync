@@ -19,6 +19,10 @@
 -%}
 {%- if search.performed -%}
 	<div class="collection-container section-spacing-bottom collection-container--full-width-{{ full_width }}">
+		{% render 'facets', results: search, enable_filtering: enable_filtering, enable_sorting: enable_sorting, show_counts: show_counts, filter_color_swatches: filter_color_swatches %}
+		{{ 'facets.css' | asset_url | stylesheet_tag }}
+		{{ 'nouislider.js' | asset_url | script_tag }}
+		<script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
 		<div id="ProductGridContainer">
 			{%- if search.results.size == 0 -%}
 				<div class="row">
@@ -33,10 +37,7 @@
 				</div>
 			{%- else -%}
 				{%- paginate search.results by products_per_page -%}
-					{% render 'facets', results: search, enable_filtering: enable_filtering, enable_sorting: enable_sorting, show_counts: show_counts, filter_color_swatches: filter_color_swatches %}
-					{{ 'facets.css' | asset_url | stylesheet_tag }}
-					{{ 'nouislider.js' | asset_url | script_tag }}
-					<script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
+					
 					<ul id="product-grid" data-id="{{ section.id }}" class="products collection row small-up-2 medium-up-{{ columns_desktop }}">
 						{%- for item in search.results -%}
 							<li class="column">
