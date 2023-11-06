@@ -426,7 +426,7 @@
           "type": "collapsible",
           "settings": {
             "collapsible_item_title": "What is a NFC?",
-            "collapsible_item_paragraph": "<p>NFC stands for Near Field Communication, a wireless communication technology that enables the exchange of data between devices over short distances. An NFC card, also known as a contactless smart card, is a small, portable device embedded with an NFC chip that allows it to interact with other NFC-enabled devices.<\/p><p>By simply tapping on your smartphone or scanning the unique QR code, effortlessly share your contact details or redirect visitors to your Website Landing Page, Social Media platforms, Review Platform and more.<\/p>",
+            "collapsible_item_paragraph": "<p>NFC stands for Near Field Communication, a wireless communication technology that enables the exchange of data between devices over short distances. An NFC card, also known as a contactless smart card, is a small, portable device embedded with an NFC chip that allows it to interact with other NFC-enabled devices.<\/p><p>By simply tapping on your smartphone share your contact details or redirect visitors to your Landing Page, Social Media platforms, Review Platform and more.<\/p>",
             "open": true
           }
         },
@@ -458,7 +458,7 @@
           "type": "collapsible",
           "settings": {
             "collapsible_item_title": "What phones are compatible?",
-            "collapsible_item_paragraph": "<p>Tap function is compatible with NFC enabled Smartphones. iPhones made in 2018 and newer and most androids<\/p><p>For all other phones, please have your client scan the QR code on the back of your card which is available in our QR card range.<\/p>",
+            "collapsible_item_paragraph": "<p>Tap function is compatible with NFC enabled Smartphones. iPhones made in 2018 and newer and most androids<\/p><p>For all other phones, please have your client scan the QR code. This option is available in our QR card range only.<\/p>",
             "open": false
           }
         },
@@ -485,7 +485,7 @@
       "settings": {
         "custom_id": "how-it-works",
         "richtext_heading": "How Cardsync Works?",
-        "richtext_paragraph": "<p>Simply tap your NFC card to your smartphone to share your information. For iPhones tap the NFC card on the front of the phone, For most androids you will need to tap the card on the back of the phone.<\/p>",
+        "richtext_paragraph": "<p>Easily share your contact information by simply tapping your NFC card onto your smartphone.<\/p><p>Direct prospects to your custom landing page, social media page, review platform, calendar, and more. <\/p>",
         "richtext_image": "shopify:\/\/shop_images\/cardsync_20.jpg",
         "use_video": true,
         "video_hosted": "shopify:\/\/files\/videos\/202310182002 (1) (1).mp4",
