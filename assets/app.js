@@ -132,7 +132,7 @@ if (!customElements.get('product-card')) {
 
         swatch.addEventListener('mouseover', () => {
 
-          [].forEach.call(swatch_list, function(el) {
+          [].forEach.call(swatch_list, function (el) {
             el.classList.remove('active');
           });
           if (this.image) {
@@ -145,7 +145,7 @@ if (!customElements.get('product-card')) {
 
           swatch.classList.add('active');
         });
-        swatch.addEventListener('click', function(evt) {
+        swatch.addEventListener('click', function (evt) {
           window.location.href = this.dataset.href;
           evt.preventDefault();
         });
@@ -373,7 +373,7 @@ class CartDrawer {
 
     if (terms_checkbox && checkout_button) {
       terms_checkbox.setCustomValidity(theme.strings.requiresTerms);
-      checkout_button.addEventListener('click', function(e) {
+      checkout_button.addEventListener('click', function (e) {
         if (!terms_checkbox.checked) {
           terms_checkbox.reportValidity();
           terms_checkbox.focus();
@@ -423,15 +423,15 @@ class CartDrawer {
       quantity: quantity
     });
     fetch(`${theme.routes.cart_change_url}`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': `application/json`
-        },
-        ...{
-          body
-        }
-      })
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': `application/json`
+      },
+      ...{
+        body
+      }
+    })
       .then((response) => {
         return response.text();
       })
@@ -499,8 +499,8 @@ if (!customElements.get('quick-view')) {
       }
       this.classList.add('loading');
       fetch(href, {
-          method: 'GET'
-        })
+        method: 'GET'
+      })
         .then((response) => {
           this.classList.remove('loading');
           return response.text();
@@ -531,7 +531,7 @@ if (!customElements.get('quick-view')) {
         }
 
         setTimeout(() => {
-          new ProductQuickSlider();
+          window.dispatchEvent(new Event('resize'));
           if (Shopify && Shopify.PaymentButton) {
             Shopify.PaymentButton.init();
           }
@@ -690,7 +690,7 @@ class SelectWidth {
         _this.resizeSelect(e.target);
       }
     });
-    window.addEventListener('resize.resize-select', function() {
+    window.addEventListener('resize.resize-select', function () {
       document.querySelectorAll(".resize-select").forEach(_this.resizeSelect);
     });
   }
@@ -752,11 +752,11 @@ if (!customElements.get('collapsible-row')) {
         paused: true,
         inherit: false,
         ease: 'none',
-        onStart: function() {
+        onStart: function () {
           _this.details.open = true;
           _this.details.style.overflow = 'hidden';
         },
-        onReverseComplete: function() {
+        onReverseComplete: function () {
           _this.details.open = false;
           _this.details.style.overflow = '';
         }
@@ -764,7 +764,7 @@ if (!customElements.get('collapsible-row')) {
 
       this.tl
         .fromTo(_this.details, {
-          height: function() {
+          height: function () {
             let h = Math.max(Math.max(initial_height, 0), 24);
             return h;
           },
@@ -883,35 +883,6 @@ if (!customElements.get('collapsible-row')) {
   customElements.define('collapsible-row', CollapsibleRow);
 }
 
-/**
- *  @class
- *  @function ProductQuickSlider
- */
-class ProductQuickSlider {
-  constructor() {
-    this.container = document.getElementById('Product-Quick-Slider');
-
-    if (!this.container) {
-      return;
-    }
-
-    const flkty = new Flickity(this.container, {
-      contain: true,
-      cellAlign: 'left',
-      pageDots: false,
-      freeScroll: true,
-      initialIndex: '.is-initial-selected',
-      prevNextButtons: false,
-      cellSelector: '.product-quick-images__slide'
-    });
-    let scrollbar = document.querySelector('.product-quick-images__scrollbar>div');
-    flkty.on('scroll', function(progress) {
-      progress = Math.max(0, Math.min(1, progress));
-      scrollbar.style.transform = 'scaleX(' + progress + ')';
-    });
-
-  }
-}
 if (typeof SelectWidth !== 'undefined') {
   new SelectWidth();
 }

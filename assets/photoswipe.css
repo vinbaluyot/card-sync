@@ -221,6 +221,12 @@ Utilities
       .pswp__button.pswp__button--close {
         top: 27px;
         right: 27px; } }
+    [dir="rtl"] .pswp__button.pswp__button--close {
+      right: auto;
+      left: 15px; }
+      @media only screen and (min-width: 768px) {
+        [dir="rtl"] .pswp__button.pswp__button--close {
+          left: 27px; } }
   .pswp__button.pswp__button--arrow--left {
     left: 15px; }
     @media only screen and (min-width: 768px) {

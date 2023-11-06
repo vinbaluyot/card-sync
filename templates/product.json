@@ -383,14 +383,6 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
-    },
-    "6f633314-4b2f-4894-acf6-ba2879671007": {
-      "type": "instafeed",
-      "settings": {
-        "heading_size": 20,
-        "feed_width": 100,
-        "html_area": ""
-      }
     }
   },
   "order": [
@@ -403,7 +395,6 @@
     "165209458556c14fef",
     "1652098298c16da7fd",
     "1652098314f8bd5477",
-    "product-recommendations",
-    "6f633314-4b2f-4894-acf6-ba2879671007"
+    "product-recommendations"
   ]
 }

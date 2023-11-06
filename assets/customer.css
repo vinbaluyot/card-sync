@@ -213,6 +213,8 @@ table {
   font-size: 15px;
   border-collapse: collapse;
   border: 1px solid var(--color-border); }
+  [dir="rtl"] table {
+    text-align: right; }
   table thead {
     line-height: 1; }
     table thead th {
@@ -241,6 +243,8 @@ table {
         border-bottom: 1px solid var(--color-border); }
         table.no-borders thead th:last-child {
           text-align: right; }
+          [dir="rtl"] table.no-borders thead th:last-child {
+            text-align: left; }
     table.no-borders th,
     table.no-borders td {
       padding: 10px 15px;
@@ -261,15 +265,30 @@ table {
         table.no-borders tbody tr th,
         table.no-borders tbody tr td {
           padding: 20px 30px 20px 0; } }
+      [dir="rtl"] table.no-borders tbody tr th, [dir="rtl"]
+      table.no-borders tbody tr td {
+        padding: 20px 0 20px 15px; }
+        [dir="rtl"] table.no-borders tbody tr th:last-child, [dir="rtl"]
+        table.no-borders tbody tr td:last-child {
+          text-align: left;
+          padding-left: 0; }
+        @media only screen and (min-width: 768px) {
+          [dir="rtl"] table.no-borders tbody tr th, [dir="rtl"]
+          table.no-borders tbody tr td {
+            padding: 20px 0 20px 30px; } }
     table.no-borders tbody tr:last-child td {
       border-bottom: 0; }
     table.no-borders tfoot {
       text-align: right; }
+      [dir="rtl"] table.no-borders tfoot {
+        text-align: left; }
       table.no-borders tfoot td {
         padding: 10px 0;
         border-top: 1px solid var(--color-border); }
         table.no-borders tfoot td:first-child {
           text-align: left; }
+          [dir="rtl"] table.no-borders tfoot td:first-child {
+            text-align: right; }
 
 .shopify-challenge__container {
   padding: 40px 0; }
@@ -420,24 +439,16 @@ table {
 scroll-shadow {
   display: inline-block;
   --scroll-shadow-size: 60;
-  --scroll-shadow-top: linear-gradient(
-    rgba(var(--bg-body-rgb), 1),
-    rgba(var(--bg-body-rgb), 0)
-  );
-  --scroll-shadow-bottom: linear-gradient(
-    rgba(var(--bg-body-rgb), 0),
-    rgba(var(--bg-body-rgb), 1)
-  );
-  --scroll-shadow-left: linear-gradient(
-    90deg,
-    rgba(var(--bg-body-rgb), 1),
-    rgba(var(--bg-body-rgb), 0)
-  );
-  --scroll-shadow-right: linear-gradient(
-    90deg,
-    rgba(var(--bg-body-rgb), 0),
-    rgba(var(--bg-body-rgb), 1)
-  ); }
+  --scroll-shadow-top: linear-gradient(rgba(var(--bg-body-rgb), 1),
+      rgba(var(--bg-body-rgb), 0));
+  --scroll-shadow-bottom: linear-gradient(rgba(var(--bg-body-rgb), 0),
+      rgba(var(--bg-body-rgb), 1));
+  --scroll-shadow-left: linear-gradient(90deg,
+      rgba(var(--bg-body-rgb), 1),
+      rgba(var(--bg-body-rgb), 0));
+  --scroll-shadow-right: linear-gradient(90deg,
+      rgba(var(--bg-body-rgb), 0),
+      rgba(var(--bg-body-rgb), 1)); }
 
 @media only screen and (max-width: 767px) {
   .mobile-height-full {

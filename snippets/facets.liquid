@@ -43,7 +43,7 @@
 												{%- liquid
 													assign slug = filter.label | downcase | escape
 
-													if slug contains 'color' or slug contains 'colour' or slug contains 'couleur'
+													if slug contains 'color' or slug contains 'colour' or slug contains 'couleur' or slug contains 'farbe'
 														if filter_color_swatches
 															assign slug = 'color'
 														else
@@ -144,7 +144,7 @@
 					              -%}
 												{%- assign max_price_amount = filter.range_max | money | strip_html | escape -%}
 	                      <span class="price-highest">{{ "products.facets.max_price" | t: price: max_price_amount }}</span>
-												<div class="price_slider_wrapper">
+												<price-slider class="price_slider_wrapper">
 													<div
 														class="price_slider"
 														data-min-value="{{ min_value }}"
@@ -178,7 +178,7 @@
 						                  </input>
 														</div>
 													</div>
-												</div>
+												</price-slider>
 											</div>
 										</div>
 									</div>

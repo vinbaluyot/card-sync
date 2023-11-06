@@ -22,6 +22,7 @@ class SlideShow {
         next_button = slideshow.querySelector('.flickity-next'),
         custom_dots = slideshow.querySelectorAll('.flickity-custom-dots'),
         animations = [],
+        rightToLeft = document.dir === 'rtl',
         currentIndex = 0,
         args = {
           wrapAround: true,
@@ -30,6 +31,7 @@ class SlideShow {
           contain: true,
           fade: fade,
           autoPlay: autoplay,
+          rightToLeft: rightToLeft,
           prevNextButtons: false,
           cellSelector: '.carousel__slide'
         };
@@ -43,7 +45,7 @@ class SlideShow {
       }
       if (slideshow.classList.contains('testimonials__carousel')) {
         args.on = {
-          ready: function() {
+          ready: function () {
             window.dispatchEvent(new Event('resize'));
           }
         };
@@ -51,7 +53,7 @@ class SlideShow {
       if (slideshow.classList.contains('collection-grid__carousel')) {
         if (document.body.classList.contains('animations-true') && typeof gsap !== 'undefined') {
           args.on = {
-            scroll: function(progress) {
+            scroll: function (progress) {
               let flkSlideWidth = slideshow.querySelectorAll('.collection-card')[0].clientWidth + 25,
                 extra_window_space = slideshow.getBoundingClientRect().left;
 
@@ -109,10 +111,10 @@ class SlideShow {
         if (document.body.classList.contains('animations-true') && typeof gsap !== 'undefined') {
           _this.prepareAnimations(slideshow, animations);
           args.on = {
-            ready: function() {
+            ready: function () {
               _this.animateSlides(0, slideshow, animations);
             },
-            change: function(index) {
+            change: function (index) {
               let previousIndex = fizzyUIUtils.modulo(this.selectedIndex - 1, this.slides.length);
 
               _this.animateReverse(previousIndex, slideshow, animations);
@@ -124,9 +126,9 @@ class SlideShow {
       if (slideshow.classList.contains('products')) {
         args.wrapAround = false;
         args.on = {
-          ready: function() {
+          ready: function () {
             var flickity = this;
-            window.addEventListener('resize.center_arrows', function() {
+            window.addEventListener('resize.center_arrows', function () {
               _this.centerArrows(flickity, slideshow, prev_button, next_button);
             });
             window.dispatchEvent(new Event('resize.center_arrows'));
@@ -164,15 +166,15 @@ class SlideShow {
   }
   prepareAnimations(slideshow, animations) {
     if (!slideshow.dataset.animationsReady) {
-      document.fonts.ready.then(function() {
+      document.fonts.ready.then(function () {
         new SplitText(slideshow.querySelectorAll('h1, p:not(.subheading)'), {
           type: 'lines, words',
           linesClass: 'line-child'
         });
         slideshow.querySelectorAll('.slideshow__slide').forEach((item, i) => {
           let tl = gsap.timeline({
-              paused: true
-            }),
+            paused: true
+          }),
             button_offset = 0;
 
 
@@ -234,7 +236,7 @@ class SlideShow {
   animateSlides(i, slideshow, animations) {
     let flkty = Flickity.data(slideshow),
       active_slide = flkty.selectedElement;
-    document.fonts.ready.then(function() {
+    document.fonts.ready.then(function () {
       animations[i].restart();
     });
   }

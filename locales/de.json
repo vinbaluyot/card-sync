@@ -145,6 +145,7 @@
         "unavailable": "Verfügbarkeit für Abholungen konnte nicht geladen werden",
         "refresh": "Aktualisieren"
       },
+      "view_product_details": "Produktdetails ansehen",
       "product_drawer": {
         "select_options": "Optionen wählen"
       },

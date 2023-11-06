@@ -3,13 +3,16 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
+        "heading": "Shop by Category",
+        "description": "<p>Add a short description for your collections<\/p>",
         "sort": "date",
-        "image_ratio": "portrait",
-        "layout": "collage",
+        "image_ratio": "square",
+        "layout": "grid",
         "style": "style1",
         "content_alignment": "text-left",
         "columns_desktop": 3,
         "collection_list_pagination_num": 17,
+        "collection_description": true,
         "overlay_opacity": 30,
         "mobile_swipe": true,
         "disable_top_spacing": false,

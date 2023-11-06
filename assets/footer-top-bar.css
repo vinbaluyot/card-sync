@@ -14,7 +14,9 @@ Utilities
   text-align: center; }
   @media only screen and (min-width: 768px) {
     .footer-top-bar {
-      text-align: left; } }
+      text-align: left; }
+      [dir="rtl"] .footer-top-bar {
+        text-align: right; } }
   .footer-top-bar p {
     font-size: 1.25rem;
     font-weight: 500;

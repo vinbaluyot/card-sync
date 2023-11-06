@@ -116,6 +116,8 @@ Utilities
       transform: scale(0, 1);
       background: var(--color-accent2);
       transform-origin: left center; }
+      [dir="rtl"] .blog-post-detail--navigation-bar {
+        transform-origin: right center; }
     .blog-post-detail--navigation-current {
       overflow: hidden;
       width: 100%; }
@@ -132,6 +134,9 @@ Utilities
           @media only screen and (min-width: 768px) {
             .blog-post-detail--navigation-current > div span {
               display: inline; } }
+          [dir="rtl"] .blog-post-detail--navigation-current > div span {
+            margin-right: 0;
+            margin-left: 5px; }
         .blog-post-detail--navigation-current > div h6 {
           margin: 0;
           font-size: 17px;
@@ -157,6 +162,12 @@ Utilities
           margin-left: 20px; }
         .blog-post-detail--navigation-link.navigation-prev:hover svg {
           transform: translateX(-12%); }
+        [dir="rtl"] .blog-post-detail--navigation-link.navigation-prev {
+          text-align: right;
+          margin-right: 0;
+          margin-left: auto; }
+          [dir="rtl"] .blog-post-detail--navigation-link.navigation-prev span {
+            margin: 0 20px 0 0; }
       .blog-post-detail--navigation-link.navigation-next {
         text-align: right;
         margin-left: auto; }
@@ -164,6 +175,12 @@ Utilities
           margin-right: 20px; }
         .blog-post-detail--navigation-link.navigation-next:hover svg {
           transform: translateX(12%); }
+        [dir="rtl"] .blog-post-detail--navigation-link.navigation-next {
+          text-align: left;
+          margin-right: auto;
+          margin-left: 0; }
+          [dir="rtl"] .blog-post-detail--navigation-link.navigation-next span {
+            margin: 0 0 0 20px; }
 
 .share-article {
   font-size: 0.8125rem;
@@ -173,8 +190,12 @@ Utilities
     height: 16px;
     width: auto;
     margin-right: 10px; }
+    [dir="rtl"] .share-article svg {
+      margin: 0 0 0 10px; }
   .share-article a {
     display: inline-flex;
     align-items: center;
     margin-right: 25px;
     white-space: nowrap; }
+    [dir="rtl"] .share-article a {
+      margin: 0 0 0 25px; }

@@ -145,6 +145,7 @@
         "unavailable": "Couldn't load pickup availability",
         "refresh": "Refresh"
       },
+      "view_product_details": "View product details",
       "product_drawer": {
         "select_options": "Select options"
       },
@@ -406,11 +407,6 @@
       "message_label": "Message (optional)",
       "message": "Message",
       "max_characters": "{{ max_chars }} characters max"
-    }
-  },
-  "shopify": {
-    "links": {
-      "powered_by_shopify": " "
     }
   }
 }

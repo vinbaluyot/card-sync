@@ -30,8 +30,8 @@
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
-            "color_picker": true,
-            "variant_is_disabled": true
+            "color_picker": false,
+            "variant_is_disabled": false
           }
         },
         "db448b3f-9f45-4ed7-afa0-299571754ea6": {
@@ -55,7 +55,8 @@
             "heading": "Collapsible row",
             "open": false,
             "content": "",
-            "page": ""
+            "page": "",
+            "custom_liquid": ""
           }
         },
         "01d647a2-3859-485c-b22d-62c1e9ca54c4": {
@@ -65,7 +66,8 @@
             "heading": "Collapsible row",
             "open": false,
             "content": "",
-            "page": ""
+            "page": "",
+            "custom_liquid": ""
           }
         },
         "bf5d90f9-3dff-4a80-a3c5-8459ac5900ec": {
@@ -75,7 +77,8 @@
             "heading": "Collapsible row",
             "open": false,
             "content": "",
-            "page": ""
+            "page": "",
+            "custom_liquid": ""
           }
         },
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
@@ -506,7 +509,9 @@
         "color_bg": "#ffffff",
         "color_text": "#000000",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "review_text": "More CardSync reviews on",
+        "review_link": ""
       }
     },
     "e38e2d53-1189-4962-abb9-feb6433010b7": {
@@ -540,14 +545,6 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
-    },
-    "6f633314-4b2f-4894-acf6-ba2879671007": {
-      "type": "instafeed",
-      "settings": {
-        "heading_size": 20,
-        "feed_width": 100,
-        "html_area": ""
-      }
     }
   },
   "order": [
@@ -563,7 +560,6 @@
     "1652093734c99de6a0",
     "1652098314f8bd5477",
     "e38e2d53-1189-4962-abb9-feb6433010b7",
-    "product-recommendations",
-    "6f633314-4b2f-4894-acf6-ba2879671007"
+    "product-recommendations"
   ]
 }

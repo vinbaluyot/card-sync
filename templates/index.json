@@ -10,7 +10,7 @@
             "image": "shopify:\/\/shop_images\/Add_a_heading.jpg",
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7ddecc05594844f68c539a51e6e74bf5.mp4",
             "mobile_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8db2c3930d294553ba820717cdb464ee.mp4",
-            "subheading": "Digital Business Card",
+            "subheading": "Digital Business Cards",
             "heading": "Next Generation Networking",
             "content": "Made for smartphones. No apps needed",
             "slide_link": "",
@@ -66,7 +66,7 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
         "button_text": "Start Designing Yours",
-        "button_link": "shopify:\/\/collections",
+        "button_link": "shopify:\/\/products\/custom-engraved-card",
         "button_color": "accent2",
         "button_outline": false,
         "button_text_2": "See Other Products",
@@ -80,7 +80,7 @@
       "settings": {
         "banner": "shopify:\/\/shop_images\/sale-banner-desktop.png",
         "banner_mobile_version": "shopify:\/\/shop_images\/sale-banner-mobile.png",
-        "banner_link": "shopify:\/\/collections",
+        "banner_link": "shopify:\/\/collections\/all",
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
       }
@@ -92,10 +92,10 @@
         "heading": "Other NFC Products",
         "description": "<p>From Table Talkers to NFC Stickers, we have it all.<\/p>",
         "collection_list": [
+          "table-talkers",
           "nfc-phone-cases",
           "nfc-sticker",
           "nfc-tap",
-          "table-talkers",
           "nfc-qr-code-cards"
         ],
         "image_ratio": "square",
@@ -110,7 +110,7 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
         "button_text": "See All Products",
-        "button_link": "shopify:\/\/collections",
+        "button_link": "shopify:\/\/collections\/all",
         "button_color": "accent2",
         "button_outline": false,
         "button_text_2": "",
@@ -185,14 +185,14 @@
           "type": "tile",
           "settings": {
             "heading": "Business",
-            "copy": "<p>Our NFC business cards are designed to stand out and leave a memorable impact on potential clients and partners. Simply tap your <a href=\"\/collections\/nfc-business-cards\" title=\"NFC Business Cards\">NFC business card<\/a> against a compatible device, and your your contact details, social media profiles, and even website links are transferred automatically.<\/p>",
+            "copy": "<p>Facilitate customer connections, foster relationships, generate leads, get more sales!<br\/>Direct your prospects to connect directly to your social media, review platform, calendar booking page, landing page, and more. NFC cards make networking more efficient. Simply tap your nfc card on a smartphone to share your contact information.<br\/><\/p>",
             "background_image": "shopify:\/\/shop_images\/2_921a1833-f298-45f3-881f-40640c7ff24a.jpg",
             "button_text": "Learn More",
             "button_link": "#for-business",
             "button_color": "white",
             "button_outline": false,
             "button_text_2": "Customise Now",
-            "button_link_2": "",
+            "button_link_2": "shopify:\/\/products\/custom-engraved-card",
             "button_color_2": "accent2",
             "button_outline_2": false
           }
@@ -201,14 +201,14 @@
           "type": "tile",
           "settings": {
             "heading": "Personal",
-            "copy": "<p>NFC cards are revolutionising the way we interact. With just a tap, you seamlessly share your contact details our <a href=\"\/collections\/nfc-cards\" title=\"NFC Cards\">NFC cards<\/a> make your life easier and more connected. Experience the power of contactless technology in the palm of your hand.<\/p>",
+            "copy": "<p>NFC products are ideal for personal applications, offering simplicity and convenience in various aspects of daily life. With NFC technology, you can effortlessly share contact information, photos, and files by simply tapping your device to another.<\/p><p>NFC products make your personal life more connected and efficient with a simple tap.<\/p>",
             "background_image": "shopify:\/\/shop_images\/Square_1_c37a7a6e-9b29-4bb4-888e-29166d1f622a.jpg",
             "button_text": "Learn More",
             "button_link": "#for-personal",
             "button_color": "white",
             "button_outline": false,
             "button_text_2": "Design Yours",
-            "button_link_2": "",
+            "button_link_2": "shopify:\/\/products\/custom-engraved-card",
             "button_color_2": "accent2",
             "button_outline_2": false
           }
@@ -238,14 +238,14 @@
         "template--21446449463596__5225a7d0-79e6-4da9-aa07-4e4e9c348337-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our NFC business cards are designed to stand out and leave a memorable impact on potential clients and partners. By incorporating cutting-edge technology into traditional business cards, we offer a unique and modern approach to networking.With NFC technology, our business cards enable you to share your contact details, social media profiles, and even website links instantly. Simply tap your NFC business card against a compatible device, and all your information is transferred automatically.Our Table talkers and Review cards are very user friendly, allowing users to leave reviews instantly with just a tap. Get more reviews for your business today!<\/p>"
+            "text": "<p>Our NFC business cards are designed to stand out and leave a memorable impact on potential clients and partners. By incorporating cutting-edge technology into traditional business cards, we offer a unique and modern approach to networking.With NFC technology, our business cards enable you to share your contact details, social media profiles, and even website links instantly. Simply tap your NFC business card against a compatible device, and all your information is transferred automatically.<br\/><br\/>Our NFC Review range features Table talkers and Review cards that are very user-friendly, allowing users to leave reviews instantly with just a tap. Get more reviews for your business today!<\/p>"
           }
         },
         "870e8e89-583a-41bd-a31f-e690aebae15c": {
           "type": "button",
           "settings": {
             "button_text": "Our Business Solutions",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/our-business-solutions",
             "button_color": "accent2",
             "button_outline": true
           }
@@ -254,7 +254,7 @@
           "type": "button",
           "settings": {
             "button_text": "Design Yours",
-            "button_link": "",
+            "button_link": "shopify:\/\/products\/custom-engraved-card",
             "button_color": "accent2",
             "button_outline": false
           }
@@ -296,14 +296,14 @@
         "template--21446449463596__82bb91b2-3dfe-4409-a016-879718cc3a19-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Experience the revolution in interaction with our NFC cards. They’re not just about seamless sharing of contact details with a simple tap. Now, they also integrate your social media profiles from Facebook, Instagram, and Twitter, making you look not just connected, but also trendy and tech-forward. Embrace the convenience of contactless technology and the power of social media presence, all at your fingertips.<\/p>"
+            "text": "<p>Experience the revolution in interaction with our NFC cards. They’re not just about seamless sharing of contact details with a simple tap. Now, they also integrate your social media profiles from Facebook, Instagram, and Twitter, making you look not just connected, but also trendy and tech-forward. Embrace the convenience of contactless technology  all at your fingertips.<\/p>"
           }
         },
         "25991639-9a25-4ee0-b497-3be9982375ee": {
           "type": "button",
           "settings": {
             "button_text": "See Pre-made Designs",
-            "button_link": "",
+            "button_link": "shopify:\/\/collections\/pre-made-nfc-cards",
             "button_color": "accent2",
             "button_outline": true
           }
@@ -312,7 +312,7 @@
           "type": "button",
           "settings": {
             "button_text": "Get Yours",
-            "button_link": "",
+            "button_link": "shopify:\/\/products\/custom-engraved-card",
             "button_color": "accent2",
             "button_outline": false
           }
@@ -329,7 +329,8 @@
       ],
       "settings": {
         "custom_id": "for-personal",
-        "use_video": true,
+        "image": "shopify:\/\/shop_images\/cardsync_1.png",
+        "use_video": false,
         "video": "",
         "video_hosted": "shopify:\/\/files\/videos\/instagram1 (1) (1).mp4",
         "video_autoplay": true,
@@ -364,17 +365,27 @@
         "a6dcc6fa-c988-4304-a7eb-22ebe2554666": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/placeholder-nfc-vs-traditional.png"
+            "image": "shopify:\/\/shop_images\/cardsync-vs-traditional-card-mobile.png"
+          }
+        },
+        "65ac2fd3-5295-435d-9bc5-46877e5929a7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cardsync-vs-traditional-card.png"
           }
         }
       },
       "block_order": [
         "template--21446449463596__d321dbcc-b449-4632-87e1-15a4545f6cc4-heading-1",
         "template--21446449463596__d321dbcc-b449-4632-87e1-15a4545f6cc4-text-1",
-        "a6dcc6fa-c988-4304-a7eb-22ebe2554666"
+        "a6dcc6fa-c988-4304-a7eb-22ebe2554666",
+        "65ac2fd3-5295-435d-9bc5-46877e5929a7"
       ],
+      "disabled": true,
       "custom_css": [
-        "@media screen and (min-width: 1024px) {.rich-text__inner {max-width: 900px; }}"
+        ".rich-text__inner {max-width: 960px;}",
+        "@media screen and (max-width: 767px) {.rich-text__inner img:last-of-type {display: none; }}",
+        "@media screen and (min-width: 768px) {.rich-text__inner img:first-of-type {display: none; } .rich-text__inner img:last-of-type {display: block; width: 960px; }}"
       ],
       "settings": {
         "text_width": "large",
@@ -415,7 +426,7 @@
           "type": "collapsible",
           "settings": {
             "collapsible_item_title": "What is a NFC?",
-            "collapsible_item_paragraph": "<p>NFC stands for Near Field Communication, a wireless communication technology that enables the exchange of data between devices over short distances. An NFC card, also known as a contactless smart card, is a small, portable device embedded with an NFC chip that allows it to interact with other NFC-enabled devices.<\/p><p>By simply tapping on your smartphone or scanning the unique QR code, effortlessly share your contact details or redirect visitors to your Website Landing Page, Social Media platforms, and more.<\/p>",
+            "collapsible_item_paragraph": "<p>NFC stands for Near Field Communication, a wireless communication technology that enables the exchange of data between devices over short distances. An NFC card, also known as a contactless smart card, is a small, portable device embedded with an NFC chip that allows it to interact with other NFC-enabled devices.<\/p><p>By simply tapping on your smartphone share your contact details or redirect visitors to your Landing Page, Social Media platforms, Review Platform and more.<\/p>",
             "open": true
           }
         },
@@ -447,7 +458,7 @@
           "type": "collapsible",
           "settings": {
             "collapsible_item_title": "What phones are compatible?",
-            "collapsible_item_paragraph": "<p>Tap function is compatible with NFC enabled Smartphones. iPhones made in 2018 and newer and most androids<\/p><p>For all other phones, please have your client scan the QR code on the back of your card which is available in our QR card range.<\/p>",
+            "collapsible_item_paragraph": "<p>Tap function is compatible with NFC enabled Smartphones. iPhones made in 2018 and newer and most androids<\/p><p>For all other phones, please have your client scan the QR code. This option is available in our QR card range only.<\/p>",
             "open": false
           }
         },
@@ -473,11 +484,11 @@
       ],
       "settings": {
         "custom_id": "how-it-works",
-        "richtext_heading": "How CardSync Works?",
-        "richtext_paragraph": "<p>Explore our premium business cards and customise your own in our Engraved, NFC card range. Then, simply tap your NFC card to your smartphone to share your information.<\/p>",
+        "richtext_heading": "How Cardsync Works?",
+        "richtext_paragraph": "<p>Easily share your contact information by simply tapping your NFC card onto your smartphone.<\/p><p>Direct prospects to your custom landing page, social media page, review platform, calendar, and more. <\/p>",
         "richtext_image": "shopify:\/\/shop_images\/cardsync_20.jpg",
-        "use_video": false,
-        "video_hosted": "shopify:\/\/files\/videos\/instagram1 (1) (1).mp4",
+        "use_video": true,
+        "video_hosted": "shopify:\/\/files\/videos\/202310182002 (1) (1).mp4",
         "video_autoplay": true,
         "collapsible_heading": "Frequently Asked Questions",
         "collapsible_paragraph": "<p>Explore our premium business cards and customise your own in our Engraved, NFC card range. Then, simply tap your NFC card to your smartphone to share your information.<\/p>",

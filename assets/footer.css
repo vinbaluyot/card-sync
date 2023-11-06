@@ -86,6 +86,7 @@ Utilities
   .footer .signup-container button svg path {
     stroke: var(--color-footer-text, var(--color-accent)); }
   .footer .signup-container input {
+    color: var(--color-footer-text, --color-accent);
     border-color: var(--color-footer-border, --color-form-border); }
     .footer .signup-container input:-moz-placeholder {
       color: rgba(var(--color-footer-text-rgb, var(--color-accent-rgb)), 0.4); }
@@ -102,7 +103,9 @@ Utilities
   color: var(--color-footer-text, var(--color-accent)); }
   @media only screen and (min-width: 768px) {
     .sub-footer {
-      text-align: left; } }
+      text-align: left; }
+      [dir="rtl"] .sub-footer {
+        text-align: right; } }
   .sub-footer a {
     color: var(--color-footer-link, var(--color-accent)); }
     .sub-footer a:focus, .sub-footer a:hover {
@@ -119,20 +122,29 @@ Utilities
     @media only screen and (min-width: 768px) {
       .sub-footer .thb-localization-forms {
         text-align: left;
-        margin-bottom: 0; } }
+        margin-bottom: 0; }
+        [dir="rtl"] .sub-footer .thb-localization-forms {
+          text-align: right; } }
     .sub-footer .thb-localization-forms .shopify-localization-form > div {
       margin: 0 15px 0 0; }
+      [dir="rtl"] .sub-footer .thb-localization-forms .shopify-localization-form > div {
+        margin: 0 0 0 15px; }
     .sub-footer .thb-localization-forms select {
       height: 32px;
       padding: 0 22px 0 12px;
       color: inherit;
       border: 1px solid rgba(var(--color-footer-border-rgb, --color-accent-rgb), 0.4); }
 
+[dir="rtl"] .footer--follow-on-shop {
+  text-align: left; }
+
 .footer-payment-icons {
   text-align: center; }
   @media only screen and (min-width: 768px) {
     .footer-payment-icons {
-      text-align: right; } }
+      text-align: right; }
+      [dir="rtl"] .footer-payment-icons {
+        text-align: left; } }
   .footer-payment-icons figure {
     display: inline-flex;
     margin-left: 5px; }
@@ -160,6 +172,9 @@ Utilities
       color: rgba(var(--color-accent-rgb), 0.4); }
     .signup-container input::-webkit-input-placeholder {
       color: rgba(var(--color-accent-rgb), 0.4); }
+    [dir="rtl"] .signup-container input {
+      padding-right: 0;
+      padding-left: 40px; }
   .signup-container button {
     position: absolute;
     bottom: 0;
@@ -170,6 +185,11 @@ Utilities
     display: flex;
     align-items: center;
     justify-content: center; }
+    [dir="rtl"] .signup-container button {
+      right: auto;
+      left: 0; }
+      [dir="rtl"] .signup-container button svg {
+        transform: rotateZ(180deg); }
 
 .social-links {
   list-style: none;
@@ -185,3 +205,5 @@ Utilities
     height: auto; }
   .social-links span {
     margin-left: 15px; }
+    [dir="rtl"] .social-links span {
+      margin: 0 15px 0 0; }

@@ -185,7 +185,7 @@
         ".button {background-color: #ff4515;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/53.jpg",
+        "image": "shopify:\/\/shop_images\/cardsync_25.jpg",
         "image_ratio": "adapt",
         "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
         "image_ratio_2": "adapt",
@@ -231,7 +231,7 @@
         ".button {background-color: #ff4515;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/54.jpg",
+        "image": "shopify:\/\/shop_images\/94.jpg",
         "image_ratio": "adapt",
         "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
         "image_ratio_2": "adapt",
@@ -553,7 +553,9 @@
         "color_bg": "#ffffff",
         "color_text": "#000000",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "review_text": "More CardSync reviews on",
+        "review_link": ""
       }
     },
     "5dfa42b6-294a-4fe0-88dc-bb8a43fea891": {
