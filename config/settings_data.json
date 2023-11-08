@@ -151,6 +151,12 @@
       },
       "4571859552318407796": {
         "type": "shopify:\/\/apps\/globo-color-swatch\/blocks\/app-embed-block\/4394f710-096c-4021-bbde-8ebb26057c11",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "4571859552318407796": {
+        "type": "shopify:\/\/apps\/globo-color-swatch\/blocks\/app-embed-block\/4394f710-096c-4021-bbde-8ebb26057c11",
         "disabled": true,
         "settings": {
         }

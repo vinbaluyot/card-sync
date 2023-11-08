@@ -11,16 +11,22 @@
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7ddecc05594844f68c539a51e6e74bf5.mp4",
             "mobile_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8db2c3930d294553ba820717cdb464ee.mp4",
             "subheading": "Digital Business Cards",
+            "subheading": "Digital Business Cards",
             "heading": "Next Generation Networking",
             "content": "Made for smartphones. No apps needed",
+            "content": "Made for smartphones. No apps needed",
             "slide_link": "",
+            "button_text": "Customise Your NFC",
             "button_text": "Customise Your NFC",
             "button_link": "shopify:\/\/products\/custom-engraved-card",
             "button_color": "accent2",
             "button_outline": false,
             "button_text_2": "How It Works",
             "button_link_2": "#how-it-works",
+            "button_text_2": "How It Works",
+            "button_link_2": "#how-it-works",
             "button_color_2": "white",
+            "button_outline_2": true
             "button_outline_2": true
           }
         }
@@ -48,22 +54,41 @@
       "settings": {
         "custom_id": "",
         "heading": "Our NFC Cards",
+        "custom_id": "",
+        "heading": "Our NFC Cards",
         "description": "",
         "collection_list": [
           "nfc-business-cards",
           "pre-made-nfc-cards",
           "review-cards"
+          "review-cards"
         ],
         "image_ratio": "square",
+        "layout": "grid",
         "layout": "grid",
         "style": "style1",
         "content_alignment": "text-center",
         "columns_desktop": 3,
+        "columns_desktop": 3,
         "collection_description": false,
         "overlay_opacity": 0,
         "carousel_dots": false,
+        "carousel_dots": false,
         "mobile_swipe": true,
         "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "button_text": "Start Designing Yours",
+        "button_link": "shopify:\/\/products\/custom-engraved-card",
+        "button_color": "accent2",
+        "button_outline": false,
+        "button_text_2": "See Other Products",
+        "button_link_2": "#other-products",
+        "button_color_2": "accent",
+        "button_outline_2": true
+      }
+    },
+    "96e917c5-f655-42ee-8e2b-c2070ed8ad7d": {
+      "type": "kb_image-banner",
         "disable_bottom_spacing": false,
         "button_text": "Start Designing Yours",
         "button_link": "shopify:\/\/products\/custom-engraved-card",
@@ -590,6 +615,8 @@
         "20922427-0d54-4fcd-838a-69bc6832edfb": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
+            "heading_size": 30,
+            "feed_width": 100,
             "html_area": ""
           }
         }
