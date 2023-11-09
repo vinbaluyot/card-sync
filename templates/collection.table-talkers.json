@@ -37,7 +37,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/cardsync_17.jpg",
-            "title": "1. Get Customers to tap smartphones onto the table talker",
+            "title": "1. Customers tap smartphones onto the table talker",
             "text": "",
             "link_label": "",
             "link": "",
@@ -85,7 +85,7 @@
         "content_position": "bottom-left",
         "text_alignment": "left",
         "column_spacing": "small",
-        "heading_size": "h4",
+        "heading_size": "h5",
         "overlay_opacity": 88,
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
