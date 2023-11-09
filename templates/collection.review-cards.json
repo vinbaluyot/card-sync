@@ -453,6 +453,7 @@
         "60c7f4e0-47ab-411e-b8a7-6cc65e02d5e3",
         "50e2e0c8-fce9-4f73-b5f4-c2c71285eb6c"
       ],
+      "disabled": true,
       "custom_css": [
         ".button {background-color: #ff4515;}"
       ],
