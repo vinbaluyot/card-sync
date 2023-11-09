@@ -37,8 +37,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/cardsync_17.jpg",
-            "title": "",
-            "text": "1. Get Customers to tap there smartphones onto the table talker",
+            "title": "1. Get Customers to tap smartphones onto the table talker",
+            "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
@@ -49,8 +49,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/cardsync_31.jpg",
-            "title": "",
-            "text": "2. Customers will get a notification on there phone",
+            "title": "2. Customers will get a notification on there phone",
+            "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
@@ -61,8 +61,8 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/cardsync_32.jpg",
-            "title": "",
-            "text": "3. Your customer can write the review!",
+            "title": "3. Your customer can write the review!",
+            "text": "",
             "link_label": "",
             "link": "",
             "use_text_button": false,
