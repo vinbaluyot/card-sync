@@ -394,7 +394,7 @@
             "collection": "table-talkers",
             "display_type": "grid",
             "product_limit": 12,
-            "columns_desktop": 2,
+            "columns_desktop": 3,
             "show_view_all": false,
             "button_outline": false,
             "mobile_swipe": true
