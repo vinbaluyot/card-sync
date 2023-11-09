@@ -147,7 +147,7 @@
         "template--21590001647916__8ce50f3c-b9fa-4d23-844d-29dcd5dc9721-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/nfc-review-card-step-01.png",
+            "image": "shopify:\/\/shop_images\/cardsync_34.jpg",
             "title": "1. Tap the card to customer's phone",
             "text": "",
             "link_label": "",
@@ -159,7 +159,7 @@
         "template--21590001647916__8ce50f3c-b9fa-4d23-844d-29dcd5dc9721-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/nfc-review-card-step-02.png",
+            "image": "shopify:\/\/shop_images\/cardsync_31.jpg",
             "title": "2. Customer receives a notification",
             "text": "",
             "link_label": "",
@@ -171,7 +171,7 @@
         "template--21590001647916__8ce50f3c-b9fa-4d23-844d-29dcd5dc9721-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/nfc-review-card-step-03.png",
+            "image": "shopify:\/\/shop_images\/cardsync_32.jpg",
             "title": "3. Your customer writes a review",
             "text": "",
             "link_label": "",
