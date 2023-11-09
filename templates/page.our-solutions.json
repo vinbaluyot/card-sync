@@ -152,7 +152,7 @@
         "template--21590003024172__ea709c9f-31d5-4372-9ad1-865856cb19e4-button-1"
       ],
       "settings": {
-        "text_width": "medium",
+        "text_width": "large",
         "text_position": "center",
         "text_alignment": "center",
         "disable_top_spacing": true,
