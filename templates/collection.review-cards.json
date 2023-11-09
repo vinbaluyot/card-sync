@@ -95,52 +95,6 @@
         "filter_color_swatches": false
       }
     },
-    "6535d1c2-a51a-41a1-bf49-27a834fe903c": {
-      "type": "layered-images-with-text",
-      "blocks": {
-        "template--20332930302252__6535d1c2-a51a-41a1-bf49-27a834fe903c-subheading-1": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Add a tagline"
-          }
-        },
-        "template--20332930302252__6535d1c2-a51a-41a1-bf49-27a834fe903c-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "How to collect reviews?",
-            "heading_size": "h3"
-          }
-        },
-        "template--20332930302252__6535d1c2-a51a-41a1-bf49-27a834fe903c-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>If your customers express satisfaction, consider asking whether they would be willing to provide feedback or leave a review regarding the service. Then, simply tap the NFC card to the customer's phone while they are in your store, and the review page for the platform you have established will automatically appear.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--20332930302252__6535d1c2-a51a-41a1-bf49-27a834fe903c-subheading-1",
-        "template--20332930302252__6535d1c2-a51a-41a1-bf49-27a834fe903c-heading-1",
-        "template--20332930302252__6535d1c2-a51a-41a1-bf49-27a834fe903c-text-1"
-      ],
-      "custom_css": [
-        ".row {background-color: #f1f1f1;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/cardsync.png",
-        "image_ratio": "adapt",
-        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
-        "image_ratio_2": "adapt",
-        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
-        "image_ratio_3": "adapt",
-        "layout": "image_first",
-        "content_alignment": "text-left",
-        "content_position": "middle",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
     "8ce50f3c-b9fa-4d23-844d-29dcd5dc9721": {
       "type": "gallery",
       "blocks": {
@@ -200,6 +154,52 @@
         "overlay_opacity": 100,
         "disable_top_spacing": false,
         "disable_bottom_spacing": true
+      }
+    },
+    "6535d1c2-a51a-41a1-bf49-27a834fe903c": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--20332930302252__6535d1c2-a51a-41a1-bf49-27a834fe903c-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "template--20332930302252__6535d1c2-a51a-41a1-bf49-27a834fe903c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "How to collect reviews?",
+            "heading_size": "h3"
+          }
+        },
+        "template--20332930302252__6535d1c2-a51a-41a1-bf49-27a834fe903c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If your customers express satisfaction, consider asking whether they would be willing to provide feedback or leave a review regarding the service. Then, simply tap the NFC card to the customer's phone while they are in your store, and the review page for the platform you have established will automatically appear.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20332930302252__6535d1c2-a51a-41a1-bf49-27a834fe903c-subheading-1",
+        "template--20332930302252__6535d1c2-a51a-41a1-bf49-27a834fe903c-heading-1",
+        "template--20332930302252__6535d1c2-a51a-41a1-bf49-27a834fe903c-text-1"
+      ],
+      "custom_css": [
+        ".row {background-color: #f1f1f1;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cardsync.png",
+        "image_ratio": "adapt",
+        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_ratio_3": "adapt",
+        "layout": "image_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "692b3e0b-eb26-4537-85ef-ee6d05b1d7c0": {
@@ -803,8 +803,8 @@
     "template-header",
     "ddc45728-771a-4025-a4eb-a72c92e9ef16",
     "product-grid",
-    "6535d1c2-a51a-41a1-bf49-27a834fe903c",
     "8ce50f3c-b9fa-4d23-844d-29dcd5dc9721",
+    "6535d1c2-a51a-41a1-bf49-27a834fe903c",
     "692b3e0b-eb26-4537-85ef-ee6d05b1d7c0",
     "b04302c2-df15-4d73-9748-2d62ebe84660",
     "ee897ede-eeb1-4232-8615-cffb396f87c0",
