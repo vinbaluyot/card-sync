@@ -188,6 +188,8 @@
         "description": "",
         "product": "king-of-spades",
         "show_taxes_included": true,
+        "thumbnail_position": "left",
+        "hide_variants": false,
         "lightbox": true,
         "enable_video_looping": false,
         "disable_top_spacing": false,
