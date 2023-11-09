@@ -195,7 +195,7 @@
         "image_ratio": "portrait",
         "content_position": "bottom-left",
         "text_alignment": "left",
-        "column_spacing": "medium",
+        "column_spacing": "small",
         "heading_size": "h5",
         "overlay_opacity": 100,
         "disable_top_spacing": false,
