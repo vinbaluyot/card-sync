@@ -58,7 +58,7 @@
         "template--19445463843116__c1786fda-bb23-4a5b-9e7d-1b9dab261312-1686180335d6d93038-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Your_Graphics_1.jpg",
+            "image": "shopify:\/\/shop_images\/cardsync_9.png",
             "title": "",
             "heading_size": "h4",
             "text": "",
@@ -71,9 +71,9 @@
           "settings": {
             "title": "",
             "heading_size": "h4",
-            "text": "<ol><li>Go to the website Pageme.io.<\/li><li>Enter your username and password, which will be sent to you via email. If you did not receive please contact support.  <\/li><li>Click on \"Page Design\" in the menu.<\/li><li>Make the desired edits to your landing page.<\/li><li>Click \"Save\" to save the changes.<\/li><\/ol><p>Remember to follow these steps to successfully update your NFC card anytime, anywhere!<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p><br\/><br\/><br\/>1. Go to the website cardsync.co<\/p><p>2. Enter your username and password, which will be sent to you via email. If you did not receive please contact support. <\/p><p>3.Click on \"Page Design\" in the menu.<\/p><p>4. Make the desired edits to your landing page.<\/p><p>5. Click \"Save\" to save the changes.<\/p><p><\/p><p>**If you have not recieved an email from cardsync please go to https:\/\/www.cardsync.co\/forgot-password and do a password reset<\/p><p>Remember to follow these steps to successfully update your NFC card anytime, anywhere!<\/p>",
+            "link_label": "Click Here To Reset Your Password",
+            "link": "https:\/\/www.cardsync.co\/forgot-password"
           }
         }
       },
@@ -182,6 +182,7 @@
       "type": "collection-list",
       "disabled": true,
       "settings": {
+        "custom_id": "",
         "heading": "BROWSE OUR COLLECTIONS",
         "description": "<p>Add a short description for your brand news<\/p>",
         "collection_list": [
@@ -199,7 +200,15 @@
         "carousel_dots": false,
         "mobile_swipe": true,
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "button_text": "Shop Now",
+        "button_link": "",
+        "button_color": "accent2",
+        "button_outline": false,
+        "button_text_2": "Shop Now",
+        "button_link_2": "",
+        "button_color_2": "accent",
+        "button_outline_2": true
       }
     }
   },
