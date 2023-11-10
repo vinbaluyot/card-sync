@@ -629,7 +629,6 @@
         "66f4d30a-cc27-4d26-887e-ae34c402b610",
         "1022492e-18de-457b-adad-4d3329746ae8"
       ],
-      "disabled": true,
       "custom_css": [
         ".button {background-color: #ff4515;}"
       ],
@@ -678,6 +677,7 @@
         "template--21590001647916__3015b67a-a264-4161-a19b-14d365a139bd-text-1",
         "template--21590001647916__3015b67a-a264-4161-a19b-14d365a139bd-button-1"
       ],
+      "disabled": true,
       "custom_css": [
         ".button {background-color: #ff4515; color: #fff;}"
       ],
