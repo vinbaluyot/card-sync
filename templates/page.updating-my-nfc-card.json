@@ -3,7 +3,7 @@
     "template-header": {
       "type": "template-header",
       "custom_css": [
-        "h1 {font-size: 60px;}"
+        "h1 {font-size: 48px;}"
       ],
       "settings": {
         "full_width": true,
