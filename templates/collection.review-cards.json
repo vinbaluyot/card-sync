@@ -145,7 +145,7 @@
         "description": "<p>You can now collect reviews with a one quick tap.<\/p>",
         "columns_desktop": 3,
         "full_width": false,
-        "mobile_swipe": true,
+        "mobile_swipe": false,
         "image_ratio": "portrait",
         "content_position": "bottom-left",
         "text_alignment": "left",
