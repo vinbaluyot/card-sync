@@ -121,13 +121,13 @@
         "template--19712154337580__259a0f34-a6bb-4408-8666-22a81989359b-1688008005d0c3706f-0": {
           "type": "subheading",
           "settings": {
-            "text": ""
+            "text": "Next Generation Networking"
           }
         },
         "template--19712154337580__259a0f34-a6bb-4408-8666-22a81989359b-1688008005d0c3706f-1": {
           "type": "heading",
           "settings": {
-            "text": "Business Cards",
+            "text": "NFC Business Cards",
             "heading_size": "h3"
           }
         },
@@ -155,7 +155,7 @@
         ".button {background-color: #ff4515;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/54.jpg",
+        "image": "shopify:\/\/shop_images\/94.jpg",
         "image_ratio": "adapt",
         "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
         "image_ratio_2": "adapt",
@@ -174,7 +174,7 @@
         "template--19712154337580__c3162f9f-041f-451e-959c-8c2bdf11d582-1688008005d0c3706f-0": {
           "type": "subheading",
           "settings": {
-            "text": "Get MORE REVIEWS"
+            "text": "Get MORE REVIEWS IN SECONDS"
           }
         },
         "template--19712154337580__c3162f9f-041f-451e-959c-8c2bdf11d582-1688008005d0c3706f-1": {
@@ -227,13 +227,13 @@
         "template--19712154337580__81ae3b2b-c436-43a2-ac46-cb8f947b1ea2-1688375817b36dbdcd-0": {
           "type": "subheading",
           "settings": {
-            "text": "Get MORE REVIEWS"
+            "text": "IMPROVE YOUR LOCAL SEO WITH"
           }
         },
         "template--19712154337580__81ae3b2b-c436-43a2-ac46-cb8f947b1ea2-1688375817b36dbdcd-1": {
           "type": "heading",
           "settings": {
-            "text": "Review Cards",
+            "text": "NFC Review Cards",
             "heading_size": "h3"
           }
         },
@@ -318,6 +318,7 @@
     "9feb494a-bc77-4bee-8f1a-66375f0d591c": {
       "type": "collection-list",
       "settings": {
+        "custom_id": "",
         "heading": "Shop by Category",
         "description": "",
         "collection_list": [
@@ -336,7 +337,15 @@
         "carousel_dots": true,
         "mobile_swipe": true,
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "button_text": "Shop Now",
+        "button_link": "",
+        "button_color": "accent2",
+        "button_outline": false,
+        "button_text_2": "Shop Now",
+        "button_link_2": "",
+        "button_color_2": "accent",
+        "button_outline_2": true
       }
     }
   },
