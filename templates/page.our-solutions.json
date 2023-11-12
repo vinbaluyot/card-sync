@@ -311,6 +311,50 @@
         "disable_bottom_spacing": false
       }
     },
+    "bc36f72e-5274-4590-941e-568798450c1d": {
+      "type": "featured-collection",
+      "blocks": {
+        "6c4bdfee-3bec-41fb-baff-a41ea676b046": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_921a1833-f298-45f3-881f-40640c7ff24a.jpg",
+            "title": "Table Talkers",
+            "text": "NFC-enabled Table Talkers, you can amplify your online reputation and build trust among potential customers. The reviews collected through our system can be seamlessly integrated into popular review platforms, such as Google My Business, Yelp, and TripAdvisor, giving your business a boost in search engine rankings and increasing its visibility.",
+            "link_label": "Shop Now",
+            "link": "",
+            "image_ratio": "adapt",
+            "content_position": "bottom-left",
+            "overlay_opacity": 100
+          }
+        },
+        "85d3303a-ae03-4a89-be5e-3ccd89541f81": {
+          "type": "collection",
+          "settings": {
+            "collection": "table-talkers",
+            "display_type": "grid",
+            "product_limit": 12,
+            "columns_desktop": 3,
+            "show_view_all": false,
+            "button_outline": false,
+            "mobile_swipe": true
+          }
+        }
+      },
+      "block_order": [
+        "6c4bdfee-3bec-41fb-baff-a41ea676b046",
+        "85d3303a-ae03-4a89-be5e-3ccd89541f81"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 449px) {.featured-collection__title-card .aspect-ratio--adapt {--ratio-percent: 150% !important; }}"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "4ba55c28-5df2-4cb0-b429-77a0723e81df": {
       "type": "testimonials",
       "blocks": {
@@ -370,50 +414,6 @@
         "review_text": "More CardSync reviews on",
         "review_logo": "shopify:\/\/shop_images\/trust-pilot-logo.svg",
         "review_link": "https:\/\/www.trustpilot.com\/review\/cardsync.com.au?utm_medium=trustbox&utm_source=MicroReviewCount"
-      }
-    },
-    "bc36f72e-5274-4590-941e-568798450c1d": {
-      "type": "featured-collection",
-      "blocks": {
-        "6c4bdfee-3bec-41fb-baff-a41ea676b046": {
-          "type": "title_card",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_921a1833-f298-45f3-881f-40640c7ff24a.jpg",
-            "title": "Table Talkers",
-            "text": "NFC-enabled Table Talkers, you can amplify your online reputation and build trust among potential customers. The reviews collected through our system can be seamlessly integrated into popular review platforms, such as Google My Business, Yelp, and TripAdvisor, giving your business a boost in search engine rankings and increasing its visibility.",
-            "link_label": "Shop Now",
-            "link": "",
-            "image_ratio": "adapt",
-            "content_position": "bottom-left",
-            "overlay_opacity": 100
-          }
-        },
-        "85d3303a-ae03-4a89-be5e-3ccd89541f81": {
-          "type": "collection",
-          "settings": {
-            "collection": "table-talkers",
-            "display_type": "grid",
-            "product_limit": 12,
-            "columns_desktop": 3,
-            "show_view_all": false,
-            "button_outline": false,
-            "mobile_swipe": true
-          }
-        }
-      },
-      "block_order": [
-        "6c4bdfee-3bec-41fb-baff-a41ea676b046",
-        "85d3303a-ae03-4a89-be5e-3ccd89541f81"
-      ],
-      "custom_css": [
-        "@media screen and (max-width: 449px) {.featured-collection__title-card .aspect-ratio--adapt {--ratio-percent: 150% !important; }}"
-      ],
-      "settings": {
-        "heading": "",
-        "description": "",
-        "full_width": false,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
       }
     },
     "259a0f34-a6bb-4408-8666-22a81989359b": {
@@ -590,8 +590,8 @@
     "7f5a6f0c-7384-4298-bc3c-eb1e47560feb",
     "ae7be0fc-b6a0-4893-b96d-b49da8d3ef3e",
     "c14dc914-b7c9-44b0-82f5-39e84e00a9e4",
-    "4ba55c28-5df2-4cb0-b429-77a0723e81df",
     "bc36f72e-5274-4590-941e-568798450c1d",
+    "4ba55c28-5df2-4cb0-b429-77a0723e81df",
     "259a0f34-a6bb-4408-8666-22a81989359b",
     "c3162f9f-041f-451e-959c-8c2bdf11d582",
     "81ae3b2b-c436-43a2-ac46-cb8f947b1ea2"
