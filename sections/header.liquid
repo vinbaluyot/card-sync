@@ -1,3 +1,5 @@
+{% # kb_mod | Added a "Single button" option %}
+
 {%- liquid
 	assign style = section.settings.style
 	assign header_shadow = section.settings.header_shadow
@@ -195,7 +197,21 @@
 			"id": "search_menu",
 			"label": "Popular searches",
 			"info": "Select menu to show popular search links"
-		}
+		},
+		{
+      "type": "header",
+      "content": "Single Button"
+    },
+    {
+      "type": "text",
+      "id": "single_button_caption",
+      "label": "Caption"
+    },
+    {
+      "type": "url",
+      "id": "single_button_link",
+      "label": "Link"
+    }
 	],
 	"blocks": [
 		{

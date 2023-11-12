@@ -18,4 +18,5 @@
 	</a>
 {% endif %}
 {% render 'header-full-menu', menu: header_settings.menu, blocks: blocks %}
-{% render 'header-secondary-area' %}
+{% # kb_mod | Added a "Single button" option %}
+{% render 'header-secondary-area', single_button_caption: header_settings.single_button_caption, single_button_link: header_settings.single_button_link %}

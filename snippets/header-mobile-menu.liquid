@@ -3,6 +3,9 @@
 	assign mobile_secondary_menu = header_settings.mobile_secondary_menu
 	assign show_language_switcher = header_settings.show_language_switcher
 	assign show_currency_switcher = header_settings.show_currency_switcher
+	# kb_mod | Added a "Single button" option
+	assign single_button_caption = header_settings.single_button_caption
+	assign single_button_link = header_settings.single_button_link
 -%}
 
 <nav id="mobile-menu" class="mobile-menu-drawer" role="dialog" tabindex="-1">
@@ -93,6 +96,10 @@
 		  {%- endfor -%}
     </ul>
 		{%- endif -%}
+		{% # kb_mod | Added a "Single button" option %}
+		<div class="single-button">
+			<a class="button button--small accent2" href="{{ single_button_link }}">{{ single_button_caption }}</a>
+		</div>
 		{%- if mobile_secondary_menu -%}
 		<ul class="mobile-secondary-menu">
 			{% for link in mobile_secondary_menu.links %}
