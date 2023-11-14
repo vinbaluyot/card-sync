@@ -1,4 +1,17 @@
 {
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[css]": {
+    "editor.formatOnSave": true
+  },
+  "[scss]": {
+    "editor.formatOnSave": true
+  },
+  "[liquid]": {
+    "editor.formatOnSave": true
+  },
   "liveSassCompile.settings.formats": [
     {
       "format": "expanded",
@@ -8,6 +21,7 @@
     }
   ],
   "liveSassCompile.settings.includeItems": [
-    "/src/scss/*.scss"
-  ]
+    "/src/scss/*.scss",
+    "/src/scss/*/*.scss"
+  ],
 }

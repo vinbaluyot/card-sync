@@ -4,12 +4,16 @@
   --button-container-gap: 1rem 1rem;
 }
 
-.header-section{
+.header-section {
   .mobile-menu-content {
     .single-button {
       padding: 19px 15px;
     }
   }
+}
+
+div[id^="trustpilot-widget"] {
+  display: none;
 }
 
 @media screen and (min-width: 540px) {
