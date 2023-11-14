@@ -33,6 +33,7 @@
           "type": "heading",
           "settings": {
             "text": "Review Cards",
+            "heading_tag": "h1",
             "size": "h3"
           }
         },
@@ -414,6 +415,7 @@
           "type": "heading",
           "settings": {
             "text": "Make Your Own Review Card",
+            "heading_tag": "h2",
             "size": "h4"
           }
         },
@@ -605,6 +607,7 @@
           "type": "heading",
           "settings": {
             "text": "Ready To Get More Reviews?",
+            "heading_tag": "h2",
             "size": "h4"
           }
         },

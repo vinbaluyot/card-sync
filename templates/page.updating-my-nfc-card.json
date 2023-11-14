@@ -25,7 +25,8 @@
           "type": "heading",
           "settings": {
             "text": "Follow our Step-By-Step guide on how to update your NFC Card",
-            "size": "h4"
+            "heading_tag": "h3",
+            "size": "h5"
           }
         },
         "template--19386117488940__aa4e2261-7e9b-42eb-9732-b1f0503cf5d6-168584657916056c23-2": {
@@ -45,7 +46,7 @@
         "h2 {font-size: 40px;}"
       ],
       "settings": {
-        "text_width": "medium",
+        "text_width": "large",
         "text_position": "center",
         "text_alignment": "center",
         "disable_top_spacing": false,

@@ -870,11 +870,12 @@
         "size": "small",
         "autoplay": true,
         "autoplay_length": 5,
-        "color_bg": "#ffffff",
-        "color_text": "#103a3a",
+        "color_bg": "#f1f1f1",
+        "color_text": "#1a1a1a",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
         "review_text": "More CardSync reviews on",
+        "review_logo": "shopify:\/\/shop_images\/trust-pilot-logo.svg",
         "review_link": ""
       }
     },
@@ -893,6 +894,7 @@
       "block_order": [
         "template--20823290741036__dcb21e69-8013-4c3b-af1d-e181f12a6ffe-button-1"
       ],
+      "disabled": true,
       "settings": {
         "text_width": "medium",
         "text_position": "center",

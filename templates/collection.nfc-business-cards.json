@@ -33,6 +33,7 @@
           "type": "heading",
           "settings": {
             "text": "NFC Business Cards",
+            "heading_tag": "h1",
             "size": "h3"
           }
         },
@@ -152,6 +153,7 @@
           "type": "heading",
           "settings": {
             "text": "Next Generation Networking",
+            "heading_tag": "h2",
             "size": "h3"
           }
         },
@@ -363,6 +365,7 @@
           "type": "heading",
           "settings": {
             "text": "Ready to Elevate Your Networking Game?",
+            "heading_tag": "h2",
             "size": "h3"
           }
         },
@@ -628,6 +631,7 @@
           "type": "heading",
           "settings": {
             "text": "Buy NFC Cards Today!",
+            "heading_tag": "h2",
             "size": "h3"
           }
         },

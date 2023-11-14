@@ -33,6 +33,7 @@
           "type": "heading",
           "settings": {
             "text": "NFC Cards",
+            "heading_tag": "h1",
             "size": "h3"
           }
         },
@@ -301,6 +302,7 @@
           "type": "heading",
           "settings": {
             "text": "NFC Cards Australia",
+            "heading_tag": "h2",
             "size": "h4"
           }
         },
@@ -616,6 +618,7 @@
           "type": "heading",
           "settings": {
             "text": "Buy NFC Cards Today!",
+            "heading_tag": "h2",
             "size": "h3"
           }
         },
