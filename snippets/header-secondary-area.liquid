@@ -4,8 +4,22 @@
 	else
   	assign profile_link = routes.account_login_url
 	endif
+
+	# kb_mod | Added a "Single button" option
+
+	if header_settings.single_button_caption != blank
+ 		assign single_button_caption = header_settings.single_button_caption
+	endif
+
+	if header_settings.single_button_link != blank
+ 		assign single_button_link = header_settings.single_button_link
+	endif
 -%}
 <div class="thb-secondary-area">
+	{% # kb_mod | Added a "Single button" option %}
+	<div class="single-button thb-secondary-item">
+		<a class="button small accent2" href="{{ single_button_link }}">{{ single_button_caption }}</a>
+	</div>
 	<a class="thb-secondary-item" href="{{ routes.search_url }}" id="quick-search" title="{{ 'sections.header.search' | t }}">{% render 'svg-icons' with 'search' %}</a>
 	{% if shop.customer_accounts_enabled %}
     <a class="thb-secondary-item thb-secondary-myaccount" href="{{ profile_link | escape }}" title="{{ 'sections.header.my_account' | t }}">{% render 'svg-icons' with 'myaccount' %}</a>

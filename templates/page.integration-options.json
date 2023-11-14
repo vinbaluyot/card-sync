@@ -25,7 +25,7 @@
           "type": "heading",
           "settings": {
             "text": "Our NFC Landing Page Integration Options",
-            "size": "h3"
+            "size": "h4"
           }
         },
         "template--19386117488940__aa4e2261-7e9b-42eb-9732-b1f0503cf5d6-168584657916056c23-2": {
@@ -276,6 +276,7 @@
         "template--19386117488940__e329e9e5-9660-44b8-b1b8-d822f1560519-1685861989e9282d24-2",
         "7ec4fa60-3e79-428a-9fee-d774f47c77be"
       ],
+      "disabled": true,
       "settings": {
         "text_alignment": "center",
         "icon_position": "top",
@@ -499,6 +500,7 @@
       "type": "collection-list",
       "disabled": true,
       "settings": {
+        "custom_id": "",
         "heading": "BROWSE OUR COLLECTIONS",
         "description": "<p>Add a short description for your brand news<\/p>",
         "collection_list": [
@@ -516,7 +518,15 @@
         "carousel_dots": false,
         "mobile_swipe": true,
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "button_text": "Shop Now",
+        "button_link": "",
+        "button_color": "accent2",
+        "button_outline": false,
+        "button_text_2": "Shop Now",
+        "button_link_2": "",
+        "button_color_2": "accent",
+        "button_outline_2": true
       }
     }
   },

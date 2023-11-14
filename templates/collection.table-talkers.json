@@ -21,13 +21,74 @@
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 12,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "pagination_type": "paginated",
         "full_width": false,
         "enable_filtering": true,
         "enable_sorting": true,
         "show_counts": true,
         "filter_color_swatches": true
+      }
+    },
+    "f04ca738-ecbb-45e6-aaa8-dd77755184e6": {
+      "type": "gallery",
+      "blocks": {
+        "template--21409606402348__f04ca738-ecbb-45e6-aaa8-dd77755184e6-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cardsync_17.jpg",
+            "title": "1. Customers tap smartphones onto the table talker",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "template--21409606402348__f04ca738-ecbb-45e6-aaa8-dd77755184e6-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cardsync_31.jpg",
+            "title": "2. Customers will get a notification on there phone",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "template--21409606402348__f04ca738-ecbb-45e6-aaa8-dd77755184e6-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cardsync_32.jpg",
+            "title": "3. Your customer can write the review!",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21409606402348__f04ca738-ecbb-45e6-aaa8-dd77755184e6-image-1",
+        "template--21409606402348__f04ca738-ecbb-45e6-aaa8-dd77755184e6-image-2",
+        "template--21409606402348__f04ca738-ecbb-45e6-aaa8-dd77755184e6-image-3"
+      ],
+      "settings": {
+        "heading": "How NFC Table Talkers Work ★★★★★",
+        "description": "<p>YOU CAN NOW COLLECT REVIEWS IN SECONDS WITH ONE QUICK TAP!<\/p>",
+        "columns_desktop": 3,
+        "full_width": false,
+        "mobile_swipe": false,
+        "image_ratio": "adapt",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h5",
+        "overlay_opacity": 88,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
       }
     },
     "115dbda5-985a-4069-9c58-245ff14084ad": {
@@ -52,6 +113,7 @@
         "template--20823290741036__115dbda5-985a-4069-9c58-245ff14084ad-heading-1",
         "template--20823290741036__115dbda5-985a-4069-9c58-245ff14084ad-text-1"
       ],
+      "disabled": true,
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -74,6 +136,7 @@
       "block_order": [
         "template--20823290741036__30776d73-8718-4c71-a531-b1ce284a1e26-heading-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/cardsync_17.jpg",
         "image_ratio": "adapt",
@@ -102,6 +165,7 @@
       "block_order": [
         "template--20823290741036__d263e724-4e44-4dd5-bf5e-5f191c90a92f-heading-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/2_9665a46c-e57c-4766-827c-079163a13080.jpg",
         "image_ratio": "adapt",
@@ -130,6 +194,7 @@
       "block_order": [
         "template--20823290741036__cfc69932-0ea8-48f9-9b26-e8475e6658d3-heading-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/3_c8e2efa3-318d-4e45-9fa0-ec6435bb7d5a.jpg",
         "image_ratio": "adapt",
@@ -805,10 +870,13 @@
         "size": "small",
         "autoplay": true,
         "autoplay_length": 5,
-        "color_bg": "#ffffff",
-        "color_text": "#103a3a",
+        "color_bg": "#f1f1f1",
+        "color_text": "#1a1a1a",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": false,
+        "review_text": "More CardSync reviews on",
+        "review_logo": "shopify:\/\/shop_images\/trust-pilot-logo.svg",
+        "review_link": ""
       }
     },
     "dcb21e69-8013-4c3b-af1d-e181f12a6ffe": {
@@ -826,6 +894,7 @@
       "block_order": [
         "template--20823290741036__dcb21e69-8013-4c3b-af1d-e181f12a6ffe-button-1"
       ],
+      "disabled": true,
       "settings": {
         "text_width": "medium",
         "text_position": "center",
@@ -839,6 +908,7 @@
     "breadcrumbs",
     "template-header",
     "product-grid",
+    "f04ca738-ecbb-45e6-aaa8-dd77755184e6",
     "115dbda5-985a-4069-9c58-245ff14084ad",
     "30776d73-8718-4c71-a531-b1ce284a1e26",
     "d263e724-4e44-4dd5-bf5e-5f191c90a92f",

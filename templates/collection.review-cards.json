@@ -7,6 +7,7 @@
     },
     "template-header": {
       "type": "template-header",
+      "disabled": true,
       "custom_css": [
         "h1 {font-size: 60px;}"
       ],
@@ -17,224 +18,62 @@
         "display_description": true
       }
     },
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "settings": {
-        "products_per_page": 12,
-        "columns_desktop": 4,
-        "pagination_type": "paginated",
-        "full_width": false,
-        "enable_filtering": true,
-        "enable_sorting": true,
-        "show_counts": true,
-        "filter_color_swatches": true
-      }
-    },
-    "ceb06d7d-c272-4a0f-91af-6e2b8b10a830": {
+    "ddc45728-771a-4025-a4eb-a72c92e9ef16": {
       "type": "rich-text",
       "blocks": {
-        "template--20823290708268__ceb06d7d-c272-4a0f-91af-6e2b8b10a830-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "How Review Cards Work ★★★★★",
-            "size": "h3"
-          }
-        },
-        "8226088e-e839-4920-b549-5e5969415b37": {
-          "type": "subheading",
-          "settings": {
-            "text": "You can now collect reviews in seconds with one quick tap!"
-          }
-        }
-      },
-      "block_order": [
-        "template--20823290708268__ceb06d7d-c272-4a0f-91af-6e2b8b10a830-heading-1",
-        "8226088e-e839-4920-b549-5e5969415b37"
-      ],
-      "settings": {
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "56acbc02-4814-4133-b260-7bee387c2884": {
-      "type": "layered-images-with-text",
-      "blocks": {
-        "template--20823290708268__56acbc02-4814-4133-b260-7bee387c2884-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "1. Tap the card to your customer’s phone",
-            "heading_size": "h4"
-          }
-        }
-      },
-      "block_order": [
-        "template--20823290708268__56acbc02-4814-4133-b260-7bee387c2884-heading-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/1_edd6c270-b8e5-4db7-8b1b-bc65b222903c.jpg",
-        "image_ratio": "adapt",
-        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
-        "image_ratio_2": "adapt",
-        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
-        "image_ratio_3": "adapt",
-        "layout": "image_first",
-        "content_alignment": "text-left",
-        "content_position": "middle",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "beb02354-6a12-46f3-bfb7-8b7139aa02ba": {
-      "type": "layered-images-with-text",
-      "blocks": {
-        "template--20823290708268__beb02354-6a12-46f3-bfb7-8b7139aa02ba-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "2. Customers will receive a notification",
-            "heading_size": "h4"
-          }
-        }
-      },
-      "block_order": [
-        "template--20823290708268__beb02354-6a12-46f3-bfb7-8b7139aa02ba-heading-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/2_9665a46c-e57c-4766-827c-079163a13080.jpg",
-        "image_ratio": "adapt",
-        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
-        "image_ratio_2": "adapt",
-        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
-        "image_ratio_3": "adapt",
-        "layout": "text_first",
-        "content_alignment": "text-left",
-        "content_position": "middle",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "c03dda8c-01d4-4980-921e-326830dd955f": {
-      "type": "layered-images-with-text",
-      "blocks": {
-        "template--20823290708268__c03dda8c-01d4-4980-921e-326830dd955f-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "3. Your customer can write the review!",
-            "heading_size": "h4"
-          }
-        }
-      },
-      "block_order": [
-        "template--20823290708268__c03dda8c-01d4-4980-921e-326830dd955f-heading-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/3_c8e2efa3-318d-4e45-9fa0-ec6435bb7d5a.jpg",
-        "image_ratio": "adapt",
-        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
-        "image_ratio_2": "adapt",
-        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
-        "image_ratio_3": "adapt",
-        "layout": "image_first",
-        "content_alignment": "text-left",
-        "content_position": "middle",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "1414281c-b881-47db-92e2-2b59ced06eaf": {
-      "type": "text-with-icons",
-      "blocks": {
-        "template--20333651951916__1414281c-b881-47db-92e2-2b59ced06eaf-icon-1": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/icons8-nfc-64.png",
-            "heading": "1. Tap the card to your customer’s phone.",
-            "text": ""
-          }
-        },
-        "template--20333651951916__1414281c-b881-47db-92e2-2b59ced06eaf-icon-2": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/icons8-review-50.png",
-            "heading": "2. Opens Reviews Page",
-            "text": ""
-          }
-        },
-        "template--20333651951916__1414281c-b881-47db-92e2-2b59ced06eaf-icon-3": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/icons8-right-up-50.png",
-            "heading": "3. Your customer can write the review!",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--20333651951916__1414281c-b881-47db-92e2-2b59ced06eaf-icon-1",
-        "template--20333651951916__1414281c-b881-47db-92e2-2b59ced06eaf-icon-2",
-        "template--20333651951916__1414281c-b881-47db-92e2-2b59ced06eaf-icon-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "text_alignment": "center",
-        "icon_position": "top",
-        "icon_size": "large",
-        "heading_size": "large",
-        "mobile_swipe": false,
-        "color_bg": "#f7f5fd",
-        "color_heading": "#103a3a",
-        "color_text": "#103a3a",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "032d3126-dc2f-43b5-9cd7-4ff4514a69cd": {
-      "type": "rich-text",
-      "blocks": {
-        "template--20333651951916__032d3126-dc2f-43b5-9cd7-4ff4514a69cd-subheading-1": {
+        "template--21590002565420__ddc45728-771a-4025-a4eb-a72c92e9ef16-subheading-1": {
           "type": "subheading",
           "disabled": true,
           "settings": {
             "text": "Subheading for this section"
           }
         },
-        "template--20333651951916__032d3126-dc2f-43b5-9cd7-4ff4514a69cd-heading-1": {
+        "template--21590002565420__ddc45728-771a-4025-a4eb-a72c92e9ef16-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Are you a business owner looking to boost your online reputation and engage your customers in a unique way?",
-            "size": "h5"
+            "text": "Review Cards",
+            "heading_tag": "h1",
+            "size": "h3"
           }
         },
-        "template--20333651951916__032d3126-dc2f-43b5-9cd7-4ff4514a69cd-text-1": {
+        "template--21590002565420__ddc45728-771a-4025-a4eb-a72c92e9ef16-text-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "text": "<h5>NFC review cards for seamless reviews on Google, TripAdvisor, and Trustpilot. Optimise your online reputation management and customer feedback today. <\/h5><p>Get more reviews for your business with Cardsync review cards!<\/p>",
             "size": "text-size-regular"
           }
         },
-        "template--20333651951916__032d3126-dc2f-43b5-9cd7-4ff4514a69cd-button-1": {
+        "template--21590002565420__ddc45728-771a-4025-a4eb-a72c92e9ef16-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_label": "Start Customising",
+            "link": "",
+            "button_outline": false
+          }
+        },
+        "5ed2382f-cf51-48fb-be57-3cfbda3b5955": {
           "type": "button",
           "disabled": true,
           "settings": {
             "link_label": "Learn More",
             "link": "",
-            "button_outline": false
+            "button_outline": true
           }
         }
       },
       "block_order": [
-        "template--20333651951916__032d3126-dc2f-43b5-9cd7-4ff4514a69cd-subheading-1",
-        "template--20333651951916__032d3126-dc2f-43b5-9cd7-4ff4514a69cd-heading-1",
-        "template--20333651951916__032d3126-dc2f-43b5-9cd7-4ff4514a69cd-text-1",
-        "template--20333651951916__032d3126-dc2f-43b5-9cd7-4ff4514a69cd-button-1"
+        "template--21590002565420__ddc45728-771a-4025-a4eb-a72c92e9ef16-subheading-1",
+        "template--21590002565420__ddc45728-771a-4025-a4eb-a72c92e9ef16-heading-1",
+        "template--21590002565420__ddc45728-771a-4025-a4eb-a72c92e9ef16-text-1",
+        "template--21590002565420__ddc45728-771a-4025-a4eb-a72c92e9ef16-button-1",
+        "5ed2382f-cf51-48fb-be57-3cfbda3b5955"
       ],
-      "disabled": true,
+      "custom_css": [
+        ".rich-text {background: black; color: white; margin-bottom: 0; margin-top: 0; padding-bottom: var(--section-spacing-mobile, 0); padding-top: var(--section-spacing-mobile, 0);}",
+        ".rich-text__inner * {color: #fff;}",
+        "@media screen and (min-width: 768px) {.rich-text {max-width: initial; padding-bottom: var(--section-spacing-desktop, 0); padding-top: var(--section-spacing-desktop, 0); }}"
+      ],
       "settings": {
         "text_width": "large",
         "text_position": "center",
@@ -243,139 +82,218 @@
         "disable_bottom_spacing": false
       }
     },
-    "70e0b0a4-16a3-4b49-a985-cb91f4bfa1e4": {
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 12,
+        "columns_desktop": 3,
+        "pagination_type": "paginated",
+        "full_width": false,
+        "enable_filtering": false,
+        "enable_sorting": false,
+        "show_counts": false,
+        "filter_color_swatches": false
+      }
+    },
+    "8ce50f3c-b9fa-4d23-844d-29dcd5dc9721": {
+      "type": "gallery",
+      "blocks": {
+        "template--21590001647916__8ce50f3c-b9fa-4d23-844d-29dcd5dc9721-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cardsync_34.jpg",
+            "title": "1. Tap the card to customer's phone",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "template--21590001647916__8ce50f3c-b9fa-4d23-844d-29dcd5dc9721-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cardsync_31.jpg",
+            "title": "2. Customer receives a notification",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "template--21590001647916__8ce50f3c-b9fa-4d23-844d-29dcd5dc9721-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cardsync_32.jpg",
+            "title": "3. Your customer writes a review",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21590001647916__8ce50f3c-b9fa-4d23-844d-29dcd5dc9721-image-1",
+        "template--21590001647916__8ce50f3c-b9fa-4d23-844d-29dcd5dc9721-image-2",
+        "template--21590001647916__8ce50f3c-b9fa-4d23-844d-29dcd5dc9721-image-3"
+      ],
+      "settings": {
+        "heading": "How Review Cards Work",
+        "description": "<p>You can now collect reviews with a one quick tap.<\/p>",
+        "columns_desktop": 3,
+        "full_width": false,
+        "mobile_swipe": false,
+        "image_ratio": "portrait",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h5",
+        "overlay_opacity": 100,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "6535d1c2-a51a-41a1-bf49-27a834fe903c": {
       "type": "layered-images-with-text",
       "blocks": {
-        "template--20823290708268__70e0b0a4-16a3-4b49-a985-cb91f4bfa1e4-heading-1": {
+        "template--20332930302252__6535d1c2-a51a-41a1-bf49-27a834fe903c-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "template--20332930302252__6535d1c2-a51a-41a1-bf49-27a834fe903c-heading-1": {
           "type": "heading",
           "settings": {
             "text": "How to collect reviews?",
             "heading_size": "h3"
           }
         },
-        "template--20823290708268__70e0b0a4-16a3-4b49-a985-cb91f4bfa1e4-text-1": {
+        "template--20332930302252__6535d1c2-a51a-41a1-bf49-27a834fe903c-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>If your customers express satisfaction, consider asking whether they would be willing to provide feedback or leave a review regarding the service. Then, simply tap the NFC card to the customer's phone while they are in your store, and the review page for the platform you have established will automatically appear. <\/p>"
+            "text": "<p>If your customers express satisfaction, consider asking whether they would be willing to provide feedback or leave a review regarding the service. Then, simply tap the NFC card to the customer's phone while they are in your store, and the review page for the platform you have established will automatically appear.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--20823290708268__70e0b0a4-16a3-4b49-a985-cb91f4bfa1e4-heading-1",
-        "template--20823290708268__70e0b0a4-16a3-4b49-a985-cb91f4bfa1e4-text-1"
+        "template--20332930302252__6535d1c2-a51a-41a1-bf49-27a834fe903c-subheading-1",
+        "template--20332930302252__6535d1c2-a51a-41a1-bf49-27a834fe903c-heading-1",
+        "template--20332930302252__6535d1c2-a51a-41a1-bf49-27a834fe903c-text-1"
+      ],
+      "custom_css": [
+        ".row {background-color: #f1f1f1;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/cardsync_19.jpg",
+        "image": "shopify:\/\/shop_images\/cardsync.png",
         "image_ratio": "adapt",
         "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
         "image_ratio_2": "adapt",
         "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
         "image_ratio_3": "adapt",
-        "layout": "text_first",
+        "layout": "image_first",
         "content_alignment": "text-left",
         "content_position": "middle",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
     },
-    "74dfed46-89d0-495d-acae-bf724cc3a899": {
-      "type": "layered-images-with-text",
+    "692b3e0b-eb26-4537-85ef-ee6d05b1d7c0": {
+      "type": "multicolumn",
       "blocks": {
-        "template--20333549486380__74dfed46-89d0-495d-acae-bf724cc3a899-subheading-1": {
-          "type": "subheading",
+        "template--21590001647916__692b3e0b-eb26-4537-85ef-ee6d05b1d7c0-column-1": {
+          "type": "column",
           "settings": {
-            "text": "Collect  new reviews with only one tap"
+            "image": "shopify:\/\/shop_images\/nfc-review-card-step-01.png",
+            "title": "1. Tap the card to your customer’s phone",
+            "heading_size": "h4",
+            "text": "<p>Boost your business with our NFC review card by elevating customer feedback with a simple tap!<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "template--20333549486380__74dfed46-89d0-495d-acae-bf724cc3a899-heading-1": {
+        "template--21590001647916__692b3e0b-eb26-4537-85ef-ee6d05b1d7c0-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nfc-review-card-step-02.png",
+            "title": "2. Customer will receive a notification",
+            "heading_size": "h4",
+            "text": "<p>They simply tap the notification and are instantly transported to your business’ review page. It’s feedback made fast, easy, and efficient.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--21590001647916__692b3e0b-eb26-4537-85ef-ee6d05b1d7c0-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nfc-review-card-step-03.png",
+            "title": "3. Your customer can write the review!",
+            "heading_size": "h4",
+            "text": "<p>Say goodbye to the hassle of asking customers to find your business online and leave a review. Enjoy your 5-star ratings instantly!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21590001647916__692b3e0b-eb26-4537-85ef-ee6d05b1d7c0-column-1",
+        "template--21590001647916__692b3e0b-eb26-4537-85ef-ee6d05b1d7c0-column-2",
+        "template--21590001647916__692b3e0b-eb26-4537-85ef-ee6d05b1d7c0-column-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "How Review Cards Work",
+        "description": "<p>You can now collect reviews with a one quick tap.<\/p>",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "mobile_swipe": false,
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "b04302c2-df15-4d73-9748-2d62ebe84660": {
+      "type": "layered-images-with-text",
+      "blocks": {
+        "template--20294491930924__b04302c2-df15-4d73-9748-2d62ebe84660-heading-1": {
           "type": "heading",
           "settings": {
             "text": "NFC Review Cards",
             "heading_size": "h3"
           }
         },
-        "template--20333549486380__74dfed46-89d0-495d-acae-bf724cc3a899-text-1": {
+        "template--20294491930924__b04302c2-df15-4d73-9748-2d62ebe84660-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>NFC-enabled Review Cards, revolutionising the way customers leave their feedback effortlessly! Designed for Google Reviews, Trustpilot Reviews, and Tripadvisor, these innovative cards provide a seamless and user-friendly approach to collecting reviews.<\/p><p>Get Reviews in only a few seconds! <\/p><p>Available Options:<\/p><ul><li>Google Review Cards<\/li><li>Trustpilot Review Cards<\/li><li>Tripadvisor Review Cards<br\/><\/li><\/ul><p><em>**Cardsync has no affiliation with Google, Tripadvisor, or Trustpilot. Our cards are valuable resources that can help improve outcomes and encourage customers to leave reviews.<\/em><\/p><p><br\/>Material: PVC Plastic<\/p>"
+            "text": "<p>NFC-enabled Review Cards, revolutionising the way customers leave their feedback effortlessly! Designed for Google Reviews, Trustpilot Reviews, and Tripadvisor, these innovative cards provide a seamless and user-friendly approach to collecting reviews.<\/p><p>Get Reviews in only a few seconds!<\/p><p>Available Options:<\/p><ul><li>Google Review Cards<\/li><li>Trustpilot Review Cards<\/li><li>Tripadvisor Review Cards<br\/><\/li><\/ul><p><em>**Cardsync has no affiliation with Google, Tripadvisor, or Trustpilot. Our cards are valuable resources that can help improve outcomes and encourage customers to leave reviews.<\/em><\/p><p><br\/>Material: PVC Plastic<\/p>"
           }
         },
-        "8d94e068-540c-462d-a924-40054ae44b76": {
+        "c663cbe8-7c4d-4e42-8672-f4e288282487": {
           "type": "button",
           "settings": {
-            "button_text": "SHOP REVIEW CARDS",
-            "button_link": "shopify:\/\/products\/review-cards"
+            "button_text": "Get Yours Now",
+            "button_link": "shopify:\/\/products\/review-cards-5-pack"
           }
         }
       },
       "block_order": [
-        "template--20333549486380__74dfed46-89d0-495d-acae-bf724cc3a899-subheading-1",
-        "template--20333549486380__74dfed46-89d0-495d-acae-bf724cc3a899-heading-1",
-        "template--20333549486380__74dfed46-89d0-495d-acae-bf724cc3a899-text-1",
-        "8d94e068-540c-462d-a924-40054ae44b76"
+        "template--20294491930924__b04302c2-df15-4d73-9748-2d62ebe84660-heading-1",
+        "template--20294491930924__b04302c2-df15-4d73-9748-2d62ebe84660-text-1",
+        "c663cbe8-7c4d-4e42-8672-f4e288282487"
       ],
       "custom_css": [
         ".button {background-color: #ff4515;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Your_Graphics_12.jpg",
-        "image_ratio": "adapt",
-        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image": "shopify:\/\/shop_images\/8.jpg",
+        "image_ratio": "portrait",
+        "image_2": "shopify:\/\/shop_images\/nfc-review-card-tripadvisor.png",
         "image_ratio_2": "adapt",
-        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
-        "image_ratio_3": "adapt",
-        "layout": "image_first",
-        "content_alignment": "text-left",
-        "content_position": "middle",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "78d0d65c-e40d-4c8a-95ff-3b97b2d2a320": {
-      "type": "layered-images-with-text",
-      "blocks": {
-        "template--20333651951916__78d0d65c-e40d-4c8a-95ff-3b97b2d2a320-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": "CREATE CUSTOM METAL REVIEW CARDS"
-          }
-        },
-        "template--20333651951916__78d0d65c-e40d-4c8a-95ff-3b97b2d2a320-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Custom Metal Review Cards",
-            "heading_size": "h4"
-          }
-        },
-        "template--20333651951916__78d0d65c-e40d-4c8a-95ff-3b97b2d2a320-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Create your own metal review card. Upload your logo.  Make a statement with a unique metal review card that showcases your logo.<br\/><br\/>Options:<br\/>- Google review card<br\/>- TripAdvisor review card<br\/>- Trustpilot review card <\/p><p>Material:<br\/>- Black<br\/>- Brushed Gold<br\/>- Brushed Silver<\/p><p>Material: Metal Hybrid<\/p>"
-          }
-        },
-        "1401d0d6-955f-4ac4-aed6-d694db5cdbdb": {
-          "type": "button",
-          "settings": {
-            "button_text": "Create your own",
-            "button_link": "shopify:\/\/products\/custom-metal-review-cards"
-          }
-        }
-      },
-      "block_order": [
-        "template--20333651951916__78d0d65c-e40d-4c8a-95ff-3b97b2d2a320-subheading-1",
-        "template--20333651951916__78d0d65c-e40d-4c8a-95ff-3b97b2d2a320-heading-1",
-        "template--20333651951916__78d0d65c-e40d-4c8a-95ff-3b97b2d2a320-text-1",
-        "1401d0d6-955f-4ac4-aed6-d694db5cdbdb"
-      ],
-      "custom_css": [
-        ".button {background-color: #ff4515;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/84_00f06dc8-f494-45c0-ab68-12e253e56744.jpg",
-        "image_ratio": "adapt",
-        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
-        "image_ratio_2": "adapt",
-        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_3": "shopify:\/\/shop_images\/nfc-review-card-trustpilot.png",
         "image_ratio_3": "adapt",
         "layout": "text_first",
         "content_alignment": "text-left",
@@ -384,263 +302,19 @@
         "disable_bottom_spacing": false
       }
     },
-    "5770e7dc-0bee-4637-a84b-9e5e9b0bb843": {
-      "type": "layered-images-with-text",
-      "blocks": {
-        "template--20823290708268__5770e7dc-0bee-4637-a84b-9e5e9b0bb843-subheading-1": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Add a tagline"
-          }
-        },
-        "template--20823290708268__5770e7dc-0bee-4637-a84b-9e5e9b0bb843-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Make Your Own Review Card",
-            "heading_size": "h4"
-          }
-        },
-        "template--20823290708268__5770e7dc-0bee-4637-a84b-9e5e9b0bb843-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Make your own custom review card using our online customisation tool. Where you will have the ability to add your Name, Logo and a QR code which will link directly to your review platform! <br\/><br\/>You have the option to pick between the following card colour options:<br\/>- Black<br\/>- Brushed Silver<br\/>- Brushed Gold <\/p><p>Get more reviews today with our  personalised metal review cards! <\/p><p>Material: Metal Hybrid<\/p>"
-          }
-        },
-        "b7869738-a9b0-48b7-9d3b-3ca0f98060a2": {
-          "type": "button",
-          "settings": {
-            "button_text": "MAKE YOUR OWN REVIEW CARD",
-            "button_link": "shopify:\/\/products\/make-your-own-review-card"
-          }
-        }
-      },
-      "block_order": [
-        "template--20823290708268__5770e7dc-0bee-4637-a84b-9e5e9b0bb843-subheading-1",
-        "template--20823290708268__5770e7dc-0bee-4637-a84b-9e5e9b0bb843-heading-1",
-        "template--20823290708268__5770e7dc-0bee-4637-a84b-9e5e9b0bb843-text-1",
-        "b7869738-a9b0-48b7-9d3b-3ca0f98060a2"
-      ],
-      "custom_css": [
-        ".button {background-color: #ff4515;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/cardsync_2.jpg",
-        "image_ratio": "adapt",
-        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
-        "image_ratio_2": "adapt",
-        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
-        "image_ratio_3": "adapt",
-        "layout": "image_first",
-        "content_alignment": "text-left",
-        "content_position": "middle",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "39720803-8ed2-4221-aa29-4bc36c278f1c": {
+    "ee897ede-eeb1-4232-8615-cffb396f87c0": {
       "type": "text-with-icons",
       "blocks": {
-        "template--20333651951916__39720803-8ed2-4221-aa29-4bc36c278f1c-icon-1": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/icons8-review-100.png",
-            "heading": "Collect Reviews in Seconds",
-            "text": ""
-          }
-        },
-        "template--20333651951916__39720803-8ed2-4221-aa29-4bc36c278f1c-icon-2": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/icons8-increase-64.png",
-            "heading": "Increase Digital Presence",
-            "text": ""
-          }
-        },
-        "template--20333651951916__39720803-8ed2-4221-aa29-4bc36c278f1c-icon-3": {
-          "type": "icon",
-          "settings": {
-            "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/icons8-feedback-100.png",
-            "heading": "Improve Social Proof",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--20333651951916__39720803-8ed2-4221-aa29-4bc36c278f1c-icon-1",
-        "template--20333651951916__39720803-8ed2-4221-aa29-4bc36c278f1c-icon-2",
-        "template--20333651951916__39720803-8ed2-4221-aa29-4bc36c278f1c-icon-3"
-      ],
-      "settings": {
-        "text_alignment": "center",
-        "icon_position": "top",
-        "icon_size": "large",
-        "heading_size": "large",
-        "mobile_swipe": false,
-        "color_bg": "#f7f5fd",
-        "color_heading": "#103a3a",
-        "color_text": "#103a3a",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "2e2eaf3b-761e-47fb-ba4b-f9e622af4cf6": {
-      "type": "layered-images-with-text",
-      "blocks": {
-        "template--20333651951916__2e2eaf3b-761e-47fb-ba4b-f9e622af4cf6-subheading-1": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Add a tagline"
-          }
-        },
-        "template--20333651951916__2e2eaf3b-761e-47fb-ba4b-f9e622af4cf6-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "How Review Cards Work",
-            "heading_size": "h3"
-          }
-        },
-        "template--20333651951916__2e2eaf3b-761e-47fb-ba4b-f9e622af4cf6-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>NFC Review Cards are designed to revolutionise the process of collecting customer reviews. Leveraging Near Field Communication (NFC) technology, these cards offer a seamless and efficient way to gather valuable feedback from customers in just a few simple steps.<\/p><p><\/p><ol><li>Tap: To initiate the review process, customers only need to tap the NFC Review Card onto their smartphone. <\/li><li>Review Page Access: Once the NFC Review Card is tapped, customers are instantly redirected to the designated review page or platform<\/li><li>Leave Reviews Within Seconds: With a streamlined process and minimal friction, customers can swiftly share their feedback in a matter of seconds<\/li><\/ol><p><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--20333651951916__2e2eaf3b-761e-47fb-ba4b-f9e622af4cf6-subheading-1",
-        "template--20333651951916__2e2eaf3b-761e-47fb-ba4b-f9e622af4cf6-heading-1",
-        "template--20333651951916__2e2eaf3b-761e-47fb-ba4b-f9e622af4cf6-text-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/1.jpg",
-        "image_ratio": "adapt",
-        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
-        "image_ratio_2": "adapt",
-        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
-        "image_ratio_3": "adapt",
-        "layout": "image_first",
-        "content_alignment": "text-left",
-        "content_position": "middle",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "08efb1ff-146a-4ea3-83df-8c64a1634059": {
-      "type": "tabbed-content",
-      "blocks": {
-        "template--20333651951916__08efb1ff-146a-4ea3-83df-8c64a1634059-tab-1": {
-          "type": "tab",
-          "settings": {
-            "tab_label": "Enhanced Customer Engagement",
-            "icon": "none",
-            "text": "<p>NFC Review Cards offer a novel and interactive way to engage customers, enticing them to leave reviews effortlessly.<\/p>",
-            "text_columns": "1",
-            "page": ""
-          }
-        },
-        "template--20333651951916__08efb1ff-146a-4ea3-83df-8c64a1634059-tab-2": {
-          "type": "tab",
-          "settings": {
-            "tab_label": "Real-time Feedback",
-            "icon": "none",
-            "text": "<p>With immediate access to the review page, businesses receive real-time feedback, allowing them to address any concerns promptly and capitalise on positive experiences.<\/p>",
-            "text_columns": "1",
-            "page": ""
-          }
-        },
-        "template--20333651951916__08efb1ff-146a-4ea3-83df-8c64a1634059-tab-3": {
-          "type": "tab",
-          "settings": {
-            "tab_label": "Increased Review Volume",
-            "icon": "none",
-            "text": "<p>The convenience of NFC Review Cards encourages more customers to participate, leading to an upsurge in the number of reviews.<\/p>",
-            "text_columns": "1",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--20333651951916__08efb1ff-146a-4ea3-83df-8c64a1634059-tab-1",
-        "template--20333651951916__08efb1ff-146a-4ea3-83df-8c64a1634059-tab-2",
-        "template--20333651951916__08efb1ff-146a-4ea3-83df-8c64a1634059-tab-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "Benefits of NFC Review Cards",
-        "description": "",
-        "text_width": "medium",
-        "tab_alignment": "left",
-        "text_alignment": "left",
-        "color_bg": "#ffffff",
-        "color_tabs": "#151515",
-        "color_text": "#151515",
-        "color_border": "#e2e2e2",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "18b5f860-569d-47e2-bbcf-283e51adcb7c": {
-      "type": "layered-images-with-text",
-      "blocks": {
-        "template--20333651951916__18b5f860-569d-47e2-bbcf-283e51adcb7c-subheading-1": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Add a tagline"
-          }
-        },
-        "template--20333651951916__18b5f860-569d-47e2-bbcf-283e51adcb7c-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "NFC Review Card Benefits",
-            "heading_size": "h4"
-          }
-        },
-        "template--20333651951916__18b5f860-569d-47e2-bbcf-283e51adcb7c-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>✓ Effortless Interaction:<\/strong> NFC review cards provide a simple and intuitive way for customers to leave reviews. With just a tap of their NFC-enabled smartphone, customers can access the review platform instantly.<\/p><p><\/p><p><strong>✓ Time Savings:<\/strong> Traditional methods of leaving reviews often require customers to search for websites or apps. NFC review cards streamline this process<\/p><p><strong>✓ Increased Participation:<\/strong> The ease of tapping a card to leave a review encourages more customers to engage.<\/p><p><strong>✓ Enhanced Customer Experience:<\/strong> By offering a quick and convenient review option, businesses show that they value their customers' opinions. <\/p><p><strong>✓ Minimal Barrier to Entry:<\/strong> NFC review cards eliminate the need for customers to remember URLs, search for apps, or log in to leave reviews.<\/p><p><strong>✓ Cost-Effective Solution:<\/strong> Implementing NFC review cards doesn't require significant investment in software development or app creation.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--20333651951916__18b5f860-569d-47e2-bbcf-283e51adcb7c-subheading-1",
-        "template--20333651951916__18b5f860-569d-47e2-bbcf-283e51adcb7c-heading-1",
-        "template--20333651951916__18b5f860-569d-47e2-bbcf-283e51adcb7c-text-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Your_Graphics_2_0965c0fa-87ab-4d6f-8085-81dbadcbfff0.jpg",
-        "image_ratio": "adapt",
-        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
-        "image_ratio_2": "adapt",
-        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
-        "image_ratio_3": "adapt",
-        "layout": "text_first",
-        "content_alignment": "text-left",
-        "content_position": "middle",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "a38515db-3049-4bf4-a8cd-f98fe5dc95f2": {
-      "type": "text-with-icons",
-      "blocks": {
-        "template--20333651951916__a38515db-3049-4bf4-a8cd-f98fe5dc95f2-icon-1": {
+        "template--20332930302252__ee897ede-eeb1-4232-8615-cffb396f87c0-icon-1": {
           "type": "icon",
           "settings": {
             "icon": "ruler",
             "image": "shopify:\/\/shop_images\/icons8-engagement-100.png",
-            "heading": "Enhanced Customer Engagement",
+            "heading": "Enhance Customer Engagement",
             "text": "<p>NFC Review Cards offer a novel and interactive way to engage customers, enticing them to leave reviews effortlessly.<\/p>"
           }
         },
-        "template--20333651951916__a38515db-3049-4bf4-a8cd-f98fe5dc95f2-icon-2": {
+        "template--20332930302252__ee897ede-eeb1-4232-8615-cffb396f87c0-icon-2": {
           "type": "icon",
           "settings": {
             "icon": "ruler",
@@ -649,16 +323,16 @@
             "text": "<p>With immediate access to the review page, businesses receive real-time feedback, allowing them to address any concerns promptly and capitalise on positive experiences.<\/p>"
           }
         },
-        "template--20333651951916__a38515db-3049-4bf4-a8cd-f98fe5dc95f2-icon-3": {
+        "template--20332930302252__ee897ede-eeb1-4232-8615-cffb396f87c0-icon-3": {
           "type": "icon",
           "settings": {
             "icon": "ruler",
             "image": "shopify:\/\/shop_images\/icons8-review-100.png",
-            "heading": "Increased Review Volume",
+            "heading": "Increase Review Volume",
             "text": "<p>The convenience of NFC Review Cards encourages more customers to participate, leading to an upsurge in the number of reviews.<\/p>"
           }
         },
-        "f273e53e-9ff0-412e-8452-15891a125232": {
+        "322fa7db-76f4-415a-aeed-abdd5b66ba30": {
           "type": "icon",
           "settings": {
             "icon": "ruler",
@@ -669,62 +343,293 @@
         }
       },
       "block_order": [
-        "template--20333651951916__a38515db-3049-4bf4-a8cd-f98fe5dc95f2-icon-1",
-        "template--20333651951916__a38515db-3049-4bf4-a8cd-f98fe5dc95f2-icon-2",
-        "template--20333651951916__a38515db-3049-4bf4-a8cd-f98fe5dc95f2-icon-3",
-        "f273e53e-9ff0-412e-8452-15891a125232"
+        "template--20332930302252__ee897ede-eeb1-4232-8615-cffb396f87c0-icon-1",
+        "template--20332930302252__ee897ede-eeb1-4232-8615-cffb396f87c0-icon-2",
+        "template--20332930302252__ee897ede-eeb1-4232-8615-cffb396f87c0-icon-3",
+        "322fa7db-76f4-415a-aeed-abdd5b66ba30"
       ],
       "settings": {
         "text_alignment": "center",
         "icon_position": "top",
         "icon_size": "large",
         "heading_size": "large",
-        "mobile_swipe": false,
-        "color_bg": "#ffffff",
-        "color_heading": "#103a3a",
-        "color_text": "#103a3a",
+        "mobile_swipe": true,
+        "color_bg": "#f1f1f1",
+        "color_heading": "#ff4515",
+        "color_text": "#1a1a1a",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
     },
-    "0eacf1c8-301d-45c3-ae88-f3eb81ff09e4": {
-      "type": "rich-text",
+    "360c5700-3746-4eab-b2d6-d9ba3176548b": {
+      "type": "layered-images-with-text",
       "blocks": {
-        "template--20823290708268__0eacf1c8-301d-45c3-ae88-f3eb81ff09e4-subheading-1": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading for this section"
-          }
-        },
-        "template--20823290708268__0eacf1c8-301d-45c3-ae88-f3eb81ff09e4-heading-1": {
+        "6fb1a1d4-bd04-46c7-97ec-4a7598db66e2": {
           "type": "heading",
           "settings": {
-            "text": "Ready To Get More Reviews?",
-            "size": "h3"
+            "text": "Custom Metal Review Cards",
+            "heading_size": "h3"
           }
         },
-        "template--20823290708268__0eacf1c8-301d-45c3-ae88-f3eb81ff09e4-text-1": {
+        "c6938765-80ee-4a54-a040-6e6bd31374e2": {
           "type": "text",
           "settings": {
-            "text": "<p>Leverage the power of NFC review cards to simplify the review process, effectively engage customers, and enhance your business's online presence. By capitalising on this innovative technology, you can substantially increase the number of reviews and subsequently enhance your online reputation, ultimately driving more customers to your doorstep.<\/p>",
+            "text": "<p>Create your own metal review card. Upload your logo. Make a statement with a unique metal review card that showcases your logo.<\/p><p>Options:<br\/>- Google review card<br\/>- TripAdvisor review card<br\/>- Trustpilot review card<\/p><p>Colour:<br\/>- Black<br\/>- Brushed Gold<br\/>- Brushed Silver<\/p><p>Material: Metal Hybrid<\/p>"
+          }
+        },
+        "e63d25d5-253e-454d-8e06-a6cd960c3221": {
+          "type": "button",
+          "settings": {
+            "button_text": "Create Your Own",
+            "button_link": "shopify:\/\/products\/custom-metal-review-cards"
+          }
+        }
+      },
+      "block_order": [
+        "6fb1a1d4-bd04-46c7-97ec-4a7598db66e2",
+        "c6938765-80ee-4a54-a040-6e6bd31374e2",
+        "e63d25d5-253e-454d-8e06-a6cd960c3221"
+      ],
+      "custom_css": [
+        ".button {background-color: #ff4515;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/nfc-review-card-metal-google-transparent_ae23d65d-0133-4220-b77b-2dccac98b282.png",
+        "image_ratio": "portrait",
+        "image_2": "shopify:\/\/shop_images\/nfc-review-card-metal-tripadvisor.png",
+        "image_ratio_2": "adapt",
+        "image_3": "shopify:\/\/shop_images\/nfc-review-card-metal-trustpilot.png",
+        "image_ratio_3": "adapt",
+        "layout": "image_first",
+        "content_alignment": "text-left",
+        "content_position": "middle",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "d6707ca9-31d4-404e-8685-db8f76f9fea7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20823290511660__d6707ca9-31d4-404e-8685-db8f76f9fea7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Make Your Own Review Card",
+            "heading_tag": "h2",
+            "size": "h4"
+          }
+        },
+        "template--20823290511660__d6707ca9-31d4-404e-8685-db8f76f9fea7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Make your own custom review card using our online customisation tool. Where you will have the ability to add your Name, Logo and a QR code which will link directly to your review platform!<\/p>",
+            "size": "text-size-small"
+          }
+        },
+        "957bbbd3-d12f-4ebf-91a9-8208baee60bc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cardsync_2.jpg"
+          }
+        },
+        "60c7f4e0-47ab-411e-b8a7-6cc65e02d5e3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You have the option to pick between the following card colour options:<br\/>- Black<br\/>- Brushed Silver<br\/>- Brushed Gold<\/p><p>Get more reviews today with our personalised metal review cards!<\/p><p>Material: Metal Hybrid<\/p>",
             "size": "text-size-regular"
           }
         },
-        "template--20823290708268__0eacf1c8-301d-45c3-ae88-f3eb81ff09e4-button-1": {
+        "50e2e0c8-fce9-4f73-b5f4-c2c71285eb6c": {
           "type": "button",
           "settings": {
-            "link_label": "SHOP NOW",
-            "link": "shopify:\/\/products\/review-cards",
+            "link_label": "Customise Your Own",
+            "link": "shopify:\/\/products\/make-your-own-review-card",
             "button_outline": false
           }
         }
       },
       "block_order": [
-        "template--20823290708268__0eacf1c8-301d-45c3-ae88-f3eb81ff09e4-subheading-1",
-        "template--20823290708268__0eacf1c8-301d-45c3-ae88-f3eb81ff09e4-heading-1",
-        "template--20823290708268__0eacf1c8-301d-45c3-ae88-f3eb81ff09e4-text-1",
-        "template--20823290708268__0eacf1c8-301d-45c3-ae88-f3eb81ff09e4-button-1"
+        "template--20823290511660__d6707ca9-31d4-404e-8685-db8f76f9fea7-heading-1",
+        "template--20823290511660__d6707ca9-31d4-404e-8685-db8f76f9fea7-text-1",
+        "957bbbd3-d12f-4ebf-91a9-8208baee60bc",
+        "60c7f4e0-47ab-411e-b8a7-6cc65e02d5e3",
+        "50e2e0c8-fce9-4f73-b5f4-c2c71285eb6c"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".button {background-color: #ff4515;}"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "e47700cd-a97e-49fe-9e2a-e27b95f5f411": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21590001647916__e47700cd-a97e-49fe-9e2a-e27b95f5f411-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "template--21590001647916__e47700cd-a97e-49fe-9e2a-e27b95f5f411-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "NFC Review Card Benefits",
+            "heading_size": "h3"
+          }
+        },
+        "template--21590001647916__e47700cd-a97e-49fe-9e2a-e27b95f5f411-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>✓ Effortless Interaction:<\/strong> NFC review cards provide a simple and intuitive way for customers to leave reviews. With just a tap of their NFC-enabled smartphone, customers can access the review platform instantly.<\/p><p><strong>✓ Time Savings:<\/strong> Traditional methods of leaving reviews often require customers to search for websites or apps. NFC review cards streamline this process<\/p><p><strong>✓ Increased Participation:<\/strong> The ease of tapping a card to leave a review encourages more customers to engage.<\/p><p><strong>✓ Enhanced Customer Experience:<\/strong> By offering a quick and convenient review option, businesses show that they value their customers' opinions.<\/p><p><strong>✓ Minimal Barrier to Entry:<\/strong> NFC review cards eliminate the need for customers to remember URLs, search for apps, or log in to leave reviews.<\/p><p><strong>✓ Cost-Effective Solution:<\/strong> Implementing NFC review cards doesn't require significant investment in software development or app creation.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21590001647916__e47700cd-a97e-49fe-9e2a-e27b95f5f411-subheading-1",
+        "template--21590001647916__e47700cd-a97e-49fe-9e2a-e27b95f5f411-heading-1",
+        "template--21590001647916__e47700cd-a97e-49fe-9e2a-e27b95f5f411-text-1"
+      ],
+      "settings": {
+        "custom_id": "",
+        "image": "shopify:\/\/shop_images\/Your_Graphics_2_0965c0fa-87ab-4d6f-8085-81dbadcbfff0.jpg",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "content_position": "text-left",
+        "full_width": true,
+        "color_bg": "#ffffff",
+        "color_text": "#000000",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "b5ac46d1-ce36-470e-9288-13e37e3ccd43": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21590001647916__b5ac46d1-ce36-470e-9288-13e37e3ccd43-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "✓ Effortless Interaction",
+            "heading_size": "h4",
+            "text": "<p>NFC review cards provide a simple and intuitive way for customers to leave reviews. With just a tap of their NFC-enabled smartphone, customers can access the review platform instantly.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--21590001647916__b5ac46d1-ce36-470e-9288-13e37e3ccd43-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "✓ Time Savings",
+            "heading_size": "h4",
+            "text": "<p>Traditional methods of leaving reviews often require customers to search for websites or apps. NFC review cards streamline this process.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--21590001647916__b5ac46d1-ce36-470e-9288-13e37e3ccd43-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "✓ Increased Participation",
+            "heading_size": "h4",
+            "text": "<p>The ease of tapping a card to leave a review encourages more customers to engage.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16707dba-0ba8-4db6-a301-768324e6c0fe": {
+          "type": "column",
+          "settings": {
+            "title": "✓ Enhanced Customer Experience",
+            "heading_size": "h4",
+            "text": "<p>By offering a quick and convenient review option, businesses show that they value their customers' opinions.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "bc1f1e69-432b-452c-8417-24cd3fb5a3bc": {
+          "type": "column",
+          "settings": {
+            "title": "✓ Minimal Barrier to Entry",
+            "heading_size": "h4",
+            "text": "<p>NFC review cards eliminate the need for customers to remember URLs, search for apps, or log in to leave reviews.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "f5604985-9b1e-4ff9-b67d-b5ae9b117de6": {
+          "type": "column",
+          "settings": {
+            "title": "✓ Cost-Effective Solution",
+            "heading_size": "h4",
+            "text": "<p>Implementing NFC review cards doesn't require significant investment in software development or app creation.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21590001647916__b5ac46d1-ce36-470e-9288-13e37e3ccd43-column-1",
+        "template--21590001647916__b5ac46d1-ce36-470e-9288-13e37e3ccd43-column-2",
+        "template--21590001647916__b5ac46d1-ce36-470e-9288-13e37e3ccd43-column-3",
+        "16707dba-0ba8-4db6-a301-768324e6c0fe",
+        "bc1f1e69-432b-452c-8417-24cd3fb5a3bc",
+        "f5604985-9b1e-4ff9-b67d-b5ae9b117de6"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "NFC Review Card Benefits",
+        "description": "",
+        "image_ratio": "circle",
+        "columns_desktop": 3,
+        "mobile_swipe": false,
+        "text_alignment": "left",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "3e6c4a85-0f23-4c85-b86a-aeb10a28c40f": {
+      "type": "rich-text",
+      "blocks": {
+        "c5a0bed7-76b2-4dee-8f5c-140ed6970bf5": {
+          "type": "heading",
+          "settings": {
+            "text": "Ready To Get More Reviews?",
+            "heading_tag": "h2",
+            "size": "h4"
+          }
+        },
+        "66f4d30a-cc27-4d26-887e-ae34c402b610": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Leverage the power of NFC review cards to simplify the review process, effectively engage customers, and enhance your business's online presence. By capitalising on this innovative technology, you can substantially increase the number of reviews and subsequently enhance your online reputation, ultimately driving more customers to your doorstep.<\/p>",
+            "size": "text-size-small"
+          }
+        },
+        "1022492e-18de-457b-adad-4d3329746ae8": {
+          "type": "button",
+          "settings": {
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/review-cards",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "c5a0bed7-76b2-4dee-8f5c-140ed6970bf5",
+        "66f4d30a-cc27-4d26-887e-ae34c402b610",
+        "1022492e-18de-457b-adad-4d3329746ae8"
       ],
       "custom_css": [
         ".button {background-color: #ff4515;}"
@@ -737,63 +642,155 @@
         "disable_bottom_spacing": false
       }
     },
-    "692d1282-fdba-4527-9291-2f36dac4209a": {
+    "3015b67a-a264-4161-a19b-14d365a139bd": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--21590001647916__3015b67a-a264-4161-a19b-14d365a139bd-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Add a tagline"
+          }
+        },
+        "template--21590001647916__3015b67a-a264-4161-a19b-14d365a139bd-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Ready to get more reviews?",
+            "heading_size": "h3"
+          }
+        },
+        "template--21590001647916__3015b67a-a264-4161-a19b-14d365a139bd-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Leverage the power of NFC review cards to simplify the review process, effectively engage customers, and enhance your business's online presence. By capitalising on this innovative technology, you can substantially increase the number of reviews and subsequently enhance your online reputation, ultimately driving more customers to your doorstep.<\/p>"
+          }
+        },
+        "template--21590001647916__3015b67a-a264-4161-a19b-14d365a139bd-button-1": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop Now",
+            "button_link": "shopify:\/\/collections\/review-cards"
+          }
+        }
+      },
+      "block_order": [
+        "template--21590001647916__3015b67a-a264-4161-a19b-14d365a139bd-subheading-1",
+        "template--21590001647916__3015b67a-a264-4161-a19b-14d365a139bd-heading-1",
+        "template--21590001647916__3015b67a-a264-4161-a19b-14d365a139bd-text-1",
+        "template--21590001647916__3015b67a-a264-4161-a19b-14d365a139bd-button-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".button {background-color: #ff4515; color: #fff;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "desktop_height": "desktop-height-550",
+        "mobile_height": "mobile-height-auto",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "full_width": true,
+        "overlay_opacity": 80,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "4ba55c28-5df2-4cb0-b429-77a0723e81df": {
+      "type": "testimonials",
+      "blocks": {
+        "template--20823290511660__4ba55c28-5df2-4cb0-b429-77a0723e81df-quote-1": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "Great product and premium quality. Amazing how accurate the design came out that I provided. Makes networking a whole lot easier and more memorable for the receiving person rather than a business card.",
+            "author": "Angelo Tuazon",
+            "retina": true
+          }
+        },
+        "template--20823290511660__4ba55c28-5df2-4cb0-b429-77a0723e81df-quote-2": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "Great product and quality - ordered a nfc card and the process was easy. Happy with the product the design came out great",
+            "author": "Jordan Kouloukakis",
+            "retina": true
+          }
+        },
+        "template--20823290511660__4ba55c28-5df2-4cb0-b429-77a0723e81df-quote-3": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "Ordered a custom NFC card. Online customisation tool was easy to use. Great experience would recommend!",
+            "author": "Joe",
+            "retina": true
+          }
+        },
+        "de6aed7e-42fc-4de3-a436-db40528b8d91": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "Quality. Friendly service and excellent quality! I ordered custom cards and the process was easy.",
+            "author": "Lester",
+            "retina": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20823290511660__4ba55c28-5df2-4cb0-b429-77a0723e81df-quote-1",
+        "template--20823290511660__4ba55c28-5df2-4cb0-b429-77a0723e81df-quote-2",
+        "template--20823290511660__4ba55c28-5df2-4cb0-b429-77a0723e81df-quote-3",
+        "de6aed7e-42fc-4de3-a436-db40528b8d91"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "size": "small",
+        "autoplay": true,
+        "autoplay_length": 5,
+        "color_bg": "#f1f1f1",
+        "color_text": "#000000",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "review_text": "More CardSync reviews on",
+        "review_logo": "shopify:\/\/shop_images\/trust-pilot-logo.svg",
+        "review_link": "https:\/\/www.trustpilot.com\/review\/cardsync.com.au?utm_medium=trustbox&utm_source=MicroReviewCount"
+      }
+    },
+    "69361d25-4776-4678-be7c-99bd71835b49": {
       "type": "collapsible-content",
       "blocks": {
-        "template--20333651951916__692d1282-fdba-4527-9291-2f36dac4209a-collapsible_tab-2": {
+        "78b412fe-96c6-4283-ab5f-453e0f5d0857": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "What phones are compatible?",
-            "open": false,
-            "content": "<p><strong>Tap<\/strong> function is compatible with <strong>NFC<\/strong> enabled Smartphones. iPhones made in 2018 and newer and most androids<\/p><p>For all other phones, please have your client scan the <strong>QR<\/strong> <strong>code<\/strong> on the back of your card which is available in our QR card range<\/p>",
+            "open": true,
+            "content": "<p>Tap function is compatible with NFC enabled Smartphones. iPhones made in 2018 and newer and most androids<\/p><p>For all other phones, please have your client scan the QR code on the back of your card which is available in our QR card range<\/p>",
             "page": ""
           }
         },
-        "986b6023-a64a-456f-a6b0-af684e503167": {
+        "template--20332930302252__69361d25-4776-4678-be7c-99bd71835b49-collapsible_tab-5": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Do I need to set up my card?",
+            "heading": "Do I need to setup my card?",
             "open": false,
             "content": "<p>No, Just provide your review link at checkout and we will set up the card for you.<\/p>",
             "page": ""
           }
         },
-        "template--20333651951916__692d1282-fdba-4527-9291-2f36dac4209a-collapsible_tab-1": {
+        "template--20332930302252__69361d25-4776-4678-be7c-99bd71835b49-collapsible_tab-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How do I get google review link?",
+            "heading": "How do I get a Google Review link?",
             "open": false,
-            "content": "<p>1. Log into your Google Business Profile. <br\/>2. Select \"Get more reviews\" button<br\/>3. Copy your review link<\/p>",
-            "page": ""
-          }
-        },
-        "template--20333651951916__692d1282-fdba-4527-9291-2f36dac4209a-collapsible_tab-5": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "",
-            "open": false,
-            "content": "",
-            "page": ""
-          }
-        },
-        "template--20333651951916__692d1282-fdba-4527-9291-2f36dac4209a-collapsible_tab-4": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "How To Setup My Card?",
-            "open": false,
-            "content": "<p>We will create your profile using the email provided at checkout and you will have the ability to customise and update your card at anytime!<\/p>",
+            "content": "<p>1. Log into your Google Business Profile.<br\/>2. Select \"Get more reviews\" button<br\/>3. Copy your review link<\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
-        "template--20333651951916__692d1282-fdba-4527-9291-2f36dac4209a-collapsible_tab-2",
-        "986b6023-a64a-456f-a6b0-af684e503167",
-        "template--20333651951916__692d1282-fdba-4527-9291-2f36dac4209a-collapsible_tab-1",
-        "template--20333651951916__692d1282-fdba-4527-9291-2f36dac4209a-collapsible_tab-5",
-        "template--20333651951916__692d1282-fdba-4527-9291-2f36dac4209a-collapsible_tab-4"
+        "78b412fe-96c6-4283-ab5f-453e0f5d0857",
+        "template--20332930302252__69361d25-4776-4678-be7c-99bd71835b49-collapsible_tab-5",
+        "template--20332930302252__69361d25-4776-4678-be7c-99bd71835b49-collapsible_tab-1"
       ],
       "settings": {
         "heading": "FAQs",
@@ -801,121 +798,25 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
-    },
-    "1332e251-8a87-480d-b54d-8962d645beb4": {
-      "type": "testimonials",
-      "blocks": {
-        "template--20333651951916__1332e251-8a87-480d-b54d-8962d645beb4-quote-1": {
-          "type": "quote",
-          "settings": {
-            "stars": "5",
-            "text": "Streamline your Google reviews with one tap. Cardsync streamlined our ability at Snap Fitness Yagoona and The Wash Hub Wentworthville Laundromat to receive customer Google reviews with just one tap! Saving my customers time consuming google searches and clicking to get to the review section.",
-            "author": "Nate",
-            "retina": true
-          }
-        },
-        "template--20333651951916__1332e251-8a87-480d-b54d-8962d645beb4-quote-2": {
-          "type": "quote",
-          "settings": {
-            "stars": "5",
-            "text": "These cards increased our Google reviews exponentially! Within a month our customer reviews had tripled, such a great idea to spread positivity and highlights the power of word of mouth for any business.",
-            "author": "Mary Kabboura",
-            "retina": true
-          }
-        },
-        "22155dc6-1936-476c-9f8f-5bc531e3fba8": {
-          "type": "quote",
-          "settings": {
-            "stars": "5",
-            "text": "Great Product! I ordered some table talkers and review cards for my business. It made the process of collecting reviews so easy.",
-            "author": "Nadine",
-            "retina": true
-          }
-        },
-        "template--20333651951916__1332e251-8a87-480d-b54d-8962d645beb4-quote-3": {
-          "type": "quote",
-          "settings": {
-            "stars": "5",
-            "text": "Quality\nFriendly service and excellent quality! I ordered custom cards and the process was easy.",
-            "author": "Lester",
-            "retina": true
-          }
-        },
-        "4ef018da-29a1-4a49-90c9-936e4507e6d4": {
-          "type": "quote",
-          "settings": {
-            "stars": "5",
-            "text": "Ordered a custom metal NFC card\nOrdered a custom metal NFC card, really happy with how it turned out. The quality is great and works really well",
-            "author": "Jayden",
-            "retina": true
-          }
-        }
-      },
-      "block_order": [
-        "template--20333651951916__1332e251-8a87-480d-b54d-8962d645beb4-quote-1",
-        "template--20333651951916__1332e251-8a87-480d-b54d-8962d645beb4-quote-2",
-        "22155dc6-1936-476c-9f8f-5bc531e3fba8",
-        "template--20333651951916__1332e251-8a87-480d-b54d-8962d645beb4-quote-3",
-        "4ef018da-29a1-4a49-90c9-936e4507e6d4"
-      ],
-      "settings": {
-        "heading": "Testimonials",
-        "description": "",
-        "size": "small",
-        "autoplay": true,
-        "autoplay_length": 5,
-        "color_bg": "#ffffff",
-        "color_text": "#103a3a",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "1630560a-1261-459a-ba8a-c8bb87078f03": {
-      "type": "rich-text",
-      "blocks": {
-        "template--20823290708268__1630560a-1261-459a-ba8a-c8bb87078f03-button-1": {
-          "type": "button",
-          "settings": {
-            "link_label": "Trustpilot Reviews",
-            "link": "https:\/\/www.trustpilot.com\/review\/cardsync.com.au?utm_medium=trustbox&utm_source=MicroReviewCount",
-            "button_outline": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20823290708268__1630560a-1261-459a-ba8a-c8bb87078f03-button-1"
-      ],
-      "settings": {
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
-      }
     }
   },
   "order": [
     "breadcrumbs",
     "template-header",
+    "ddc45728-771a-4025-a4eb-a72c92e9ef16",
     "product-grid",
-    "ceb06d7d-c272-4a0f-91af-6e2b8b10a830",
-    "56acbc02-4814-4133-b260-7bee387c2884",
-    "beb02354-6a12-46f3-bfb7-8b7139aa02ba",
-    "c03dda8c-01d4-4980-921e-326830dd955f",
-    "1414281c-b881-47db-92e2-2b59ced06eaf",
-    "032d3126-dc2f-43b5-9cd7-4ff4514a69cd",
-    "70e0b0a4-16a3-4b49-a985-cb91f4bfa1e4",
-    "74dfed46-89d0-495d-acae-bf724cc3a899",
-    "78d0d65c-e40d-4c8a-95ff-3b97b2d2a320",
-    "5770e7dc-0bee-4637-a84b-9e5e9b0bb843",
-    "39720803-8ed2-4221-aa29-4bc36c278f1c",
-    "2e2eaf3b-761e-47fb-ba4b-f9e622af4cf6",
-    "08efb1ff-146a-4ea3-83df-8c64a1634059",
-    "18b5f860-569d-47e2-bbcf-283e51adcb7c",
-    "a38515db-3049-4bf4-a8cd-f98fe5dc95f2",
-    "0eacf1c8-301d-45c3-ae88-f3eb81ff09e4",
-    "692d1282-fdba-4527-9291-2f36dac4209a",
-    "1332e251-8a87-480d-b54d-8962d645beb4",
-    "1630560a-1261-459a-ba8a-c8bb87078f03"
+    "8ce50f3c-b9fa-4d23-844d-29dcd5dc9721",
+    "6535d1c2-a51a-41a1-bf49-27a834fe903c",
+    "692b3e0b-eb26-4537-85ef-ee6d05b1d7c0",
+    "b04302c2-df15-4d73-9748-2d62ebe84660",
+    "ee897ede-eeb1-4232-8615-cffb396f87c0",
+    "360c5700-3746-4eab-b2d6-d9ba3176548b",
+    "d6707ca9-31d4-404e-8685-db8f76f9fea7",
+    "e47700cd-a97e-49fe-9e2a-e27b95f5f411",
+    "b5ac46d1-ce36-470e-9288-13e37e3ccd43",
+    "3e6c4a85-0f23-4c85-b86a-aeb10a28c40f",
+    "3015b67a-a264-4161-a19b-14d365a139bd",
+    "4ba55c28-5df2-4cb0-b429-77a0723e81df",
+    "69361d25-4776-4678-be7c-99bd71835b49"
   ]
 }

@@ -41,7 +41,10 @@
     "social_vimeo_link": "",
     "product_content_alignment": "center",
     "product_aspect_ratio": "portrait",
+    "enable_quick_view": false,
+    "show_products_vendor": false,
     "show_products_swatches": false,
+    "show_products_rating": true,
     "badge_corner_radius": 3,
     "color_swatches": "",
     "favicon": "shopify:\/\/shop_images\/cardsync_Icon_00b08bd8-334f-4527-92ea-1434fec035c7.png",
@@ -148,7 +151,7 @@
       },
       "4571859552318407796": {
         "type": "shopify:\/\/apps\/globo-color-swatch\/blocks\/app-embed-block\/4394f710-096c-4021-bbde-8ebb26057c11",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }

@@ -4,6 +4,10 @@
   --button-container-gap: 1rem 1rem;
 }
 
+.header-section .mobile-menu-content .single-button {
+  padding: 19px 15px;
+}
+
 @media screen and (min-width: 540px) {
   :root {
     --button-container-flex-direction: row;
@@ -18,11 +22,20 @@
   :root {
     --button-container-margin-top: 45px;
   }
+  .header-section .mobile-menu-content .single-button {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 .button > span {
   line-height: 1.2;
 }
 
+@media screen and (max-width: 1067px) {
+  .header-section .thb-secondary-area .single-button {
+    display: none;
+  }
+}
 .section-slideshow .slideshow__slide-button-container {
   display: flex;
   flex-direction: var(--button-container-flex-direction);

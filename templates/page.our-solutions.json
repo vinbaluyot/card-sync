@@ -1,47 +1,8 @@
 {
   "sections": {
-    "208857d9-3e0f-4def-b2b4-6d4efa10d31c": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19712154337580__208857d9-3e0f-4def-b2b4-6d4efa10d31c-1688988623f161c968-0": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading for this section"
-          }
-        },
-        "template--19712154337580__208857d9-3e0f-4def-b2b4-6d4efa10d31c-1688988623f161c968-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Our Business Solutions",
-            "size": "h3"
-          }
-        },
-        "template--19712154337580__208857d9-3e0f-4def-b2b4-6d4efa10d31c-1688988623f161c968-2": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "size": "text-size-regular"
-          }
-        }
-      },
-      "block_order": [
-        "template--19712154337580__208857d9-3e0f-4def-b2b4-6d4efa10d31c-1688988623f161c968-0",
-        "template--19712154337580__208857d9-3e0f-4def-b2b4-6d4efa10d31c-1688988623f161c968-1",
-        "template--19712154337580__208857d9-3e0f-4def-b2b4-6d4efa10d31c-1688988623f161c968-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
     "template-header": {
       "type": "template-header",
+      "disabled": true,
       "custom_css": [
         "h1 {font-size: 60px;}"
       ],
@@ -79,22 +40,21 @@
       "blocks": {
         "template--19712154337580__df7b2b9e-de8b-41f3-89f0-83ea3f09cd5b-16895954184d0cc3db-0": {
           "type": "subheading",
-          "disabled": true,
           "settings": {
-            "text": "Business solutions"
+            "text": "Cardsync for Business"
           }
         },
         "template--19712154337580__df7b2b9e-de8b-41f3-89f0-83ea3f09cd5b-16895954184d0cc3db-1": {
           "type": "heading",
           "settings": {
-            "text": "Our Solution",
-            "size": "h3"
+            "text": "Our Business Solutions",
+            "size": "h2"
           }
         },
         "template--19712154337580__df7b2b9e-de8b-41f3-89f0-83ea3f09cd5b-16895954184d0cc3db-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Welcome to Cardsync, your ultimate solution for business cards! With our NFC-enabled business cards, we revolutionise the way you connect and network with potential clients. Our cards seamlessly sync with smartphones, making it effortless to share your contact information . Experience the convenience of a digital business card with the timeless elegance of a physical card. <\/p><p>At Cardsync, we understand the importance of a strong first impression, which is why our NFC business cards are designed to leave a lasting impact. Elevate your professional image and stand out from the competition with Cardsync. Get in touch with us today to unlock the power of NFC technology for your business.<\/p>",
+            "text": "<p>With our NFC-enabled business cards, we revolutionise the way you connect and network with potential clients. Our cards seamlessly sync with smartphones, making it effortless to share your contact information . Experience the convenience of a digital business card with the timeless elegance of a physical card.<\/p>",
             "size": "text-size-regular"
           }
         }
@@ -105,14 +65,355 @@
         "template--19712154337580__df7b2b9e-de8b-41f3-89f0-83ea3f09cd5b-16895954184d0cc3db-2"
       ],
       "custom_css": [
-        "h2 {font-size: 40px;}"
+        ".rich-text {background: black; color: white; margin-bottom: 0; margin-top: 0; padding-bottom: var(--section-spacing-mobile, 0); padding-top: var(--section-spacing-mobile, 0);}",
+        ".rich-text .h2 {color: #fff;}",
+        "@media screen and (min-width: 768px) {.rich-text {max-width: initial; padding-bottom: var(--section-spacing-desktop, 0); padding-top: var(--section-spacing-desktop, 0); }}"
       ],
       "settings": {
         "text_width": "large",
         "text_position": "center",
         "text_alignment": "center",
         "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "9feb494a-bc77-4bee-8f1a-66375f0d591c": {
+      "type": "collection-list",
+      "settings": {
+        "custom_id": "",
+        "heading": "",
+        "description": "",
+        "collection_list": [
+          "nfc-business-cards",
+          "nfc-qr-code-cards",
+          "table-talkers",
+          "review-cards"
+        ],
+        "image_ratio": "square",
+        "layout": "grid",
+        "style": "style1",
+        "content_alignment": "text-center",
+        "columns_desktop": 4,
+        "collection_description": false,
+        "overlay_opacity": 0,
+        "carousel_dots": true,
+        "mobile_swipe": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "accent2",
+        "button_outline": false,
+        "button_text_2": "",
+        "button_link_2": "",
+        "button_color_2": "accent",
+        "button_outline_2": true
+      }
+    },
+    "ea709c9f-31d5-4372-9ad1-865856cb19e4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21590003024172__ea709c9f-31d5-4372-9ad1-865856cb19e4-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading for this section"
+          }
+        },
+        "template--21590003024172__ea709c9f-31d5-4372-9ad1-865856cb19e4-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Talk about your brand",
+            "size": "h3"
+          }
+        },
+        "template--21590003024172__ea709c9f-31d5-4372-9ad1-865856cb19e4-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Cardsync, we understand the importance of a strong first impression, which is why our NFC business cards are designed to leave a lasting impact. Elevate your professional image and stand out from the competition with Cardsync. Get in touch with us today to unlock the power of NFC technology for your business.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--21590003024172__ea709c9f-31d5-4372-9ad1-865856cb19e4-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_label": "Learn More",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21590003024172__ea709c9f-31d5-4372-9ad1-865856cb19e4-subheading-1",
+        "template--21590003024172__ea709c9f-31d5-4372-9ad1-865856cb19e4-heading-1",
+        "template--21590003024172__ea709c9f-31d5-4372-9ad1-865856cb19e4-text-1",
+        "template--21590003024172__ea709c9f-31d5-4372-9ad1-865856cb19e4-button-1"
+      ],
+      "settings": {
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "9ceab8f1-4cae-4220-9f06-89579287af82": {
+      "type": "featured-collection",
+      "blocks": {
+        "c57ecd76-53c4-477e-836a-e56da10a224c": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_Posts_-_Cardsync.jpg",
+            "title": "NFC Business Cards",
+            "text": "Our NFC Card & QR Code cards combine the benefits of NFC technology, providing an all-in-one solution for your networking needs. With a simple tap, your potential clients can instantly access your website, social media profiles, or any other digital content you choose to share.",
+            "link_label": "Shop Now",
+            "link": "",
+            "image_ratio": "adapt",
+            "content_position": "bottom-left",
+            "overlay_opacity": 100
+          }
+        },
+        "template--19290746028332__9ceab8f1-4cae-4220-9f06-89579287af82-1686560467677a4dee-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "nfc-business-cards",
+            "display_type": "grid",
+            "product_limit": 12,
+            "columns_desktop": 3,
+            "show_view_all": false,
+            "button_outline": false,
+            "mobile_swipe": true
+          }
+        }
+      },
+      "block_order": [
+        "c57ecd76-53c4-477e-836a-e56da10a224c",
+        "template--19290746028332__9ceab8f1-4cae-4220-9f06-89579287af82-1686560467677a4dee-0"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 449px) {.featured-collection__title-card .aspect-ratio--adapt {--ratio-percent: 150% !important; }}"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "7f5a6f0c-7384-4298-bc3c-eb1e47560feb": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "desktop_height": "desktop-height-550",
+        "mobile_height": "mobile-height-500",
+        "heading": "",
+        "text": "",
+        "video": "https:\/\/youtu.be\/hJCSN4vr6I4",
+        "button_text": "",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
         "disable_bottom_spacing": true
+      }
+    },
+    "ae7be0fc-b6a0-4893-b96d-b49da8d3ef3e": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--21590003024172__ae7be0fc-b6a0-4893-b96d-b49da8d3ef3e-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-networking-50.png",
+            "heading": "Networking",
+            "text": "<p>Expand Your Connections Effortlessly. Exchange Contact Information Instantly, Share Social Profiles, and Simplify Networking Events.<\/p>"
+          }
+        },
+        "template--21590003024172__ae7be0fc-b6a0-4893-b96d-b49da8d3ef3e-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-nfc-tag-50.png",
+            "heading": "Convenience",
+            "text": "<p>Simplify your interactions with a single tap. NFC Cards eliminate the need for physical contact or complex procedures.<\/p>"
+          }
+        },
+        "template--21590003024172__ae7be0fc-b6a0-4893-b96d-b49da8d3ef3e-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "image": "shopify:\/\/shop_images\/icons8-integration-50.png",
+            "heading": "Seamless Integrations",
+            "text": "<p>NFC products are designed to work harmoniously with your device, ensuring that NFC communication is smooth and uninterrupted.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21590003024172__ae7be0fc-b6a0-4893-b96d-b49da8d3ef3e-icon-2",
+        "template--21590003024172__ae7be0fc-b6a0-4893-b96d-b49da8d3ef3e-icon-1",
+        "template--21590003024172__ae7be0fc-b6a0-4893-b96d-b49da8d3ef3e-icon-3"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "icon_position": "top",
+        "icon_size": "large",
+        "heading_size": "large",
+        "mobile_swipe": false,
+        "color_bg": "#f6f6f0",
+        "color_heading": "#103a3a",
+        "color_text": "#103a3a",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "c14dc914-b7c9-44b0-82f5-39e84e00a9e4": {
+      "type": "featured-collection",
+      "blocks": {
+        "da0b1ffd-5abe-4bf4-bb86-d72714b2c0b9": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Instagram_Posts_-_Cardsync_1.jpg",
+            "title": "Review Cards",
+            "text": "NFC-enabled Review Cards, the convenient and hassle-free way to leave reviews! Effortlessly share feedback and experiences by simply tapping your phone. Whether you want to receive a Google Review, a Trustpilot Review, or a Tripadvisor review, these NFC-enabled cards make the process seamless and user-friendly.",
+            "link_label": "Shop Now",
+            "link": "",
+            "image_ratio": "adapt",
+            "content_position": "bottom-left",
+            "overlay_opacity": 100
+          }
+        },
+        "1d0d824d-051e-4d21-90e5-29420edae63c": {
+          "type": "collection",
+          "settings": {
+            "collection": "review-cards",
+            "display_type": "grid",
+            "product_limit": 12,
+            "columns_desktop": 3,
+            "show_view_all": false,
+            "button_outline": false,
+            "mobile_swipe": true
+          }
+        }
+      },
+      "block_order": [
+        "da0b1ffd-5abe-4bf4-bb86-d72714b2c0b9",
+        "1d0d824d-051e-4d21-90e5-29420edae63c"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 449px) {.featured-collection__title-card .aspect-ratio--adapt {--ratio-percent: 150% !important; }}"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "bc36f72e-5274-4590-941e-568798450c1d": {
+      "type": "featured-collection",
+      "blocks": {
+        "6c4bdfee-3bec-41fb-baff-a41ea676b046": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_921a1833-f298-45f3-881f-40640c7ff24a.jpg",
+            "title": "Table Talkers",
+            "text": "NFC-enabled Table Talkers, you can amplify your online reputation and build trust among potential customers. The reviews collected through our system can be seamlessly integrated into popular review platforms, such as Google My Business, Yelp, and TripAdvisor, giving your business a boost in search engine rankings and increasing its visibility.",
+            "link_label": "Shop Now",
+            "link": "",
+            "image_ratio": "adapt",
+            "content_position": "bottom-left",
+            "overlay_opacity": 100
+          }
+        },
+        "85d3303a-ae03-4a89-be5e-3ccd89541f81": {
+          "type": "collection",
+          "settings": {
+            "collection": "table-talkers",
+            "display_type": "grid",
+            "product_limit": 12,
+            "columns_desktop": 3,
+            "show_view_all": false,
+            "button_outline": false,
+            "mobile_swipe": true
+          }
+        }
+      },
+      "block_order": [
+        "6c4bdfee-3bec-41fb-baff-a41ea676b046",
+        "85d3303a-ae03-4a89-be5e-3ccd89541f81"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 449px) {.featured-collection__title-card .aspect-ratio--adapt {--ratio-percent: 150% !important; }}"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "full_width": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "4ba55c28-5df2-4cb0-b429-77a0723e81df": {
+      "type": "testimonials",
+      "blocks": {
+        "template--20823290511660__4ba55c28-5df2-4cb0-b429-77a0723e81df-quote-1": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "Great product and premium quality. Amazing how accurate the design came out that I provided. Makes networking a whole lot easier and more memorable for the receiving person rather than a business card.",
+            "author": "Angelo Tuazon",
+            "retina": true
+          }
+        },
+        "template--20823290511660__4ba55c28-5df2-4cb0-b429-77a0723e81df-quote-2": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "Great product and quality - ordered a nfc card and the process was easy. Happy with the product the design came out great",
+            "author": "Jordan Kouloukakis",
+            "retina": true
+          }
+        },
+        "template--20823290511660__4ba55c28-5df2-4cb0-b429-77a0723e81df-quote-3": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "Ordered a custom NFC card. Online customisation tool was easy to use. Great experience would recommend!",
+            "author": "Joe",
+            "retina": true
+          }
+        },
+        "de6aed7e-42fc-4de3-a436-db40528b8d91": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "Quality. Friendly service and excellent quality! I ordered custom cards and the process was easy.",
+            "author": "Lester",
+            "retina": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20823290511660__4ba55c28-5df2-4cb0-b429-77a0723e81df-quote-1",
+        "template--20823290511660__4ba55c28-5df2-4cb0-b429-77a0723e81df-quote-2",
+        "template--20823290511660__4ba55c28-5df2-4cb0-b429-77a0723e81df-quote-3",
+        "de6aed7e-42fc-4de3-a436-db40528b8d91"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "",
+        "size": "small",
+        "autoplay": true,
+        "autoplay_length": 5,
+        "color_bg": "#f1f1f1",
+        "color_text": "#000000",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false,
+        "review_text": "More CardSync reviews on",
+        "review_logo": "shopify:\/\/shop_images\/trust-pilot-logo.svg",
+        "review_link": "https:\/\/www.trustpilot.com\/review\/cardsync.com.au?utm_medium=trustbox&utm_source=MicroReviewCount"
       }
     },
     "259a0f34-a6bb-4408-8666-22a81989359b": {
@@ -151,6 +452,7 @@
         "template--19712154337580__259a0f34-a6bb-4408-8666-22a81989359b-1688008005d0c3706f-2",
         "42799933-22a0-485d-9306-55d7496d5967"
       ],
+      "disabled": true,
       "custom_css": [
         ".button {background-color: #ff4515;}"
       ],
@@ -204,6 +506,7 @@
         "template--19712154337580__c3162f9f-041f-451e-959c-8c2bdf11d582-1688008005d0c3706f-2",
         "045819c2-6853-4de7-8cff-9e22275e23e9"
       ],
+      "disabled": true,
       "custom_css": [
         ".button {background-color: #ff4515;}"
       ],
@@ -257,6 +560,7 @@
         "template--19712154337580__81ae3b2b-c436-43a2-ac46-cb8f947b1ea2-1688375817b36dbdcd-2",
         "7131596f-ff0e-4f0b-8c76-617556d5254a"
       ],
+      "disabled": true,
       "custom_css": [
         ".button {background-color: #ff4515;}"
       ],
@@ -273,93 +577,23 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
-    },
-    "7f5a6f0c-7384-4298-bc3c-eb1e47560feb": {
-      "type": "background-video",
-      "settings": {
-        "desktop_height": "desktop-height-550",
-        "mobile_height": "mobile-height-500",
-        "heading": "",
-        "text": "",
-        "video": "https:\/\/youtu.be\/hJCSN4vr6I4",
-        "button_text": "",
-        "overlay_opacity": 0,
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": true
-      }
-    },
-    "9ceab8f1-4cae-4220-9f06-89579287af82": {
-      "type": "featured-collection",
-      "blocks": {
-        "template--19290746028332__9ceab8f1-4cae-4220-9f06-89579287af82-1686560467677a4dee-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "nfc-business-cards",
-            "display_type": "grid",
-            "product_limit": 7,
-            "columns_desktop": 4,
-            "show_view_all": true,
-            "button_outline": false,
-            "mobile_swipe": true
-          }
-        }
-      },
-      "block_order": [
-        "template--19290746028332__9ceab8f1-4cae-4220-9f06-89579287af82-1686560467677a4dee-0"
-      ],
-      "settings": {
-        "heading": "Business Card Collection",
-        "description": "<p>Discover our range<\/p>",
-        "full_width": false,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false
-      }
-    },
-    "9feb494a-bc77-4bee-8f1a-66375f0d591c": {
-      "type": "collection-list",
-      "settings": {
-        "custom_id": "",
-        "heading": "Shop by Category",
-        "description": "",
-        "collection_list": [
-          "nfc-business-cards",
-          "nfc-qr-code-cards",
-          "table-talkers",
-          "review-cards"
-        ],
-        "image_ratio": "square",
-        "layout": "grid",
-        "style": "style1",
-        "content_alignment": "text-center",
-        "columns_desktop": 4,
-        "collection_description": false,
-        "overlay_opacity": 0,
-        "carousel_dots": true,
-        "mobile_swipe": true,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": false,
-        "button_text": "Shop Now",
-        "button_link": "",
-        "button_color": "accent2",
-        "button_outline": false,
-        "button_text_2": "Shop Now",
-        "button_link_2": "",
-        "button_color_2": "accent",
-        "button_outline_2": true
-      }
     }
   },
   "order": [
-    "208857d9-3e0f-4def-b2b4-6d4efa10d31c",
     "template-header",
     "main",
     "3eac8f2d-79f7-46ff-a9d3-2b05a4324c55",
     "df7b2b9e-de8b-41f3-89f0-83ea3f09cd5b",
+    "9feb494a-bc77-4bee-8f1a-66375f0d591c",
+    "ea709c9f-31d5-4372-9ad1-865856cb19e4",
+    "9ceab8f1-4cae-4220-9f06-89579287af82",
+    "7f5a6f0c-7384-4298-bc3c-eb1e47560feb",
+    "ae7be0fc-b6a0-4893-b96d-b49da8d3ef3e",
+    "c14dc914-b7c9-44b0-82f5-39e84e00a9e4",
+    "bc36f72e-5274-4590-941e-568798450c1d",
+    "4ba55c28-5df2-4cb0-b429-77a0723e81df",
     "259a0f34-a6bb-4408-8666-22a81989359b",
     "c3162f9f-041f-451e-959c-8c2bdf11d582",
-    "81ae3b2b-c436-43a2-ac46-cb8f947b1ea2",
-    "7f5a6f0c-7384-4298-bc3c-eb1e47560feb",
-    "9ceab8f1-4cae-4220-9f06-89579287af82",
-    "9feb494a-bc77-4bee-8f1a-66375f0d591c"
+    "81ae3b2b-c436-43a2-ac46-cb8f947b1ea2"
   ]
 }
