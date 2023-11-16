@@ -5,10 +5,18 @@
       position: initial;
     }
     .slideshow__slide-bg {
-      height: 450px;
+      height: 380px;
     }
     .slideshow__slide-inner {
       margin-top: -75px;
+      .subheading {
+        margin-bottom: 10px;
+      }
+      h1 {
+        line-height: 1.2;
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
     }
     .slideshow__slide-button-container {
       display: grid;
