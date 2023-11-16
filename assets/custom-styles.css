@@ -8,10 +8,6 @@
   padding: 19px 15px;
 }
 
-div[id^=trustpilot-widget] {
-  display: none;
-}
-
 @media screen and (min-width: 540px) {
   :root {
     --button-container-flex-direction: row;
@@ -40,30 +36,12 @@ div[id^=trustpilot-widget] {
     display: none;
   }
 }
-@media screen and (max-width: 767px) {
-  .section-slideshow .slideshow__slide-bg,
-  .section-slideshow .slideshow__slide-inner {
-    position: initial;
-  }
-  .section-slideshow .slideshow__slide-bg {
-    height: 450px;
-  }
-  .section-slideshow .slideshow__slide-inner {
-    margin-top: -75px;
-  }
-  .section-slideshow .slideshow__slide-button-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--button-container-gap);
-  }
+.section-slideshow .slideshow__slide-button-container {
+  display: flex;
+  flex-direction: var(--button-container-flex-direction);
+  gap: var(--button-container-gap);
 }
-@media screen and (min-width: 768px) {
-  .section-slideshow .slideshow__slide-button-container {
-    display: flex;
-    gap: var(--button-container-gap);
-    flex-direction: var(--button-container-flex-direction);
-  }
-}
+
 @media screen and (min-width: 1640px) {
   .section-slideshow .slideshow__slide .slideshow__slide-inner {
     align-items: center;

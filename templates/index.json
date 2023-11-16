@@ -78,8 +78,8 @@
     "96e917c5-f655-42ee-8e2b-c2070ed8ad7d": {
       "type": "kb_image-banner",
       "settings": {
-        "banner": "shopify:\/\/shop_images\/sale-banner-desktop.png",
-        "banner_mobile_version": "shopify:\/\/shop_images\/sale-banner-mobile.png",
+        "banner": "shopify:\/\/shop_images\/BLACK_FRIDAY_SALE_2.jpg",
+        "banner_mobile_version": "shopify:\/\/shop_images\/BLACK_FRIAY_SALE_30_OFF_2.jpg",
         "banner_link": "shopify:\/\/collections\/all",
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -352,6 +352,7 @@
           "type": "heading",
           "settings": {
             "text": "Why CardSync NFC cards over traditional cards",
+            "heading_tag": "h2",
             "size": "h3"
           }
         },
@@ -504,6 +505,100 @@
         "disable_bottom_spacing": false
       }
     },
+    "bb352b4f-d479-49c6-89eb-82f1e9c98456": {
+      "type": "logo-list",
+      "blocks": {
+        "template--21468196995372__bb352b4f-d479-49c6-89eb-82f1e9c98456-logo-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Business_Logos_2.jpg",
+            "link": ""
+          }
+        },
+        "template--21468196995372__bb352b4f-d479-49c6-89eb-82f1e9c98456-logo-2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cardsync_12.jpg",
+            "link": ""
+          }
+        },
+        "template--21468196995372__bb352b4f-d479-49c6-89eb-82f1e9c98456-logo-3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cardsync_3.jpg",
+            "link": ""
+          }
+        },
+        "template--21468196995372__bb352b4f-d479-49c6-89eb-82f1e9c98456-logo-4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Business_Logos_1.png",
+            "link": ""
+          }
+        },
+        "template--21468196995372__bb352b4f-d479-49c6-89eb-82f1e9c98456-logo-5": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Business_Logos_1.jpg",
+            "link": ""
+          }
+        },
+        "a416dc07-5a42-4b5e-bdda-fa4152a10fad": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Business_Logos_3.jpg",
+            "link": ""
+          }
+        },
+        "56149d50-d9c5-4881-93ce-5a9f399e6e77": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Business_Logos__5_-transformed.jpg",
+            "link": ""
+          }
+        },
+        "d548a153-f9cf-4c5e-a078-323f7b7e2983": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Business_Logos__6_-transformed.jpg",
+            "link": ""
+          }
+        },
+        "74fe438e-eb27-4aba-be2a-26343b9890e1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Business_Logos_7.jpg",
+            "link": ""
+          }
+        },
+        "cadf48e7-608e-4229-9152-777caddf9dfe": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Business_Logos_10.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21468196995372__bb352b4f-d479-49c6-89eb-82f1e9c98456-logo-1",
+        "template--21468196995372__bb352b4f-d479-49c6-89eb-82f1e9c98456-logo-2",
+        "template--21468196995372__bb352b4f-d479-49c6-89eb-82f1e9c98456-logo-3",
+        "template--21468196995372__bb352b4f-d479-49c6-89eb-82f1e9c98456-logo-4",
+        "template--21468196995372__bb352b4f-d479-49c6-89eb-82f1e9c98456-logo-5",
+        "a416dc07-5a42-4b5e-bdda-fa4152a10fad",
+        "56149d50-d9c5-4881-93ce-5a9f399e6e77",
+        "d548a153-f9cf-4c5e-a078-323f7b7e2983",
+        "74fe438e-eb27-4aba-be2a-26343b9890e1",
+        "cadf48e7-608e-4229-9152-777caddf9dfe"
+      ],
+      "settings": {
+        "heading": "",
+        "description": "<h4><strong>As Trusted By <\/strong><\/h4>",
+        "columns": 5,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "dcaaa33f-4c45-4be6-9140-23b281b93297": {
       "type": "testimonials",
       "blocks": {
@@ -615,6 +710,7 @@
     "82bb91b2-3dfe-4409-a016-879718cc3a19",
     "d321dbcc-b449-4632-87e1-15a4545f6cc4",
     "4870da16-f197-4723-8eed-dc3df11a9b31",
+    "bb352b4f-d479-49c6-89eb-82f1e9c98456",
     "dcaaa33f-4c45-4be6-9140-23b281b93297",
     "16864503224779423e"
   ]

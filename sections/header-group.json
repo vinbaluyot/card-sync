@@ -4,10 +4,11 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
+      "disabled": true,
       "settings": {
         "announcement_bar": true,
         "announcement_bar_homepage_only": false,
-        "announcement_bar_text": "FREE SHIPPING 20% OFF STORE WIDE - CODE: 20OFF",
+        "announcement_bar_text": "BLACK FRIDAY SALE 30% STORE WIDE + FREE SHIPPING",
         "announcement_bar_link": "",
         "show_language_switcher": false,
         "show_currency_switcher": false

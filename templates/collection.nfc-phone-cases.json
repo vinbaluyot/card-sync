@@ -30,6 +30,55 @@
         "filter_color_swatches": true
       }
     },
+    "6a817efc-c253-4d72-a762-fe944393c909": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20333365002540__6a817efc-c253-4d72-a762-fe944393c909-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading for this section"
+          }
+        },
+        "template--20333365002540__6a817efc-c253-4d72-a762-fe944393c909-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Andriod NFC Phone Cases Coming Soon!",
+            "heading_tag": "h2",
+            "size": "h4"
+          }
+        },
+        "template--20333365002540__6a817efc-c253-4d72-a762-fe944393c909-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "size": "text-size-large"
+          }
+        },
+        "template--20333365002540__6a817efc-c253-4d72-a762-fe944393c909-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_label": "Learn More",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20333365002540__6a817efc-c253-4d72-a762-fe944393c909-subheading-1",
+        "template--20333365002540__6a817efc-c253-4d72-a762-fe944393c909-heading-1",
+        "template--20333365002540__6a817efc-c253-4d72-a762-fe944393c909-text-1",
+        "template--20333365002540__6a817efc-c253-4d72-a762-fe944393c909-button-1"
+      ],
+      "settings": {
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
     "18914baf-fba8-455a-8500-245aadb593e3": {
       "type": "layered-images-with-text",
       "blocks": {
@@ -223,6 +272,7 @@
           "type": "heading",
           "settings": {
             "text": "Experience the Future Today",
+            "heading_tag": "h2",
             "size": "h3"
           }
         },
@@ -255,65 +305,17 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
-    },
-    "6a817efc-c253-4d72-a762-fe944393c909": {
-      "type": "rich-text",
-      "blocks": {
-        "template--20333365002540__6a817efc-c253-4d72-a762-fe944393c909-subheading-1": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading for this section"
-          }
-        },
-        "template--20333365002540__6a817efc-c253-4d72-a762-fe944393c909-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Andriod NFC Phone Cases Coming Soon!",
-            "size": "h4"
-          }
-        },
-        "template--20333365002540__6a817efc-c253-4d72-a762-fe944393c909-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "size": "text-size-large"
-          }
-        },
-        "template--20333365002540__6a817efc-c253-4d72-a762-fe944393c909-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "link_label": "Learn More",
-            "link": "",
-            "button_outline": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20333365002540__6a817efc-c253-4d72-a762-fe944393c909-subheading-1",
-        "template--20333365002540__6a817efc-c253-4d72-a762-fe944393c909-heading-1",
-        "template--20333365002540__6a817efc-c253-4d72-a762-fe944393c909-text-1",
-        "template--20333365002540__6a817efc-c253-4d72-a762-fe944393c909-button-1"
-      ],
-      "settings": {
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
-        "disable_top_spacing": true,
-        "disable_bottom_spacing": false
-      }
     }
   },
   "order": [
     "breadcrumbs",
     "template-header",
     "product-grid",
+    "6a817efc-c253-4d72-a762-fe944393c909",
     "18914baf-fba8-455a-8500-245aadb593e3",
     "b04302c2-df15-4d73-9748-2d62ebe84660",
     "e01276c3-97cf-4013-93bf-831b9b226910",
     "63bcc97b-abbd-45a2-8ccc-a61050d37398",
-    "9c872ee5-3581-4557-adb3-faa9339a508e",
-    "6a817efc-c253-4d72-a762-fe944393c909"
+    "9c872ee5-3581-4557-adb3-faa9339a508e"
   ]
 }
