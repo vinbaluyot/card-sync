@@ -15,7 +15,7 @@
             "content": "Made for smartphones. No apps needed",
             "slide_link": "",
             "button_text": "Customise Your NFC",
-            "button_link": "shopify:\/\/products\/custom-engraved-card",
+            "button_link": "shopify:\/\/products\/nfc-business-cards",
             "button_color": "accent2",
             "button_outline": false,
             "button_text_2": "How It Works",
@@ -66,7 +66,7 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
         "button_text": "Start Designing Yours",
-        "button_link": "shopify:\/\/products\/custom-engraved-card",
+        "button_link": "shopify:\/\/products\/nfc-business-cards",
         "button_color": "accent2",
         "button_outline": false,
         "button_text_2": "See Other Products",
@@ -192,7 +192,7 @@
             "button_color": "white",
             "button_outline": false,
             "button_text_2": "Customise Now",
-            "button_link_2": "shopify:\/\/products\/custom-engraved-card",
+            "button_link_2": "shopify:\/\/products\/nfc-business-cards",
             "button_color_2": "accent2",
             "button_outline_2": false
           }
@@ -208,7 +208,7 @@
             "button_color": "white",
             "button_outline": false,
             "button_text_2": "Design Yours",
-            "button_link_2": "shopify:\/\/products\/custom-engraved-card",
+            "button_link_2": "shopify:\/\/products\/nfc-business-cards",
             "button_color_2": "accent2",
             "button_outline_2": false
           }
@@ -254,7 +254,7 @@
           "type": "button",
           "settings": {
             "button_text": "Design Yours",
-            "button_link": "shopify:\/\/products\/custom-engraved-card",
+            "button_link": "shopify:\/\/products\/nfc-business-cards",
             "button_color": "accent2",
             "button_outline": false
           }
@@ -312,7 +312,7 @@
           "type": "button",
           "settings": {
             "button_text": "Get Yours",
-            "button_link": "shopify:\/\/products\/custom-engraved-card",
+            "button_link": "shopify:\/\/products\/nfc-business-cards",
             "button_color": "accent2",
             "button_outline": false
           }

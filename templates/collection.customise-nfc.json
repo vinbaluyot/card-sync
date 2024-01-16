@@ -233,7 +233,7 @@
           "type": "button",
           "settings": {
             "button_text": "Shop NFC Cards",
-            "button_link": "shopify:\/\/products\/custom-engraved-card"
+            "button_link": "shopify:\/\/products\/nfc-business-cards"
           }
         }
       },
