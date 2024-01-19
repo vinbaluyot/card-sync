@@ -160,7 +160,7 @@
           "type": "button",
           "settings": {
             "button_text": "Shop QR Code Cards",
-            "button_link": "shopify:\/\/products\/custom-engraved-type-qr"
+            "button_link": "shopify:\/\/products\/qr-code-nfc-card"
           }
         }
       },

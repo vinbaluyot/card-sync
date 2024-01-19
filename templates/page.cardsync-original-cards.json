@@ -116,7 +116,7 @@
       "settings": {
         "heading": "QR  Cards",
         "description": "",
-        "product": "custom-engraved-type-qr",
+        "product": "qr-code-nfc-card",
         "show_taxes_included": true,
         "lightbox": true,
         "enable_video_looping": false,
