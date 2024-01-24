@@ -326,7 +326,7 @@
           "type": "button",
           "settings": {
             "link_label": "SHOP NOW",
-            "link": "shopify:\/\/products\/nfc-tap-tags",
+            "link": "shopify:\/\/products\/nfc-tag",
             "button_outline": false
           }
         }
