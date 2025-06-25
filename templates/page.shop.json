@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "template-header": {
@@ -7,14 +16,13 @@
         "overlay_opacity": 30,
         "show_subcollections": true,
         "display_description": true,
-        "bg_image": "shopify:\/\/shop_images\/Untitled_design_2.jpg"
+        "bg_image": "shopify://shop_images/Untitled_design_2.jpg"
       }
     },
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "2d4a3d1d-aa33-42c4-8234-42e3ddc551f7": {
       "type": "collection-list",
@@ -26,7 +34,7 @@
           "nfc-business-cards",
           "nfc-qr-code-cards",
           "pre-made-nfc-cards",
-          "table-talkers",
+          "nfc-review-stand",
           "review-cards",
           "nfc-phone-cases",
           "nfc-sticker",

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "template-header": {
@@ -11,14 +20,13 @@
         "overlay_opacity": 30,
         "show_subcollections": true,
         "display_description": true,
-        "bg_image": "shopify:\/\/shop_images\/Untitled_design_2.jpg"
+        "bg_image": "shopify://shop_images/Untitled_design_2.jpg"
       }
     },
     "main": {
       "type": "main-page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "3eac8f2d-79f7-46ff-a9d3-2b05a4324c55": {
       "type": "background-video",
@@ -54,7 +62,7 @@
         "template--19712154337580__df7b2b9e-de8b-41f3-89f0-83ea3f09cd5b-16895954184d0cc3db-2": {
           "type": "text",
           "settings": {
-            "text": "<p>With our NFC-enabled business cards, we revolutionise the way you connect and network with potential clients. Our cards seamlessly sync with smartphones, making it effortless to share your contact information . Experience the convenience of a digital business card with the timeless elegance of a physical card.<\/p>",
+            "text": "<p>With our NFC-enabled business cards, we revolutionise the way you connect and network with potential clients. Our cards seamlessly sync with smartphones, making it effortless to share your contact information . Experience the convenience of a digital business card with the timeless elegance of a physical card.</p>",
             "size": "text-size-regular"
           }
         }
@@ -86,7 +94,7 @@
         "collection_list": [
           "nfc-business-cards",
           "nfc-qr-code-cards",
-          "table-talkers",
+          "nfc-review-stand",
           "review-cards"
         ],
         "image_ratio": "square",
@@ -131,7 +139,7 @@
         "template--21590003024172__ea709c9f-31d5-4372-9ad1-865856cb19e4-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>At Cardsync, we understand the importance of a strong first impression, which is why our NFC business cards are designed to leave a lasting impact. Elevate your professional image and stand out from the competition with Cardsync. Get in touch with us today to unlock the power of NFC technology for your business.<\/p>",
+            "text": "<p>At Cardsync, we understand the importance of a strong first impression, which is why our NFC business cards are designed to leave a lasting impact. Elevate your professional image and stand out from the competition with Cardsync. Get in touch with us today to unlock the power of NFC technology for your business.</p>",
             "size": "text-size-regular"
           }
         },
@@ -165,7 +173,7 @@
         "c57ecd76-53c4-477e-836a-e56da10a224c": {
           "type": "title_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_Posts_-_Cardsync.jpg",
+            "image": "shopify://shop_images/Instagram_Posts_-_Cardsync.jpg",
             "title": "NFC Business Cards",
             "text": "Our NFC Card & QR Code cards combine the benefits of NFC technology, providing an all-in-one solution for your networking needs. With a simple tap, your potential clients can instantly access your website, social media profiles, or any other digital content you choose to share.",
             "link_label": "Shop Now",
@@ -211,7 +219,7 @@
         "mobile_height": "mobile-height-500",
         "heading": "",
         "text": "",
-        "video": "https:\/\/youtu.be\/hJCSN4vr6I4",
+        "video": "https://youtu.be/hJCSN4vr6I4",
         "button_text": "",
         "overlay_opacity": 0,
         "disable_top_spacing": true,
@@ -225,27 +233,27 @@
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/icons8-networking-50.png",
+            "image": "shopify://shop_images/icons8-networking-50.png",
             "heading": "Networking",
-            "text": "<p>Expand Your Connections Effortlessly. Exchange Contact Information Instantly, Share Social Profiles, and Simplify Networking Events.<\/p>"
+            "text": "<p>Expand Your Connections Effortlessly. Exchange Contact Information Instantly, Share Social Profiles, and Simplify Networking Events.</p>"
           }
         },
         "template--21590003024172__ae7be0fc-b6a0-4893-b96d-b49da8d3ef3e-icon-1": {
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/icons8-nfc-tag-50.png",
+            "image": "shopify://shop_images/icons8-nfc-tag-50.png",
             "heading": "Convenience",
-            "text": "<p>Simplify your interactions with a single tap. NFC Cards eliminate the need for physical contact or complex procedures.<\/p>"
+            "text": "<p>Simplify your interactions with a single tap. NFC Cards eliminate the need for physical contact or complex procedures.</p>"
           }
         },
         "template--21590003024172__ae7be0fc-b6a0-4893-b96d-b49da8d3ef3e-icon-3": {
           "type": "icon",
           "settings": {
             "icon": "ruler",
-            "image": "shopify:\/\/shop_images\/icons8-integration-50.png",
+            "image": "shopify://shop_images/icons8-integration-50.png",
             "heading": "Seamless Integrations",
-            "text": "<p>NFC products are designed to work harmoniously with your device, ensuring that NFC communication is smooth and uninterrupted.<\/p>"
+            "text": "<p>NFC products are designed to work harmoniously with your device, ensuring that NFC communication is smooth and uninterrupted.</p>"
           }
         }
       },
@@ -273,7 +281,7 @@
         "da0b1ffd-5abe-4bf4-bb86-d72714b2c0b9": {
           "type": "title_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Instagram_Posts_-_Cardsync_1.jpg",
+            "image": "shopify://shop_images/Instagram_Posts_-_Cardsync_1.jpg",
             "title": "Review Cards",
             "text": "NFC-enabled Review Cards, the convenient and hassle-free way to leave reviews! Effortlessly share feedback and experiences by simply tapping your phone. Whether you want to receive a Google Review, a Trustpilot Review, or a Tripadvisor review, these NFC-enabled cards make the process seamless and user-friendly.",
             "link_label": "Shop Now",
@@ -317,7 +325,7 @@
         "6c4bdfee-3bec-41fb-baff-a41ea676b046": {
           "type": "title_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_921a1833-f298-45f3-881f-40640c7ff24a.jpg",
+            "image": "shopify://shop_images/2_921a1833-f298-45f3-881f-40640c7ff24a.jpg",
             "title": "Table Talkers",
             "text": "NFC-enabled Table Talkers, you can amplify your online reputation and build trust among potential customers. The reviews collected through our system can be seamlessly integrated into popular review platforms, such as Google My Business, Yelp, and TripAdvisor, giving your business a boost in search engine rankings and increasing its visibility.",
             "link_label": "Shop Now",
@@ -330,7 +338,7 @@
         "85d3303a-ae03-4a89-be5e-3ccd89541f81": {
           "type": "collection",
           "settings": {
-            "collection": "table-talkers",
+            "collection": "nfc-review-stand",
             "display_type": "grid",
             "product_limit": 12,
             "columns_desktop": 3,
@@ -412,8 +420,8 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false,
         "review_text": "More CardSync reviews on",
-        "review_logo": "shopify:\/\/shop_images\/trust-pilot-logo.svg",
-        "review_link": "https:\/\/www.trustpilot.com\/review\/cardsync.com.au?utm_medium=trustbox&utm_source=MicroReviewCount"
+        "review_logo": "shopify://shop_images/trust-pilot-logo.svg",
+        "review_link": "https://www.trustpilot.com/review/cardsync.com.au?utm_medium=trustbox&utm_source=MicroReviewCount"
       }
     },
     "259a0f34-a6bb-4408-8666-22a81989359b": {
@@ -435,14 +443,14 @@
         "template--19712154337580__259a0f34-a6bb-4408-8666-22a81989359b-1688008005d0c3706f-2": {
           "type": "text",
           "settings": {
-            "text": "<p>We understand the needs of businesses and the importance of seamless connectivity. Our NFC Card & QR Code cards combine the benefits of NFC technology, providing an all-in-one solution for your networking needs.<\/p><p>With a simple tap, your potential clients can instantly access your website, social media profiles, or any other digital content you choose to share. <\/p>"
+            "text": "<p>We understand the needs of businesses and the importance of seamless connectivity. Our NFC Card & QR Code cards combine the benefits of NFC technology, providing an all-in-one solution for your networking needs.</p><p>With a simple tap, your potential clients can instantly access your website, social media profiles, or any other digital content you choose to share. </p>"
           }
         },
         "42799933-22a0-485d-9306-55d7496d5967": {
           "type": "button",
           "settings": {
             "button_text": "Shop Business Cards",
-            "button_link": "shopify:\/\/pages\/nfc-business-cards"
+            "button_link": "shopify://pages/nfc-business-cards"
           }
         }
       },
@@ -457,11 +465,11 @@
         ".button {background-color: #ff4515;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/94.jpg",
+        "image": "shopify://shop_images/94.jpg",
         "image_ratio": "adapt",
-        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_2": "shopify://shop_images/Untitled_design_1.png",
         "image_ratio_2": "adapt",
-        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_3": "shopify://shop_images/Untitled_design_1.png",
         "image_ratio_3": "adapt",
         "layout": "text_first",
         "content_alignment": "text-left",
@@ -489,14 +497,14 @@
         "template--19712154337580__c3162f9f-041f-451e-959c-8c2bdf11d582-1688008005d0c3706f-2": {
           "type": "text",
           "settings": {
-            "text": "<p>NFC-enabled Table Talkers, you can amplify your online reputation and build trust among potential customers. The reviews collected through our system can be seamlessly integrated into popular review platforms, such as Google My Business, Yelp, and TripAdvisor, giving your business a boost in search engine rankings and increasing its visibility.<\/p>"
+            "text": "<p>NFC-enabled Table Talkers, you can amplify your online reputation and build trust among potential customers. The reviews collected through our system can be seamlessly integrated into popular review platforms, such as Google My Business, Yelp, and TripAdvisor, giving your business a boost in search engine rankings and increasing its visibility.</p>"
           }
         },
         "045819c2-6853-4de7-8cff-9e22275e23e9": {
           "type": "button",
           "settings": {
             "button_text": "Shop Table Talkers",
-            "button_link": "shopify:\/\/pages\/table-talkers"
+            "button_link": "shopify://pages/table-talkers"
           }
         }
       },
@@ -511,11 +519,11 @@
         ".button {background-color: #ff4515;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/YourGraphics_1eedde02-89f7-4e50-a406-fd4b7d39dc5a.jpg",
+        "image": "shopify://shop_images/YourGraphics_1eedde02-89f7-4e50-a406-fd4b7d39dc5a.jpg",
         "image_ratio": "adapt",
-        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_2": "shopify://shop_images/Untitled_design_1.png",
         "image_ratio_2": "adapt",
-        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_3": "shopify://shop_images/Untitled_design_1.png",
         "image_ratio_3": "adapt",
         "layout": "image_first",
         "content_alignment": "text-left",
@@ -543,14 +551,14 @@
         "template--19712154337580__81ae3b2b-c436-43a2-ac46-cb8f947b1ea2-1688375817b36dbdcd-2": {
           "type": "text",
           "settings": {
-            "text": "<p> NFC-enabled Review Cards, the convenient and hassle-free way to leave reviews! With these innovative cards, you can effortlessly share your feedback and experiences by simply tapping your phone. Whether you want to leave a Google Review, a Trustpilot Review, or a Tripadvisor review, these NFC-enabled cards make the process seamless and user-friendly.<\/p>"
+            "text": "<p> NFC-enabled Review Cards, the convenient and hassle-free way to leave reviews! With these innovative cards, you can effortlessly share your feedback and experiences by simply tapping your phone. Whether you want to leave a Google Review, a Trustpilot Review, or a Tripadvisor review, these NFC-enabled cards make the process seamless and user-friendly.</p>"
           }
         },
         "7131596f-ff0e-4f0b-8c76-617556d5254a": {
           "type": "button",
           "settings": {
             "button_text": "Shop Review Cards",
-            "button_link": "shopify:\/\/pages\/review-cards"
+            "button_link": "shopify://pages/review-cards"
           }
         }
       },
@@ -565,11 +573,11 @@
         ".button {background-color: #ff4515;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Your_Graphics_12.jpg",
+        "image": "shopify://shop_images/Your_Graphics_12.jpg",
         "image_ratio": "adapt",
-        "image_2": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_2": "shopify://shop_images/Untitled_design_1.png",
         "image_ratio_2": "adapt",
-        "image_3": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_3": "shopify://shop_images/Untitled_design_1.png",
         "image_ratio_3": "adapt",
         "layout": "text_first",
         "content_alignment": "text-left",
