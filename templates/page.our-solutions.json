@@ -94,7 +94,7 @@
         "collection_list": [
           "nfc-business-cards",
           "nfc-qr-code-cards",
-          "nfc-review-stand",
+          "table-talkers",
           "review-cards"
         ],
         "image_ratio": "square",
@@ -338,7 +338,7 @@
         "85d3303a-ae03-4a89-be5e-3ccd89541f81": {
           "type": "collection",
           "settings": {
-            "collection": "nfc-review-stand",
+            "collection": "table-talkers",
             "display_type": "grid",
             "product_limit": 12,
             "columns_desktop": 3,
